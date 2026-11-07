@@ -248,6 +248,23 @@ test('resumes an unfinished session with its saved order and answers', () => {
   assert.deepEqual(restored.progress().activeSession.answers.q0, ['a']);
 });
 
+test('treats a saved pre-check session as unchecked when it has no checked status', () => {
+  const legacySession = {
+    questionIds: Array.from({ length: 50 }, (_, index) => `q${index}`),
+    answers: { q0: ['a'] },
+    currentIndex: 0,
+    submitted: false,
+  };
+  const harness = makeHarness({
+    initialProgress: { version: 1, questions: {}, activeSession: legacySession },
+  });
+  harness.click('[data-action="resume"]');
+
+  assert.equal(harness.root.querySelector('[data-choice-id="a"]').checked, true);
+  assert.equal(harness.root.querySelector('[data-action="next"]').disabled, true);
+  assert.equal(harness.root.querySelector('[data-action="check"]').disabled, false);
+});
+
 test('resumes a checked question with its feedback and locked answer', () => {
   const first = makeHarness();
   first.click('[data-action="start"]');
