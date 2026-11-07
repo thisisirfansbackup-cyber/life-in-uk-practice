@@ -187,6 +187,7 @@ test('submits answers and shows a score with a complete end-of-test review', () 
   firstChoice.checked = true;
   firstChoice.dispatchEvent(new harness.dom.window.Event('change', { bubbles: true }));
   harness.click('[data-action="check"]');
+  assert.equal(harness.progress().completedTestCount, undefined, 'checking answers does not count an unfinished test');
   harness.click('[data-action="next"]');
   for (const choiceId of ['a', 'c']) {
     const choice = harness.root.querySelector(`[data-choice-id="${choiceId}"]`);
@@ -206,6 +207,7 @@ test('submits answers and shows a score with a complete end-of-test review', () 
   assert.match(harness.root.textContent, /50\s*\/\s*50/);
   assert.equal(harness.root.querySelectorAll('.review-item').length, 50);
   assert.equal(harness.progress().questions.q0.attempts, 1, 'completed tests update revision history');
+  assert.equal(harness.progress().completedTestCount, 1, 'a completed 50-question test advances the schedule once');
 });
 
 test('shows an unavailable-test message instead of starting a short test', () => {
