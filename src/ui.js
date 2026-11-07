@@ -16,6 +16,7 @@ export function mountApp(root, dependencies) {
     selectTestQuestions,
     createSession,
     updateAnswer,
+    checkCurrentAnswer,
     moveToQuestion,
     submitSession,
     progressStore,
@@ -115,6 +116,9 @@ export function mountApp(root, dependencies) {
     const question = questionMap.get(questionId);
     if (!question) return renderHome();
     const selected = new Set(session.answers?.[questionId] ?? []);
+    const checked = session.checkedQuestionIds?.includes(questionId) ?? false;
+    const requiredCount = question.answerType === 'select-two' ? 2 : 1;
+    const canCheck = selected.size === requiredCount && !checked;
     const inputType = question.answerType === 'select-two' ? 'checkbox' : 'radio';
     const number = session.currentIndex + 1;
     const lastQuestion = number === session.questionIds.length;
@@ -131,15 +135,25 @@ export function mountApp(root, dependencies) {
           <legend class="visually-hidden">${escapeHtml(question.question)}</legend>
           ${question.choices.map((choice) => `
             <label class="answer-option${selected.has(choice.id) ? ' is-selected' : ''}">
-              <input type="${inputType}" name="answer" value="${escapeAttribute(choice.id)}" data-choice-id="${escapeAttribute(choice.id)}"${selected.has(choice.id) ? ' checked' : ''}>
+              <input type="${inputType}" name="answer" value="${escapeAttribute(choice.id)}" data-choice-id="${escapeAttribute(choice.id)}"${selected.has(choice.id) ? ' checked' : ''}${checked ? ' disabled' : ''}>
               <span class="choice-label">${escapeHtml(choice.text)}</span>
             </label>`).join('')}
         </fieldset>
+        ${checked ? (() => {
+          const checkedResult = checkCurrentAnswer(session, question);
+          const correctChoices = question.choices.filter((choice) => question.correctChoiceIds.includes(choice.id));
+          return `<div class="answer-feedback ${checkedResult.correct ? 'is-correct' : 'is-incorrect'}" role="status" aria-live="polite" tabindex="-1">
+            <p class="feedback-status">${checkedResult.correct ? 'Correct — well done.' : 'Incorrect — the correct answer is:'}</p>
+            ${checkedResult.correct ? '' : `<ul>${correctChoices.map((choice) => `<li>${escapeHtml(choice.text)}</li>`).join('')}</ul>${question.explanation ? `<p>${escapeHtml(question.explanation)}</p>` : ''}`}
+          </div>`;
+        })() : ''}
+        ${state.questionError ? `<p class="inline-error" role="alert">${escapeHtml(state.questionError)}</p>` : ''}
         <div class="question-actions">
           <button class="button button-secondary" type="button" data-action="previous"${number === 1 ? ' disabled' : ''}>Previous</button>
           ${lastQuestion
-            ? '<button class="button button-primary" type="button" data-action="submit">Submit test</button>'
-            : '<button class="button button-primary" type="button" data-action="next">Next question</button>'}
+            ? `<button class="button button-primary" type="button" data-action="submit"${checked ? '' : ' disabled'}>See results</button>`
+            : `<button class="button button-primary" type="button" data-action="next"${checked ? '' : ' disabled'}>Next question</button>`}
+          ${checked ? '' : `<button class="button button-secondary" type="button" data-action="check"${canCheck ? '' : ' disabled'}>Check answer</button>`}
         </div>
         ${renderWarning()}
       </section>`;
@@ -208,11 +222,18 @@ export function mountApp(root, dependencies) {
     for (const option of root.querySelectorAll('.answer-option')) {
       option.classList.toggle('is-selected', selected.has(option.querySelector('input')?.value));
     }
+    const question = questionMap.get(questionId);
+    const requiredCount = question.answerType === 'select-two' ? 2 : 1;
+    const checkButton = root.querySelector('[data-action="check"]');
+    if (checkButton) checkButton.disabled = selected.size !== requiredCount;
     updateSaveWarning();
   };
 
   const onChange = (event) => {
-    if (event.target.matches('input[name="answer"]')) saveAnswer();
+    if (event.target.matches('input[name="answer"]')) {
+      state.questionError = '';
+      saveAnswer();
+    }
   };
 
   const onClick = (event) => {
@@ -230,11 +251,27 @@ export function mountApp(root, dependencies) {
       const offset = action === 'previous' ? -1 : 1;
       const session = moveToQuestion(state.progress.activeSession, state.progress.activeSession.currentIndex + offset);
       persist({ ...state.progress, activeSession: session });
+      state.questionError = '';
       render();
       focusHeading('#question-heading');
     }
+    if (action === 'check') {
+      const session = state.progress.activeSession;
+      const questionId = session.questionIds[session.currentIndex];
+      const checked = checkCurrentAnswer(session, questionMap.get(questionId));
+      state.questionError = checked.error ?? '';
+      if (checked.error) {
+        render();
+        root.querySelector('[data-action="check"]')?.focus();
+      } else {
+        persist({ ...state.progress, activeSession: checked.session });
+        render();
+        root.querySelector('.answer-feedback')?.focus();
+      }
+    }
     if (action === 'submit') {
       const submitted = submitSession(state.progress.activeSession, questionMap);
+      if (!submitted.submitted) return;
       const nextProgress = progressStore.recordCompletedTest(
         { ...state.progress, activeSession: null },
         submitted.result,
@@ -242,6 +279,7 @@ export function mountApp(root, dependencies) {
       );
       persist(nextProgress);
       state.result = submitted.result;
+      state.questionError = '';
       state.screen = 'results';
       render();
       focusHeading('#results-title');
