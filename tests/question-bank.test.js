@@ -27,7 +27,7 @@ function question(overrides = {}) {
     answerType: 'single',
     lessonNumbers: [1],
     explanation: '',
-    sources: [{ title: 'Official study guide', locator: 'Chapter 1', checkedAt: '2026-11-07' }],
+    sources: [{ title: 'Official study guide', url: 'https://www.gov.uk/life-in-the-uk-test', locator: 'Chapter 1', checkedAt: '2026-11-07' }],
     ...overrides,
   };
 }
@@ -89,4 +89,13 @@ test('rejects impossible official-source check dates', async () => {
     sources: [{ title: 'Official study guide', locator: 'Chapter 1', checkedAt: '2026-19-45' }],
   });
   assert.ok(validateQuestion(invalidDate).some((error) => error.includes('checkedAt')));
+});
+
+test('requires a source URL using HTTPS', async () => {
+  const { validateQuestion } = await getBankModule();
+
+  const invalidUrl = question({
+    sources: [{ title: 'Official source', url: 'http://example.com', locator: 'Section 1', checkedAt: '2026-11-07' }],
+  });
+  assert.ok(validateQuestion(invalidUrl).some((error) => error.includes('url')));
 });

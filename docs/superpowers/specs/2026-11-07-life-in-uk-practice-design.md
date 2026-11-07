@@ -22,6 +22,10 @@ The requested practice set contains 50 questions. It is intentionally longer tha
 - Save progress on the learner's device/browser, with no account, server, or cross-device synchronization.
 - Publish the finished static site on GitHub Pages for phone access.
 
+### Source access limitation
+
+The official 3rd-edition guide is not fully publicly accessible. As approved by the user, use accessible official government, legislation, statistics, and public-institution sources for checks; record source limitations and claims those sources cannot confirm in project audit materials. Correct confirmed discrepancies. Do not describe an unconfirmed lesson claim as independently verified.
+
 ## User experience
 
 ### Home and progress
@@ -82,7 +86,7 @@ Take questions in priority order until the test has 50 questions. A question is 
 
 The first release is ready when:
 
-1. Every included answer has been checked against the current official study material, discrepancies have been corrected, and source references/check dates are recorded.
+1. Answers have been checked against accessible current official sources; confirmed discrepancies have been corrected, and source references/check dates plus any unresolved claims are recorded in the audit.
 2. Every bank entry has four choices, a Roman Urdu translation of its question only, and a verified answer count matching its single-answer or select-two type.
 3. A test contains 50 distinct questions when the available eligible bank contains at least 50.
 4. Select-two scoring requires exactly both correct choices; single-answer scoring requires the one correct choice.

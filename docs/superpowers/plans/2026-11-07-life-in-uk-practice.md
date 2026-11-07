@@ -13,7 +13,7 @@
 ## Global Constraints
 
 - Use only questions drawn from the supplied lessons. Do not add unrelated questions.
-- Verify answers against the current official Life in the UK study material and correct discrepancies.
+- Verify answers against the current official Life in the UK study material and correct discrepancies; where the complete guide is not publicly accessible, use accessible official government/legal sources and record any claims those sources cannot confirm.
 - Record sources and content corrections in project materials for quality control. Do not show correction warnings to the learner in the practice flow.
 - Preserve questions that require two answers as select-two questions; both answers must be selected for a correct response.
 - Provide four answer choices for every question.
@@ -88,14 +88,14 @@
 
 **Interfaces:**
 - Produces: `loadQuestionBank(rawData) -> { questions, errors }` and `validateQuestion(question) -> string[]` from `src/question-bank.js`.
-- Each question has `id`, `question`, `romanUrdu`, `choices` (four objects with stable `id` and `text`), `correctChoiceIds`, `answerType` (`single` or `select-two`), `lessonNumbers`, `explanation` (possibly empty), and `sources` (official source reference plus checked date).
+- Each question has `id`, `question`, `romanUrdu`, `choices` (four objects with stable `id` and `text`), `correctChoiceIds`, `answerType` (`single` or `select-two`), `lessonNumbers`, `explanation` (possibly empty), and `sources` (official source title, HTTPS URL, precise locator, and checked date).
 
 - [ ] **Step 1: Write failing bank tests** for valid single-answer/select-two entries, duplicate IDs, missing Roman Urdu, choice counts other than four, invalid answer IDs, and answer counts inconsistent with `answerType`.
 - [ ] **Step 2: Run `node --test tests/question-bank.test.js` and confirm it fails** because the validator and bank do not exist.
 - [ ] **Step 3: Implement the validator and its schema** in `src/question-bank.js`; add `scripts/check-bank.mjs` and a `npm run check:bank` command that parses `data/questions.json` and reports every validation error.
 - [ ] **Step 4: Identify the current official study material** and record its exact title/edition, publisher, accessible source reference, and access date in `data/content-audit.md` before using it as the answer authority.
 - [ ] **Step 5: Extract and normalize all usable questions from supplied Lessons 1–17** into `data/questions.json`; consolidate exact/substantive repeats while preserving distinct useful wording and lesson provenance.
-- [ ] **Step 6: Verify every included answer and relevant wording against the official material; correct discrepancies** and record each material correction with question ID, original lesson claim, corrected claim, and source locator in `data/content-audit.md`.
+- [ ] **Step 6: Verify every included answer and relevant wording against the official guide or accessible current government/legal sources; correct discrepancies** and record each material correction with question ID, original lesson claim, corrected claim, and source locator in `data/content-audit.md`. Record unsupported claims as unverified and do not treat the lesson note alone as official verification.
 - [ ] **Step 7: Add four unambiguous choices and a Latin-script Roman Urdu translation of each question only**; manually review select-two questions and distractors for accidental correctness or ambiguity.
 - [ ] **Step 8: Run `npm run check:bank` and `node --test tests/question-bank.test.js`; confirm zero content/schema errors and all tests pass, then commit the question bank and audit.**
 

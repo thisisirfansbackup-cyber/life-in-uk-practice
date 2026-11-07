@@ -69,6 +69,9 @@ export function validateQuestion(question) {
       }
       if (!isNonEmptyString(source.title)) errors.push(`sources[${index}].title is required`);
       if (!isNonEmptyString(source.locator)) errors.push(`sources[${index}].locator is required`);
+      if (typeof source.url !== 'string' || !/^https:\/\//.test(source.url)) {
+        errors.push(`sources[${index}].url must be an HTTPS URL`);
+      }
       if (!isIsoDate(source.checkedAt)) {
         errors.push(`sources[${index}].checkedAt must use YYYY-MM-DD`);
       }

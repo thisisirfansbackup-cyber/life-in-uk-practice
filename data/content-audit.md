@@ -11,10 +11,21 @@
 
 ## Verification method
 
-Every included answer must be supported by the official guide or an official update to it. Each bank entry records a specific chapter/section or amendment locator and check date. If an official source does not support a lesson's claim, do not silently treat the lesson as proof: resolve the discrepancy against the official material or exclude the item until it can be verified. The learner-facing question will use the corrected content without a correction warning.
+The complete guide is not publicly available from the official sources checked. As agreed with the user, use accessible official government, legal, statistical, and public-institution sources to verify claims. Each bank entry records a specific source locator and check date. If no accessible official source supports a lesson's claim, record it as unverified and do not treat the lesson note alone as verification. The learner-facing question will use corrected content without a correction warning.
 
 ## Material discrepancies
 
 | Question ID | Lesson claim | Verified correction | Official locator | Checked |
 |---|---|---|---|---|
 | Lesson 10, Q10 | The Senedd has 60 members. | The current Senedd has 96 members (16 constituencies with 6 members each). The publisher's 2025 amendments still state 60; the later Senedd Cymru (Members and Elections) Act 2024 establishes the current structure. | Senedd Cymru (Members and Elections) Act 2024, s.1; official amendments PDF, impressions 26 | 2026-11-07 |
+
+## Direct official pages checked
+
+| Source | What it supports | Accessed |
+|---|---|---|
+| [UK Parliament — Women and the vote](https://www.parliament.uk/about/living-heritage/transformingsociety/electionsvoting/womenvote/) | Full voting equality with men was achieved in 1928. | 2026-11-07 |
+| [GOV.UK — Jury service](https://www.gov.uk/jury-service/eligibility) | Jury names are selected randomly from the electoral register; England/Wales jury size is 12. | 2026-11-07 |
+| [Juries Act 1974, s.1](https://www.legislation.gov.uk/ukpga/1974/23/section/1) | Jury eligibility includes being aged 18 or over (and under 76) and registered as an elector. | 2026-11-07 |
+| [GOV.UK — UK bank holidays](https://www.gov.uk/bank-holidays) | Official bank-holiday dates across England/Wales, Scotland and Northern Ireland. | 2026-11-07 |
+| [Government of Wales Act 2006, s.3](https://www.legislation.gov.uk/ukpga/2006/32/section/3) | Current Senedd ordinary election cycle; latest legislation text was checked as of 7 November 2026. | 2026-11-07 |
+| [Senedd Cymru (Members and Elections) Act 2024, s.1](https://www.legislation.gov.uk/asc/2024/4/section/1/enacted) | Six members per constituency across 16 constituencies. | 2026-11-07 |
