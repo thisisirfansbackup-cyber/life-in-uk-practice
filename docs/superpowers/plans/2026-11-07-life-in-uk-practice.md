@@ -88,7 +88,7 @@
 
 **Interfaces:**
 - Produces: `loadQuestionBank(rawData) -> { questions, errors }` and `validateQuestion(question) -> string[]` from `src/question-bank.js`.
-- Each question has `id`, `question`, `romanUrdu`, `choices` (four objects with stable `id` and `text`), `correctChoiceIds`, `answerType` (`single` or `select-two`), `lessonNumbers`, `explanation` (possibly empty), and `sources` (official source title, HTTPS URL, precise locator, and checked date).
+- Each question has `id`, `question`, `romanUrdu`, `choices` (four objects with stable `id` and `text`), `correctChoiceIds`, `answerType` (`single` or `select-two`), `verificationStatus` (`verified`, `corrected`, or `unconfirmed`), `lessonNumbers`, `explanation` (possibly empty), and `sources` (official source title, HTTPS URL, precise locator, and checked date). Unconfirmed claims must be marked as such rather than represented as independently verified.
 
 - [ ] **Step 1: Write failing bank tests** for valid single-answer/select-two entries, duplicate IDs, missing Roman Urdu, choice counts other than four, invalid answer IDs, and answer counts inconsistent with `answerType`.
 - [ ] **Step 2: Run `node --test tests/question-bank.test.js` and confirm it fails** because the validator and bank do not exist.

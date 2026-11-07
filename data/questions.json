@@ -1,1 +1,872 @@
-[]
+[
+  {
+    "id": "lesson-1-q14",
+    "question": "What is the minimum age to serve on a jury?",
+    "romanUrdu": "Jury par khidmat karne ki kam az kam umar kya hai?",
+    "choices": [
+      { "id": "a", "text": "16 years old" },
+      { "id": "b", "text": "18 years old" },
+      { "id": "c", "text": "21 years old" },
+      { "id": "d", "text": "25 years old" }
+    ],
+    "correctChoiceIds": ["b"],
+    "answerType": "single",
+    "verificationStatus": "verified",
+    "lessonNumbers": [1, 12, 13],
+    "explanation": "The Juries Act 1974 sets the qualifying age at 18 or over (and under 76).",
+    "sources": [{ "title": "Juries Act 1974, section 1", "url": "https://www.legislation.gov.uk/ukpga/1974/23/section/1", "locator": "Section 1(1)(a): age 18 or over and under 76", "checkedAt": "2026-11-07" }]
+  },
+  {
+    "id": "lesson-1-q15",
+    "question": "How are people selected for jury service in England and Wales?",
+    "romanUrdu": "England aur Wales mein jury ki khidmat ke liye log kaise chune jate hain?",
+    "choices": [
+      { "id": "a", "text": "Randomly from the electoral register" },
+      { "id": "b", "text": "By the local council leader" },
+      { "id": "c", "text": "By applying to the court" },
+      { "id": "d", "text": "By the police force" }
+    ],
+    "correctChoiceIds": ["a"],
+    "answerType": "single",
+    "verificationStatus": "verified",
+    "lessonNumbers": [1],
+    "explanation": "GOV.UK says jurors' names are chosen randomly from the electoral register.",
+    "sources": [{ "title": "GOV.UK: Jury service", "url": "https://www.gov.uk/jury-service/eligibility", "locator": "How jury service works: random selection from electoral register", "checkedAt": "2026-11-07" }]
+  },
+  {
+    "id": "lesson-1-q3",
+    "question": "In which year did women gain the right to vote at the same age as men?",
+    "romanUrdu": "Kis saal aurton ko mardon ki tarah usi umar mein vote dene ka haq mila?",
+    "choices": [
+      { "id": "a", "text": "1918" },
+      { "id": "b", "text": "1924" },
+      { "id": "c", "text": "1928" },
+      { "id": "d", "text": "1945" }
+    ],
+    "correctChoiceIds": ["c"],
+    "answerType": "single",
+    "verificationStatus": "verified",
+    "lessonNumbers": [1, 4, 9],
+    "explanation": "Women first gained a limited vote in 1918; full voting equality with men was achieved in 1928.",
+    "sources": [{ "title": "UK Parliament: Women and the vote", "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/electionsvoting/womenvote/", "locator": "Overview: full equality with men was won in 1928", "checkedAt": "2026-11-07" }]
+  },
+  {
+    "id": "lesson-10-q10",
+    "question": "How many members does the Senedd have under its current electoral structure?",
+    "romanUrdu": "Maujooda intikhabi nizaam ke mutabiq Senedd ke kitne arkaan hain?",
+    "choices": [
+      { "id": "a", "text": "60 members" },
+      { "id": "b", "text": "90 members" },
+      { "id": "c", "text": "96 members" },
+      { "id": "d", "text": "120 members" }
+    ],
+    "correctChoiceIds": ["c"],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "lessonNumbers": [10],
+    "explanation": "Current law provides for 16 constituencies returning six members each. The older guide amendment still says 60, so this answer follows the later Act.",
+    "sources": [
+      { "title": "Senedd Cymru (Members and Elections) Act 2024, section 1", "url": "https://www.legislation.gov.uk/asc/2024/4/section/1/enacted", "locator": "Section 1: 16 constituencies with six members each", "checkedAt": "2026-11-07" },
+      { "title": "TSO: latest-impression amendments to the official guide", "url": "https://www.tsoshop.co.uk/gempdf/Life_in_the_UK_latest_impression_amendments%2003012025.pdf", "locator": "Impression 26: retains 60 members", "checkedAt": "2026-11-07" }
+    ]
+  },
+  {
+    "id": "lesson-8-q20",
+    "question": "Under current law, how often are ordinary Senedd elections held?",
+    "romanUrdu": "Maujooda qanoon ke mutabiq Senedd ke aam intikhab kitni muddat baad hote hain?",
+    "choices": [
+      { "id": "a", "text": "Every two years" },
+      { "id": "b", "text": "Every three years" },
+      { "id": "c", "text": "Every four years" },
+      { "id": "d", "text": "Every five years" }
+    ],
+    "correctChoiceIds": ["c"],
+    "answerType": "single",
+    "verificationStatus": "verified",
+    "lessonNumbers": [8],
+    "explanation": "The latest version of section 3 provides for the poll in the fourth calendar year after the previous ordinary election, subject to the listed exceptions.",
+    "sources": [{ "title": "Government of Wales Act 2006, section 3", "url": "https://www.legislation.gov.uk/ukpga/2006/32/section/3", "locator": "Section 3(1), latest available version as of 2026-11-07", "checkedAt": "2026-11-07" }]
+  },
+  {
+    "id": "lesson-11-q18",
+    "question": "On what date is St Andrew's Day a bank holiday in Scotland?",
+    "romanUrdu": "Scotland mein St Andrew's Day kis tareekh ko bank holiday hota hai?",
+    "choices": [
+      { "id": "a", "text": "1 March" },
+      { "id": "b", "text": "23 April" },
+      { "id": "c", "text": "30 November" },
+      { "id": "d", "text": "25 December" }
+    ],
+    "correctChoiceIds": ["c"],
+    "answerType": "single",
+    "verificationStatus": "verified",
+    "lessonNumbers": [11],
+    "explanation": "The official Scottish bank-holiday list gives St Andrew's Day as 30 November.",
+    "sources": [{ "title": "GOV.UK: UK bank holidays", "url": "https://www.gov.uk/bank-holidays", "locator": "Scotland bank-holiday calendar: St Andrew's Day, 30 November", "checkedAt": "2026-11-07" }]
+  },
+  {
+    "id": "lesson-14-q1",
+    "question": "On what date is St Patrick's Day a bank holiday in Northern Ireland?",
+    "romanUrdu": "Northern Ireland mein St Patrick's Day kis tareekh ko bank holiday hota hai?",
+    "choices": [
+      { "id": "a", "text": "1 March" },
+      { "id": "b", "text": "17 March" },
+      { "id": "c", "text": "23 April" },
+      { "id": "d", "text": "30 November" }
+    ],
+    "correctChoiceIds": ["b"],
+    "answerType": "single",
+    "verificationStatus": "verified",
+    "lessonNumbers": [14],
+    "explanation": "The official Northern Ireland bank-holiday calendar lists St Patrick's Day on 17 March.",
+    "sources": [{ "title": "GOV.UK: UK bank holidays", "url": "https://www.gov.uk/bank-holidays", "locator": "Northern Ireland bank-holiday calendar: St Patrick's Day, 17 March", "checkedAt": "2026-11-07" }]
+  },
+  {
+    "id": "lesson-10-q5",
+    "question": "On what date is Boxing Day observed in the UK?",
+    "romanUrdu": "UK mein Boxing Day kis tareekh ko manaya jata hai?",
+    "choices": [
+      { "id": "a", "text": "24 December" },
+      { "id": "b", "text": "25 December" },
+      { "id": "c", "text": "26 December" },
+      { "id": "d", "text": "31 December" }
+    ],
+    "correctChoiceIds": ["c"],
+    "answerType": "single",
+    "verificationStatus": "verified",
+    "lessonNumbers": [10],
+    "explanation": "GOV.UK lists Boxing Day on 26 December, with a substitute weekday when the date falls at a weekend.",
+    "sources": [{ "title": "GOV.UK: UK bank holidays", "url": "https://www.gov.uk/bank-holidays", "locator": "Upcoming bank holidays for England and Wales", "checkedAt": "2026-11-07" }]
+  },
+  {
+    "id": "lesson-13-q14",
+    "question": "How old must you be to vote in a UK general election?",
+    "romanUrdu": "UK ke aam intikhab mein vote dene ke liye aap ki umar kitni honi chahiye?",
+    "choices": [
+      { "id": "a", "text": "16 or over on polling day" },
+      { "id": "b", "text": "18 or over on polling day" },
+      { "id": "c", "text": "21 or over on polling day" },
+      { "id": "d", "text": "25 or over on polling day" }
+    ],
+    "correctChoiceIds": ["b"],
+    "answerType": "single",
+    "verificationStatus": "verified",
+    "lessonNumbers": [13],
+    "explanation": "GOV.UK says you must be 18 or over on polling day to vote in a UK general election.",
+    "sources": [{ "title": "GOV.UK: General election eligibility", "url": "https://www.gov.uk/elections-in-the-uk/general-election", "locator": "General election: eligibility to vote, age on polling day", "checkedAt": "2026-11-07" }]
+  },
+  {
+    "id": "lesson-11-q23",
+    "question": "How old must you be to buy alcohol legally in the UK?",
+    "romanUrdu": "UK mein qanoonan alcohol khareedne ke liye aap ki umar kitni honi chahiye?",
+    "choices": [
+      { "id": "a", "text": "16" },
+      { "id": "b", "text": "17" },
+      { "id": "c", "text": "18" },
+      { "id": "d", "text": "21" }
+    ],
+    "correctChoiceIds": ["c"],
+    "answerType": "single",
+    "verificationStatus": "verified",
+    "lessonNumbers": [11],
+    "explanation": "It is against the law to sell or buy alcohol for someone under 18, with limited rules about drinking (not buying) with a meal.",
+    "sources": [{ "title": "GOV.UK: Alcohol and young people", "url": "https://www.gov.uk/alcohol-young-people-law", "locator": "Under 18: it is against the law to sell alcohol or buy/try to buy it", "checkedAt": "2026-11-07" }]
+  },
+  {
+    "id": "lesson-10-q15-christmas",
+    "question": "On what date is Christmas Day observed?",
+    "romanUrdu": "Christmas Day kis tareekh ko manaya jata hai?",
+    "choices": [
+      { "id": "a", "text": "24 December" },
+      { "id": "b", "text": "25 December" },
+      { "id": "c", "text": "26 December" },
+      { "id": "d", "text": "1 January" }
+    ],
+    "correctChoiceIds": ["b"],
+    "answerType": "single",
+    "verificationStatus": "verified",
+    "lessonNumbers": [10],
+    "explanation": "GOV.UK lists Christmas Day on 25 December; a substitute weekday may be observed when it falls on a weekend.",
+    "sources": [{ "title": "GOV.UK: UK bank holidays", "url": "https://www.gov.uk/bank-holidays", "locator": "Christmas Day listed as 25 December in the bank-holiday calendars", "checkedAt": "2026-11-07" }]
+  },
+  {
+    "id": "lesson-1-q7",
+    "question": "The Bill of Rights of 1689 gave all adult men the right to vote. Is this true or false?",
+    "romanUrdu": "Bill of Rights 1689 ne tamam baligh mardon ko vote ka haq diya tha. Kya yeh sahi hai ya ghalat?",
+    "choices": [
+      { "id": "a", "text": "True" },
+      { "id": "b", "text": "False" },
+      { "id": "c", "text": "Only in Scotland" },
+      { "id": "d", "text": "Only for men over 30" }
+    ],
+    "correctChoiceIds": ["b"],
+    "answerType": "single",
+    "verificationStatus": "verified",
+    "lessonNumbers": [1, 7],
+    "explanation": "The Act addressed parliamentary authority and royal powers; it did not grant universal adult male suffrage.",
+    "sources": [{ "title": "Bill of Rights 1688/89", "url": "https://www.legislation.gov.uk/aep/WillandMar/1/2/contents", "locator": "Full Act text; no provision creating universal adult male suffrage", "checkedAt": "2026-11-07" }]
+  },
+  {
+    "id": "lesson-1-q9",
+    "question": "Who was the first woman to become Prime Minister of the UK?",
+    "romanUrdu": "UK ki pehli khatoon Prime Minister kaun bani thi?",
+    "choices": [
+      { "id": "a", "text": "Theresa May" },
+      { "id": "b", "text": "Margaret Thatcher" },
+      { "id": "c", "text": "Barbara Castle" },
+      { "id": "d", "text": "Elizabeth II" }
+    ],
+    "correctChoiceIds": ["b"],
+    "answerType": "single",
+    "verificationStatus": "verified",
+    "lessonNumbers": [1, 4, 12, 17],
+    "explanation": "Margaret Thatcher was the first woman to serve as UK Prime Minister.",
+    "sources": [{ "title": "GOV.UK: History of Baroness Thatcher", "url": "https://www.gov.uk/government/history/past-prime-ministers/margaret-thatcher", "locator": "Official Prime Minister biography", "checkedAt": "2026-11-07" }]
+  },
+  {
+    "id": "lesson-1-q20",
+    "question": "Which of these is a Crown dependency, but is not part of the UK?",
+    "romanUrdu": "In mein se kaunsi Crown dependency hai, lekin UK ka hissa nahin?",
+    "choices": [
+      { "id": "a", "text": "Isle of Man" },
+      { "id": "b", "text": "Wales" },
+      { "id": "c", "text": "Northern Ireland" },
+      { "id": "d", "text": "Cornwall" }
+    ],
+    "correctChoiceIds": ["a"],
+    "answerType": "single",
+    "verificationStatus": "verified",
+    "lessonNumbers": [1, 12, 17],
+    "explanation": "The Isle of Man is a Crown dependency, not part of the United Kingdom.",
+    "sources": [{ "title": "GOV.UK: Crown Dependencies", "url": "https://www.gov.uk/government/publications/crown-dependencies-jersey-guernsey-and-the-isle-of-man", "locator": "Constitutional relationship and list of dependencies", "checkedAt": "2026-11-07" }]
+  },
+  {
+    "id": "lesson-1-q16",
+    "question": "What does a bank holiday mean in the UK?",
+    "romanUrdu": "UK mein bank holiday ka kya matlab hota hai?",
+    "choices": [
+      { "id": "a", "text": "An official holiday date; paid time off depends on the employer" },
+      { "id": "b", "text": "Every worker must receive paid leave" },
+      { "id": "c", "text": "All shops and services must close" },
+      { "id": "d", "text": "Only banks may close" }
+    ],
+    "correctChoiceIds": ["a"],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "lessonNumbers": [1, 10, 13],
+    "explanation": "Bank holidays are official holidays, but employers do not have to provide paid leave or a day off.",
+    "sources": [{ "title": "GOV.UK: UK bank holidays", "url": "https://www.gov.uk/bank-holidays", "locator": "Employer note: no automatic entitlement to paid leave", "checkedAt": "2026-11-07" }]
+  },
+  {
+    "id": "lesson-4-q4",
+    "question": "How often do UK general elections usually take place?",
+    "romanUrdu": "UK mein aam intikhab aam tor par kitni muddat baad hote hain?",
+    "choices": [
+      { "id": "a", "text": "Every two years" },
+      { "id": "b", "text": "Usually every five years" },
+      { "id": "c", "text": "Every seven years" },
+      { "id": "d", "text": "Only when the Monarch changes" }
+    ],
+    "correctChoiceIds": ["b"],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "lessonNumbers": [4],
+    "explanation": "GOV.UK says general elections usually take place every five years; early elections can occur.",
+    "sources": [{ "title": "GOV.UK: General election", "url": "https://www.gov.uk/elections-in-the-uk/general-election", "locator": "General elections usually take place every 5 years", "checkedAt": "2026-11-07" }]
+  },
+  {
+    "id": "lesson-5-q12",
+    "question": "Can a police complaint only be made by writing to a police complaints commissioner?",
+    "romanUrdu": "Kya police ke khilaf shikayat sirf police complaints commissioner ko khat likh kar ki ja sakti hai?",
+    "choices": [
+      { "id": "a", "text": "Yes, that is the only route" },
+      { "id": "b", "text": "No, complaints can also be made to the police force or through the appropriate oversight body" },
+      { "id": "c", "text": "Yes, but only by a solicitor" },
+      { "id": "d", "text": "No, police complaints are not allowed" }
+    ],
+    "correctChoiceIds": ["b"],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "lessonNumbers": [5, 8, 11],
+    "explanation": "In England and Wales, a complaint may be made through the police force and some cases can be referred to or appealed to the IOPC; routes vary across the UK.",
+    "sources": [{ "title": "Independent Office for Police Conduct: Make a complaint", "url": "https://www.policeconduct.gov.uk/complaints/submit-a-complaint", "locator": "Complaint submission routes; England and Wales scope", "checkedAt": "2026-11-07" }]
+  },
+  {
+    "id": "lesson-5-q20",
+    "question": "Can a husband be prosecuted for rape if he forces his wife to have sex without consent?",
+    "romanUrdu": "Agar shohar apni biwi ko uski raza-mandi ke baghair jinsi talluq par majboor kare to kya us par rape ka muqadma chal sakta hai?",
+    "choices": [
+      { "id": "a", "text": "Yes; marriage is not an exception to the offence" },
+      { "id": "b", "text": "No, marriage always implies consent" },
+      { "id": "c", "text": "Only if they are separated" },
+      { "id": "d", "text": "Only if a witness was present" }
+    ],
+    "correctChoiceIds": ["a"],
+    "answerType": "single",
+    "verificationStatus": "verified",
+    "lessonNumbers": [5],
+    "explanation": "The statutory offence of rape contains no marriage exception. The cited Act applies to England and Wales; other UK jurisdictions have their own legislation.",
+    "sources": [{ "title": "Sexual Offences Act 2003, section 1", "url": "https://www.legislation.gov.uk/ukpga/2003/42/section/1", "locator": "Section 1 offence elements; no marital exception", "checkedAt": "2026-11-07" }]
+  },
+  {
+    "id": "lesson-7-q7",
+    "question": "Is smoking in a prohibited smoke-free place an offence in England?",
+    "romanUrdu": "England mein jahan smoking mana ho, wahan cigarette peena jurm hai?",
+    "choices": [
+      { "id": "a", "text": "Yes, it can be an offence" },
+      { "id": "b", "text": "No, smoking bans are only requests" },
+      { "id": "c", "text": "Only if the place is outdoors" },
+      { "id": "d", "text": "Only for people under 18" }
+    ],
+    "correctChoiceIds": ["a"],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "lessonNumbers": [7],
+    "explanation": "Smoking in prohibited smoke-free premises can be an offence in England; the devolved nations have their own legislation.",
+    "sources": [{ "title": "GOV.UK: Smoke-free legislation guidance", "url": "https://www.gov.uk/government/publications/smoke-free-legislation-guidance-for-local-authorities/smoke-free-legislation-guidance-for-local-authorities", "locator": "Offences and penalties; England scope", "checkedAt": "2026-11-07" }]
+  },
+  {
+    "id": "lesson-7-q12",
+    "question": "Which Act of 1833 abolished slavery in most of the British Empire?",
+    "romanUrdu": "1833 mein British Empire ke zyada tar hisson mein ghulami khatam karne wala qanoon kaunsa tha?",
+    "choices": [
+      { "id": "a", "text": "The Slavery Abolition Act" },
+      { "id": "b", "text": "The Reform Act" },
+      { "id": "c", "text": "The Factory Act" },
+      { "id": "d", "text": "The Habeas Corpus Act" }
+    ],
+    "correctChoiceIds": ["a"],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "lessonNumbers": [7, 15],
+    "explanation": "The Act abolished slavery in most of the British Empire, with exclusions and a staged transition; it did not end slavery everywhere immediately on passage.",
+    "sources": [{ "title": "Slavery Abolition Act 1833", "url": "https://www.legislation.gov.uk/ukpga/Will4/3-4/73/contents", "locator": "Act title and section 1; scope/exceptions", "checkedAt": "2026-11-07" }]
+  },
+  {
+    "id": "lesson-7-q14",
+    "question": "Are the Falkland Islands part of the United Kingdom?",
+    "romanUrdu": "Kya Falkland Islands United Kingdom ka hissa hain?",
+    "choices": [
+      { "id": "a", "text": "Yes, they are part of England" },
+      { "id": "b", "text": "No, they are a British Overseas Territory" },
+      { "id": "c", "text": "Yes, they are part of Scotland" },
+      { "id": "d", "text": "No, they are a Crown dependency" }
+    ],
+    "correctChoiceIds": ["b"],
+    "answerType": "single",
+    "verificationStatus": "verified",
+    "lessonNumbers": [7, 8],
+    "explanation": "The Falkland Islands are a British Overseas Territory, not part of the UK.",
+    "sources": [{ "title": "GOV.UK: Overseas Territories", "url": "https://www.gov.uk/government/publications/the-overseas-territories", "locator": "List of British Overseas Territories", "checkedAt": "2026-11-07" }]
+  },
+  {
+    "id": "lesson-8-q11",
+    "question": "In England, what information must a dog wear on its collar in a public place?",
+    "romanUrdu": "England mein aam jagah par kutte ke collar par kaunsi maloomat honi chahiye?",
+    "choices": [
+      { "id": "a", "text": "The owner's name and address" },
+      { "id": "b", "text": "The dog's date of birth only" },
+      { "id": "c", "text": "The owner's phone number only" },
+      { "id": "d", "text": "No identification is required" }
+    ],
+    "correctChoiceIds": ["a"],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "lessonNumbers": [8],
+    "explanation": "The Control of Dogs Order 1992 requires the owner's name and address on a collar or tag in public places in England and Wales.",
+    "sources": [{ "title": "Control of Dogs Order 1992", "url": "https://www.legislation.gov.uk/uksi/1992/901", "locator": "Article 2; England and Wales", "checkedAt": "2026-11-07" }]
+  },
+  {
+    "id": "lesson-8-q15",
+    "question": "Is Female Genital Mutilation (FGM) a criminal offence in the UK?",
+    "romanUrdu": "Kya UK mein Female Genital Mutilation (FGM) aik criminal offence hai?",
+    "choices": [
+      { "id": "a", "text": "Yes; FGM is criminalised, including certain conduct abroad" },
+      { "id": "b", "text": "No, it is only a civil matter" },
+      { "id": "c", "text": "Only if the victim is under 16" },
+      { "id": "d", "text": "Only if it occurs in a hospital" }
+    ],
+    "correctChoiceIds": ["a"],
+    "answerType": "single",
+    "verificationStatus": "verified",
+    "lessonNumbers": [8],
+    "explanation": "FGM is a criminal offence; the Act also criminalises specified conduct arranging or assisting FGM abroad. Jurisdictional scope is set by the Act.",
+    "sources": [{ "title": "Female Genital Mutilation Act 2003", "url": "https://www.legislation.gov.uk/ukpga/2003/31/contents", "locator": "Sections 1 and 4", "checkedAt": "2026-11-07" }]
+  },
+  {
+    "id": "lesson-9-q3",
+    "question": "What is the highest denomination of Bank of England banknote in general circulation?",
+    "romanUrdu": "Bank of England ka aam tor par gardish mein sab se bari qeemat wala note kaunsa hai?",
+    "choices": [
+      { "id": "a", "text": "£20" },
+      { "id": "b", "text": "£50" },
+      { "id": "c", "text": "£100" },
+      { "id": "d", "text": "£200" }
+    ],
+    "correctChoiceIds": ["b"],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "lessonNumbers": [9],
+    "explanation": "The question is limited to Bank of England notes: £50 is its highest current denomination. Scottish and Northern Irish banks also issue £100 notes, so the original all-UK wording was ambiguous.",
+    "sources": [{ "title": "Bank of England: Current banknotes", "url": "https://www.bankofengland.co.uk/banknotes/current-banknotes", "locator": "Current banknote denominations", "checkedAt": "2026-11-07" }]
+  },
+  {
+    "id": "lesson-12-q6",
+    "question": "Who is mainly responsible for local services in a town or rural area?",
+    "romanUrdu": "Shehar ya dehati ilaqe mein maqami services ki bunyadi zimmedari kis ki hoti hai?",
+    "choices": [
+      { "id": "a", "text": "The elected local council" },
+      { "id": "b", "text": "The Monarch personally" },
+      { "id": "c", "text": "The UK central government directly" },
+      { "id": "d", "text": "The House of Lords" }
+    ],
+    "correctChoiceIds": ["a"],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "lessonNumbers": [12],
+    "explanation": "Local councils deliver many local services; devolved governments and UK central government also have distinct responsibilities.",
+    "sources": [{ "title": "GOV.UK: How government works", "url": "https://www.gov.uk/government/how-government-works", "locator": "Local government and devolved government sections", "checkedAt": "2026-11-07" }]
+  },
+  {
+    "id": "lesson-12-q16",
+    "question": "How are UK civil servants recruited?",
+    "romanUrdu": "UK ke civil servants ko kis bunyaad par bharti kiya jata hai?",
+    "choices": [
+      { "id": "a", "text": "On merit through fair and open competition" },
+      { "id": "b", "text": "Only by the Prime Minister's personal choice" },
+      { "id": "c", "text": "By election to Parliament" },
+      { "id": "d", "text": "By appointment from the largest political party" }
+    ],
+    "correctChoiceIds": ["a"],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "lessonNumbers": [12, 14],
+    "explanation": "Civil Service Commission rules require recruitment on merit after fair and open competition. Political impartiality is a separate principle in the Civil Service Code.",
+    "sources": [{ "title": "Civil Service Commission: About us", "url": "https://www.gov.uk/government/organisations/civil-service-commission/about", "locator": "Merit after fair and open competition", "checkedAt": "2026-11-07" }]
+  },
+  {
+    "id": "lesson-14-q8",
+    "question": "What is the official written report of debates in the UK Parliament called?",
+    "romanUrdu": "UK Parliament ke behas ka rasmi likha hua record kya kehlata hai?",
+    "choices": [
+      { "id": "a", "text": "Hansard" },
+      { "id": "b", "text": "The Domesday Book" },
+      { "id": "c", "text": "The Cabinet Manual" },
+      { "id": "d", "text": "The Statute Roll" }
+    ],
+    "correctChoiceIds": ["a"],
+    "answerType": "single",
+    "verificationStatus": "verified",
+    "lessonNumbers": [14],
+    "explanation": "Hansard is the official report of parliamentary debates, edited for readability rather than a verbatim transcript.",
+    "sources": [{ "title": "UK Parliament: What is Hansard?", "url": "https://www.parliament.uk/about/how/business/publications/hansard/", "locator": "Opening description of Hansard", "checkedAt": "2026-11-07" }]
+  },
+  {
+    "id": "lesson-14-q13",
+    "question": "In which English county is Stonehenge located?",
+    "romanUrdu": "Stonehenge England ke kis county mein waqay hai?",
+    "choices": [
+      { "id": "a", "text": "Cornwall" },
+      { "id": "b", "text": "Kent" },
+      { "id": "c", "text": "Wiltshire" },
+      { "id": "d", "text": "Suffolk" }
+    ],
+    "correctChoiceIds": ["c"],
+    "answerType": "single",
+    "verificationStatus": "verified",
+    "lessonNumbers": [14],
+    "explanation": "Stonehenge is in Wiltshire, England.",
+    "sources": [{ "title": "English Heritage: Stonehenge", "url": "https://www.english-heritage.org.uk/visit/places/stonehenge/", "locator": "About Stonehenge: location", "checkedAt": "2026-11-07" }]
+  },
+  {
+    "id": "lesson-14-q18",
+    "question": "Who became Prime Minister after Labour won the 1945 general election?",
+    "romanUrdu": "1945 ke aam intikhab mein Labour ki jeet ke baad kaun Prime Minister bana?",
+    "choices": [
+      { "id": "a", "text": "Clement Attlee" },
+      { "id": "b", "text": "Winston Churchill" },
+      { "id": "c", "text": "Anthony Eden" },
+      { "id": "d", "text": "Harold Wilson" }
+    ],
+    "correctChoiceIds": ["a"],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "lessonNumbers": [14],
+    "explanation": "Voters elected MPs; after Labour's 1945 victory, Clement Attlee became Prime Minister.",
+    "sources": [{ "title": "UK Parliament: 1945 general election", "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/electionsvoting/overview/1945general-election/", "locator": "Election result and formation of Attlee government", "checkedAt": "2026-11-07" }]
+  },
+  {
+    "id": "lesson-14-q21",
+    "question": "How are civil servants appointed in the UK?",
+    "romanUrdu": "UK mein civil servants ko kaise appoint kiya jata hai?",
+    "choices": [
+      { "id": "a", "text": "On merit through fair and open competition" },
+      { "id": "b", "text": "By the political party in power" },
+      { "id": "c", "text": "By public election" },
+      { "id": "d", "text": "By the Monarch without a process" }
+    ],
+    "correctChoiceIds": ["a"],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "lessonNumbers": [14],
+    "explanation": "Recruitment is based on merit following fair and open competition; civil servants must also follow the Civil Service Code.",
+    "sources": [{ "title": "Civil Service Commission: About us", "url": "https://www.gov.uk/government/organisations/civil-service-commission/about", "locator": "Recruitment on merit and fair/open competition", "checkedAt": "2026-11-07" }]
+  },
+  {
+    "id": "lesson-14-q24",
+    "question": "Who led the Iceni revolt against Roman rule in Britain?",
+    "romanUrdu": "Britain mein Roman hukoomat ke khilaf Iceni baghawat ki rehnumai kis ne ki?",
+    "choices": [
+      { "id": "a", "text": "Boudicca" },
+      { "id": "b", "text": "Boudin" },
+      { "id": "c", "text": "Cartimandua" },
+      { "id": "d", "text": "Eleanor of Aquitaine" }
+    ],
+    "correctChoiceIds": ["a"],
+    "answerType": "single",
+    "verificationStatus": "verified",
+    "lessonNumbers": [14, 13, 17],
+    "explanation": "Boudicca led the Iceni revolt against Roman rule around AD 60/61.",
+    "sources": [{ "title": "British Museum: Boudica", "url": "https://www.britishmuseum.org/collection/term/BIOG127236", "locator": "Biography and revolt against Rome", "checkedAt": "2026-11-07" }]
+  },
+  {
+    "id": "lesson-15-q6",
+    "question": "At what time did the 1918 Armistice come into effect on 11 November?",
+    "romanUrdu": "11 November 1918 ke Armistice ka nafaz kis waqt hua?",
+    "choices": [
+      { "id": "a", "text": "9:00 am" },
+      { "id": "b", "text": "10:00 am" },
+      { "id": "c", "text": "11:00 am" },
+      { "id": "d", "text": "12:00 noon" }
+    ],
+    "correctChoiceIds": ["c"],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "lessonNumbers": [15, 10],
+    "explanation": "The Armistice ended the fighting at 11 am; it did not itself end every legal state of war.",
+    "sources": [{ "title": "Imperial War Museums: Armistice, 11 November 1918", "url": "https://www.iwm.org.uk/history/armistice-11-november-1918", "locator": "Armistice timeline and 11 am effective time", "checkedAt": "2026-11-07" }]
+  },
+  {
+    "id": "lesson-15-q7",
+    "question": "What legal order can a court make to protect someone at risk of a forced marriage?",
+    "romanUrdu": "Zabardasti ki shadi ke khatre mein kisi ko bachane ke liye adalat kya qanooni order de sakti hai?",
+    "choices": [
+      { "id": "a", "text": "A Forced Marriage Protection Order" },
+      { "id": "b", "text": "A poll card" },
+      { "id": "c", "text": "A bank holiday notice" },
+      { "id": "d", "text": "A jury summons" }
+    ],
+    "correctChoiceIds": ["a"],
+    "answerType": "single",
+    "verificationStatus": "verified",
+    "lessonNumbers": [15],
+    "explanation": "Courts can make Forced Marriage Protection Orders under the 2007 Act.",
+    "sources": [{ "title": "Forced Marriage (Civil Protection) Act 2007", "url": "https://www.legislation.gov.uk/ukpga/2007/20/contents", "locator": "Sections 1–2: protection orders", "checkedAt": "2026-11-07" }]
+  },
+  {
+    "id": "lesson-15-q9",
+    "question": "Who may hear Youth Court cases in England and Wales?",
+    "romanUrdu": "England aur Wales mein Youth Court ke cases kaun sun sakta hai?",
+    "choices": [
+      { "id": "a", "text": "Up to three specially trained magistrates or one District Judge" },
+      { "id": "b", "text": "A jury of 15" },
+      { "id": "c", "text": "Only the Lord Chancellor" },
+      { "id": "d", "text": "A local councillor" }
+    ],
+    "correctChoiceIds": ["a"],
+    "answerType": "single",
+    "verificationStatus": "verified",
+    "lessonNumbers": [15, 16],
+    "explanation": "Youth Courts in England and Wales sit with a District Judge or up to three specially trained magistrates. Scotland and Northern Ireland have different arrangements.",
+    "sources": [{ "title": "GOV.UK: Youth courts", "url": "https://www.gov.uk/courts/youth-courts", "locator": "Who works in a youth court?", "checkedAt": "2026-11-07" }]
+  },
+  {
+    "id": "lesson-15-q19",
+    "question": "What is the minimum age for riding a moped in the UK?",
+    "romanUrdu": "UK mein moped chalane ki kam az kam umar kya hai?",
+    "choices": [
+      { "id": "a", "text": "16 years old" },
+      { "id": "b", "text": "17 years old" },
+      { "id": "c", "text": "18 years old" },
+      { "id": "d", "text": "21 years old" }
+    ],
+    "correctChoiceIds": ["a"],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "lessonNumbers": [15, 16],
+    "explanation": "The AM moped category starts at 16. A1 light motorcycles start at 17, so the original wording should distinguish vehicle categories.",
+    "sources": [{ "title": "GOV.UK: Vehicles you can drive", "url": "https://www.gov.uk/vehicles-can-drive", "locator": "AM moped and A1 motorcycle categories and ages", "checkedAt": "2026-11-07" }]
+  },
+  {
+    "id": "lesson-15-q20",
+    "question": "Are members of the House of Lords elected by the public?",
+    "romanUrdu": "Kya House of Lords ke arkaan awaam ke vote se muntakhib hote hain?",
+    "choices": [
+      { "id": "a", "text": "Yes, all members are directly elected" },
+      { "id": "b", "text": "No, members are appointed, hereditary peers, or Lords Spiritual" },
+      { "id": "c", "text": "Yes, every five years" },
+      { "id": "d", "text": "Only life peers are elected" }
+    ],
+    "correctChoiceIds": ["b"],
+    "answerType": "single",
+    "verificationStatus": "verified",
+    "lessonNumbers": [15],
+    "explanation": "The public does not elect members of the House of Lords; its membership includes appointed life peers, hereditary peers, and Lords Spiritual.",
+    "sources": [{ "title": "UK Parliament: Members of the House of Lords", "url": "https://www.parliament.uk/about/mps-and-lords/about-lords/lords-members/", "locator": "Membership types", "checkedAt": "2026-11-07" }]
+  },
+  {
+    "id": "lesson-16-q1",
+    "question": "In which year did the United Nations come into existence?",
+    "romanUrdu": "United Nations kis saal wajood mein aayi?",
+    "choices": [
+      { "id": "a", "text": "1918" },
+      { "id": "b", "text": "1939" },
+      { "id": "c", "text": "1945" },
+      { "id": "d", "text": "1955" }
+    ],
+    "correctChoiceIds": ["c"],
+    "answerType": "single",
+    "verificationStatus": "verified",
+    "lessonNumbers": [16],
+    "explanation": "The UN Charter entered into force on 24 October 1945, bringing the organisation into existence.",
+    "sources": [{ "title": "United Nations: History of the UN", "url": "https://www.un.org/en/about-us/history-of-the-un", "locator": "Founding and 24 October 1945", "checkedAt": "2026-11-07" }]
+  },
+  {
+    "id": "lesson-16-q2",
+    "question": "Where is the Giant's Causeway located?",
+    "romanUrdu": "Giant's Causeway kahan waqay hai?",
+    "choices": [
+      { "id": "a", "text": "Scotland" },
+      { "id": "b", "text": "Northern Ireland" },
+      { "id": "c", "text": "Wales" },
+      { "id": "d", "text": "England" }
+    ],
+    "correctChoiceIds": ["b"],
+    "answerType": "single",
+    "verificationStatus": "verified",
+    "lessonNumbers": [16],
+    "explanation": "The Giant's Causeway is on the north coast of Northern Ireland.",
+    "sources": [{ "title": "UNESCO World Heritage Centre: Giant's Causeway", "url": "https://whc.unesco.org/en/list/369/", "locator": "Location and site description", "checkedAt": "2026-11-07" }]
+  },
+  {
+    "id": "lesson-16-q12",
+    "question": "At what age can someone first ride a moped under the AM licence category?",
+    "romanUrdu": "AM licence category ke tehat moped chalane ki ibtidai umar kya hai?",
+    "choices": [
+      { "id": "a", "text": "15 years old" },
+      { "id": "b", "text": "16 years old" },
+      { "id": "c", "text": "17 years old" },
+      { "id": "d", "text": "18 years old" }
+    ],
+    "correctChoiceIds": ["b"],
+    "answerType": "single",
+    "verificationStatus": "verified",
+    "lessonNumbers": [16],
+    "explanation": "The minimum age for the AM moped category is 16.",
+    "sources": [{ "title": "GOV.UK: Vehicles you can drive", "url": "https://www.gov.uk/vehicles-can-drive", "locator": "AM moped category", "checkedAt": "2026-11-07" }]
+  },
+  {
+    "id": "lesson-16-q18",
+    "question": "Which Paralympic swimmer won gold medals in 2008 and 2012, but not in 2016?",
+    "romanUrdu": "Kaunsi Paralympic swimmer ne 2008 aur 2012 mein gold jeeta lekin 2016 mein nahin?",
+    "choices": [
+      { "id": "a", "text": "Ellie Simmonds" },
+      { "id": "b", "text": "Tanni Grey-Thompson" },
+      { "id": "c", "text": "Sarah Storey" },
+      { "id": "d", "text": "Mary Peters" }
+    ],
+    "correctChoiceIds": ["a"],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "lessonNumbers": [16],
+    "explanation": "Ellie Simmonds won Paralympic swimming gold in 2008 and 2012; she competed in 2016 but did not win gold at those Games.",
+    "sources": [{ "title": "International Paralympic Committee: Ellie Simmonds", "url": "https://www.paralympic.org/ellie-simmonds", "locator": "Results by Paralympic Games", "checkedAt": "2026-11-07" }]
+  },
+  {
+    "id": "lesson-16-q21",
+    "question": "What is the Commonwealth?",
+    "romanUrdu": "Commonwealth kya hai?",
+    "choices": [
+      { "id": "a", "text": "A voluntary association of independent countries working together on shared goals" },
+      { "id": "b", "text": "A single country governed from London" },
+      { "id": "c", "text": "A military alliance with one army" },
+      { "id": "d", "text": "A court that governs the UK" }
+    ],
+    "correctChoiceIds": ["a"],
+    "answerType": "single",
+    "verificationStatus": "verified",
+    "lessonNumbers": [16],
+    "explanation": "The Commonwealth is a voluntary association of independent countries that cooperate on shared goals.",
+    "sources": [{ "title": "The Commonwealth: About us", "url": "https://thecommonwealth.org/about-us", "locator": "Purpose and membership", "checkedAt": "2026-11-07" }]
+  },
+  {
+    "id": "lesson-17-q3",
+    "question": "What is the name for the group of senior opposition MPs who scrutinise government departments?",
+    "romanUrdu": "Hukoomati departments ki jaanch karne wale opposition ke senior MPs ke group ko kya kehte hain?",
+    "choices": [
+      { "id": "a", "text": "The Shadow Cabinet" },
+      { "id": "b", "text": "The Cabinet Office" },
+      { "id": "c", "text": "The Privy Council" },
+      { "id": "d", "text": "The Civil Service Commission" }
+    ],
+    "correctChoiceIds": ["a"],
+    "answerType": "single",
+    "verificationStatus": "verified",
+    "lessonNumbers": [17],
+    "explanation": "Shadow ministers lead opposition scrutiny of corresponding policy areas; the Shadow Cabinet is not a government department.",
+    "sources": [{ "title": "UK Parliament: Opposition", "url": "https://www.parliament.uk/about/mps-and-lords/members/opposition/", "locator": "Shadow Cabinet role", "checkedAt": "2026-11-07" }]
+  },
+  {
+    "id": "lesson-17-q4",
+    "question": "Which two are responsibilities of an MP?",
+    "romanUrdu": "MP ki kaunsi do zimmedariyan hain?",
+    "choices": [
+      { "id": "a", "text": "Represent people in their constituency" },
+      { "id": "b", "text": "Help scrutinise and make laws through Parliament" },
+      { "id": "c", "text": "Appoint every local councillor" },
+      { "id": "d", "text": "Personally command the armed forces" }
+    ],
+    "correctChoiceIds": ["a", "b"],
+    "answerType": "select-two",
+    "verificationStatus": "verified",
+    "lessonNumbers": [17],
+    "explanation": "MPs represent constituents and take part in Parliament's law-making and scrutiny work; legislation is enacted through Parliament's process.",
+    "sources": [{ "title": "UK Parliament: Role of an MP", "url": "https://www.parliament.uk/about/mps-and-lords/members/role-of-an-mp/", "locator": "Constituency and parliamentary work", "checkedAt": "2026-11-07" }]
+  },
+  {
+    "id": "lesson-17-q5",
+    "question": "Who was the longest-serving UK Prime Minister of the 20th century by continuous tenure?",
+    "romanUrdu": "20win sadi mein lagataar sab se zyada arsa UK ki Prime Minister kaun rahi?",
+    "choices": [
+      { "id": "a", "text": "Margaret Thatcher" },
+      { "id": "b", "text": "Clement Attlee" },
+      { "id": "c", "text": "Tony Blair" },
+      { "id": "d", "text": "Harold Wilson" }
+    ],
+    "correctChoiceIds": ["a"],
+    "answerType": "single",
+    "verificationStatus": "verified",
+    "lessonNumbers": [17],
+    "explanation": "Thatcher served continuously from 1979 to 1990; the claim is limited to the 20th century and continuous tenure.",
+    "sources": [{ "title": "GOV.UK: History of Margaret Thatcher", "url": "https://www.gov.uk/government/history/past-prime-ministers/margaret-thatcher", "locator": "Dates in office", "checkedAt": "2026-11-07" }]
+  },
+  {
+    "id": "lesson-17-q6",
+    "question": "Which of these is a Crown dependency, not part of the United Kingdom?",
+    "romanUrdu": "In mein se kaunsi Crown dependency hai, United Kingdom ka hissa nahin?",
+    "choices": [
+      { "id": "a", "text": "Jersey" },
+      { "id": "b", "text": "Wales" },
+      { "id": "c", "text": "Scotland" },
+      { "id": "d", "text": "Northern Ireland" }
+    ],
+    "correctChoiceIds": ["a"],
+    "answerType": "single",
+    "verificationStatus": "verified",
+    "lessonNumbers": [17],
+    "explanation": "Jersey is a self-governing Crown dependency and is not part of the UK.",
+    "sources": [{ "title": "GOV.UK: Crown Dependencies", "url": "https://www.gov.uk/government/publications/crown-dependencies-jersey-guernsey-and-the-isle-of-man", "locator": "List and constitutional status of Crown Dependencies", "checkedAt": "2026-11-07" }]
+  },
+  {
+    "id": "lesson-17-q14",
+    "question": "Where is Skara Brae, the prehistoric village, located?",
+    "romanUrdu": "Prehistoric gaon Skara Brae kahan waqay hai?",
+    "choices": [
+      { "id": "a", "text": "Orkney, Scotland" },
+      { "id": "b", "text": "Cornwall, England" },
+      { "id": "c", "text": "Anglesey, Wales" },
+      { "id": "d", "text": "County Antrim, Northern Ireland" }
+    ],
+    "correctChoiceIds": ["a"],
+    "answerType": "single",
+    "verificationStatus": "verified",
+    "lessonNumbers": [17],
+    "explanation": "Skara Brae is on the Orkney Islands in Scotland.",
+    "sources": [{ "title": "Historic Environment Scotland: Skara Brae", "url": "https://www.historicenvironment.scot/visit-a-place/places/skara-brae/", "locator": "Location and visitor information", "checkedAt": "2026-11-07" }]
+  },
+  {
+    "id": "lesson-17-q15",
+    "question": "Which play was written by William Shakespeare?",
+    "romanUrdu": "William Shakespeare ne kaunsa drama likha tha?",
+    "choices": [
+      { "id": "a", "text": "Macbeth" },
+      { "id": "b", "text": "The Rivals" },
+      { "id": "c", "text": "The Importance of Being Earnest" },
+      { "id": "d", "text": "Pygmalion" }
+    ],
+    "correctChoiceIds": ["a"],
+    "answerType": "single",
+    "verificationStatus": "verified",
+    "lessonNumbers": [17],
+    "explanation": "Macbeth is one of Shakespeare's tragedies.",
+    "sources": [{ "title": "Royal Shakespeare Company: Macbeth", "url": "https://www.rsc.org.uk/macbeth/about-the-play", "locator": "About the play", "checkedAt": "2026-11-07" }]
+  },
+  {
+    "id": "lesson-17-q16",
+    "question": "Where was William the Conqueror Duke before he invaded England?",
+    "romanUrdu": "England par hamlay se pehle William the Conqueror kahan ka Duke tha?",
+    "choices": [
+      { "id": "a", "text": "Normandy" },
+      { "id": "b", "text": "Brittany" },
+      { "id": "c", "text": "Wessex" },
+      { "id": "d", "text": "Flanders" }
+    ],
+    "correctChoiceIds": ["a"],
+    "answerType": "single",
+    "verificationStatus": "verified",
+    "lessonNumbers": [17],
+    "explanation": "William was Duke of Normandy before the Norman Conquest of England in 1066.",
+    "sources": [{ "title": "English Heritage: 1066 and the Norman Conquest", "url": "https://www.english-heritage.org.uk/learn/histories/1066-and-the-norman-conquest/", "locator": "William's Norman origins", "checkedAt": "2026-11-07" }]
+  },
+  {
+    "id": "lesson-17-q20",
+    "question": "Who was invited to come to England and take the throne during the Glorious Revolution of 1688?",
+    "romanUrdu": "1688 ki Glorious Revolution mein kis shakhs ko England aa kar takht sambhalne ki dawat di gayi?",
+    "choices": [
+      { "id": "a", "text": "William of Orange" },
+      { "id": "b", "text": "Oliver Cromwell" },
+      { "id": "c", "text": "Charles II" },
+      { "id": "d", "text": "James I" }
+    ],
+    "correctChoiceIds": ["a"],
+    "answerType": "single",
+    "verificationStatus": "verified",
+    "lessonNumbers": [17],
+    "explanation": "English political leaders invited William of Orange; the events led to James II leaving the throne.",
+    "sources": [{ "title": "UK Parliament: Glorious Revolution", "url": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/parliamentaryauthority/revolution/overview/gloriousrevolution/", "locator": "Invitation to William and events of 1688", "checkedAt": "2026-11-07" }]
+  },
+  {
+    "id": "lesson-17-q22",
+    "question": "What did the Factory Act of 1847 limit in textile mills?",
+    "romanUrdu": "1847 ke Factory Act ne textile mills mein kis cheez par had lagayi?",
+    "choices": [
+      { "id": "a", "text": "Working hours for women and young persons" },
+      { "id": "b", "text": "The number of factories in each town" },
+      { "id": "c", "text": "The price of cotton" },
+      { "id": "d", "text": "The number of apprentices in Parliament" }
+    ],
+    "correctChoiceIds": ["a"],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "lessonNumbers": [17],
+    "explanation": "The Ten Hours Act limited working hours for women and young persons (13–18) in textile factories; “children” is not the precise category in this provision.",
+    "sources": [{ "title": "Factory Act 1847", "url": "https://www.legislation.gov.uk/ukpga/Vict/10-11/29/contents", "locator": "Act scope and working-hour provision", "checkedAt": "2026-11-07" }]
+  },
+  {
+    "id": "lesson-1-q3-first-vote",
+    "question": "In which year did some women first gain the right to vote in UK parliamentary elections?",
+    "romanUrdu": "UK ke parliamentary intikhab mein kuch aurton ko pehli baar vote dene ka haq kis saal mila?",
+    "choices": [
+      { "id": "a", "text": "1832" },
+      { "id": "b", "text": "1867" },
+      { "id": "c", "text": "1918" },
+      { "id": "d", "text": "1928" }
+    ],
+    "correctChoiceIds": ["c"],
+    "answerType": "single",
+    "verificationStatus": "verified",
+    "lessonNumbers": [1, 8, 11],
+    "explanation": "The Representation of the People Act 1918 enfranchised some women; equal voting terms with men came later, in 1928.",
+    "sources": [{ "title": "Representation of the People Act 1918", "url": "https://www.legislation.gov.uk/ukpga/Geo5/7-8/64/contents", "locator": "Original Act, enfranchisement provisions; limited franchise for women", "checkedAt": "2026-11-07" }]
+  }
+]

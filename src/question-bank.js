@@ -51,6 +51,9 @@ export function validateQuestion(question) {
   if (!['single', 'select-two'].includes(question.answerType)) {
     errors.push('answerType must be single or select-two');
   }
+  if (!['verified', 'corrected', 'unconfirmed'].includes(question.verificationStatus)) {
+    errors.push('verificationStatus must be verified, corrected, or unconfirmed');
+  }
 
   if (!Array.isArray(question.lessonNumbers) || question.lessonNumbers.length === 0 ||
       question.lessonNumbers.some((lesson) => !Number.isInteger(lesson) || lesson < 1)) {

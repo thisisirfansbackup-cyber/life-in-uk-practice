@@ -25,6 +25,7 @@ function question(overrides = {}) {
     ],
     correctChoiceIds: ['a'],
     answerType: 'single',
+    verificationStatus: 'verified',
     lessonNumbers: [1],
     explanation: '',
     sources: [{ title: 'Official study guide', url: 'https://www.gov.uk/life-in-the-uk-test', locator: 'Chapter 1', checkedAt: '2026-11-07' }],
@@ -98,4 +99,11 @@ test('requires a source URL using HTTPS', async () => {
     sources: [{ title: 'Official source', url: 'http://example.com', locator: 'Section 1', checkedAt: '2026-11-07' }],
   });
   assert.ok(validateQuestion(invalidUrl).some((error) => error.includes('url')));
+});
+
+test('requires an explicit verification status for every item', async () => {
+  const { validateQuestion } = await getBankModule();
+
+  assert.ok(validateQuestion(question({ verificationStatus: 'pending' })).some((error) => error.includes('verificationStatus')));
+  assert.ok(validateQuestion(question({ verificationStatus: undefined })).some((error) => error.includes('verificationStatus')));
 });
