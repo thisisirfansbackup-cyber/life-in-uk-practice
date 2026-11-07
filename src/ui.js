@@ -29,17 +29,28 @@ export function mountApp(root, dependencies) {
     readResult = { progress: emptyProgress(), status: 'unavailable' };
   }
 
+  const representedLessons = new Set(questions.flatMap((question) => question.lessonNumbers ?? []));
+  const missingLessons = Array.from({ length: 17 }, (_, index) => index + 1)
+    .filter((lessonNumber) => !representedLessons.has(lessonNumber));
+  const formatList = (items) => items.length < 2
+    ? String(items[0] ?? '')
+    : `${items.slice(0, -1).join(', ')} and ${items.at(-1)}`;
+
   const state = {
     screen: 'home',
     progress: readResult?.progress ?? emptyProgress(),
     storageUnavailable: readResult?.status === 'unavailable',
+    preserveExistingStorage: ['corrupt', 'incompatible'].includes(readResult?.status),
     result: null,
     message: '',
   };
-  let saveError = state.storageUnavailable ? 'Progress cannot be saved in this browser.' : '';
+  let saveError = state.preserveExistingStorage
+    ? 'Your saved progress could not be read. We will not overwrite it; new progress may not be saved.'
+    : state.storageUnavailable ? 'Progress cannot be saved in this browser.' : '';
 
   const persist = (progress) => {
     state.progress = progress;
+    if (state.preserveExistingStorage) return;
     let outcome;
     try {
       outcome = progressStore.write(progress);
@@ -83,6 +94,7 @@ export function mountApp(root, dependencies) {
         <h1 id="home-title">Practice with purpose.</h1>
         <p class="intro">Build confidence one question at a time, with Roman Urdu support beneath each question.</p>
         <p class="format-note">50 questions per practice · The official test uses a different format.</p>
+        ${missingLessons.length ? `<p class="coverage-note">This question set does not yet include questions from Lessons ${formatList(missingLessons)}. Check those lessons as well.</p>` : ''}
         <div class="progress-summary" aria-label="Study progress">
           <p><strong>${unseen}</strong> <span>unseen</span></p>
           <p><strong>${review}</strong> <span>to review</span></p>

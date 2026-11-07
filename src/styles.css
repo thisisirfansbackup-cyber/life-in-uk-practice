@@ -177,6 +177,13 @@ h1 {
   font-weight: 650;
 }
 
+.coverage-note {
+  margin-block: -0.75rem 1.4rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
 .progress-summary {
   display: flex;
   flex-wrap: wrap;

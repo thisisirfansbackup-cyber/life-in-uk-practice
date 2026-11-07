@@ -56,13 +56,15 @@ const makeQuestions = () => Array.from({ length: 50 }, (_, index) => ({
   sources: [{ title: 'Official source', url: 'https://example.gov.uk', locator: 'Section 1', checkedAt: '2026-11-07' }],
 }));
 
-const makeHarness = ({ questions = makeQuestions(), initialProgress, writeResult = { saved: true, error: null }, chooseQuestions } = {}) => {
+const makeHarness = ({ questions = makeQuestions(), initialProgress, readStatus = 'saved', writeResult = { saved: true, error: null }, chooseQuestions } = {}) => {
   const dom = new JSDOM('<main id="app-root"></main>', { url: 'https://example.test' });
   let progress = structuredClone(initialProgress ?? { version: 1, questions: {}, activeSession: null });
   const root = dom.window.document.querySelector('#app-root');
+  let writeCount = 0;
   const progressStore = {
-    read: () => ({ progress: structuredClone(progress), status: 'saved' }),
+    read: () => ({ progress: structuredClone(progress), status: readStatus }),
     write: (nextProgress) => {
+      writeCount += 1;
       progress = structuredClone(nextProgress);
       return writeResult;
     },
@@ -85,7 +87,7 @@ const makeHarness = ({ questions = makeQuestions(), initialProgress, writeResult
     new dom.window.MouseEvent('click', { bubbles: true }),
   );
 
-  return { dom, root, progress: () => progress, app, click };
+  return { dom, root, progress: () => progress, writes: () => writeCount, app, click };
 };
 
 test('home summarizes unseen and missed questions', () => {
@@ -99,6 +101,12 @@ test('home summarizes unseen and missed questions', () => {
 
   assert.match(harness.root.textContent, /49 unseen/i);
   assert.match(harness.root.textContent, /1 to review/i);
+});
+
+test('discloses lessons missing from the current question set', () => {
+  const harness = makeHarness({ questions: bankContent });
+
+  assert.match(harness.root.textContent, /does not yet include questions from Lessons 2, 3 and 6/i);
 });
 
 test('shows Roman Urdu directly below the English question without translating choices', () => {
@@ -170,6 +178,17 @@ test('warns when browser storage refuses to save progress', () => {
   harness.click('[data-action="start"]');
 
   assert.match(harness.root.textContent, /could not be saved/i);
+});
+
+test('preserves corrupt or incompatible saved data instead of overwriting it', () => {
+  for (const readStatus of ['corrupt', 'incompatible']) {
+    const harness = makeHarness({ readStatus });
+    harness.click('[data-action="start"]');
+
+    assert.equal(harness.writes(), 0, `${readStatus} saved data must not be replaced`);
+    assert.match(harness.root.textContent, /could not be read/i);
+    assert.match(harness.root.textContent, /not overwrite/i);
+  }
 });
 
 test('resumes an unfinished session with its saved order and answers', () => {
