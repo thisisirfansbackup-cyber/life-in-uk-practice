@@ -19,7 +19,8 @@ test('round-trips versioned progress through browser storage', () => {
   const storage = memoryStorage();
   const progress = {
     version: 1,
-    questions: { q1: { attempts: 2, incorrectTotal: 1, consecutiveIncorrect: 0 } },
+    completedTestCount: 4,
+    questions: { q1: { attempts: 2, incorrectTotal: 1, consecutiveIncorrect: 0, nextReviewTest: 7 } },
     activeSession: null,
   };
 
@@ -37,20 +38,31 @@ test('records attempts, incorrect totals, and last-seen time', () => {
     consecutiveIncorrect: 1,
     correctStreak: 0,
     lastSeenAt: '2026-11-07T12:00:00.000Z',
-    nextReviewAt: '2026-11-07T12:00:00.000Z',
+    nextReviewTest: 2,
   });
+  assert.equal(updated.completedTestCount, 1);
 });
 
-test('advances correct-answer review intervals through 1, 3, 7, 14, then 30 days', () => {
+test('schedules correct answers for test 3, then advances through tests 7, 14, and 30', () => {
   let progress = { version: 1, questions: {}, activeSession: null };
-  const expectedDays = [1, 3, 7, 14, 30, 30];
-  const start = new Date('2026-11-07T12:00:00.000Z');
+  const correct = resultFor('q1', true);
 
-  for (let index = 0; index < expectedDays.length; index += 1) {
-    const now = new Date(start.getTime() + index * 1000).toISOString();
-    progress = recordCompletedTest(progress, resultFor('q1', true), now);
-    const due = new Date(progress.questions.q1.nextReviewAt);
-    assert.equal(Math.round((due - new Date(now)) / 86400000), expectedDays[index]);
+  progress = recordCompletedTest(progress, correct, '2026-11-07T12:00:00.000Z');
+  assert.equal(progress.completedTestCount, 1);
+  assert.equal(progress.questions.q1.nextReviewTest, 3);
+
+  progress = recordCompletedTest(progress, correct, '2026-11-07T12:00:01.000Z');
+  assert.equal(progress.completedTestCount, 2);
+  assert.equal(progress.questions.q1.nextReviewTest, 3, 'a correct answer before its scheduled test does not move the milestone');
+
+  progress = recordCompletedTest(progress, correct, '2026-11-07T12:00:02.000Z');
+  assert.equal(progress.questions.q1.nextReviewTest, 7);
+
+  for (const [completedTestCount, expectedNextTest] of [[6, 14], [13, 30], [29, 60]]) {
+    progress = { ...progress, completedTestCount, questions: { q1: { ...progress.questions.q1, nextReviewTest: completedTestCount + 1 } } };
+    progress = recordCompletedTest(progress, correct, '2026-11-07T12:00:03.000Z');
+    assert.equal(progress.completedTestCount, completedTestCount + 1);
+    assert.equal(progress.questions.q1.nextReviewTest, expectedNextTest);
   }
 });
 
@@ -60,6 +72,7 @@ test('a wrong answer restores next-test priority and resets the correct interval
     questions: {
       q1: { attempts: 2, incorrectTotal: 1, consecutiveIncorrect: 0, correctStreak: 2 },
     },
+    completedTestCount: 4,
     activeSession: null,
   };
 
@@ -67,7 +80,7 @@ test('a wrong answer restores next-test priority and resets the correct interval
 
   assert.equal(updated.questions.q1.consecutiveIncorrect, 1);
   assert.equal(updated.questions.q1.correctStreak, 0);
-  assert.equal(updated.questions.q1.nextReviewAt, '2026-11-07T12:00:00.000Z');
+  assert.equal(updated.questions.q1.nextReviewTest, 6);
 });
 
 test('returns a safe empty state for corrupt JSON', () => {

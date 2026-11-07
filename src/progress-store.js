@@ -1,6 +1,10 @@
 export const PROGRESS_STORAGE_KEY = 'lifeinuk-progress-v1';
 
 const emptyProgress = () => ({ version: 1, questions: {}, activeSession: null });
+const REVIEW_TEST_MILESTONES = [1, 3, 7, 14, 30];
+
+const nextReviewTestAfter = (testNumber) => REVIEW_TEST_MILESTONES.find((milestone) => milestone > testNumber)
+  ?? testNumber + 30;
 
 const asIsoString = (value) => {
   const date = value instanceof Date ? value : new Date(value);
@@ -64,7 +68,8 @@ export function recordCompletedTest(progress, result, now = new Date()) {
     ...progress,
     questions: { ...(progress?.questions ?? {}) },
   };
-  const intervals = [1, 3, 7, 14, 30];
+  const completedTestCount = (updated.completedTestCount ?? 0) + 1;
+  updated.completedTestCount = completedTestCount;
 
   for (const entry of result?.entries ?? []) {
     if (!entry?.questionId) continue;
@@ -73,9 +78,11 @@ export function recordCompletedTest(progress, result, now = new Date()) {
     const incorrectTotal = (previous.incorrectTotal ?? 0) + (entry.correct ? 0 : 1);
     const consecutiveIncorrect = entry.correct ? 0 : (previous.consecutiveIncorrect ?? 0) + 1;
     const correctStreak = entry.correct ? (previous.correctStreak ?? 0) + 1 : 0;
-    const nextReviewAt = entry.correct
-      ? new Date(new Date(lastSeenAt).getTime() + intervals[Math.min(correctStreak - 1, intervals.length - 1)] * 86400000).toISOString()
-      : lastSeenAt;
+    const nextReviewTest = entry.correct
+      ? (Number.isInteger(previous.nextReviewTest) && previous.nextReviewTest > completedTestCount
+        ? previous.nextReviewTest
+        : nextReviewTestAfter(completedTestCount))
+      : completedTestCount + 1;
 
     updated.questions[entry.questionId] = {
       attempts,
@@ -83,7 +90,7 @@ export function recordCompletedTest(progress, result, now = new Date()) {
       consecutiveIncorrect,
       correctStreak,
       lastSeenAt,
-      nextReviewAt,
+      nextReviewTest,
     };
   }
 

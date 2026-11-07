@@ -72,8 +72,8 @@ const makeHarness = ({ questions = makeQuestions(), initialProgress, readStatus 
   };
   const app = mountApp(root, {
     questions,
-    selectTestQuestions: chooseQuestions ?? ((bank, progress, currentTime, size) => bank.length < size
-      ? selectTestQuestions(bank, progress, currentTime, size, () => 0.5)
+    selectTestQuestions: chooseQuestions ?? ((bank, progress, size) => bank.length < size
+      ? selectTestQuestions(bank, progress, size, () => 0.5)
       : { questionIds: bank.slice(0, size).map((question) => question.id), error: null }),
     createSession,
     updateAnswer,
@@ -95,13 +95,18 @@ test('home summarizes unseen and missed questions', () => {
   const harness = makeHarness({
     initialProgress: {
       version: 1,
-      questions: { q0: { attempts: 2, consecutiveIncorrect: 1, nextReviewAt: '2026-11-07T12:00:00.000Z' } },
+      completedTestCount: 1,
+      questions: {
+        q0: { attempts: 2, consecutiveIncorrect: 1, nextReviewTest: 4 },
+        q1: { attempts: 1, consecutiveIncorrect: 0, nextReviewTest: 2 },
+        q2: { attempts: 1, consecutiveIncorrect: 0, nextReviewTest: 5 },
+      },
       activeSession: null,
     },
   });
 
-  assert.match(harness.root.textContent, /49 unseen/i);
-  assert.match(harness.root.textContent, /1 to review/i);
+  assert.match(harness.root.textContent, /47 unseen/i);
+  assert.match(harness.root.textContent, /2 to review/i);
 });
 
 test('discloses lessons missing from the current question set', () => {
@@ -182,6 +187,7 @@ test('submits answers and shows a score with a complete end-of-test review', () 
   firstChoice.checked = true;
   firstChoice.dispatchEvent(new harness.dom.window.Event('change', { bubbles: true }));
   harness.click('[data-action="check"]');
+  assert.equal(harness.progress().completedTestCount, undefined, 'checking answers does not count an unfinished test');
   harness.click('[data-action="next"]');
   for (const choiceId of ['a', 'c']) {
     const choice = harness.root.querySelector(`[data-choice-id="${choiceId}"]`);
@@ -201,6 +207,7 @@ test('submits answers and shows a score with a complete end-of-test review', () 
   assert.match(harness.root.textContent, /50\s*\/\s*50/);
   assert.equal(harness.root.querySelectorAll('.review-item').length, 50);
   assert.equal(harness.progress().questions.q0.attempts, 1, 'completed tests update revision history');
+  assert.equal(harness.progress().completedTestCount, 1, 'a completed 50-question test advances the schedule once');
 });
 
 test('shows an unavailable-test message instead of starting a short test', () => {
