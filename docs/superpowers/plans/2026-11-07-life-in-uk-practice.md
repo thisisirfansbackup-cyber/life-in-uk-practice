@@ -171,9 +171,9 @@
 - The Pages workflow deploys the static project from the repository's default branch without a build dependency.
 - The published site contains only public app/question content; learner progress remains in browser storage and is never submitted.
 
-- [ ] **Step 1: Write deployment documentation** in `README.md` describing local preview, tests, progress privacy, and the GitHub Pages setting/source required for deployment.
-- [ ] **Step 2: Add a GitHub Actions Pages workflow** that uploads the static site and deploys it from the default branch using the official Pages actions and least-required permissions.
-- [ ] **Step 3: Run `npm test` and `npm run check:bank`; confirm both pass before deployment.**
+- [x] **Step 1: Write deployment documentation** in `README.md` describing local preview, tests, progress privacy, and the GitHub Pages setting/source required for deployment.
+- [x] **Step 2: Add a GitHub Actions Pages workflow** that uploads the static site and deploys it from the default branch using the official Pages actions and least-required permissions.
+- [x] **Step 3: Run `npm test` and `npm run check:bank`; confirm both pass before deployment.**
 - [ ] **Step 4: Create a public GitHub repository for the finished static app, push the reviewed project branch, enable Pages, and wait for the workflow deployment to succeed.** The repo contains no learner progress; the site is intended to be publicly accessible by link.
 - [ ] **Step 5: Open the published HTTPS link and smoke-test home, a 50-question run, select-two scoring, results, local persistence, phone layout, and the non-official-site notice; commit any workflow/documentation follow-up.**
 
