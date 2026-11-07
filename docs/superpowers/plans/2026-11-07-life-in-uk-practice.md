@@ -39,6 +39,7 @@
 - `src/main.js` — application startup, module wiring, and top-level error handling.
 - `src/styles.css` — responsive visual system, phone-first layout, focus states, and reduced-motion handling.
 - `src/question-bank.js` — question-bank loading and structural/content validation.
+- `scripts/check-bank.mjs` — Node command-line validation of the question JSON.
 - `src/revision.js` — deterministic test selection and spaced-review priority rules.
 - `src/session.js` — answer selection, navigation state, submission, and score/review calculations.
 - `src/progress-store.js` — versioned browser-local progress and active-session persistence.
@@ -79,6 +80,7 @@
 
 **Files:**
 - Create: `src/question-bank.js`
+- Create: `scripts/check-bank.mjs`
 - Create: `data/questions.json`
 - Create: `data/content-audit.md`
 - Create: `tests/question-bank.test.js`
@@ -90,7 +92,7 @@
 
 - [ ] **Step 1: Write failing bank tests** for valid single-answer/select-two entries, duplicate IDs, missing Roman Urdu, choice counts other than four, invalid answer IDs, and answer counts inconsistent with `answerType`.
 - [ ] **Step 2: Run `node --test tests/question-bank.test.js` and confirm it fails** because the validator and bank do not exist.
-- [ ] **Step 3: Implement the validator and its schema** in `src/question-bank.js`; add a `npm run check:bank` command that parses `data/questions.json` and reports every validation error.
+- [ ] **Step 3: Implement the validator and its schema** in `src/question-bank.js`; add `scripts/check-bank.mjs` and a `npm run check:bank` command that parses `data/questions.json` and reports every validation error.
 - [ ] **Step 4: Identify the current official study material** and record its exact title/edition, publisher, accessible source reference, and access date in `data/content-audit.md` before using it as the answer authority.
 - [ ] **Step 5: Extract and normalize all usable questions from supplied Lessons 1–17** into `data/questions.json`; consolidate exact/substantive repeats while preserving distinct useful wording and lesson provenance.
 - [ ] **Step 6: Verify every included answer and relevant wording against the official material; correct discrepancies** and record each material correction with question ID, original lesson claim, corrected claim, and source locator in `data/content-audit.md`.
