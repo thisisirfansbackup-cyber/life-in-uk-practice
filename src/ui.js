@@ -85,9 +85,12 @@ export function mountApp(root, dependencies) {
 
   const renderHome = () => {
     const unseen = questions.filter((question) => !(state.progress.questions?.[question.id]?.attempts > 0)).length;
+    const upcomingTestNumber = (state.progress.completedTestCount ?? 0) + 1;
     const review = questions.filter((question) => {
       const item = state.progress.questions?.[question.id];
-      return item && ((item.consecutiveIncorrect ?? 0) > 0 || (item.nextReviewAt && new Date(item.nextReviewAt) <= now()));
+      return item && ((item.consecutiveIncorrect ?? 0) > 0
+        || !Number.isInteger(item.nextReviewTest)
+        || item.nextReviewTest <= upcomingTestNumber);
     }).length;
     const activeSession = state.progress.activeSession;
     return `
@@ -198,7 +201,7 @@ export function mountApp(root, dependencies) {
   };
 
   const startTest = () => {
-    const selected = selectTestQuestions(questions, state.progress, now(), 50);
+    const selected = selectTestQuestions(questions, state.progress, 50);
     if (selected.error) {
       state.message = selected.error;
       render();

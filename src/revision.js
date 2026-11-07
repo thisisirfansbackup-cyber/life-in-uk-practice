@@ -39,7 +39,7 @@ const shuffleMissesWithinRanks = (misses, random) => {
   return shuffled;
 };
 
-export function selectTestQuestions(questions, progress = {}, now = new Date(), size = 50, random = Math.random) {
+export function selectTestQuestions(questions, progress = {}, size = 50, random = Math.random) {
   const progressById = progress?.questions ?? {};
   const unique = new Map();
   for (const question of questions ?? []) {
@@ -55,7 +55,7 @@ export function selectTestQuestions(questions, progress = {}, now = new Date(), 
     };
   }
 
-  const currentTime = timestamp(now);
+  const upcomingTestNumber = (progress?.completedTestCount ?? 0) + 1;
   const misses = [];
   const unseen = [];
   const due = [];
@@ -67,7 +67,8 @@ export function selectTestQuestions(questions, progress = {}, now = new Date(), 
       unseen.push(question);
     } else if ((questionProgress.consecutiveIncorrect ?? 0) > 0) {
       misses.push({ ...question, progress: questionProgress });
-    } else if (timestamp(questionProgress.nextReviewAt) <= currentTime) {
+    } else if (!Number.isInteger(questionProgress.nextReviewTest)
+      || questionProgress.nextReviewTest <= upcomingTestNumber) {
       due.push(question);
     } else {
       remaining.push(question);
