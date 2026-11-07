@@ -1,4 +1,9 @@
 const isNonEmptyString = (value) => typeof value === 'string' && value.trim().length > 0;
+const isIsoDate = (value) => {
+  if (typeof value !== 'string' || !/^\d{4}-\d{2}-\d{2}$/.test(value)) return false;
+  const date = new Date(`${value}T00:00:00.000Z`);
+  return Number.isFinite(date.getTime()) && date.toISOString().slice(0, 10) === value;
+};
 
 export function validateQuestion(question) {
   const errors = [];
@@ -64,7 +69,7 @@ export function validateQuestion(question) {
       }
       if (!isNonEmptyString(source.title)) errors.push(`sources[${index}].title is required`);
       if (!isNonEmptyString(source.locator)) errors.push(`sources[${index}].locator is required`);
-      if (!/^\d{4}-\d{2}-\d{2}$/.test(source.checkedAt ?? '')) {
+      if (!isIsoDate(source.checkedAt)) {
         errors.push(`sources[${index}].checkedAt must use YYYY-MM-DD`);
       }
     }

@@ -81,3 +81,12 @@ test('requires lesson provenance and a dated source locator', async () => {
   assert.ok(validateQuestion(question({ lessonNumbers: [] })).some((error) => error.includes('lessonNumbers')));
   assert.ok(validateQuestion(question({ sources: [] })).some((error) => error.includes('sources')));
 });
+
+test('rejects impossible official-source check dates', async () => {
+  const { validateQuestion } = await getBankModule();
+
+  const invalidDate = question({
+    sources: [{ title: 'Official study guide', locator: 'Chapter 1', checkedAt: '2026-19-45' }],
+  });
+  assert.ok(validateQuestion(invalidDate).some((error) => error.includes('checkedAt')));
+});
