@@ -371,7 +371,34 @@ h1 {
 
 .question-actions {
   justify-content: space-between;
+  flex-wrap: wrap;
   margin-block: 1.5rem 0;
+}
+
+.answer-feedback {
+  margin-top: 1.25rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid currentColor;
+  border-radius: 0.8rem;
+  background: var(--surface);
+  line-height: 1.5;
+}
+
+.answer-feedback p {
+  margin: 0;
+}
+
+.answer-feedback .feedback-status {
+  font-weight: 750;
+}
+
+.answer-feedback ul {
+  margin: 0.55rem 0;
+  padding-left: 1.25rem;
+}
+
+.answer-feedback p + p {
+  margin-top: 0.65rem;
 }
 
 .score-line {

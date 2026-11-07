@@ -5,7 +5,7 @@ import { fileURLToPath } from 'node:url';
 import test from 'node:test';
 import { JSDOM } from 'jsdom';
 import { selectTestQuestions } from '../src/revision.js';
-import { createSession, moveToQuestion, submitSession, updateAnswer } from '../src/session.js';
+import { checkCurrentAnswer, createSession, moveToQuestion, submitSession, updateAnswer } from '../src/session.js';
 import { recordCompletedTest } from '../src/progress-store.js';
 import { mountApp } from '../src/ui.js';
 import { startApp } from '../src/main.js';
@@ -77,6 +77,7 @@ const makeHarness = ({ questions = makeQuestions(), initialProgress, readStatus 
       : { questionIds: bank.slice(0, size).map((question) => question.id), error: null }),
     createSession,
     updateAnswer,
+    checkCurrentAnswer,
     moveToQuestion,
     submitSession,
     progressStore,
@@ -122,16 +123,45 @@ test('shows Roman Urdu directly below the English question without translating c
   ]);
 });
 
-test('renders single-choice and select-two controls and supports navigation', () => {
+test('requires checking an answer before advancing and shows immediate wrong-answer feedback', () => {
   const harness = makeHarness();
   harness.click('[data-action="start"]');
   assert.equal(harness.root.querySelector('input[type="radio"]') !== null, true);
-  harness.root.querySelector('[data-choice-id="a"]').checked = true;
-  harness.root.querySelector('[data-choice-id="a"]').dispatchEvent(new harness.dom.window.Event('change', { bubbles: true }));
+  assert.equal(harness.root.querySelector('[data-action="next"]').disabled, true);
   harness.click('[data-action="next"]');
+  assert.match(harness.root.textContent, /Question 1 of 50/);
 
+  harness.root.querySelector('[data-choice-id="b"]').checked = true;
+  harness.root.querySelector('[data-choice-id="b"]').dispatchEvent(new harness.dom.window.Event('change', { bubbles: true }));
+  harness.click('[data-action="check"]');
+  assert.match(harness.root.textContent, /Incorrect/i);
+  assert.match(harness.root.textContent, /English choice one/i);
+  assert.match(harness.root.textContent, /A short explanation/i);
+  assert.equal(harness.root.querySelector('[data-action="next"]').disabled, false);
+  assert.equal(harness.root.querySelector('[data-choice-id="b"]').disabled, true);
+  assert.equal(harness.progress().activeSession.checkedQuestionIds.includes('q0'), true);
+  assert.equal(harness.progress().questions.q0, undefined, 'unfinished tests do not update revision history');
+
+  harness.click('[data-action="next"]');
   assert.match(harness.root.textContent, /Question 2 of 50/);
   assert.equal(harness.root.querySelectorAll('input[type="checkbox"]').length, 4);
+  assert.equal(harness.root.querySelector('[data-action="check"]').disabled, true);
+});
+
+test('requires exactly two selections before checking a select-two question', () => {
+  const harness = makeHarness();
+  harness.click('[data-action="start"]');
+  harness.root.querySelector('[data-choice-id="a"]').checked = true;
+  harness.root.querySelector('[data-choice-id="a"]').dispatchEvent(new harness.dom.window.Event('change', { bubbles: true }));
+  harness.click('[data-action="check"]');
+  harness.click('[data-action="next"]');
+  harness.root.querySelector('[data-choice-id="a"]').checked = true;
+  harness.root.querySelector('[data-choice-id="a"]').dispatchEvent(new harness.dom.window.Event('change', { bubbles: true }));
+  assert.equal(harness.root.querySelector('[data-action="check"]').disabled, true);
+  harness.root.querySelector('[data-choice-id="c"]').checked = true;
+  harness.root.querySelector('[data-choice-id="c"]').dispatchEvent(new harness.dom.window.Event('change', { bubbles: true }));
+  assert.equal(harness.root.querySelector('[data-action="check"]').disabled, false);
+  assert.deepEqual(harness.progress().activeSession.checkedQuestionIds, ['q0']);
 });
 
 test('keeps keyboard focus on the selected answer when progress is saved', () => {
@@ -151,18 +181,26 @@ test('submits answers and shows a score with a complete end-of-test review', () 
   const firstChoice = harness.root.querySelector('[data-choice-id="a"]');
   firstChoice.checked = true;
   firstChoice.dispatchEvent(new harness.dom.window.Event('change', { bubbles: true }));
+  harness.click('[data-action="check"]');
   harness.click('[data-action="next"]');
   for (const choiceId of ['a', 'c']) {
     const choice = harness.root.querySelector(`[data-choice-id="${choiceId}"]`);
     choice.checked = true;
     choice.dispatchEvent(new harness.dom.window.Event('change', { bubbles: true }));
   }
-  for (let index = 1; index < 49; index += 1) harness.click('[data-action="next"]');
+  harness.click('[data-action="check"]');
+  for (let index = 1; index < 49; index += 1) {
+    harness.click('[data-action="next"]');
+    harness.root.querySelector('[data-choice-id="a"]').checked = true;
+    harness.root.querySelector('[data-choice-id="a"]').dispatchEvent(new harness.dom.window.Event('change', { bubbles: true }));
+    harness.click('[data-action="check"]');
+  }
   harness.click('[data-action="submit"]');
 
   assert.match(harness.root.textContent, /Your result/i);
-  assert.match(harness.root.textContent, /2\s*\/\s*50/);
+  assert.match(harness.root.textContent, /50\s*\/\s*50/);
   assert.equal(harness.root.querySelectorAll('.review-item').length, 50);
+  assert.equal(harness.progress().questions.q0.attempts, 1, 'completed tests update revision history');
 });
 
 test('shows an unavailable-test message instead of starting a short test', () => {
@@ -197,6 +235,7 @@ test('resumes an unfinished session with its saved order and answers', () => {
   const choice = first.root.querySelector('[data-choice-id="a"]');
   choice.checked = true;
   choice.dispatchEvent(new first.dom.window.Event('change', { bubbles: true }));
+  first.click('[data-action="check"]');
   first.click('[data-action="next"]');
   const savedIds = first.progress().activeSession.questionIds;
 
@@ -207,6 +246,20 @@ test('resumes an unfinished session with its saved order and answers', () => {
   assert.match(restored.root.textContent, /Question 2 of 50/);
   assert.deepEqual(restored.progress().activeSession.questionIds, savedIds);
   assert.deepEqual(restored.progress().activeSession.answers.q0, ['a']);
+});
+
+test('resumes a checked question with its feedback and locked answer', () => {
+  const first = makeHarness();
+  first.click('[data-action="start"]');
+  first.root.querySelector('[data-choice-id="b"]').checked = true;
+  first.root.querySelector('[data-choice-id="b"]').dispatchEvent(new first.dom.window.Event('change', { bubbles: true }));
+  first.click('[data-action="check"]');
+
+  const restored = makeHarness({ initialProgress: first.progress() });
+  restored.click('[data-action="resume"]');
+  assert.match(restored.root.textContent, /Incorrect/i);
+  assert.equal(restored.root.querySelector('[data-choice-id="b"]').disabled, true);
+  assert.equal(restored.root.querySelector('[data-action="next"]').disabled, false);
 });
 
 test('shows a recoverable startup message when the question bank cannot load', async () => {

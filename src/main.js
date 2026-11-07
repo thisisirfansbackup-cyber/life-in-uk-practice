@@ -1,6 +1,6 @@
 import { loadQuestionBank } from './question-bank.js';
 import { selectTestQuestions } from './revision.js';
-import { createSession, moveToQuestion, submitSession, updateAnswer } from './session.js';
+import { checkCurrentAnswer, createSession, moveToQuestion, submitSession, updateAnswer } from './session.js';
 import { readProgress, recordCompletedTest, writeProgress } from './progress-store.js';
 import { mountApp } from './ui.js';
 
@@ -30,6 +30,7 @@ export async function startApp({ root, fetchImpl, storage } = {}) {
       selectTestQuestions,
       createSession,
       updateAnswer,
+      checkCurrentAnswer,
       moveToQuestion,
       submitSession,
       progressStore: {
