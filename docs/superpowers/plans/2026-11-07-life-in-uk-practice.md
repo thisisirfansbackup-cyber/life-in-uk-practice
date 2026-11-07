@@ -70,11 +70,11 @@
 - Produces: A static HTML entry point loading `src/main.js` as an ES module, a responsive stylesheet, and `npm test` invoking `node --test`.
 - No third-party runtime dependencies; the DOM test dependency is introduced in Task 5 only.
 
-- [ ] **Step 1: Initialize a local Git repository and write the failing shell test** in `tests/ui.test.js` using Node built-ins to assert the document has a main landmark, an app mount point, viewport metadata, and a page title that does not imply government affiliation.
-- [ ] **Step 2: Run `node --test tests/ui.test.js` and confirm it fails** because the page shell is absent.
-- [ ] **Step 3: Implement the minimum page shell, module entry point, stylesheet reset/tokens, package scripts, and `.gitignore`** in the listed files. Include responsive viewport metadata, semantic landmarks, and visible keyboard focus styles.
-- [ ] **Step 4: Run `node --test tests/ui.test.js` and confirm it passes.**
-- [ ] **Step 5: Run `npm test` and confirm the test command discovers and passes the shell test; commit the project foundation.**
+- [x] **Step 1: Initialize a local Git repository and write the failing shell test** in `tests/ui.test.js` using Node built-ins to assert the document has a main landmark, an app mount point, viewport metadata, and a page title that does not imply government affiliation.
+- [x] **Step 2: Run `node --test tests/ui.test.js` and confirm it fails** because the page shell is absent.
+- [x] **Step 3: Implement the minimum page shell, module entry point, stylesheet reset/tokens, package scripts, and `.gitignore`** in the listed files. Include responsive viewport metadata, semantic landmarks, and visible keyboard focus styles.
+- [x] **Step 4: Run `node --test tests/ui.test.js` and confirm it passes.**
+- [x] **Step 5: Run `npm test` and confirm the test command discovers and passes the shell test; commit the project foundation.**
 
 ## Task 2: Build and audit the question bank
 
@@ -112,14 +112,14 @@
 - `createSession(questionIds) -> session` and `scoreSession(session, questionMap) -> result` in `src/session.js`.
 - A session stores a stable ordered list of question IDs, selected choice IDs per question, and the current question index. Result entries contain question ID, selected IDs, correct IDs, and correctness.
 
-- [ ] **Step 1: Write failing revision tests** for unseen priority, previous misses before other tiers, repeated-miss ranking, due correct reviews, randomization within a tier, no duplicates, exactly 50 IDs, and fewer-than-50 eligible questions.
-- [ ] **Step 2: Run `node --test tests/revision.test.js` and confirm it fails** because selection is not implemented.
-- [ ] **Step 3: Implement `selectTestQuestions`** with the four priority tiers from the spec; return a clear error rather than a partial test when fewer than 50 eligible unique questions exist.
-- [ ] **Step 4: Run `node --test tests/revision.test.js` and confirm it passes.**
-- [ ] **Step 5: Write failing session tests** for single-choice scoring, exact set scoring for select-two (including wrong partial/extra selections), navigation, answer revision, and complete result review.
-- [ ] **Step 6: Run `node --test tests/session.test.js` and confirm it fails** before implementation.
-- [ ] **Step 7: Implement session creation, answer updates, navigation bounds, submission, and scoring** in `src/session.js`; compare choice IDs as sets, never by visible order.
-- [ ] **Step 8: Run `node --test tests/session.test.js` and confirm it passes, then commit the tested quiz logic.**
+- [x] **Step 1: Write failing revision tests** for unseen priority, previous misses before other tiers, repeated-miss ranking, due correct reviews, randomization within a tier, no duplicates, exactly 50 IDs, and fewer-than-50 eligible questions.
+- [x] **Step 2: Run `node --test tests/revision.test.js` and confirm it fails** because selection is not implemented.
+- [x] **Step 3: Implement `selectTestQuestions`** with the four priority tiers from the spec; return a clear error rather than a partial test when fewer than 50 eligible unique questions exist.
+- [x] **Step 4: Run `node --test tests/revision.test.js` and confirm it passes.**
+- [x] **Step 5: Write failing session tests** for single-choice scoring, exact set scoring for select-two (including wrong partial/extra selections), navigation, answer revision, and complete result review.
+- [x] **Step 6: Run `node --test tests/session.test.js` and confirm it fails** before implementation.
+- [x] **Step 7: Implement session creation, answer updates, navigation bounds, submission, and scoring** in `src/session.js`; compare choice IDs as sets, never by visible order.
+- [x] **Step 8: Run `node --test tests/session.test.js` and confirm it passes, then commit the tested quiz logic.**
 
 ## Task 4: Save progress and unfinished tests locally
 
@@ -132,12 +132,12 @@
 - Store format is versioned and includes per-question attempts, total/consecutive incorrect counts, last-seen time, next-review time, and an optional unfinished session.
 - Correct-answer intervals are 1, 3, 7, 14, then 30 days. A wrong answer restores next-test priority; after a correct retry, the interval sequence restarts.
 
-- [ ] **Step 1: Write failing storage tests** for round-trip persistence, completed-test statistics, interval advancement, wrong-answer reset, corrupt JSON, unsupported storage, quota/write errors, and incompatible stored version.
-- [ ] **Step 2: Run `node --test tests/progress-store.test.js` and confirm it fails** because the storage module is absent.
-- [ ] **Step 3: Implement versioned parsing, safe reads/writes, progress updates, and serialization** in `src/progress-store.js`; expose save failure status to the caller.
-- [ ] **Step 4: Run `node --test tests/progress-store.test.js` and confirm it passes.**
-- [ ] **Step 5: Add a test proving an unfinished session restores the same ordered 50 IDs and saved selections** after constructing a new store instance from the same storage.
-- [ ] **Step 6: Run `node --test tests/progress-store.test.js` again and confirm it passes, then commit the storage module.**
+- [x] **Step 1: Write failing storage tests** for round-trip persistence, completed-test statistics, interval advancement, wrong-answer reset, corrupt JSON, unsupported storage, quota/write errors, and incompatible stored version.
+- [x] **Step 2: Run `node --test tests/progress-store.test.js` and confirm it fails** because the storage module is absent.
+- [x] **Step 3: Implement versioned parsing, safe reads/writes, progress updates, and serialization** in `src/progress-store.js`; expose save failure status to the caller.
+- [x] **Step 4: Run `node --test tests/progress-store.test.js` and confirm it passes.**
+- [x] **Step 5: Add a test proving an unfinished session restores the same ordered 50 IDs and saved selections** after constructing a new store instance from the same storage.
+- [x] **Step 6: Run `node --test tests/progress-store.test.js` again and confirm it passes, then commit the storage module.**
 
 ## Task 5: Connect the mobile practice interface
 
