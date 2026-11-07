@@ -153,13 +153,13 @@
 - `src/main.js` loads the JSON bank, initializes dependencies, mounts the app, and displays a recoverable error if content cannot load or storage is unavailable.
 - `jsdom` is a development-only dependency added here for DOM-level tests; it is not included in the published site.
 
-- [ ] **Step 1: Add jsdom as a development-only dependency and write failing DOM tests** for home progress counts, English stem followed by Roman Urdu (without translated choices), single/select-two selection, question navigation, submit/results review, unavailable-bank messaging, and storage-save warning.
-- [ ] **Step 2: Run `node --test tests/ui.test.js` and confirm the new assertions fail.**
-- [ ] **Step 3: Implement home, question, result, and review views** in `src/ui.js`; render choices from stable IDs, save changes through the injected store, and preserve the active session.
-- [ ] **Step 4: Connect startup and recoverable load/storage errors** in `src/main.js`.
-- [ ] **Step 5: Complete the phone-first visual design** in `src/styles.css`, including large touch targets, readable Roman Urdu text, selected-state labels, keyboard focus, non-color status cues, and reduced-motion support.
-- [ ] **Step 6: Run `node --test tests/ui.test.js` and `npm test`; confirm all tests pass.**
-- [ ] **Step 7: Serve the static site locally and verify on a phone-sized viewport** that a learner can start, finish, review, refresh, and resume a 50-question test without horizontal overflow; commit the completed interface.
+- [x] **Step 1: Add jsdom as a development-only dependency and write failing DOM tests** for home progress counts, English stem followed by Roman Urdu (without translated choices), single/select-two selection, question navigation, submit/results review, unavailable-bank messaging, and storage-save warning.
+- [x] **Step 2: Run `node --test tests/ui.test.js` and confirm the new assertions fail.**
+- [x] **Step 3: Implement home, question, result, and review views** in `src/ui.js`; render choices from stable IDs, save changes through the injected store, and preserve the active session.
+- [x] **Step 4: Connect startup and recoverable load/storage errors** in `src/main.js`.
+- [x] **Step 5: Complete the phone-first visual design** in `src/styles.css`, including large touch targets, readable Roman Urdu text, selected-state labels, keyboard focus, non-color status cues, and reduced-motion support.
+- [x] **Step 6: Run `node --test tests/ui.test.js` and `npm test`; confirm all tests pass.**
+- [x] **Step 7: Serve the static site locally and verify on a phone-sized viewport** that a learner can start, finish, review, refresh, and resume a 50-question test without horizontal overflow; commit the completed interface.
 
 ## Task 6: Publish and verify GitHub Pages
 

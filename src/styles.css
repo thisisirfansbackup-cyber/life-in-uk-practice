@@ -145,6 +145,322 @@ h1 {
   margin: 0;
 }
 
+.app-root {
+  max-width: 44rem;
+}
+
+.home-view h1,
+.results-view h1 {
+  max-width: 16ch;
+  margin-block: 0 0.85rem;
+  font-size: 2.35rem;
+  letter-spacing: -0.03em;
+  line-height: 1.08;
+}
+
+.intro,
+.result-intro {
+  max-width: 38rem;
+  margin-block: 0 1.25rem;
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.format-note {
+  margin-block: 1.5rem;
+  padding: 0.85rem 1rem;
+  border: 1px solid var(--line);
+  border-radius: 0.8rem;
+  background: var(--surface);
+  font-size: 0.92rem;
+  font-weight: 650;
+}
+
+.progress-summary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 2.5rem;
+  padding-block: 0.25rem 1.25rem;
+}
+
+.progress-summary p {
+  display: flex;
+  align-items: baseline;
+  gap: 0.4rem;
+  margin: 0;
+  color: var(--muted);
+}
+
+.progress-summary strong {
+  color: var(--ink);
+  font-size: 1.35rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.home-actions,
+.question-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-block: 0.5rem 1.5rem;
+}
+
+.button {
+  min-height: 3rem;
+  padding: 0.7rem 1.15rem;
+  border: 1px solid transparent;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  font-weight: 700;
+  transition: background-color 160ms ease-out, border-color 160ms ease-out, color 160ms ease-out;
+}
+
+.button-primary {
+  background: var(--accent);
+  color: #fff;
+}
+
+.button-primary:hover:not(:disabled) {
+  background: var(--accent-dark);
+}
+
+.button-secondary {
+  border-color: var(--line);
+  background: var(--surface);
+  color: var(--ink);
+}
+
+.button-secondary:hover:not(:disabled) {
+  border-color: var(--accent);
+  color: var(--accent-dark);
+}
+
+.button:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+.privacy-note {
+  max-width: 42rem;
+  color: var(--muted);
+  font-size: 0.88rem;
+  line-height: 1.5;
+}
+
+.save-warning,
+.inline-error {
+  margin-block: 1rem;
+  padding: 0.8rem 1rem;
+  border: 1px solid #a84825;
+  border-radius: 0.75rem;
+  background: #fff7f1;
+  color: #722d16;
+  line-height: 1.5;
+}
+
+.question-progress {
+  margin-block: 0 2rem;
+}
+
+.question-count {
+  margin: 0 0 0.55rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-weight: 650;
+  font-variant-numeric: tabular-nums;
+}
+
+.question-progress progress {
+  display: block;
+  width: 100%;
+  height: 0.55rem;
+  overflow: hidden;
+  border: 0;
+  border-radius: 999px;
+  background: var(--line);
+  accent-color: var(--accent);
+}
+
+.question-progress progress::-webkit-progress-bar {
+  border-radius: 999px;
+  background: var(--line);
+}
+
+.question-progress progress::-webkit-progress-value {
+  border-radius: 999px;
+  background: var(--accent);
+}
+
+.question-progress progress::-moz-progress-bar {
+  border-radius: 999px;
+  background: var(--accent);
+}
+
+.question-prompt {
+  max-width: 38ch;
+  margin-block: 0 0.6rem;
+  font-size: 1.65rem;
+  letter-spacing: -0.025em;
+  line-height: 1.25;
+}
+
+.question-translation {
+  margin: 0 0 1.6rem;
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.answer-instruction {
+  margin-block: 0 0.7rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.answer-list {
+  display: grid;
+  gap: 0.65rem;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.answer-option {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.85rem;
+  min-height: 3.5rem;
+  padding: 0.95rem 1rem;
+  border: 1px solid var(--line);
+  border-radius: 0.8rem;
+  background: var(--surface);
+  cursor: pointer;
+  line-height: 1.45;
+  transition: border-color 160ms ease-out, background-color 160ms ease-out;
+}
+
+.answer-option:hover {
+  border-color: var(--accent);
+}
+
+.answer-option.is-selected {
+  border-color: var(--accent-dark);
+  background: #e9f4f1;
+}
+
+.answer-option input {
+  width: 1.15rem;
+  height: 1.15rem;
+  flex: 0 0 auto;
+  margin: 0.1rem 0 0;
+  accent-color: var(--accent-dark);
+}
+
+.choice-label {
+  flex: 1;
+}
+
+.question-actions {
+  justify-content: space-between;
+  margin-block: 1.5rem 0;
+}
+
+.score-line {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 0 0 0.5rem;
+}
+
+.score-line strong {
+  font-size: 2rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.score-line span {
+  color: var(--muted);
+}
+
+.review-list {
+  margin: 2rem 0;
+  padding: 0;
+  list-style: none;
+}
+
+.review-item {
+  padding-block: 1.4rem;
+  border-top: 1px solid var(--line);
+}
+
+.review-item h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.15rem;
+  line-height: 1.35;
+}
+
+.review-item .question-translation {
+  margin-bottom: 0.8rem;
+  font-size: 0.94rem;
+}
+
+.review-status {
+  margin: 0 0 0.55rem;
+  font-weight: 750;
+}
+
+.is-correct {
+  color: #176640;
+}
+
+.is-incorrect {
+  color: #a13c25;
+}
+
+.review-choices {
+  display: grid;
+  gap: 0.35rem;
+  margin: 0;
+  padding-left: 1.25rem;
+  line-height: 1.5;
+}
+
+.review-choices span {
+  color: var(--accent-dark);
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.explanation {
+  margin-block: 0.75rem 0;
+  color: var(--muted);
+  line-height: 1.55;
+}
+
+.startup-error h1 {
+  max-width: 18ch;
+  font-size: 2rem;
+  letter-spacing: -0.025em;
+  line-height: 1.2;
+}
+
+.startup-error p {
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  clip-path: inset(50%);
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
@@ -152,5 +468,34 @@ h1 {
     scroll-behavior: auto !important;
     transition-duration: 0.01ms !important;
     animation-duration: 0.01ms !important;
+  }
+}
+
+@media (max-width: 36rem) {
+  .site-header,
+  .page-shell,
+  .site-footer {
+    width: min(100% - 1.25rem, 56rem);
+  }
+
+  .page-shell {
+    padding-block: 2.25rem 3rem;
+  }
+
+  .home-view h1,
+  .results-view h1 {
+    font-size: 2rem;
+  }
+
+  .question-prompt {
+    font-size: 1.45rem;
+  }
+
+  .home-actions .button {
+    width: 100%;
+  }
+
+  .question-actions .button {
+    flex: 1;
   }
 }

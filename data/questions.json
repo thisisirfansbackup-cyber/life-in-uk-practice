@@ -64,7 +64,7 @@
     "answerType": "single",
     "verificationStatus": "corrected",
     "lessonNumbers": [10],
-    "explanation": "Current law provides for 16 constituencies returning six members each. The older guide amendment still says 60, so this answer follows the later Act.",
+    "explanation": "The Senedd has 16 constituencies, each returning six members under the current electoral structure.",
     "sources": [
       { "title": "Senedd Cymru (Members and Elections) Act 2024, section 1", "url": "https://www.legislation.gov.uk/asc/2024/4/section/1/enacted", "locator": "Section 1: 16 constituencies with six members each", "checkedAt": "2026-11-07" },
       { "title": "TSO: latest-impression amendments to the official guide", "url": "https://www.tsoshop.co.uk/gempdf/Life_in_the_UK_latest_impression_amendments%2003012025.pdf", "locator": "Impression 26: retains 60 members", "checkedAt": "2026-11-07" }
@@ -407,7 +407,7 @@
     "answerType": "single",
     "verificationStatus": "corrected",
     "lessonNumbers": [9],
-    "explanation": "The question is limited to Bank of England notes: £50 is its highest current denomination. Scottish and Northern Irish banks also issue £100 notes, so the original all-UK wording was ambiguous.",
+    "explanation": "The Bank of England issues £5, £10, £20 and £50 notes. Scottish and Northern Irish banks also issue £100 notes.",
     "sources": [{ "title": "Bank of England: Current banknotes", "url": "https://www.bankofengland.co.uk/banknotes/current-banknotes", "locator": "Current banknote denominations", "checkedAt": "2026-11-07" }]
   },
   {
@@ -594,7 +594,7 @@
     "answerType": "single",
     "verificationStatus": "corrected",
     "lessonNumbers": [15, 16],
-    "explanation": "The AM moped category starts at 16. A1 light motorcycles start at 17, so the original wording should distinguish vehicle categories.",
+    "explanation": "The AM category covers mopeds from age 16; A1 light motorcycles have a minimum age of 17.",
     "sources": [{ "title": "GOV.UK: Vehicles you can drive", "url": "https://www.gov.uk/vehicles-can-drive", "locator": "AM moped and A1 motorcycle categories and ages", "checkedAt": "2026-11-07" }]
   },
   {
@@ -747,7 +747,7 @@
     "answerType": "single",
     "verificationStatus": "verified",
     "lessonNumbers": [17],
-    "explanation": "Thatcher served continuously from 1979 to 1990; the claim is limited to the 20th century and continuous tenure.",
+    "explanation": "Margaret Thatcher served continuously from 1979 to 1990, the longest continuous tenure of any UK Prime Minister in the 20th century.",
     "sources": [{ "title": "GOV.UK: History of Margaret Thatcher", "url": "https://www.gov.uk/government/history/past-prime-ministers/margaret-thatcher", "locator": "Dates in office", "checkedAt": "2026-11-07" }]
   },
   {
@@ -849,7 +849,7 @@
     "answerType": "single",
     "verificationStatus": "corrected",
     "lessonNumbers": [17],
-    "explanation": "The Ten Hours Act limited working hours for women and young persons (13–18) in textile factories; “children” is not the precise category in this provision.",
+    "explanation": "The Ten Hours Act limited working hours for women and young persons aged 13–18 in textile factories.",
     "sources": [{ "title": "Factory Act 1847", "url": "https://www.legislation.gov.uk/ukpga/Vict/10-11/29/contents", "locator": "Act scope and working-hour provision", "checkedAt": "2026-11-07" }]
   },
   {
