@@ -20,6 +20,9 @@ export function mountApp(root, dependencies) {
     moveToQuestion,
     submitSession,
     progressStore,
+    blocks,
+    getNextStudyBlock,
+    selectRevisionQuestions,
     now = () => new Date(),
   } = dependencies;
   const questionMap = new Map(questions.map((question) => [question.id, question]));
@@ -39,11 +42,14 @@ export function mountApp(root, dependencies) {
 
   const state = {
     screen: 'home',
-    progress: readResult?.progress ?? emptyProgress(),
+    progress: readResult?.progress ?? (blocks ? emptyProgressV2() : emptyProgress()),
     storageUnavailable: readResult?.status === 'unavailable',
     preserveExistingStorage: ['corrupt', 'incompatible'].includes(readResult?.status),
     result: null,
-    message: '',
+    message: readResult?.warning ?? '',
+    storageSnapshot: readResult?.storageSnapshot,
+    pendingStart: null,
+    returnFocus: null,
   };
   let saveError = state.preserveExistingStorage
     ? 'Your saved progress could not be read. We will not overwrite it; new progress may not be saved.'
@@ -54,11 +60,16 @@ export function mountApp(root, dependencies) {
     if (state.preserveExistingStorage) return;
     let outcome;
     try {
-      outcome = progressStore.write(progress);
+      outcome = progressStore.write(progress, { expectedSerialized: state.storageSnapshot });
     } catch (error) {
       outcome = { saved: false, error: error instanceof Error ? error.message : '' };
     }
     saveError = outcome?.saved ? '' : 'Your progress could not be saved in this browser.';
+    if (outcome?.saved) state.storageSnapshot = outcome.storageSnapshot;
+    if (/changed elsewhere/i.test(outcome?.error ?? '')) {
+      saveError = 'Your progress changed in another tab. Reload before saving more progress.';
+      state.preserveExistingStorage = true;
+    }
   };
 
   const warningText = () => saveError
@@ -84,6 +95,7 @@ export function mountApp(root, dependencies) {
   const focusHeading = (selector) => root.querySelector(selector)?.focus();
 
   const renderHome = () => {
+    if (blocks) return renderBlockHome();
     const unseen = questions.filter((question) => !(state.progress.questions?.[question.id]?.attempts > 0)).length;
     const upcomingTestNumber = (state.progress.completedTestCount ?? 0) + 1;
     const review = questions.filter((question) => {
@@ -113,6 +125,49 @@ export function mountApp(root, dependencies) {
       </section>`;
   };
 
+  const renderBlockHome = () => {
+    const completed = state.progress.completedBlockIds ?? [];
+    const next = getNextStudyBlock(blocks, completed);
+    const review = selectRevisionQuestions(questions, state.progress);
+    const active = state.progress.activeSession;
+    return `
+      <section class="home-view" aria-labelledby="home-title">
+        <h1 id="home-title" tabindex="-1">Practice with purpose.</h1>
+        <p class="intro">Work through all 407 questions in order. Return to mistakes in separate revision rounds.</p>
+        <p class="format-note">Seven blocks of 51 questions, then one of 50 · Independent practice, not the official test format.</p>
+        <p class="block-coverage">${completed.length} of 8 blocks completed. Coverage is not the same as mastery.</p>
+        <div class="home-actions">
+          ${active ? '<button class="button button-primary" type="button" data-action="resume">Resume unfinished test</button>' : ''}
+          ${next ? `<button class="button ${active ? 'button-secondary' : 'button-primary'}" type="button" data-action="next-block">Continue with Block ${next.number}</button>` : '<p>You have worked through all 407 questions. Keep revising the ones you missed.</p>'}
+        </div>
+        <ol class="study-blocks" aria-label="Study blocks">
+          ${blocks.map(block => `<li>
+            <button class="block-choice" type="button" data-action="study-block" data-block-id="${escapeAttribute(block.id)}">
+              <strong>Block ${block.number}</strong>
+              <span>Questions ${block.start}–${block.end}</span>
+              <span class="block-state">${completed.includes(block.id) ? 'Completed · Practice again' : active?.blockId === block.id ? 'In progress' : 'Not completed'}</span>
+            </button>
+          </li>`).join('')}
+        </ol>
+        <section class="revision-section" aria-labelledby="revision-heading">
+          <h2 id="revision-heading">Revisit what needs practice</h2>
+          <p>Mistakes and due reviews stay separate from your study blocks.</p>
+          <button class="button button-secondary" type="button" data-action="revision">Start revision${review.questionIds.length ? ` · ${review.questionIds.length} questions` : ''}</button>
+        </section>
+        <p class="privacy-note">Your progress is saved only in this browser on this device. Clearing site data may remove it.</p>
+        ${renderWarning()}
+        ${state.message ? `<p class="inline-error" role="status">${escapeHtml(state.message)}</p>` : ''}
+        ${state.pendingStart ? `<div class="replacement-overlay"><div class="replace-confirmation" role="alertdialog" aria-modal="true" aria-labelledby="replace-title" aria-describedby="replace-description">
+          <h2 id="replace-title">Replace your unfinished test?</h2>
+          <p id="replace-description">Starting this practice will replace your unfinished answers. Your completed history will stay saved.</p>
+          <div class="home-actions">
+            <button class="button button-secondary" type="button" data-action="cancel-replace">Keep unfinished test</button>
+            <button class="button button-primary" type="button" data-action="confirm-replace">Replace and start</button>
+          </div>
+        </div></div>` : ''}
+      </section>`;
+  };
+
   const renderQuestion = () => {
     const session = state.progress.activeSession;
     const questionId = session.questionIds[session.currentIndex];
@@ -128,6 +183,7 @@ export function mountApp(root, dependencies) {
     return `
       <section class="test-view" aria-labelledby="question-heading">
         <div class="question-progress">
+          ${blocks ? `<p class="practice-mode">${session.mode === 'study' ? `Block ${escapeHtml(session.blockId?.split('-')[1])}` : session.mode === 'revision' ? 'Revision round' : 'Earlier unfinished test'}</p>` : ''}
           <p class="question-count">Question ${number} of ${session.questionIds.length}</p>
           <progress value="${number}" max="${session.questionIds.length}" aria-label="Test progress"></progress>
         </div>
@@ -215,6 +271,30 @@ export function mountApp(root, dependencies) {
     focusHeading('#question-heading');
   };
 
+  const beginPractice = (request) => {
+    state.pendingStart = null;
+    persist({ ...state.progress, activeSession: createSession(request.questionIds, request) });
+    state.message = '';
+    state.screen = 'test';
+    render();
+    focusHeading('#question-heading');
+  };
+
+  const requestPractice = (request, returnFocus) => {
+    if (state.progress.activeSession) {
+      state.pendingStart = request;
+      state.returnFocus = returnFocus;
+      render();
+      root.querySelector('[data-action="cancel-replace"]')?.focus();
+    } else beginPractice(request);
+  };
+
+  const cancelReplacement = () => {
+    state.pendingStart = null;
+    render();
+    root.querySelector(state.returnFocus)?.focus();
+  };
+
   const saveAnswer = () => {
     const session = state.progress.activeSession;
     const questionId = session.questionIds[session.currentIndex];
@@ -240,8 +320,33 @@ export function mountApp(root, dependencies) {
   };
 
   const onClick = (event) => {
-    const action = event.target.closest('[data-action]')?.dataset.action;
+    const control = event.target.closest('[data-action]');
+    const action = control?.dataset.action;
     if (!action) return;
+    if (state.pendingStart && !['confirm-replace', 'cancel-replace'].includes(action)) return;
+
+    if (action === 'cancel-replace') { cancelReplacement(); return; }
+    if (action === 'confirm-replace') {
+      if (state.pendingStart) beginPractice(state.pendingStart);
+      return;
+    }
+    if (blocks && (action === 'study-block' || action === 'next-block')) {
+      const block = action === 'next-block'
+        ? getNextStudyBlock(blocks, state.progress.completedBlockIds ?? [])
+        : blocks.find(item => item.id === control.dataset.blockId);
+      if (block) requestPractice({ questionIds: block.questionIds, mode: 'study', blockId: block.id },
+        action === 'next-block' ? '[data-action="next-block"]' : `[data-block-id="${block.id}"]`);
+      return;
+    }
+    if (blocks && action === 'revision') {
+      const selected = selectRevisionQuestions(questions, state.progress);
+      if (!selected.questionIds.length || selected.error) {
+        state.message = selected.error ?? 'There is nothing to revise right now. Continue with your study blocks.';
+        render();
+        root.querySelector('[data-action="revision"]')?.focus();
+      } else requestPractice({ questionIds: selected.questionIds, mode: 'revision' }, '[data-action="revision"]');
+      return;
+    }
 
     if (action === 'start') startTest();
     if (action === 'resume' && state.progress.activeSession) {
@@ -273,6 +378,24 @@ export function mountApp(root, dependencies) {
       }
     }
     if (action === 'submit') {
+      if (!state.progress.activeSession) return;
+      if (blocks) {
+        const outcome = progressStore.recordCompletedSession(
+          state.progress, state.progress.activeSession, questionMap, now(),
+        );
+        if (outcome.error || !outcome.result) {
+          state.questionError = outcome.error ?? '';
+          render();
+          return;
+        }
+        persist(outcome.progress);
+        state.result = outcome.result;
+        state.questionError = '';
+        state.screen = 'results';
+        render();
+        focusHeading('#results-title');
+        return;
+      }
       const submitted = submitSession(state.progress.activeSession, questionMap);
       if (!submitted.submitted) return;
       const nextProgress = progressStore.recordCompletedTest(
@@ -296,8 +419,26 @@ export function mountApp(root, dependencies) {
     }
   };
 
+  const onKeyDown = event => {
+    if (!state.pendingStart) return;
+    if (event.key === 'Escape') {
+      event.preventDefault();
+      cancelReplacement();
+    } else if (event.key === 'Tab') {
+      const buttons = [...root.querySelectorAll('.replace-confirmation button')];
+      const first = buttons[0];
+      const last = buttons.at(-1);
+      if (event.shiftKey && root.ownerDocument.activeElement === first) {
+        event.preventDefault(); last.focus();
+      } else if (!event.shiftKey && root.ownerDocument.activeElement === last) {
+        event.preventDefault(); first.focus();
+      }
+    }
+  };
+
   root.addEventListener('click', onClick);
   root.addEventListener('change', onChange);
+  root.addEventListener('keydown', onKeyDown);
   render();
 
   return {
@@ -305,6 +446,8 @@ export function mountApp(root, dependencies) {
     destroy() {
       root.removeEventListener('click', onClick);
       root.removeEventListener('change', onChange);
+      root.removeEventListener('keydown', onKeyDown);
     },
   };
 }
+import { emptyProgressV2 } from './progress-validation.js';

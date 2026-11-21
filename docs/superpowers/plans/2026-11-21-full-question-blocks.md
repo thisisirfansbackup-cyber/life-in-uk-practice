@@ -215,11 +215,11 @@ test('completion is idempotent by session identity', () => {
 - Retain `mountApp(root, dependencies) -> { render, destroy }`; adapt existing test harness dependency names in the same task.
 - UI actions: select block, next unfinished block, start revision, resume, confirm/cancel replacement, check, previous/next, finish, return home.
 
-- [ ] Write UI tests with a synthetic 407-question bank: eight ranges and completion states; next unfinished block; individual block selection; last block's `50` count; all-complete state distinct from mastery; revision count equals Task 3 eligibility.
-- [ ] Write UI tests for revision empty state, one-question completion, frequently wrong selection, independent block progress, and no unseen fill. Completing the final block must not require question 51.
-- [ ] Write tests that starting either mode with an unfinished session opens accessible replacement confirmation; cancel leaves storage/session unchanged, confirm preserves completed history, and reload resumes the exact mode/order/answers/check states.
+- [x] Write UI tests with a synthetic 407-question bank: eight ranges and completion states; next unfinished block; individual block selection; last block's `50` count; all-complete state distinct from mastery; revision count equals Task 3 eligibility.
+- [x] Write UI tests for revision empty state, one-question completion, frequently wrong selection, independent block progress, and no unseen fill. Completing the final block must not require question 51.
+- [x] Write tests that starting either mode with an unfinished session opens accessible replacement confirmation; cancel leaves storage/session unchanged, confirm preserves completed history, and reload resumes the exact mode/order/answers/check states.
 - [ ] Test duplicate finish clicks and remount after completion: history increments once, no active session returns, and revision never marks a block done. Test unavailable/corrupt storage warnings remain after answer changes, navigation, and completion.
-- [ ] Test startup failures for invalid collection or mapping and fetch errors; require a visible startup error, not a partially usable bank. Test HTML escaping of question, translation, choice and feedback text.
+- [x] Test startup failures for invalid collection or mapping and fetch errors; require a visible startup error, not a partially usable bank. Test HTML escaping of question, translation, choice and feedback text.
 
 Test anchor (extend existing harness with accessible-action helpers):
 ```js
@@ -232,7 +232,7 @@ test('revision never advances study-block coverage', () => {
 });
 ```
 
-- [ ] Run `node --test tests/ui.test.js`; verify failures describe missing block/revision flow.
+- [x] Run `node --test tests/ui.test.js`; verify failures describe missing block/revision flow.
 - [ ] Implement UI wiring without duplicating ranking, block membership, or completion policy. Provide a labelled keyboard-operable confirmation with sensible focus restoration; retain check feedback focus, touch targets, non-colour status cues, and reduced-motion behaviour. Avoid fixed 50/51 assumptions in progress/results.
 - [ ] Remove obsolete random-start wiring once all callers are migrated. Update narrow CSS only for block list and confirmation.
 - [ ] Run `npm test` and `npm run check:bank:full`; expect all tests and full-content validation pass.
