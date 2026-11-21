@@ -13,12 +13,12 @@
         "text": "The Isle of Man"
       },
       {
-        "id": "c",
-        "text": "Scotland"
-      },
-      {
         "id": "d",
         "text": "Northern Ireland"
+      },
+      {
+        "id": "c",
+        "text": "Scotland"
       },
       {
         "id": "b",
@@ -50,20 +50,20 @@
     "romanUrdu": "Kya BBC government ke control mein hai?",
     "choices": [
       {
-        "id": "a",
-        "text": "No, it is independent"
+        "id": "c",
+        "text": "Yes, Parliament chooses its editors"
       },
       {
         "id": "b",
         "text": "Yes, the Prime Minister runs it"
       },
       {
-        "id": "d",
-        "text": "Yes, but only during elections"
+        "id": "a",
+        "text": "No, it is independent"
       },
       {
-        "id": "c",
-        "text": "Yes, Parliament chooses its editors"
+        "id": "d",
+        "text": "Yes, but only during elections"
       }
     ],
     "correctChoiceIds": [
@@ -91,20 +91,20 @@
     "romanUrdu": "Northern Ireland Assembly ke kitne members hain?",
     "choices": [
       {
-        "id": "d",
-        "text": "120"
-      },
-      {
         "id": "b",
         "text": "60"
       },
       {
-        "id": "a",
-        "text": "90"
+        "id": "d",
+        "text": "120"
       },
       {
         "id": "c",
         "text": "96"
+      },
+      {
+        "id": "a",
+        "text": "90"
       }
     ],
     "correctChoiceIds": [
@@ -132,16 +132,16 @@
     "romanUrdu": "Battle of Trafalgar mein British fleet ki qiyadat kis ne ki?",
     "choices": [
       {
-        "id": "d",
-        "text": "Admiral Jellicoe"
-      },
-      {
         "id": "a",
         "text": "Admiral Nelson"
       },
       {
         "id": "b",
         "text": "The Duke of Wellington"
+      },
+      {
+        "id": "d",
+        "text": "Admiral Jellicoe"
       },
       {
         "id": "c",
@@ -173,20 +173,20 @@
     "romanUrdu": "Iron Age ke sikkon par kya likha hota tha?",
     "choices": [
       {
-        "id": "b",
-        "text": "The name of the Roman Emperor"
+        "id": "d",
+        "text": "The name of the local council"
       },
       {
         "id": "a",
         "text": "The names of Iron Age kings"
       },
       {
-        "id": "d",
-        "text": "The name of the local council"
-      },
-      {
         "id": "c",
         "text": "The date of the Norman Conquest"
+      },
+      {
+        "id": "b",
+        "text": "The name of the Roman Emperor"
       }
     ],
     "correctChoiceIds": [
@@ -214,20 +214,20 @@
     "romanUrdu": "Kya UK ki central government towns, cities aur rural areas ko barah-e-rast chalati hai?",
     "choices": [
       {
-        "id": "a",
-        "text": "No, local councils are responsible for many local services"
+        "id": "c",
+        "text": "Only in Scotland"
       },
       {
         "id": "b",
         "text": "Yes, central government runs everything"
       },
       {
-        "id": "c",
-        "text": "Only in Scotland"
-      },
-      {
         "id": "d",
         "text": "Only during elections"
+      },
+      {
+        "id": "a",
+        "text": "No, local councils are responsible for many local services"
       }
     ],
     "correctChoiceIds": [
@@ -255,20 +255,20 @@
     "romanUrdu": "Tate Britain kahan waqe hai?",
     "choices": [
       {
-        "id": "c",
-        "text": "In Cardiff"
-      },
-      {
         "id": "b",
         "text": "In Edinburgh"
       },
       {
-        "id": "a",
-        "text": "In London"
+        "id": "c",
+        "text": "In Cardiff"
       },
       {
         "id": "d",
         "text": "In Manchester"
+      },
+      {
+        "id": "a",
+        "text": "In London"
       }
     ],
     "correctChoiceIds": [
@@ -304,12 +304,12 @@
         "text": "The Latin Vulgate"
       },
       {
-        "id": "b",
-        "text": "The Geneva Bible"
-      },
-      {
         "id": "d",
         "text": "The Revised Standard Version"
+      },
+      {
+        "id": "b",
+        "text": "The Geneva Bible"
       }
     ],
     "correctChoiceIds": [
@@ -337,8 +337,8 @@
     "romanUrdu": "1960s ka daur kis liye mashhoor hai?",
     "choices": [
       {
-        "id": "b",
-        "text": "The Industrial Revolution"
+        "id": "a",
+        "text": "A growth in British fashion and pop music"
       },
       {
         "id": "d",
@@ -349,8 +349,8 @@
         "text": "The Norman Conquest"
       },
       {
-        "id": "a",
-        "text": "A growth in British fashion and pop music"
+        "id": "b",
+        "text": "The Industrial Revolution"
       }
     ],
     "correctChoiceIds": [
@@ -378,20 +378,20 @@
     "romanUrdu": "1680 se 1720 ke darmiyan Huguenot refugees England kis mulk se aaye?",
     "choices": [
       {
-        "id": "b",
-        "text": "Spain"
-      },
-      {
         "id": "c",
         "text": "Italy"
+      },
+      {
+        "id": "a",
+        "text": "France"
       },
       {
         "id": "d",
         "text": "The Netherlands"
       },
       {
-        "id": "a",
-        "text": "France"
+        "id": "b",
+        "text": "Spain"
       }
     ],
     "correctChoiceIds": [
@@ -419,16 +419,16 @@
     "romanUrdu": "UK mein khela jane wala sab se mashhoor tennis tournament kaunsa hai?",
     "choices": [
       {
-        "id": "d",
-        "text": "The Australian Open"
+        "id": "b",
+        "text": "The US Open"
       },
       {
         "id": "c",
         "text": "The French Open"
       },
       {
-        "id": "b",
-        "text": "The US Open"
+        "id": "d",
+        "text": "The Australian Open"
       },
       {
         "id": "a",
@@ -460,6 +460,10 @@
     "romanUrdu": "Kya MPs se sirf House of Commons ke office mein rabta kiya ja sakta hai?",
     "choices": [
       {
+        "id": "a",
+        "text": "No, they can also be contacted at constituency offices and by other means"
+      },
+      {
         "id": "d",
         "text": "Only during Parliament sittings"
       },
@@ -470,10 +474,6 @@
       {
         "id": "c",
         "text": "Only by post"
-      },
-      {
-        "id": "a",
-        "text": "No, they can also be contacted at constituency offices and by other means"
       }
     ],
     "correctChoiceIds": [
@@ -501,20 +501,20 @@
     "romanUrdu": "Kis din dopahar tak mazaqiya khabrein chapti aur broadcast hoti hain?",
     "choices": [
       {
-        "id": "a",
-        "text": "April Fool's Day, 1 April"
-      },
-      {
-        "id": "d",
-        "text": "New Year's Day, 1 January"
+        "id": "b",
+        "text": "Halloween, 31 October"
       },
       {
         "id": "c",
         "text": "Christmas Day, 25 December"
       },
       {
-        "id": "b",
-        "text": "Halloween, 31 October"
+        "id": "d",
+        "text": "New Year's Day, 1 January"
+      },
+      {
+        "id": "a",
+        "text": "April Fool's Day, 1 April"
       }
     ],
     "correctChoiceIds": [
@@ -550,12 +550,12 @@
         "text": "James I"
       },
       {
-        "id": "a",
-        "text": "Robert the Bruce"
-      },
-      {
         "id": "b",
         "text": "Macbeth"
+      },
+      {
+        "id": "a",
+        "text": "Robert the Bruce"
       }
     ],
     "correctChoiceIds": [
@@ -583,20 +583,20 @@
     "romanUrdu": "World Wide Web kis ne ijad kiya?",
     "choices": [
       {
-        "id": "c",
-        "text": "Alexander Fleming"
-      },
-      {
-        "id": "a",
-        "text": "Sir Tim Berners-Lee"
-      },
-      {
         "id": "d",
         "text": "John Logie Baird"
       },
       {
+        "id": "c",
+        "text": "Alexander Fleming"
+      },
+      {
         "id": "b",
         "text": "Sir Robert Watson-Watt"
+      },
+      {
+        "id": "a",
+        "text": "Sir Tim Berners-Lee"
       }
     ],
     "correctChoiceIds": [
@@ -624,20 +624,20 @@
     "romanUrdu": "Civil servants ki taqarrur kaise hoti hai aur unki siyasi haisiyat kya hai?",
     "choices": [
       {
-        "id": "a",
-        "text": "On merit, and they are politically neutral"
+        "id": "d",
+        "text": "By the monarch personally"
       },
       {
         "id": "b",
         "text": "By the governing party, and they are political"
       },
       {
-        "id": "d",
-        "text": "By the monarch personally"
-      },
-      {
         "id": "c",
         "text": "By public election"
+      },
+      {
+        "id": "a",
+        "text": "On merit, and they are politically neutral"
       }
     ],
     "correctChoiceIds": [
@@ -665,6 +665,10 @@
     "romanUrdu": "'Dunkirk spirit' se kya murad hai?",
     "choices": [
       {
+        "id": "c",
+        "text": "The Blitz in London"
+      },
+      {
         "id": "d",
         "text": "The D-Day landings"
       },
@@ -675,10 +679,6 @@
       {
         "id": "a",
         "text": "The evacuation of Allied forces from France during World War II"
-      },
-      {
-        "id": "c",
-        "text": "The Blitz in London"
       }
     ],
     "correctChoiceIds": [
@@ -706,20 +706,20 @@
     "romanUrdu": "Kya jury service ke liye kam az kam 21 saal ki umar zaroori hai?",
     "choices": [
       {
-        "id": "d",
-        "text": "Only in Scotland"
-      },
-      {
         "id": "a",
         "text": "No, the minimum age is 18"
       },
       {
-        "id": "b",
-        "text": "Yes, 21 is required"
-      },
-      {
         "id": "c",
         "text": "Yes, 25 is required"
+      },
+      {
+        "id": "d",
+        "text": "Only in Scotland"
+      },
+      {
+        "id": "b",
+        "text": "Yes, 21 is required"
       }
     ],
     "correctChoiceIds": [
@@ -747,8 +747,8 @@
     "romanUrdu": "Permanent resident ya citizen ko kaunsi DO zimmedariyan manni chahiye?",
     "choices": [
       {
-        "id": "d",
-        "text": "Avoid all community activity"
+        "id": "c",
+        "text": "Support the governing party"
       },
       {
         "id": "a",
@@ -759,8 +759,8 @@
         "text": "Look after yourself and your family"
       },
       {
-        "id": "c",
-        "text": "Support the governing party"
+        "id": "d",
+        "text": "Avoid all community activity"
       }
     ],
     "correctChoiceIds": [
@@ -789,20 +789,20 @@
     "romanUrdu": "2012 mein UK mein kaunsa bara sports event hua?",
     "choices": [
       {
-        "id": "b",
-        "text": "The FIFA World Cup"
-      },
-      {
-        "id": "a",
-        "text": "The Olympic Games"
-      },
-      {
         "id": "c",
         "text": "The Rugby World Cup"
       },
       {
         "id": "d",
         "text": "The Cricket World Cup"
+      },
+      {
+        "id": "a",
+        "text": "The Olympic Games"
+      },
+      {
+        "id": "b",
+        "text": "The FIFA World Cup"
       }
     ],
     "correctChoiceIds": [
@@ -830,20 +830,20 @@
     "romanUrdu": "King Charles I divine right of kings par yaqeen rakhta tha, is liye us ne kya karne ki koshish ki?",
     "choices": [
       {
-        "id": "c",
-        "text": "Give the vote to everyone"
+        "id": "d",
+        "text": "Join the Catholic Church"
       },
       {
         "id": "b",
         "text": "Abolish the monarchy"
       },
       {
-        "id": "a",
-        "text": "Rule without Parliament"
+        "id": "c",
+        "text": "Give the vote to everyone"
       },
       {
-        "id": "d",
-        "text": "Join the Catholic Church"
+        "id": "a",
+        "text": "Rule without Parliament"
       }
     ],
     "correctChoiceIds": [
@@ -871,20 +871,20 @@
     "romanUrdu": "Union Jack kya hai?",
     "choices": [
       {
-        "id": "a",
-        "text": "The national flag of the United Kingdom"
-      },
-      {
-        "id": "c",
-        "text": "The flag of the Commonwealth"
+        "id": "d",
+        "text": "The royal standard"
       },
       {
         "id": "b",
         "text": "The flag of England only"
       },
       {
-        "id": "d",
-        "text": "The royal standard"
+        "id": "a",
+        "text": "The national flag of the United Kingdom"
+      },
+      {
+        "id": "c",
+        "text": "The flag of the Commonwealth"
       }
     ],
     "correctChoiceIds": [
@@ -912,16 +912,16 @@
     "romanUrdu": "2002 ke BBC poll mein sab se bara Briton kaun chuna gaya?",
     "choices": [
       {
-        "id": "b",
-        "text": "Margaret Thatcher"
+        "id": "c",
+        "text": "William Shakespeare"
       },
       {
         "id": "a",
         "text": "Winston Churchill"
       },
       {
-        "id": "c",
-        "text": "William Shakespeare"
+        "id": "b",
+        "text": "Margaret Thatcher"
       },
       {
         "id": "d",
@@ -953,12 +953,12 @@
     "romanUrdu": "UK workforce ke bare mein kaunsa bayan durust hai?",
     "choices": [
       {
-        "id": "b",
-        "text": "Women are not allowed to work"
-      },
-      {
         "id": "c",
         "text": "Only men work full time"
+      },
+      {
+        "id": "b",
+        "text": "Women are not allowed to work"
       },
       {
         "id": "d",

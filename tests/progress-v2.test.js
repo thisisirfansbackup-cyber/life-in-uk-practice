@@ -179,6 +179,17 @@ const checkedSession = (mode = 'revision') => {
   return session;
 };
 
+test('a reordered active-session object is still accepted', () => {
+  const session = checkedSession();
+  const reordered = Object.fromEntries(Object.entries(session).reverse());
+  const outcome = store.recordCompletedSession(
+    { ...empty(), activeSession: session }, reordered,
+    new Map(questions.map(question => [question.id, question])),
+  );
+  assert.equal(outcome.error, null);
+  assert.ok(outcome.result);
+});
+
 test('completed session recording is idempotent and revision never advances a block', () => {
   assert.equal(typeof store.recordCompletedSession, 'function');
   const session = checkedSession();

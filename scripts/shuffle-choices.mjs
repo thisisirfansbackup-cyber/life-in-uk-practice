@@ -8,9 +8,19 @@ const seededRandom = (seed) => {
   };
 };
 
+const stableHash = (value) => {
+  let hash = 2166136261;
+  for (const character of value) {
+    hash ^= character.codePointAt(0);
+    hash = Math.imul(hash, 16777619);
+  }
+  return hash >>> 0;
+};
+
 export function shuffleChoices(question) {
   const random = seededRandom(question.sourceNumber * 7919 + 17);
-  const choices = [...question.choices];
+  const choices = [...question.choices]
+    .sort((left, right) => stableHash(`${left.id}\0${left.text}`) - stableHash(`${right.id}\0${right.text}`));
   for (let index = choices.length - 1; index > 0; index -= 1) {
     const other = Math.floor(random() * (index + 1));
     [choices[index], choices[other]] = [choices[other], choices[index]];

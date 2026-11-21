@@ -9,16 +9,16 @@
     "romanUrdu": "UK mein rehne wale har shakhs ki DO zimmedariyan kaunsi hain?",
     "choices": [
       {
-        "id": "d",
-        "text": "Never question the government"
-      },
-      {
         "id": "a",
         "text": "Respect and obey the law"
       },
       {
         "id": "c",
         "text": "Look after the area where you live and the environment"
+      },
+      {
+        "id": "d",
+        "text": "Never question the government"
       },
       {
         "id": "b",
@@ -51,20 +51,20 @@
     "romanUrdu": "Halloween kab manaya jata hai?",
     "choices": [
       {
-        "id": "d",
-        "text": "25 December"
-      },
-      {
-        "id": "c",
-        "text": "5 November"
-      },
-      {
         "id": "a",
         "text": "31 October"
       },
       {
         "id": "b",
         "text": "1 November"
+      },
+      {
+        "id": "c",
+        "text": "5 November"
+      },
+      {
+        "id": "d",
+        "text": "25 December"
       }
     ],
     "correctChoiceIds": [
@@ -92,20 +92,20 @@
     "romanUrdu": "Kya 1689 ke Bill of Rights ne aurton ko vote ka haq diya?",
     "choices": [
       {
-        "id": "a",
-        "text": "No"
-      },
-      {
         "id": "c",
         "text": "Yes, but only in Scotland"
+      },
+      {
+        "id": "b",
+        "text": "Yes, for parliamentary elections"
       },
       {
         "id": "d",
         "text": "Yes, for local elections only"
       },
       {
-        "id": "b",
-        "text": "Yes, for parliamentary elections"
+        "id": "a",
+        "text": "No"
       }
     ],
     "correctChoiceIds": [
@@ -137,16 +137,16 @@
         "text": "The Ashes"
       },
       {
-        "id": "d",
-        "text": "The Ryder Cup"
+        "id": "b",
+        "text": "The Six Nations"
       },
       {
         "id": "c",
         "text": "The Grand National"
       },
       {
-        "id": "b",
-        "text": "The Six Nations"
+        "id": "d",
+        "text": "The Ryder Cup"
       }
     ],
     "correctChoiceIds": [
@@ -174,20 +174,20 @@
     "romanUrdu": "18th sadi se pehle Britain mein rozgaar ka sab se bara zariya kya tha?",
     "choices": [
       {
-        "id": "d",
-        "text": "Tourism"
-      },
-      {
         "id": "b",
         "text": "Shipbuilding"
       },
       {
-        "id": "a",
-        "text": "Agriculture"
-      },
-      {
         "id": "c",
         "text": "Coal mining"
+      },
+      {
+        "id": "d",
+        "text": "Tourism"
+      },
+      {
+        "id": "a",
+        "text": "Agriculture"
       }
     ],
     "correctChoiceIds": [
@@ -215,20 +215,20 @@
     "romanUrdu": "1314 mein kya Robert the Bruce ki qiyadat mein Scots ne Bannockburn mein English ko shikast di?",
     "choices": [
       {
-        "id": "b",
-        "text": "No, the English won"
-      },
-      {
-        "id": "d",
-        "text": "The battle was a draw"
+        "id": "c",
+        "text": "Yes, but Scotland was then conquered"
       },
       {
         "id": "a",
         "text": "Yes, and Scotland remained unconquered"
       },
       {
-        "id": "c",
-        "text": "Yes, but Scotland was then conquered"
+        "id": "d",
+        "text": "The battle was a draw"
+      },
+      {
+        "id": "b",
+        "text": "No, the English won"
       }
     ],
     "correctChoiceIds": [
@@ -297,20 +297,20 @@
     "romanUrdu": "Kis Scottish qabeelay ko wafadari ki qasam der se lene par qatl kiya gaya?",
     "choices": [
       {
-        "id": "a",
-        "text": "The MacDonalds of Glencoe"
+        "id": "d",
+        "text": "The Douglases of Lanarkshire"
       },
       {
         "id": "b",
         "text": "The Campbells of Argyll"
       },
       {
-        "id": "d",
-        "text": "The Douglases of Lanarkshire"
-      },
-      {
         "id": "c",
         "text": "The Stewarts of Edinburgh"
+      },
+      {
+        "id": "a",
+        "text": "The MacDonalds of Glencoe"
       }
     ],
     "correctChoiceIds": [
@@ -338,16 +338,16 @@
     "romanUrdu": "Devolved administrations kin DO policy areas mein qanoon bana sakti hain?",
     "choices": [
       {
-        "id": "c",
-        "text": "Defence"
+        "id": "a",
+        "text": "Health"
       },
       {
         "id": "b",
         "text": "Education"
       },
       {
-        "id": "a",
-        "text": "Health"
+        "id": "c",
+        "text": "Defence"
       },
       {
         "id": "d",
@@ -384,16 +384,16 @@
         "text": "The Crimean War"
       },
       {
+        "id": "d",
+        "text": "The Boer War"
+      },
+      {
         "id": "a",
         "text": "The First World War"
       },
       {
         "id": "b",
         "text": "The Second World War"
-      },
-      {
-        "id": "d",
-        "text": "The Boer War"
       }
     ],
     "correctChoiceIds": [
@@ -425,16 +425,16 @@
         "text": "Glasgow"
       },
       {
+        "id": "d",
+        "text": "Dundee"
+      },
+      {
         "id": "a",
         "text": "Edinburgh"
       },
       {
         "id": "c",
         "text": "Aberdeen"
-      },
-      {
-        "id": "d",
-        "text": "Dundee"
       }
     ],
     "correctChoiceIds": [
@@ -462,16 +462,16 @@
     "romanUrdu": "Kya 1833 ke Emancipation Act ne poori British Empire mein ghulami khatam ki?",
     "choices": [
       {
-        "id": "b",
-        "text": "No, it applied only to England"
-      },
-      {
         "id": "d",
         "text": "No, slavery continued until 1928"
       },
       {
         "id": "c",
         "text": "No, it applied only to Scotland"
+      },
+      {
+        "id": "b",
+        "text": "No, it applied only to England"
       },
       {
         "id": "a",
@@ -503,20 +503,20 @@
     "romanUrdu": "Chhoti Scottish kheton ko bare gosht aur doodh ke farms ke liye khatam karne ko kya kaha jata tha?",
     "choices": [
       {
-        "id": "c",
-        "text": "The Corn Laws"
-      },
-      {
-        "id": "b",
-        "text": "The Enclosure Acts"
-      },
-      {
         "id": "d",
         "text": "The Act of Union"
       },
       {
         "id": "a",
         "text": "The Highland Clearances"
+      },
+      {
+        "id": "c",
+        "text": "The Corn Laws"
+      },
+      {
+        "id": "b",
+        "text": "The Enclosure Acts"
       }
     ],
     "correctChoiceIds": [
@@ -544,16 +544,16 @@
     "romanUrdu": "Kya Falkland Islands British Overseas Territory hain aur United Kingdom ka hissa hain?",
     "choices": [
       {
-        "id": "d",
-        "text": "They are part of Scotland"
+        "id": "b",
+        "text": "They are part of England"
       },
       {
         "id": "c",
         "text": "They are a Crown Dependency"
       },
       {
-        "id": "b",
-        "text": "They are part of England"
+        "id": "d",
+        "text": "They are part of Scotland"
       },
       {
         "id": "a",
@@ -585,20 +585,20 @@
     "romanUrdu": "English Civil War ki DO jangon kaunsi thin?",
     "choices": [
       {
-        "id": "b",
-        "text": "The Battle of Naseby"
-      },
-      {
         "id": "d",
         "text": "The Battle of Waterloo"
+      },
+      {
+        "id": "a",
+        "text": "The Battle of Marston Moor"
       },
       {
         "id": "c",
         "text": "The Battle of Hastings"
       },
       {
-        "id": "a",
-        "text": "The Battle of Marston Moor"
+        "id": "b",
+        "text": "The Battle of Naseby"
       }
     ],
     "correctChoiceIds": [
@@ -627,16 +627,16 @@
     "romanUrdu": "Aurton ke vote ke haq ke liye campaign karne wale group ka kya naam tha?",
     "choices": [
       {
-        "id": "d",
-        "text": "The Roundheads"
-      },
-      {
         "id": "c",
         "text": "The Cavaliers"
       },
       {
         "id": "a",
         "text": "The Suffragettes"
+      },
+      {
+        "id": "d",
+        "text": "The Roundheads"
       },
       {
         "id": "b",
@@ -668,20 +668,20 @@
     "romanUrdu": "2007 mein Britain ka pasandeeda manzar kaunsa chuna gaya?",
     "choices": [
       {
-        "id": "c",
-        "text": "Snowdon"
-      },
-      {
-        "id": "a",
-        "text": "Wastwater in the Lake District"
-      },
-      {
         "id": "d",
         "text": "The Giant's Causeway"
       },
       {
         "id": "b",
         "text": "The White Cliffs of Dover"
+      },
+      {
+        "id": "c",
+        "text": "Snowdon"
+      },
+      {
+        "id": "a",
+        "text": "Wastwater in the Lake District"
       }
     ],
     "correctChoiceIds": [
@@ -709,16 +709,16 @@
     "romanUrdu": "Stone Age mein Britain mein rehne wale pehle log kaun thay?",
     "choices": [
       {
+        "id": "c",
+        "text": "Norman settlers"
+      },
+      {
         "id": "a",
         "text": "Hunter-gatherers"
       },
       {
         "id": "d",
         "text": "Victorian factory workers"
-      },
-      {
-        "id": "c",
-        "text": "Norman settlers"
       },
       {
         "id": "b",
@@ -750,12 +750,12 @@
     "romanUrdu": "Pope aur Catholic Church ki iqtidar ke khilaf tehreek ko kya kaha jata tha?",
     "choices": [
       {
-        "id": "a",
-        "text": "The Reformation"
-      },
-      {
         "id": "d",
         "text": "The Restoration"
+      },
+      {
+        "id": "a",
+        "text": "The Reformation"
       },
       {
         "id": "c",
@@ -795,16 +795,16 @@
         "text": "Online or by phone through the official service"
       },
       {
-        "id": "b",
-        "text": "Only by visiting the House of Commons"
-      },
-      {
         "id": "c",
         "text": "Only through a solicitor"
       },
       {
         "id": "d",
         "text": "Only by writing to the monarch"
+      },
+      {
+        "id": "b",
+        "text": "Only by visiting the House of Commons"
       }
     ],
     "correctChoiceIds": [
@@ -832,12 +832,12 @@
     "romanUrdu": "In mein se England ka koi bara horse-racing event kaunsa hai?",
     "choices": [
       {
-        "id": "d",
-        "text": "The Ashes"
-      },
-      {
         "id": "a",
         "text": "Royal Ascot"
+      },
+      {
+        "id": "d",
+        "text": "The Ashes"
       },
       {
         "id": "b",
@@ -873,20 +873,20 @@
     "romanUrdu": "Scotland mein jury kitne logon par mushtamil hoti hai?",
     "choices": [
       {
-        "id": "b",
-        "text": "12"
-      },
-      {
         "id": "a",
         "text": "15"
       },
       {
-        "id": "d",
-        "text": "8"
-      },
-      {
         "id": "c",
         "text": "10"
+      },
+      {
+        "id": "b",
+        "text": "12"
+      },
+      {
+        "id": "d",
+        "text": "8"
       }
     ],
     "correctChoiceIds": [
@@ -922,12 +922,12 @@
         "text": "Advent"
       },
       {
-        "id": "a",
-        "text": "Lent"
-      },
-      {
         "id": "d",
         "text": "Epiphany"
+      },
+      {
+        "id": "a",
+        "text": "Lent"
       }
     ],
     "correctChoiceIds": [
@@ -959,12 +959,12 @@
         "text": "1066"
       },
       {
-        "id": "c",
-        "text": "1588"
-      },
-      {
         "id": "b",
         "text": "1314"
+      },
+      {
+        "id": "c",
+        "text": "1588"
       },
       {
         "id": "d",

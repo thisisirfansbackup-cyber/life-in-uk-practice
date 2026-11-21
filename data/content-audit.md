@@ -45,6 +45,10 @@ The current bank contains **all 407 source positions** from the supplied 17 less
 
 The full release gate (`npm run check:bank:full`) refuses a partial, untranslated, unconfirmed, or source-number-mismatched bank. The earlier 51-question published bank is archived at `data/audits/legacy-published-bank.json` for migration review.
 
+## Handbook source limitation
+
+Many lesson 4–17 items cite *Life in the UK: A guide for new residents*, 3rd edition (Crown copyright), using an accessible PDF copy hosted at `https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf`. That URL is a **third-party mirror of the official text**, not a government publication page. The edition, title and section locators identify the cited passages, and the full text was read during verification. Items whose only source is this handbook are therefore recorded as `corrected` rather than `verified`; the distinction is intentional. Current-law or changed-institution items use current official government, Parliament, regulator, Senedd or legislation pages instead. The paid official guide was not purchased or accessed through a government portal.
+
 ## Direct official pages checked
 
 | Source | What it supports | Accessed |

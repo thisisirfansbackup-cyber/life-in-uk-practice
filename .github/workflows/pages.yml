@@ -28,6 +28,8 @@ jobs:
         run: npm ci
       - name: Verify tests and complete content
         run: |
+          npm run build:bank
+          git diff --exit-code -- data/questions.json
           npm test
           npm run check:bank:full
       - name: Assemble public site files

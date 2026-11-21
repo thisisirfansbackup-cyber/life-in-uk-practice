@@ -1,6 +1,16 @@
+import { emptyProgressV2, migrateProgress, validHistory, validProgressV2, validSession } from './progress-validation.js';
+import { getStudyBlocks } from './study-blocks.js';
+import { submitSession } from './session.js';
+
+// Legacy key name retained so version-1 progress can be found and migrated.
 export const PROGRESS_STORAGE_KEY = 'lifeinuk-progress-v1';
 
 const emptyProgress = () => ({ version: 1, questions: {}, activeSession: null });
+const stableStringify = (value) => JSON.stringify(value, (key, item) => (
+  item && typeof item === 'object' && !Array.isArray(item)
+    ? Object.fromEntries(Object.entries(item).sort(([left], [right]) => left.localeCompare(right)))
+    : item
+));
 const REVIEW_TEST_MILESTONES = [1, 3, 7, 14, 30];
 
 const nextReviewTestAfter = (testNumber) => REVIEW_TEST_MILESTONES.find((milestone) => milestone > testNumber)
@@ -125,7 +135,7 @@ export function recordCompletedSession(progress, session, questionMap, now = new
   if (!validProgressV2(progress) || !session?.id) return fail('Invalid progress or session.');
   if (progress.completedSessionIds.includes(session.id)) return { progress, result: null, error: null };
   if (progress.activeSession?.id !== session.id
-    || JSON.stringify(progress.activeSession) !== JSON.stringify(session)) return fail('This test is no longer active.');
+    || stableStringify(progress.activeSession) !== stableStringify(session)) return fail('This test is no longer active.');
   const questions = questionMap instanceof Map ? [...questionMap.values()] : Object.values(questionMap ?? {});
   let blocks = [];
   if (session.mode === 'study') {
@@ -181,6 +191,3 @@ export function recordCompletedTest(progress, result, now = new Date()) {
 
   return updated;
 }
-import { emptyProgressV2, migrateProgress, validHistory, validProgressV2, validSession } from './progress-validation.js';
-import { getStudyBlocks } from './study-blocks.js';
-import { submitSession } from './session.js';

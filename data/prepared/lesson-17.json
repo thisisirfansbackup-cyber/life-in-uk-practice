@@ -9,20 +9,20 @@
     "romanUrdu": "In mein se kaunsi UK ki constitutional institution hai?",
     "choices": [
       {
-        "id": "d",
-        "text": "A private company"
+        "id": "b",
+        "text": "A football club"
       },
       {
         "id": "a",
         "text": "Parliament"
       },
       {
-        "id": "b",
-        "text": "A football club"
-      },
-      {
         "id": "c",
         "text": "A trade union"
+      },
+      {
+        "id": "d",
+        "text": "A private company"
       }
     ],
     "correctChoiceIds": [
@@ -50,20 +50,20 @@
     "romanUrdu": "19th sadi ke ausat mein Ireland ke Great Famine ki wajah kaunsi khurai ki kami thi?",
     "choices": [
       {
-        "id": "b",
-        "text": "Wheat imports stopped"
-      },
-      {
-        "id": "a",
-        "text": "The potato crop failed"
+        "id": "d",
+        "text": "Fish stocks disappeared"
       },
       {
         "id": "c",
         "text": "Rice could not be grown"
       },
       {
-        "id": "d",
-        "text": "Fish stocks disappeared"
+        "id": "b",
+        "text": "Wheat imports stopped"
+      },
+      {
+        "id": "a",
+        "text": "The potato crop failed"
       }
     ],
     "correctChoiceIds": [
@@ -95,16 +95,16 @@
         "text": "The Privy Council"
       },
       {
-        "id": "b",
-        "text": "The Cabinet Office"
+        "id": "d",
+        "text": "The Civil Service"
       },
       {
         "id": "a",
         "text": "The Shadow Cabinet"
       },
       {
-        "id": "d",
-        "text": "The Civil Service"
+        "id": "b",
+        "text": "The Cabinet Office"
       }
     ],
     "correctChoiceIds": [
@@ -132,20 +132,20 @@
     "romanUrdu": "MPs ki DO zimmedariyan kaunsi hain?",
     "choices": [
       {
-        "id": "a",
-        "text": "Represent everyone in their constituency"
+        "id": "d",
+        "text": "Command the armed forces"
       },
       {
-        "id": "c",
-        "text": "Appoint every local councillor"
+        "id": "a",
+        "text": "Represent everyone in their constituency"
       },
       {
         "id": "b",
         "text": "Help create new laws"
       },
       {
-        "id": "d",
-        "text": "Command the armed forces"
+        "id": "c",
+        "text": "Appoint every local councillor"
       }
     ],
     "correctChoiceIds": [
@@ -174,20 +174,20 @@
     "romanUrdu": "20th sadi mein musalsal sab se lambi muddat tak UK Prime Minister kaun rahe?",
     "choices": [
       {
-        "id": "d",
-        "text": "Harold Wilson"
+        "id": "a",
+        "text": "Margaret Thatcher"
       },
       {
         "id": "b",
         "text": "Clement Attlee"
       },
       {
-        "id": "c",
-        "text": "Tony Blair"
+        "id": "d",
+        "text": "Harold Wilson"
       },
       {
-        "id": "a",
-        "text": "Margaret Thatcher"
+        "id": "c",
+        "text": "Tony Blair"
       }
     ],
     "correctChoiceIds": [
@@ -215,20 +215,20 @@
     "romanUrdu": "Crown se linked lekin UK ka hissa na hone wale territories ko kya kaha jata hai?",
     "choices": [
       {
-        "id": "b",
-        "text": "British Overseas Territories"
+        "id": "c",
+        "text": "Commonwealth countries"
       },
       {
         "id": "d",
         "text": "Devolution areas"
       },
       {
-        "id": "c",
-        "text": "Commonwealth countries"
-      },
-      {
         "id": "a",
         "text": "Crown Dependencies"
+      },
+      {
+        "id": "b",
+        "text": "British Overseas Territories"
       }
     ],
     "correctChoiceIds": [
@@ -256,16 +256,16 @@
     "romanUrdu": "Scottish Enlightenment mein David Hume ne kis shobe mein hissa dala?",
     "choices": [
       {
-        "id": "b",
-        "text": "Medicine"
+        "id": "d",
+        "text": "Engineering"
       },
       {
         "id": "c",
         "text": "Astronomy"
       },
       {
-        "id": "d",
-        "text": "Engineering"
+        "id": "b",
+        "text": "Medicine"
       },
       {
         "id": "a",
@@ -301,16 +301,16 @@
         "text": "About three quarters"
       },
       {
-        "id": "c",
-        "text": "About half"
+        "id": "a",
+        "text": "About one third"
       },
       {
         "id": "b",
         "text": "About one tenth"
       },
       {
-        "id": "a",
-        "text": "About one third"
+        "id": "c",
+        "text": "About half"
       }
     ],
     "correctChoiceIds": [
@@ -342,12 +342,12 @@
         "text": "He was executed"
       },
       {
-        "id": "d",
-        "text": "He became a Member of Parliament"
-      },
-      {
         "id": "c",
         "text": "He escaped to Scotland"
+      },
+      {
+        "id": "d",
+        "text": "He became a Member of Parliament"
       },
       {
         "id": "b",
@@ -379,20 +379,20 @@
     "romanUrdu": "Monarch ki DO constitutional zimmedariyan kaunsi hain?",
     "choices": [
       {
-        "id": "c",
-        "text": "Write all new laws personally"
+        "id": "b",
+        "text": "Advise, warn and encourage the Prime Minister"
       },
       {
-        "id": "d",
-        "text": "Choose every local councillor"
+        "id": "c",
+        "text": "Write all new laws personally"
       },
       {
         "id": "a",
         "text": "Appoint the government"
       },
       {
-        "id": "b",
-        "text": "Advise, warn and encourage the Prime Minister"
+        "id": "d",
+        "text": "Choose every local councillor"
       }
     ],
     "correctChoiceIds": [
@@ -421,16 +421,16 @@
     "romanUrdu": "Black Death kis qisam ki aafat thi?",
     "choices": [
       {
+        "id": "d",
+        "text": "A famine caused by drought"
+      },
+      {
         "id": "c",
         "text": "An earthquake"
       },
       {
         "id": "a",
         "text": "A plague epidemic"
-      },
-      {
-        "id": "d",
-        "text": "A famine caused by drought"
       },
       {
         "id": "b",
@@ -466,16 +466,16 @@
         "text": "The Netherlands"
       },
       {
-        "id": "a",
-        "text": "France"
-      },
-      {
         "id": "b",
         "text": "Spain"
       },
       {
         "id": "c",
         "text": "Portugal"
+      },
+      {
+        "id": "a",
+        "text": "France"
       }
     ],
     "correctChoiceIds": [
@@ -507,16 +507,16 @@
         "text": "Yes"
       },
       {
+        "id": "c",
+        "text": "No, the Speaker sits in the Lords"
+      },
+      {
         "id": "b",
         "text": "No, the Speaker is not an MP"
       },
       {
         "id": "d",
         "text": "Only in Scotland"
-      },
-      {
-        "id": "c",
-        "text": "No, the Speaker sits in the Lords"
       }
     ],
     "correctChoiceIds": [
@@ -544,16 +544,16 @@
     "romanUrdu": "Skara Brae, ek behtar mehfooz prehistoric gaon, kahan hai?",
     "choices": [
       {
-        "id": "d",
-        "text": "In County Antrim, Northern Ireland"
+        "id": "a",
+        "text": "In Orkney, Scotland"
       },
       {
         "id": "b",
         "text": "In Cornwall, England"
       },
       {
-        "id": "a",
-        "text": "In Orkney, Scotland"
+        "id": "d",
+        "text": "In County Antrim, Northern Ireland"
       },
       {
         "id": "c",
@@ -589,16 +589,16 @@
         "text": "Macbeth"
       },
       {
+        "id": "c",
+        "text": "The Importance of Being Earnest"
+      },
+      {
         "id": "d",
         "text": "Pygmalion"
       },
       {
         "id": "b",
         "text": "The Rivals"
-      },
-      {
-        "id": "c",
-        "text": "The Importance of Being Earnest"
       }
     ],
     "correctChoiceIds": [
@@ -630,12 +630,12 @@
         "text": "Brittany, France"
       },
       {
-        "id": "a",
-        "text": "Normandy, France"
-      },
-      {
         "id": "c",
         "text": "Wessex, England"
+      },
+      {
+        "id": "a",
+        "text": "Normandy, France"
       },
       {
         "id": "d",
@@ -667,16 +667,16 @@
     "romanUrdu": "South Africa mein British se larne wale Dutch asal ke settlers ko kya kaha jata tha?",
     "choices": [
       {
+        "id": "a",
+        "text": "The Boers"
+      },
+      {
         "id": "b",
         "text": "The Huguenots"
       },
       {
         "id": "c",
         "text": "The Jacobites"
-      },
-      {
-        "id": "a",
-        "text": "The Boers"
       },
       {
         "id": "d",
@@ -749,20 +749,20 @@
     "romanUrdu": "Sir Roger Bannister kis kamyabi se mashhoor hue?",
     "choices": [
       {
-        "id": "a",
-        "text": "He ran the first officially recorded mile in under four minutes"
-      },
-      {
         "id": "c",
         "text": "He invented the jet engine"
       },
       {
-        "id": "b",
-        "text": "He won an Olympic gold medal in swimming"
+        "id": "a",
+        "text": "He ran the first officially recorded mile in under four minutes"
       },
       {
         "id": "d",
         "text": "He discovered penicillin"
+      },
+      {
+        "id": "b",
+        "text": "He won an Olympic gold medal in swimming"
       }
     ],
     "correctChoiceIds": [
@@ -798,12 +798,12 @@
         "text": "Oliver Cromwell"
       },
       {
-        "id": "c",
-        "text": "Charles II"
-      },
-      {
         "id": "a",
         "text": "William of Orange"
+      },
+      {
+        "id": "c",
+        "text": "Charles II"
       }
     ],
     "correctChoiceIds": [
@@ -831,20 +831,20 @@
     "romanUrdu": "1690 ki Battle of the Boyne mein kise shikast hui?",
     "choices": [
       {
-        "id": "b",
-        "text": "William III"
-      },
-      {
-        "id": "c",
-        "text": "Charles I"
-      },
-      {
         "id": "d",
         "text": "Oliver Cromwell"
       },
       {
         "id": "a",
         "text": "King James II"
+      },
+      {
+        "id": "c",
+        "text": "Charles I"
+      },
+      {
+        "id": "b",
+        "text": "William III"
       }
     ],
     "correctChoiceIds": [
@@ -872,20 +872,20 @@
     "romanUrdu": "Factories Act 1847 ne kya muta'arif karwaya?",
     "choices": [
       {
-        "id": "c",
-        "text": "The right to vote for women"
-      },
-      {
-        "id": "d",
-        "text": "A ban on all factories"
+        "id": "a",
+        "text": "A ten-hour limit on working hours for women and children in textile mills"
       },
       {
         "id": "b",
         "text": "Free schooling for all children"
       },
       {
-        "id": "a",
-        "text": "A ten-hour limit on working hours for women and children in textile mills"
+        "id": "c",
+        "text": "The right to vote for women"
+      },
+      {
+        "id": "d",
+        "text": "A ban on all factories"
       }
     ],
     "correctChoiceIds": [
@@ -913,16 +913,16 @@
     "romanUrdu": "Government departments ki nigrani karne wale official opposition MPs ke group ko kya kaha jata hai?",
     "choices": [
       {
-        "id": "a",
-        "text": "The Shadow Cabinet"
-      },
-      {
         "id": "d",
         "text": "The House of Lords"
       },
       {
         "id": "c",
         "text": "The Privy Council"
+      },
+      {
+        "id": "a",
+        "text": "The Shadow Cabinet"
       },
       {
         "id": "b",
@@ -962,12 +962,12 @@
         "text": "Immigration"
       },
       {
-        "id": "a",
-        "text": "Education"
-      },
-      {
         "id": "b",
         "text": "Defence"
+      },
+      {
+        "id": "a",
+        "text": "Education"
       }
     ],
     "correctChoiceIds": [

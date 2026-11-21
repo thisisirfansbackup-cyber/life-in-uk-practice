@@ -9,20 +9,20 @@
     "romanUrdu": "British citizenship ke pledge mein kaunse DO waday shamil hain?",
     "choices": [
       {
-        "id": "a",
-        "text": "Observe the United Kingdom's laws faithfully"
-      },
-      {
-        "id": "b",
-        "text": "Always support the political party in government"
+        "id": "d",
+        "text": "Adopt a particular religion"
       },
       {
         "id": "c",
         "text": "Uphold the United Kingdom's democratic values"
       },
       {
-        "id": "d",
-        "text": "Adopt a particular religion"
+        "id": "a",
+        "text": "Observe the United Kingdom's laws faithfully"
+      },
+      {
+        "id": "b",
+        "text": "Always support the political party in government"
       }
     ],
     "correctChoiceIds": [
@@ -57,20 +57,20 @@
     "romanUrdu": "Houses of Parliament ki kis tower mein Big Ben, yani Great Bell, latki hui hai?",
     "choices": [
       {
-        "id": "c",
-        "text": "The White Tower"
-      },
-      {
-        "id": "b",
-        "text": "Victoria Tower"
-      },
-      {
         "id": "d",
         "text": "The Round Tower"
       },
       {
         "id": "a",
         "text": "Elizabeth Tower"
+      },
+      {
+        "id": "b",
+        "text": "Victoria Tower"
+      },
+      {
+        "id": "c",
+        "text": "The White Tower"
       }
     ],
     "correctChoiceIds": [
@@ -98,20 +98,20 @@
     "romanUrdu": "Kis saal aurton ko mardon ki tarah 21 saal ki umar mein parliamentary elections mein vote dene ka haq mila?",
     "choices": [
       {
-        "id": "d",
-        "text": "1969"
+        "id": "a",
+        "text": "1918"
       },
       {
         "id": "c",
         "text": "1948"
       },
       {
-        "id": "b",
-        "text": "1928"
+        "id": "d",
+        "text": "1969"
       },
       {
-        "id": "a",
-        "text": "1918"
+        "id": "b",
+        "text": "1928"
       }
     ],
     "correctChoiceIds": [
@@ -139,20 +139,20 @@
     "romanUrdu": "United Kingdom Europe ke kis hisse mein waqe hai?",
     "choices": [
       {
-        "id": "b",
-        "text": "North-eastern Europe"
-      },
-      {
         "id": "d",
         "text": "South-eastern Europe"
       },
       {
-        "id": "c",
-        "text": "South-western Europe"
+        "id": "b",
+        "text": "North-eastern Europe"
       },
       {
         "id": "a",
         "text": "North-western Europe"
+      },
+      {
+        "id": "c",
+        "text": "South-western Europe"
       }
     ],
     "correctChoiceIds": [
@@ -180,20 +180,20 @@
     "romanUrdu": "Scotland ke sarparast saint kaun hain?",
     "choices": [
       {
-        "id": "b",
-        "text": "St David"
-      },
-      {
         "id": "c",
         "text": "St George"
       },
       {
-        "id": "d",
-        "text": "St Patrick"
+        "id": "b",
+        "text": "St David"
       },
       {
         "id": "a",
         "text": "St Andrew"
+      },
+      {
+        "id": "d",
+        "text": "St Patrick"
       }
     ],
     "correctChoiceIds": [
@@ -221,6 +221,10 @@
     "romanUrdu": "Wars of the Roses mein English takht ke liye kaunse DO shahi gharanon ne jang ki?",
     "choices": [
       {
+        "id": "b",
+        "text": "House of Lancaster"
+      },
+      {
         "id": "c",
         "text": "House of Stuart"
       },
@@ -231,10 +235,6 @@
       {
         "id": "a",
         "text": "House of York"
-      },
-      {
-        "id": "b",
-        "text": "House of Lancaster"
       }
     ],
     "correctChoiceIds": [
@@ -263,20 +263,20 @@
     "romanUrdu": "1689 ke Bill of Rights ne har baaligh mard ko vote ka haq diya. Sahi ya ghalat?",
     "choices": [
       {
-        "id": "a",
-        "text": "True"
+        "id": "d",
+        "text": "It abolished Parliament"
       },
       {
         "id": "c",
         "text": "It gave the vote only to women"
       },
       {
-        "id": "d",
-        "text": "It abolished Parliament"
-      },
-      {
         "id": "b",
         "text": "False"
+      },
+      {
+        "id": "a",
+        "text": "True"
       }
     ],
     "correctChoiceIds": [
@@ -310,20 +310,20 @@
     "romanUrdu": "Whitehall, London mein Cenotaph kya hai?",
     "choices": [
       {
-        "id": "d",
-        "text": "A cathedral"
-      },
-      {
         "id": "a",
         "text": "A war memorial"
+      },
+      {
+        "id": "b",
+        "text": "A royal residence"
       },
       {
         "id": "c",
         "text": "An art gallery"
       },
       {
-        "id": "b",
-        "text": "A royal residence"
+        "id": "d",
+        "text": "A cathedral"
       }
     ],
     "correctChoiceIds": [
@@ -351,6 +351,10 @@
     "romanUrdu": "UK ki pehli khatoon Prime Minister kaun thin?",
     "choices": [
       {
+        "id": "c",
+        "text": "Liz Truss"
+      },
+      {
         "id": "b",
         "text": "Theresa May"
       },
@@ -361,10 +365,6 @@
       {
         "id": "a",
         "text": "Margaret Thatcher"
-      },
-      {
-        "id": "c",
-        "text": "Liz Truss"
       }
     ],
     "correctChoiceIds": [
@@ -392,20 +392,20 @@
     "romanUrdu": "House of Commons mein behas ki sadaarat kaun karta hai aur nazm-o-zabt qaim rakhta hai?",
     "choices": [
       {
-        "id": "d",
-        "text": "The Chancellor of the Exchequer"
-      },
-      {
-        "id": "a",
-        "text": "The Speaker"
+        "id": "c",
+        "text": "The Lord Speaker"
       },
       {
         "id": "b",
         "text": "The Prime Minister"
       },
       {
-        "id": "c",
-        "text": "The Lord Speaker"
+        "id": "a",
+        "text": "The Speaker"
+      },
+      {
+        "id": "d",
+        "text": "The Chancellor of the Exchequer"
       }
     ],
     "correctChoiceIds": [
@@ -433,20 +433,20 @@
     "romanUrdu": "1966 mein mardana football World Cup jeetne wali England team ke captain kaun thay?",
     "choices": [
       {
-        "id": "a",
-        "text": "Bobby Moore"
+        "id": "d",
+        "text": "Gordon Banks"
       },
       {
         "id": "b",
         "text": "Bobby Charlton"
       },
       {
-        "id": "d",
-        "text": "Gordon Banks"
-      },
-      {
         "id": "c",
         "text": "Geoff Hurst"
+      },
+      {
+        "id": "a",
+        "text": "Bobby Moore"
       }
     ],
     "correctChoiceIds": [
@@ -474,20 +474,20 @@
     "romanUrdu": "Spanish Armada kis saal shikast khaayi?",
     "choices": [
       {
-        "id": "d",
-        "text": "1534"
-      },
-      {
         "id": "b",
         "text": "1603"
       },
       {
-        "id": "a",
-        "text": "1588"
-      },
-      {
         "id": "c",
         "text": "1605"
+      },
+      {
+        "id": "d",
+        "text": "1534"
+      },
+      {
+        "id": "a",
+        "text": "1588"
       }
     ],
     "correctChoiceIds": [
@@ -515,20 +515,20 @@
     "romanUrdu": "England aur Wales mein, kisi officer ke na-munasib rawaiye ke bare mein mutaalliqa police force se barah-e-rast shikayat ki ja sakti hai?",
     "choices": [
       {
-        "id": "b",
-        "text": "No, complaints can never be made to a police force"
-      },
-      {
-        "id": "c",
-        "text": "Only through a newspaper"
-      },
-      {
         "id": "a",
         "text": "Yes, subject to the applicable eligibility rules"
       },
       {
+        "id": "b",
+        "text": "No, complaints can never be made to a police force"
+      },
+      {
         "id": "d",
         "text": "Only if you are a police officer"
+      },
+      {
+        "id": "c",
+        "text": "Only through a newspaper"
       }
     ],
     "correctChoiceIds": [
@@ -562,8 +562,8 @@
     "romanUrdu": "England aur Wales mein jury service ki kam az kam umar kya hai?",
     "choices": [
       {
-        "id": "c",
-        "text": "21 years old"
+        "id": "d",
+        "text": "25 years old"
       },
       {
         "id": "a",
@@ -574,8 +574,8 @@
         "text": "16 years old"
       },
       {
-        "id": "d",
-        "text": "25 years old"
+        "id": "c",
+        "text": "21 years old"
       }
     ],
     "correctChoiceIds": [
@@ -603,20 +603,20 @@
     "romanUrdu": "England aur Wales mein logon ko shuru mein jury service ke liye kaise chuna jata hai?",
     "choices": [
       {
-        "id": "b",
-        "text": "By applying for the role"
-      },
-      {
-        "id": "a",
-        "text": "Randomly from the electoral register"
+        "id": "d",
+        "text": "By the police selecting volunteers"
       },
       {
         "id": "c",
         "text": "By the local council leader"
       },
       {
-        "id": "d",
-        "text": "By the police selecting volunteers"
+        "id": "a",
+        "text": "Randomly from the electoral register"
+      },
+      {
+        "id": "b",
+        "text": "By applying for the role"
       }
     ],
     "correctChoiceIds": [
@@ -644,20 +644,20 @@
     "romanUrdu": "Bank holiday ke bare mein kaunsa bayan behtar hai?",
     "choices": [
       {
-        "id": "c",
-        "text": "A day when every shop must close"
-      },
-      {
         "id": "b",
         "text": "A compulsory paid day off for every worker"
+      },
+      {
+        "id": "a",
+        "text": "A day on which banks and many other businesses normally close"
       },
       {
         "id": "d",
         "text": "A holiday taken only by bank employees"
       },
       {
-        "id": "a",
-        "text": "A day on which banks and many other businesses normally close"
+        "id": "c",
+        "text": "A day when every shop must close"
       }
     ],
     "correctChoiceIds": [
@@ -691,20 +691,20 @@
     "romanUrdu": "Intikhab se pehle registered voters ko kya bheja jata hai jo batata hai kab aur kahan vote karna hai?",
     "choices": [
       {
-        "id": "d",
-        "text": "A driving licence"
-      },
-      {
-        "id": "c",
-        "text": "A jury summons"
-      },
-      {
         "id": "b",
         "text": "A passport"
       },
       {
+        "id": "d",
+        "text": "A driving licence"
+      },
+      {
         "id": "a",
         "text": "A poll card"
+      },
+      {
+        "id": "c",
+        "text": "A jury summons"
       }
     ],
     "correctChoiceIds": [
@@ -732,20 +732,20 @@
     "romanUrdu": "SRA-regulated solicitor ki fees ke bare mein kaunsa bayan durust hai?",
     "choices": [
       {
-        "id": "b",
-        "text": "They must always work free of charge"
-      },
-      {
-        "id": "d",
-        "text": "They may never explain how their fees are calculated"
+        "id": "a",
+        "text": "They may charge an hourly rate or agree a fixed fee"
       },
       {
         "id": "c",
         "text": "Every case has the same fixed price"
       },
       {
-        "id": "a",
-        "text": "They may charge an hourly rate or agree a fixed fee"
+        "id": "d",
+        "text": "They may never explain how their fees are calculated"
+      },
+      {
+        "id": "b",
+        "text": "They must always work free of charge"
       }
     ],
     "correctChoiceIds": [
@@ -773,20 +773,20 @@
     "romanUrdu": "Intikhabat ki coverage mein kaunse DO broadcast media ko Ofcom ke due-impartiality rules follow karne hote hain?",
     "choices": [
       {
-        "id": "b",
-        "text": "Radio"
+        "id": "a",
+        "text": "Television"
       },
       {
         "id": "d",
         "text": "Printed leaflets"
       },
       {
-        "id": "c",
-        "text": "Printed newspapers"
+        "id": "b",
+        "text": "Radio"
       },
       {
-        "id": "a",
-        "text": "Television"
+        "id": "c",
+        "text": "Printed newspapers"
       }
     ],
     "correctChoiceIds": [
@@ -821,20 +821,20 @@
     "romanUrdu": "In mein se kaunsa Crown Dependency hai aur United Kingdom ka hissa nahin?",
     "choices": [
       {
-        "id": "d",
-        "text": "Wales"
-      },
-      {
         "id": "c",
         "text": "Scotland"
       },
       {
-        "id": "a",
-        "text": "The Isle of Man"
+        "id": "d",
+        "text": "Wales"
       },
       {
         "id": "b",
         "text": "England"
+      },
+      {
+        "id": "a",
+        "text": "The Isle of Man"
       }
     ],
     "correctChoiceIds": [
@@ -862,20 +862,20 @@
     "romanUrdu": "1930 mein Sir Frank Whittle ne kis qisam ke engine ka patent liya?",
     "choices": [
       {
-        "id": "a",
-        "text": "A turbojet engine"
+        "id": "d",
+        "text": "An electric motor"
       },
       {
         "id": "c",
         "text": "A diesel engine"
       },
       {
-        "id": "d",
-        "text": "An electric motor"
-      },
-      {
         "id": "b",
         "text": "A steam engine"
+      },
+      {
+        "id": "a",
+        "text": "A turbojet engine"
       }
     ],
     "correctChoiceIds": [
@@ -907,16 +907,16 @@
         "text": "William Wordsworth"
       },
       {
-        "id": "d",
-        "text": "Geoffrey Chaucer"
+        "id": "b",
+        "text": "William Shakespeare"
       },
       {
         "id": "c",
         "text": "Robert Burns"
       },
       {
-        "id": "b",
-        "text": "William Shakespeare"
+        "id": "d",
+        "text": "Geoffrey Chaucer"
       }
     ],
     "correctChoiceIds": [
@@ -948,16 +948,16 @@
         "text": "William III"
       },
       {
+        "id": "b",
+        "text": "Charles I"
+      },
+      {
         "id": "c",
         "text": "Charles II"
       },
       {
         "id": "a",
         "text": "Oliver Cromwell"
-      },
-      {
-        "id": "b",
-        "text": "Charles I"
       }
     ],
     "correctChoiceIds": [
@@ -985,12 +985,12 @@
     "romanUrdu": "Easter ki tayyari ka Christian season kya kehlata hai, jo riwayatan Sundays ke ilawa chalees din hota hai?",
     "choices": [
       {
-        "id": "d",
-        "text": "Pentecost"
-      },
-      {
         "id": "a",
         "text": "Lent"
+      },
+      {
+        "id": "d",
+        "text": "Pentecost"
       },
       {
         "id": "b",

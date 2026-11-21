@@ -1,8 +1,8 @@
 import { loadQuestionBank, validateLegacyQuestionMap } from './question-bank.js';
-import { selectRevisionQuestions } from './revision.js';
+import { selectRevisionQuestions, selectTestQuestions } from './revision.js';
 import { getStudyBlocks, getNextStudyBlock } from './study-blocks.js';
 import { checkCurrentAnswer, createSession, moveToQuestion, submitSession, updateAnswer } from './session.js';
-import { readProgress, recordCompletedSession, writeProgress } from './progress-store.js';
+import { readProgress, recordCompletedSession, recordCompletedTest, writeProgress } from './progress-store.js';
 import { mountApp } from './ui.js';
 
 export async function startApp({ root, fetchImpl, storage } = {}) {
@@ -41,6 +41,7 @@ export async function startApp({ root, fetchImpl, storage } = {}) {
       blocks,
       getNextStudyBlock,
       selectRevisionQuestions,
+      selectTestQuestions,
       createSession,
       updateAnswer,
       checkCurrentAnswer,
@@ -50,6 +51,7 @@ export async function startApp({ root, fetchImpl, storage } = {}) {
         read: () => readProgress(browserStorage, { questions: bank.questions, blocks, legacyQuestionMap }),
         write: (progress, options) => writeProgress(browserStorage, progress, options),
         recordCompletedSession,
+        recordCompletedTest,
       },
     });
   } catch {

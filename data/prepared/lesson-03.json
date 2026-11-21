@@ -9,20 +9,20 @@
     "romanUrdu": "In mein se kaunsi Britain ki bunyadi qadr hai?",
     "choices": [
       {
-        "id": "b",
-        "text": "Rule by a single unelected party"
-      },
-      {
         "id": "a",
         "text": "Individual liberty"
       },
       {
-        "id": "d",
-        "text": "Denial of freedom of belief"
+        "id": "b",
+        "text": "Rule by a single unelected party"
       },
       {
         "id": "c",
         "text": "Compulsory membership of a religion"
+      },
+      {
+        "id": "d",
+        "text": "Denial of freedom of belief"
       }
     ],
     "correctChoiceIds": [
@@ -50,12 +50,12 @@
     "romanUrdu": "Church in Wales ki qanooni haisiyat ke bare mein kaunsa bayan durust hai?",
     "choices": [
       {
-        "id": "a",
-        "text": "It remains established by law throughout Wales"
-      },
-      {
         "id": "b",
         "text": "It ceased to be established by law"
+      },
+      {
+        "id": "a",
+        "text": "It remains established by law throughout Wales"
       },
       {
         "id": "d",
@@ -91,20 +91,20 @@
     "romanUrdu": "Scotland mein naye saal se pehli shaam ko kya kehte hain?",
     "choices": [
       {
-        "id": "c",
-        "text": "Hogmanay"
-      },
-      {
         "id": "b",
         "text": "St Andrew's Day"
+      },
+      {
+        "id": "d",
+        "text": "Boxing Day"
       },
       {
         "id": "a",
         "text": "Burns Night"
       },
       {
-        "id": "d",
-        "text": "Boxing Day"
+        "id": "c",
+        "text": "Hogmanay"
       }
     ],
     "correctChoiceIds": [
@@ -132,20 +132,20 @@
     "romanUrdu": "Shadi ke kis tanazay ne Henry VIII ke Rome se alag hone mein kirdar ada kiya?",
     "choices": [
       {
-        "id": "c",
-        "text": "The Pope required him to give up the English throne before marrying"
-      },
-      {
-        "id": "a",
-        "text": "The Pope required him to marry Catherine of Aragon again"
-      },
-      {
         "id": "b",
         "text": "The Pope ordered him to marry a French princess"
       },
       {
         "id": "d",
         "text": "He could not obtain the Pope's agreement to annul his marriage to Catherine of Aragon"
+      },
+      {
+        "id": "c",
+        "text": "The Pope required him to give up the English throne before marrying"
+      },
+      {
+        "id": "a",
+        "text": "The Pope required him to marry Catherine of Aragon again"
       }
     ],
     "correctChoiceIds": [
@@ -173,20 +173,20 @@
     "romanUrdu": "1337 se 1453 tak England aur France ke darmiyan qaroone wusta ki jangon ko kya naam diya jata hai?",
     "choices": [
       {
-        "id": "b",
-        "text": "The Wars of the Roses"
-      },
-      {
         "id": "a",
         "text": "The Hundred Years' War"
       },
       {
-        "id": "c",
-        "text": "The English Civil War"
+        "id": "b",
+        "text": "The Wars of the Roses"
       },
       {
         "id": "d",
         "text": "The Crimean War"
+      },
+      {
+        "id": "c",
+        "text": "The English Civil War"
       }
     ],
     "correctChoiceIds": [
@@ -214,20 +214,20 @@
     "romanUrdu": "1745 mein kis ne apna parcham buland kiya aur Highland ke kuch qabeelon ki himayat hasil ki?",
     "choices": [
       {
-        "id": "c",
-        "text": "Charles II"
+        "id": "a",
+        "text": "William the Conqueror"
       },
       {
         "id": "b",
         "text": "Bonnie Prince Charlie"
       },
       {
-        "id": "a",
-        "text": "William the Conqueror"
-      },
-      {
         "id": "d",
         "text": "Edward Elgar"
+      },
+      {
+        "id": "c",
+        "text": "Charles II"
       }
     ],
     "correctChoiceIds": [
@@ -259,16 +259,16 @@
         "text": "The Land Registry"
       },
       {
-        "id": "c",
-        "text": "The police through the ACT Early support service"
+        "id": "a",
+        "text": "The TV Licensing authority"
       },
       {
         "id": "b",
         "text": "The Passport Office's lost-passport department"
       },
       {
-        "id": "a",
-        "text": "The TV Licensing authority"
+        "id": "c",
+        "text": "The police through the ACT Early support service"
       }
     ],
     "correctChoiceIds": [
@@ -302,16 +302,16 @@
     "romanUrdu": "31 March 2025 ko khatam hone se pehle, England mein National Citizen Service kis qisam ka programme tha?",
     "choices": [
       {
+        "id": "c",
+        "text": "A statutory school-attendance requirement"
+      },
+      {
         "id": "d",
         "text": "A voluntary youth development programme"
       },
       {
         "id": "b",
         "text": "Compulsory civilian service for every teenager"
-      },
-      {
-        "id": "c",
-        "text": "A statutory school-attendance requirement"
       },
       {
         "id": "a",
@@ -353,16 +353,16 @@
         "text": "Chelsea Pensioners"
       },
       {
-        "id": "d",
-        "text": "Bobbies"
-      },
-      {
         "id": "c",
         "text": "Pearlies"
       },
       {
         "id": "a",
         "text": "Beefeaters"
+      },
+      {
+        "id": "d",
+        "text": "Bobbies"
       }
     ],
     "correctChoiceIds": [
@@ -390,20 +390,20 @@
     "romanUrdu": "Kin DO mulkon ne mil kar Concorde tayyar kiya?",
     "choices": [
       {
-        "id": "b",
-        "text": "Britain"
+        "id": "a",
+        "text": "Germany"
       },
       {
-        "id": "c",
-        "text": "Italy"
+        "id": "b",
+        "text": "Britain"
       },
       {
         "id": "d",
         "text": "France"
       },
       {
-        "id": "a",
-        "text": "Germany"
+        "id": "c",
+        "text": "Italy"
       }
     ],
     "correctChoiceIds": [
@@ -432,8 +432,8 @@
     "romanUrdu": "Eryri yani Snowdonia National Park kis mulk mein hai?",
     "choices": [
       {
-        "id": "a",
-        "text": "England"
+        "id": "b",
+        "text": "Scotland"
       },
       {
         "id": "c",
@@ -444,8 +444,8 @@
         "text": "Northern Ireland"
       },
       {
-        "id": "b",
-        "text": "Scotland"
+        "id": "a",
+        "text": "England"
       }
     ],
     "correctChoiceIds": [
@@ -473,20 +473,20 @@
     "romanUrdu": "Sherlock Holmes ki kahaniyan kis ne likhin?",
     "choices": [
       {
-        "id": "a",
-        "text": "Charles Dickens"
-      },
-      {
         "id": "d",
         "text": "Arthur Conan Doyle"
       },
       {
-        "id": "c",
-        "text": "Agatha Christie"
+        "id": "a",
+        "text": "Charles Dickens"
       },
       {
         "id": "b",
         "text": "Jane Austen"
+      },
+      {
+        "id": "c",
+        "text": "Agatha Christie"
       }
     ],
     "correctChoiceIds": [
@@ -522,12 +522,12 @@
         "text": "Belgium"
       },
       {
-        "id": "a",
-        "text": "Poland"
-      },
-      {
         "id": "b",
         "text": "Norway"
+      },
+      {
+        "id": "a",
+        "text": "Poland"
       }
     ],
     "correctChoiceIds": [
@@ -555,20 +555,20 @@
     "romanUrdu": "Wales ke sarparast saint kaun hain?",
     "choices": [
       {
-        "id": "d",
-        "text": "St Patrick"
+        "id": "c",
+        "text": "St Andrew"
       },
       {
-        "id": "a",
-        "text": "St George"
+        "id": "d",
+        "text": "St Patrick"
       },
       {
         "id": "b",
         "text": "St David"
       },
       {
-        "id": "c",
-        "text": "St Andrew"
+        "id": "a",
+        "text": "St George"
       }
     ],
     "correctChoiceIds": [
@@ -600,16 +600,16 @@
         "text": "Northumberland"
       },
       {
+        "id": "c",
+        "text": "Lake District"
+      },
+      {
         "id": "a",
         "text": "Yorkshire Dales"
       },
       {
         "id": "b",
         "text": "Peak District"
-      },
-      {
-        "id": "c",
-        "text": "Lake District"
       }
     ],
     "correctChoiceIds": [
@@ -641,16 +641,16 @@
         "text": "The Square Mile"
       },
       {
-        "id": "b",
-        "text": "Docklands"
-      },
-      {
         "id": "d",
         "text": "Theatreland"
       },
       {
         "id": "c",
         "text": "Silicon Roundabout"
+      },
+      {
+        "id": "b",
+        "text": "Docklands"
       }
     ],
     "correctChoiceIds": [
@@ -678,12 +678,12 @@
     "romanUrdu": "England ke maintained schools mein governors ki DO aham zimmedariyan kaunsi hain?",
     "choices": [
       {
-        "id": "d",
-        "text": "Replacing the headteacher in all day-to-day management"
-      },
-      {
         "id": "b",
         "text": "Personally teaching every daily lesson"
+      },
+      {
+        "id": "d",
+        "text": "Replacing the headteacher in all day-to-day management"
       },
       {
         "id": "a",
@@ -720,20 +720,20 @@
     "romanUrdu": "Azadi se pehle Britain ki kaunsi policy ne America ki koloniyon mein narazgi barhane mein kirdar ada kiya?",
     "choices": [
       {
-        "id": "a",
-        "text": "A ban on all parliamentary taxes in the colonies"
-      },
-      {
-        "id": "c",
-        "text": "Giving every colony complete independence in 1763"
+        "id": "d",
+        "text": "Abolishing all British control over colonial trade"
       },
       {
         "id": "b",
         "text": "Laws imposing taxes and regulating colonial trade"
       },
       {
-        "id": "d",
-        "text": "Abolishing all British control over colonial trade"
+        "id": "c",
+        "text": "Giving every colony complete independence in 1763"
+      },
+      {
+        "id": "a",
+        "text": "A ban on all parliamentary taxes in the colonies"
       }
     ],
     "correctChoiceIds": [
@@ -761,16 +761,16 @@
     "romanUrdu": "1348 mein Black Death pehli baar Britain pohnchi; yeh tareekh ka kaunsa daur tha?",
     "choices": [
       {
+        "id": "c",
+        "text": "The Middle Ages"
+      },
+      {
         "id": "b",
         "text": "The Victorian period"
       },
       {
         "id": "a",
         "text": "The Roman period"
-      },
-      {
-        "id": "c",
-        "text": "The Middle Ages"
       },
       {
         "id": "d",
@@ -808,12 +808,12 @@
     "romanUrdu": "Aurton ke haq-e-raaye dahi ki aham tanzeem Women's Social and Political Union ki rehnuma kaun thin?",
     "choices": [
       {
-        "id": "b",
-        "text": "Margaret Thatcher"
-      },
-      {
         "id": "c",
         "text": "Mary Seacole"
+      },
+      {
+        "id": "b",
+        "text": "Margaret Thatcher"
       },
       {
         "id": "a",
@@ -849,20 +849,20 @@
     "romanUrdu": "Cardiff kis mulk ka dar-ul-hukoomat hai?",
     "choices": [
       {
-        "id": "d",
-        "text": "Northern Ireland"
-      },
-      {
         "id": "c",
         "text": "Scotland"
       },
       {
-        "id": "b",
-        "text": "England"
+        "id": "d",
+        "text": "Northern Ireland"
       },
       {
         "id": "a",
         "text": "Wales"
+      },
+      {
+        "id": "b",
+        "text": "England"
       }
     ],
     "correctChoiceIds": [
@@ -890,10 +890,6 @@
     "romanUrdu": "1929 se 1933 ke darmiyani iqtisadi buhran mein Britain ki jahaz saazi ki sanat ka kya haal hua?",
     "choices": [
       {
-        "id": "d",
-        "text": "No British shipbuilding industry existed at that time"
-      },
-      {
         "id": "c",
         "text": "It was entirely unaffected"
       },
@@ -904,6 +900,10 @@
       {
         "id": "a",
         "text": "It was the only industry affected"
+      },
+      {
+        "id": "d",
+        "text": "No British shipbuilding industry existed at that time"
       }
     ],
     "correctChoiceIds": [
@@ -931,16 +931,16 @@
     "romanUrdu": "Ek mile chaar minute se kam waqt mein daurne ka pehla rasmi record kis mard ne banaya?",
     "choices": [
       {
+        "id": "c",
+        "text": "Roger Bannister"
+      },
+      {
         "id": "b",
         "text": "Sebastian Coe"
       },
       {
         "id": "d",
         "text": "Steve Redgrave"
-      },
-      {
-        "id": "c",
-        "text": "Roger Bannister"
       },
       {
         "id": "a",
@@ -972,20 +972,20 @@
     "romanUrdu": "Ramadan ke khatam hone par kaunsi Eid manai jati hai?",
     "choices": [
       {
-        "id": "b",
-        "text": "Diwali"
-      },
-      {
-        "id": "c",
-        "text": "Vaisakhi"
+        "id": "a",
+        "text": "Eid-ul-Adha"
       },
       {
         "id": "d",
         "text": "Eid-ul-Fitr"
       },
       {
-        "id": "a",
-        "text": "Eid-ul-Adha"
+        "id": "b",
+        "text": "Diwali"
+      },
+      {
+        "id": "c",
+        "text": "Vaisakhi"
       }
     ],
     "correctChoiceIds": [

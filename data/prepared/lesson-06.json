@@ -13,16 +13,16 @@
         "text": "To look after yourself and your family"
       },
       {
-        "id": "d",
-        "text": "To attend a place of worship every week"
-      },
-      {
         "id": "a",
         "text": "To obey the law"
       },
       {
         "id": "c",
         "text": "To serve in the armed forces"
+      },
+      {
+        "id": "d",
+        "text": "To attend a place of worship every week"
       }
     ],
     "correctChoiceIds": [
@@ -51,20 +51,20 @@
     "romanUrdu": "Britain mein sab se pehle sikke kisne banaye?",
     "choices": [
       {
-        "id": "d",
-        "text": "The Normans"
-      },
-      {
-        "id": "a",
-        "text": "The people of the Iron Age"
+        "id": "c",
+        "text": "The Vikings"
       },
       {
         "id": "b",
         "text": "The Romans"
       },
       {
-        "id": "c",
-        "text": "The Vikings"
+        "id": "a",
+        "text": "The people of the Iron Age"
+      },
+      {
+        "id": "d",
+        "text": "The Normans"
       }
     ],
     "correctChoiceIds": [
@@ -92,20 +92,20 @@
     "romanUrdu": "Tower of London sab se pehle kisne banaya?",
     "choices": [
       {
-        "id": "a",
-        "text": "William the Conqueror"
-      },
-      {
         "id": "d",
         "text": "Queen Victoria"
       },
       {
-        "id": "b",
-        "text": "King Alfred the Great"
-      },
-      {
         "id": "c",
         "text": "Henry VIII"
+      },
+      {
+        "id": "a",
+        "text": "William the Conqueror"
+      },
+      {
+        "id": "b",
+        "text": "King Alfred the Great"
       }
     ],
     "correctChoiceIds": [
@@ -133,20 +133,20 @@
     "romanUrdu": "England, Wales aur Scotland mein 15 national parks hain. National parks kya hain?",
     "choices": [
       {
-        "id": "a",
-        "text": "Areas of protected countryside that everyone can visit"
-      },
-      {
         "id": "b",
         "text": "Private estates closed to the public"
       },
       {
-        "id": "c",
-        "text": "Areas reserved only for farming"
-      },
-      {
         "id": "d",
         "text": "Nature reserves where nobody may live"
+      },
+      {
+        "id": "a",
+        "text": "Areas of protected countryside that everyone can visit"
+      },
+      {
+        "id": "c",
+        "text": "Areas reserved only for farming"
       }
     ],
     "correctChoiceIds": [
@@ -174,20 +174,20 @@
     "romanUrdu": "Kya Northern Ireland ka apna established church hai?",
     "choices": [
       {
-        "id": "b",
-        "text": "Yes, the Church of Ireland is the established church"
-      },
-      {
         "id": "c",
         "text": "Yes, the Presbyterian Church is the established church"
       },
       {
-        "id": "a",
-        "text": "No, there is no established church in Northern Ireland"
+        "id": "b",
+        "text": "Yes, the Church of Ireland is the established church"
       },
       {
         "id": "d",
         "text": "Yes, the Roman Catholic Church is the established church"
+      },
+      {
+        "id": "a",
+        "text": "No, there is no established church in Northern Ireland"
       }
     ],
     "correctChoiceIds": [
@@ -219,16 +219,16 @@
         "text": "England, Wales and Northern Ireland"
       },
       {
-        "id": "a",
-        "text": "England, Scotland and Wales"
-      },
-      {
         "id": "b",
         "text": "England, Scotland and Northern Ireland"
       },
       {
         "id": "d",
         "text": "England, Wales and the Republic of Ireland"
+      },
+      {
+        "id": "a",
+        "text": "England, Scotland and Wales"
       }
     ],
     "correctChoiceIds": [
@@ -256,12 +256,12 @@
     "romanUrdu": "Jab Parliament ka ijlas ho raha ho to Prime Minister's Questions kitni baar hoti hain?",
     "choices": [
       {
-        "id": "b",
-        "text": "Every month"
-      },
-      {
         "id": "d",
         "text": "Only during a general election"
+      },
+      {
+        "id": "b",
+        "text": "Every month"
       },
       {
         "id": "c",
@@ -297,20 +297,20 @@
     "romanUrdu": "1649 mein kis badshah ko qatl kiya gaya?",
     "choices": [
       {
-        "id": "c",
-        "text": "Henry VIII"
-      },
-      {
-        "id": "b",
-        "text": "Charles II"
+        "id": "a",
+        "text": "Charles I"
       },
       {
         "id": "d",
         "text": "James I"
       },
       {
-        "id": "a",
-        "text": "Charles I"
+        "id": "b",
+        "text": "Charles II"
+      },
+      {
+        "id": "c",
+        "text": "Henry VIII"
       }
     ],
     "correctChoiceIds": [
@@ -338,16 +338,16 @@
     "romanUrdu": "William Shakespeare kahan paida hue?",
     "choices": [
       {
-        "id": "d",
-        "text": "Edinburgh"
+        "id": "b",
+        "text": "London"
       },
       {
         "id": "c",
         "text": "Oxford"
       },
       {
-        "id": "b",
-        "text": "London"
+        "id": "d",
+        "text": "Edinburgh"
       },
       {
         "id": "a",
@@ -383,16 +383,16 @@
         "text": "Dame Kelly Holmes"
       },
       {
+        "id": "a",
+        "text": "Baroness Tanni Grey-Thompson"
+      },
+      {
         "id": "d",
         "text": "Sir Steve Redgrave"
       },
       {
         "id": "b",
         "text": "Ellie Simmonds"
-      },
-      {
-        "id": "a",
-        "text": "Baroness Tanni Grey-Thompson"
       }
     ],
     "correctChoiceIds": [
@@ -425,16 +425,16 @@
         "text": "Charles I"
       },
       {
-        "id": "a",
-        "text": "Elizabeth I"
+        "id": "b",
+        "text": "Henry VIII"
       },
       {
         "id": "c",
         "text": "James I"
       },
       {
-        "id": "b",
-        "text": "Henry VIII"
+        "id": "a",
+        "text": "Elizabeth I"
       }
     ],
     "correctChoiceIds": [
@@ -462,6 +462,10 @@
     "romanUrdu": "Northern Ireland mein individual registration system ke tehat kya voters ko apna registration form khud bharna hota hai?",
     "choices": [
       {
+        "id": "b",
+        "text": "No, one form is completed for the whole household"
+      },
+      {
         "id": "d",
         "text": "Only people who own their home must complete one"
       },
@@ -472,10 +476,6 @@
       {
         "id": "a",
         "text": "Yes, each person entitled to vote must complete their own form"
-      },
-      {
-        "id": "b",
-        "text": "No, one form is completed for the whole household"
       }
     ],
     "correctChoiceIds": [
@@ -507,12 +507,12 @@
         "text": "Christmas Day, 25 December"
       },
       {
-        "id": "c",
-        "text": "Boxing Day, 26 December"
-      },
-      {
         "id": "d",
         "text": "New Year's Day, 1 January"
+      },
+      {
+        "id": "c",
+        "text": "Boxing Day, 26 December"
       },
       {
         "id": "b",
@@ -544,10 +544,6 @@
     "romanUrdu": "1940 ki garmiyon mein Germany aur Britain ke darmiyan lari gayi Battle of Britain kaisi jang thi?",
     "choices": [
       {
-        "id": "a",
-        "text": "An aerial battle fought in the air"
-      },
-      {
         "id": "d",
         "text": "A siege fought around London"
       },
@@ -558,6 +554,10 @@
       {
         "id": "b",
         "text": "A naval battle fought at sea"
+      },
+      {
+        "id": "a",
+        "text": "An aerial battle fought in the air"
       }
     ],
     "correctChoiceIds": [
@@ -585,20 +585,20 @@
     "romanUrdu": "Swansea kahan waqia hai?",
     "choices": [
       {
-        "id": "b",
-        "text": "In Scotland"
-      },
-      {
         "id": "d",
         "text": "In England"
+      },
+      {
+        "id": "c",
+        "text": "In Northern Ireland"
       },
       {
         "id": "a",
         "text": "In Wales"
       },
       {
-        "id": "c",
-        "text": "In Northern Ireland"
+        "id": "b",
+        "text": "In Scotland"
       }
     ],
     "correctChoiceIds": [
@@ -626,20 +626,20 @@
     "romanUrdu": "2010 mein kaunsi do siyasi jamaaton ne coalition government banayi?",
     "choices": [
       {
-        "id": "b",
-        "text": "The Liberal Democrats"
-      },
-      {
-        "id": "d",
-        "text": "The Green Party"
-      },
-      {
         "id": "a",
         "text": "The Conservative Party"
       },
       {
         "id": "c",
         "text": "The Labour Party"
+      },
+      {
+        "id": "d",
+        "text": "The Green Party"
+      },
+      {
+        "id": "b",
+        "text": "The Liberal Democrats"
       }
     ],
     "correctChoiceIds": [
@@ -709,16 +709,16 @@
     "romanUrdu": "1348 mein England, Wales aur Scotland ki ek tihai abadi kis bimari se mari?",
     "choices": [
       {
-        "id": "a",
-        "text": "The Black Death"
+        "id": "c",
+        "text": "Spanish flu"
       },
       {
         "id": "b",
         "text": "The Great Fire of London"
       },
       {
-        "id": "c",
-        "text": "Spanish flu"
+        "id": "a",
+        "text": "The Black Death"
       },
       {
         "id": "d",
@@ -750,20 +750,20 @@
     "romanUrdu": "Haggis UK ke kis hisse ka riwati khana hai?",
     "choices": [
       {
-        "id": "c",
-        "text": "Northern Ireland"
-      },
-      {
-        "id": "b",
-        "text": "Wales"
+        "id": "d",
+        "text": "England"
       },
       {
         "id": "a",
         "text": "Scotland"
       },
       {
-        "id": "d",
-        "text": "England"
+        "id": "c",
+        "text": "Northern Ireland"
+      },
+      {
+        "id": "b",
+        "text": "Wales"
       }
     ],
     "correctChoiceIds": [
@@ -799,12 +799,12 @@
         "text": "The Justice of the Peace Court"
       },
       {
-        "id": "b",
-        "text": "The Magistrates' Court"
-      },
-      {
         "id": "d",
         "text": "The Sheriff Court"
+      },
+      {
+        "id": "b",
+        "text": "The Magistrates' Court"
       }
     ],
     "correctChoiceIds": [
@@ -832,20 +832,20 @@
     "romanUrdu": "William the Conqueror ke daur mein England ke bare mein kaunse do record maloomat dete hain?",
     "choices": [
       {
-        "id": "b",
-        "text": "The Bayeux Tapestry"
+        "id": "d",
+        "text": "The Book of Common Prayer"
       },
       {
         "id": "a",
         "text": "The Domesday Book"
       },
       {
-        "id": "c",
-        "text": "Magna Carta"
+        "id": "b",
+        "text": "The Bayeux Tapestry"
       },
       {
-        "id": "d",
-        "text": "The Book of Common Prayer"
+        "id": "c",
+        "text": "Magna Carta"
       }
     ],
     "correctChoiceIds": [
@@ -874,20 +874,20 @@
     "romanUrdu": "1913 mein British government ne Ireland ke liye Home Rule ka wada kiya. Tabdeeliyan 1921 tak kyun multawi rahin?",
     "choices": [
       {
-        "id": "c",
-        "text": "A general strike in 1926"
-      },
-      {
-        "id": "b",
-        "text": "The outbreak of the Second World War in 1939"
-      },
-      {
         "id": "d",
         "text": "The Great Depression of the 1930s"
       },
       {
         "id": "a",
         "text": "The outbreak of the First World War in 1914"
+      },
+      {
+        "id": "b",
+        "text": "The outbreak of the Second World War in 1939"
+      },
+      {
+        "id": "c",
+        "text": "A general strike in 1926"
       }
     ],
     "correctChoiceIds": [
@@ -915,20 +915,20 @@
     "romanUrdu": "Queen Elizabeth I ke bare mein kaunsa bayan durust hai?",
     "choices": [
       {
-        "id": "c",
-        "text": "She was a Puritan and banned all other forms of worship"
+        "id": "a",
+        "text": "She was a Protestant and balanced the views of Catholics and more extreme Protestants"
       },
       {
         "id": "b",
         "text": "She was a Catholic and restored the Pope's authority in England"
       },
       {
-        "id": "d",
-        "text": "She was a Presbyterian and made the Church of Scotland a state church"
+        "id": "c",
+        "text": "She was a Puritan and banned all other forms of worship"
       },
       {
-        "id": "a",
-        "text": "She was a Protestant and balanced the views of Catholics and more extreme Protestants"
+        "id": "d",
+        "text": "She was a Presbyterian and made the Church of Scotland a state church"
       }
     ],
     "correctChoiceIds": [
@@ -956,8 +956,8 @@
     "romanUrdu": "National Insurance number ke liye apply karte waqt kaunse do documents chahiye?",
     "choices": [
       {
-        "id": "d",
-        "text": "A tenancy agreement for your home"
+        "id": "a",
+        "text": "Documents that prove your identity"
       },
       {
         "id": "c",
@@ -968,8 +968,8 @@
         "text": "Documents that prove you have permission to work in the UK"
       },
       {
-        "id": "a",
-        "text": "Documents that prove your identity"
+        "id": "d",
+        "text": "A tenancy agreement for your home"
       }
     ],
     "correctChoiceIds": [

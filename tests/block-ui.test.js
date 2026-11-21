@@ -87,7 +87,6 @@ test('one-question revision finishes once without completing a study block', () 
   assert.equal(app.progress().questions['source-001'].attempts, 2);
   assert.deepEqual(app.progress().completedBlockIds, []);
   assert.equal(app.progress().activeSession, null);
-  app.root.dispatchEvent(new app.dom.window.Event('click', { bubbles: true }));
   assert.equal(app.progress().completedTestCount, 1);
 });
 
@@ -97,7 +96,9 @@ test('replacing an unfinished session needs confirmation and cancel preserves it
   const app = harness(initial);
   const before = app.dom.window.localStorage.getItem('lifeinuk-progress-v1');
   app.click('[data-action="study-block"][data-block-id="block-2"]');
-  assert.ok(app.root.querySelector('[role="alertdialog"]'));
+  assert.ok(app.root.querySelector('[role="dialog"]'));
+  assert.equal(app.root.querySelector('#home-title').hasAttribute('inert'), true);
+  assert.equal(app.root.querySelector('#home-title').getAttribute('aria-hidden'), 'true');
   app.click('[data-action="cancel-replace"]');
   assert.equal(app.dom.window.localStorage.getItem('lifeinuk-progress-v1'), before);
   app.click('[data-action="study-block"][data-block-id="block-2"]');
@@ -148,7 +149,7 @@ test('revision starts with the most repeatedly missed question and asks before r
   } };
   const app = harness(initial);
   app.click('[data-action="revision"]');
-  assert.ok(app.root.querySelector('[role="alertdialog"]'));
+  assert.ok(app.root.querySelector('[role="dialog"]'));
   app.click('[data-action="confirm-replace"]');
   assert.deepEqual(app.progress().activeSession.questionIds, ['source-003','source-001']);
   assert.equal(app.progress().questions['source-003'].attempts, 4);
@@ -165,7 +166,7 @@ test('replacement confirmation traps keyboard focus and Escape restores the trig
   cancel.dispatchEvent(new app.dom.window.KeyboardEvent('keydown', { key: 'Tab', shiftKey: true, bubbles: true }));
   assert.equal(app.dom.window.document.activeElement, confirm);
   confirm.dispatchEvent(new app.dom.window.KeyboardEvent('keydown', { key: 'Escape', bubbles: true }));
-  assert.equal(app.root.querySelector('[role="alertdialog"]'), null);
+  assert.equal(app.root.querySelector('[role="dialog"]'), null);
   assert.equal(app.dom.window.document.activeElement.dataset.blockId, 'block-2');
 });
 

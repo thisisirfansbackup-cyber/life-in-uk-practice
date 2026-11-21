@@ -9,16 +9,16 @@
     "romanUrdu": "Middle Ages mein England mein kaunsi DO zubanein boli jati thin?",
     "choices": [
       {
-        "id": "d",
-        "text": "Welsh"
-      },
-      {
         "id": "a",
         "text": "Anglo-Saxon"
       },
       {
         "id": "c",
         "text": "Latin"
+      },
+      {
+        "id": "d",
+        "text": "Welsh"
       },
       {
         "id": "b",
@@ -59,12 +59,12 @@
         "text": "Ireland"
       },
       {
-        "id": "a",
-        "text": "The 13 North American colonies"
-      },
-      {
         "id": "c",
         "text": "Australia"
+      },
+      {
+        "id": "a",
+        "text": "The 13 North American colonies"
       }
     ],
     "correctChoiceIds": [
@@ -92,12 +92,12 @@
     "romanUrdu": "England par badshah ke bajaye republic kab hukoomat ki gayi?",
     "choices": [
       {
-        "id": "a",
-        "text": "1649–1660, after Charles I was executed"
-      },
-      {
         "id": "d",
         "text": "1914–1918"
+      },
+      {
+        "id": "a",
+        "text": "1649–1660, after Charles I was executed"
       },
       {
         "id": "b",
@@ -178,16 +178,16 @@
         "text": "About 1,000 years ago"
       },
       {
-        "id": "d",
-        "text": "About 20,000 years ago"
-      },
-      {
         "id": "a",
         "text": "About 6,000 years ago"
       },
       {
         "id": "c",
         "text": "About 300 years ago"
+      },
+      {
+        "id": "d",
+        "text": "About 20,000 years ago"
       }
     ],
     "correctChoiceIds": [
@@ -219,12 +219,12 @@
         "text": "On 11 November 1917"
       },
       {
-        "id": "a",
-        "text": "At 11:00 am on 11 November 1918"
-      },
-      {
         "id": "b",
         "text": "On 1 January 1919"
+      },
+      {
+        "id": "a",
+        "text": "At 11:00 am on 11 November 1918"
       },
       {
         "id": "d",
@@ -260,16 +260,16 @@
         "text": "Yes, a Forced Marriage Protection Order"
       },
       {
-        "id": "c",
-        "text": "Only if the person is under 16"
-      },
-      {
         "id": "b",
         "text": "No, courts cannot intervene"
       },
       {
         "id": "d",
         "text": "Only outside the UK"
+      },
+      {
+        "id": "c",
+        "text": "Only if the person is under 16"
       }
     ],
     "correctChoiceIds": [
@@ -297,10 +297,6 @@
     "romanUrdu": "Mary Peters ne 1972 Olympic Games mein kaunsa medal jeeta?",
     "choices": [
       {
-        "id": "a",
-        "text": "A gold medal in the pentathlon"
-      },
-      {
         "id": "b",
         "text": "A silver medal in swimming"
       },
@@ -311,6 +307,10 @@
       {
         "id": "d",
         "text": "No medal"
+      },
+      {
+        "id": "a",
+        "text": "A gold medal in the pentathlon"
       }
     ],
     "correctChoiceIds": [
@@ -338,20 +338,20 @@
     "romanUrdu": "England, Wales aur Northern Ireland mein Youth Court ke cases aam tor par kaun DO log sunte hain?",
     "choices": [
       {
-        "id": "c",
-        "text": "A jury of twelve"
-      },
-      {
-        "id": "b",
-        "text": "A District Judge"
+        "id": "d",
+        "text": "The Lord Chancellor"
       },
       {
         "id": "a",
         "text": "Up to three specially trained magistrates"
       },
       {
-        "id": "d",
-        "text": "The Lord Chancellor"
+        "id": "b",
+        "text": "A District Judge"
+      },
+      {
+        "id": "c",
+        "text": "A jury of twelve"
       }
     ],
     "correctChoiceIds": [
@@ -380,20 +380,20 @@
     "romanUrdu": "Alan Turing ne 1930s mein kya bayan kiya?",
     "choices": [
       {
-        "id": "c",
-        "text": "The jet engine"
-      },
-      {
-        "id": "d",
-        "text": "The structure of DNA"
-      },
-      {
         "id": "b",
         "text": "The World Wide Web"
       },
       {
         "id": "a",
         "text": "The Turing machine"
+      },
+      {
+        "id": "c",
+        "text": "The jet engine"
+      },
+      {
+        "id": "d",
+        "text": "The structure of DNA"
       }
     ],
     "correctChoiceIds": [
@@ -421,8 +421,8 @@
     "romanUrdu": "Norman Conquest ke foran baad England ki zameen, maweshi aur logon ke bare mein kaunsi record batati hai?",
     "choices": [
       {
-        "id": "b",
-        "text": "The Canterbury Tales"
+        "id": "a",
+        "text": "The Domesday Book"
       },
       {
         "id": "d",
@@ -433,8 +433,8 @@
         "text": "Magna Carta"
       },
       {
-        "id": "a",
-        "text": "The Domesday Book"
+        "id": "b",
+        "text": "The Canterbury Tales"
       }
     ],
     "correctChoiceIds": [
@@ -462,20 +462,20 @@
     "romanUrdu": "Pehli baar atom split karne wali team ki qiyadat kis ne ki?",
     "choices": [
       {
-        "id": "c",
-        "text": "Alexander Fleming"
-      },
-      {
         "id": "b",
         "text": "Alan Turing"
       },
       {
-        "id": "d",
-        "text": "Francis Crick"
+        "id": "c",
+        "text": "Alexander Fleming"
       },
       {
         "id": "a",
         "text": "Ernest Rutherford"
+      },
+      {
+        "id": "d",
+        "text": "Francis Crick"
       }
     ],
     "correctChoiceIds": [
@@ -548,16 +548,16 @@
         "text": "The Cavaliers"
       },
       {
-        "id": "c",
-        "text": "The Whigs"
-      },
-      {
         "id": "d",
         "text": "The Jacobites"
       },
       {
         "id": "b",
         "text": "The Roundheads"
+      },
+      {
+        "id": "c",
+        "text": "The Whigs"
       }
     ],
     "correctChoiceIds": [
@@ -594,12 +594,12 @@
         "text": "Housesteads"
       },
       {
-        "id": "c",
-        "text": "Colchester"
-      },
-      {
         "id": "b",
         "text": "Vindolanda"
+      },
+      {
+        "id": "c",
+        "text": "Colchester"
       }
     ],
     "correctChoiceIds": [
@@ -628,20 +628,20 @@
     "romanUrdu": "Puritans ka mazhab kya tha?",
     "choices": [
       {
-        "id": "d",
-        "text": "Islam"
+        "id": "b",
+        "text": "Roman Catholicism"
       },
       {
-        "id": "c",
-        "text": "Judaism"
+        "id": "d",
+        "text": "Islam"
       },
       {
         "id": "a",
         "text": "Protestantism"
       },
       {
-        "id": "b",
-        "text": "Roman Catholicism"
+        "id": "c",
+        "text": "Judaism"
       }
     ],
     "correctChoiceIds": [
@@ -677,12 +677,12 @@
         "text": "The Cavaliers"
       },
       {
-        "id": "b",
-        "text": "The Chartists"
-      },
-      {
         "id": "c",
         "text": "The Whigs"
+      },
+      {
+        "id": "b",
+        "text": "The Chartists"
       }
     ],
     "correctChoiceIds": [
@@ -710,16 +710,16 @@
     "romanUrdu": "Swinging Sixties mein kaunse DO British pop groups mashhoor thay?",
     "choices": [
       {
-        "id": "a",
-        "text": "The Beatles"
-      },
-      {
         "id": "b",
         "text": "The Rolling Stones"
       },
       {
         "id": "d",
         "text": "Take That"
+      },
+      {
+        "id": "a",
+        "text": "The Beatles"
       },
       {
         "id": "c",
@@ -752,10 +752,6 @@
     "romanUrdu": "UK mein motorcycle chalane ke liye kam az kam umar kya hai?",
     "choices": [
       {
-        "id": "d",
-        "text": "21"
-      },
-      {
         "id": "b",
         "text": "16"
       },
@@ -766,6 +762,10 @@
       {
         "id": "c",
         "text": "18"
+      },
+      {
+        "id": "d",
+        "text": "21"
       }
     ],
     "correctChoiceIds": [
@@ -797,16 +797,16 @@
         "text": "Yes, all are directly elected"
       },
       {
-        "id": "d",
-        "text": "Only life peers are elected"
-      },
-      {
         "id": "a",
         "text": "No, they are not elected"
       },
       {
         "id": "c",
         "text": "Yes, every five years"
+      },
+      {
+        "id": "d",
+        "text": "Only life peers are elected"
       }
     ],
     "correctChoiceIds": [
@@ -838,12 +838,12 @@
         "text": "1918"
       },
       {
-        "id": "a",
-        "text": "1833"
-      },
-      {
         "id": "b",
         "text": "1807"
+      },
+      {
+        "id": "a",
+        "text": "1833"
       },
       {
         "id": "d",
@@ -875,20 +875,20 @@
     "romanUrdu": "Government mein crime, policing aur immigration ka zimmedar kaun hai?",
     "choices": [
       {
-        "id": "a",
-        "text": "The Home Secretary"
-      },
-      {
-        "id": "b",
-        "text": "The Chancellor of the Exchequer"
-      },
-      {
         "id": "c",
         "text": "The Foreign Secretary"
       },
       {
+        "id": "a",
+        "text": "The Home Secretary"
+      },
+      {
         "id": "d",
         "text": "The Speaker"
+      },
+      {
+        "id": "b",
+        "text": "The Chancellor of the Exchequer"
       }
     ],
     "correctChoiceIds": [
@@ -916,20 +916,20 @@
     "romanUrdu": "Wallace and Gromit kis qisam ki films hain?",
     "choices": [
       {
-        "id": "c",
-        "text": "Documentaries"
-      },
-      {
-        "id": "b",
-        "text": "Live-action dramas"
+        "id": "d",
+        "text": "Musicals"
       },
       {
         "id": "a",
         "text": "Animated films"
       },
       {
-        "id": "d",
-        "text": "Musicals"
+        "id": "c",
+        "text": "Documentaries"
+      },
+      {
+        "id": "b",
+        "text": "Live-action dramas"
       }
     ],
     "correctChoiceIds": [
@@ -957,10 +957,6 @@
     "romanUrdu": "Kya partner par tashaddud karne wale shakhs ke khilaf, shadi shuda ya saath rehne wale, muqadma chalaya ja sakta hai?",
     "choices": [
       {
-        "id": "d",
-        "text": "Only if they are divorced"
-      },
-      {
         "id": "c",
         "text": "Only if the victim is under 18"
       },
@@ -971,6 +967,10 @@
       {
         "id": "a",
         "text": "Yes, domestic violence is a serious crime"
+      },
+      {
+        "id": "d",
+        "text": "Only if they are divorced"
       }
     ],
     "correctChoiceIds": [

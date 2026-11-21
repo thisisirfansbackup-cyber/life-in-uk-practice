@@ -52,6 +52,7 @@ export function mountApp(root, dependencies) {
     storageSnapshot: readResult?.storageSnapshot,
     pendingStart: null,
     returnFocus: null,
+    questionError: '',
   };
   let saveError = state.preserveExistingStorage
     ? 'Your saved progress could not be read. We will not overwrite it; new progress may not be saved.'
@@ -159,7 +160,7 @@ export function mountApp(root, dependencies) {
         <p class="privacy-note">Your progress is saved only in this browser on this device. Clearing site data may remove it.</p>
         ${renderWarning()}
         ${state.message ? `<p class="inline-error" role="status">${escapeHtml(state.message)}</p>` : ''}
-        ${state.pendingStart ? `<div class="replacement-overlay"><div class="replace-confirmation" role="alertdialog" aria-modal="true" aria-labelledby="replace-title" aria-describedby="replace-description">
+        ${state.pendingStart ? `<div class="replacement-overlay"><div class="replace-confirmation" role="dialog" aria-modal="true" aria-labelledby="replace-title" aria-describedby="replace-description">
           <h2 id="replace-title">Replace your unfinished test?</h2>
           <p id="replace-description">Starting this practice will replace your unfinished answers. Your completed history will stay saved.</p>
           <div class="home-actions">
@@ -172,6 +173,7 @@ export function mountApp(root, dependencies) {
 
   const renderQuestion = () => {
     const session = state.progress.activeSession;
+    if (!session) return renderHome();
     const questionId = session.questionIds[session.currentIndex];
     const question = questionMap.get(questionId);
     if (!question) return renderHome();
@@ -252,10 +254,19 @@ export function mountApp(root, dependencies) {
       </section>`;
   };
 
+  const isolateModal = () => {
+    if (!state.pendingStart) return;
+    for (const child of root.querySelectorAll('.home-view > :not(.replacement-overlay)')) {
+      child.setAttribute('inert', '');
+      child.setAttribute('aria-hidden', 'true');
+    }
+  };
+
   const render = () => {
     if (state.screen === 'test') root.innerHTML = renderQuestion();
     else if (state.screen === 'results') root.innerHTML = renderResults();
     else root.innerHTML = renderHome();
+    isolateModal();
   };
 
   const startTest = () => {
@@ -385,9 +396,17 @@ export function mountApp(root, dependencies) {
         const outcome = progressStore.recordCompletedSession(
           state.progress, state.progress.activeSession, questionMap, now(),
         );
-        if (outcome.error || !outcome.result) {
-          state.questionError = outcome.error ?? '';
+        if (outcome.error) {
+          state.questionError = outcome.error;
           render();
+          return;
+        }
+        if (!outcome.result) {
+          state.screen = 'home';
+          state.result = null;
+          state.message = 'This test was already completed.';
+          render();
+          focusHeading('#home-title');
           return;
         }
         persist(outcome.progress);
