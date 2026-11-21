@@ -12,10 +12,20 @@ const questions = Array.from({ length: 407 }, (_, i) => ({
   choices: ['a','b','c','d'].map(id => ({ id, text: id })),
 }));
 const blocks = getStudyBlocks(questions);
-const context = { questions, blocks, legacyQuestionMap: { version: 1, mappings: [{
-  oldId: 'old-q', newId: 'source-001', choiceIds: { a: 'a', b: 'b', c: 'c', d: 'd' },
-  resumeSafe: true, reason: 'Reviewed identical question and choices.',
-}] } };
+const context = { questions, blocks, legacyQuestionMap: { version: 1, mappings: [
+  {
+    oldId: 'old-q', newId: 'source-001', choiceIds: { a: 'a', b: 'b', c: 'c', d: 'd' },
+    resumeSafe: true, reason: 'Reviewed identical question and choices.',
+  },
+  {
+    oldId: 'lesson-1-q14', newId: 'source-014', choiceIds: { a: 'b', b: 'a', c: 'c', d: 'd' },
+    resumeSafe: true, reason: 'Same jury-age question and choices.',
+  },
+  {
+    oldId: 'lesson-1-q15', newId: 'source-015', choiceIds: { a: 'a', b: 'c', c: 'b', d: 'd' },
+    resumeSafe: true, reason: 'Same jury-selection question and choices.',
+  },
+] } };
 const empty = () => ({
   version: 2, questions: {}, activeSession: null, completedTestCount: 0,
   completedBlockIds: [], completedSessionIds: [],
@@ -178,6 +188,31 @@ const checkedSession = (mode = 'revision') => {
   }
   return session;
 };
+
+test('a safely mapped legacy session resumes and completes without awarding a block', () => {
+  const old = {
+    version: 1, completedTestCount: 2, questions: {}, activeSession: {
+      questionIds: ['lesson-1-q14', 'lesson-1-q15'],
+      answers: { 'lesson-1-q14': ['b'], 'lesson-1-q15': ['a'] },
+      currentIndex: 0, submitted: false,
+    },
+  };
+  const read = store.readProgress(memory(JSON.stringify(old)), context);
+  assert.equal(read.progress.activeSession.mode, 'legacy');
+  assert.deepEqual(read.progress.activeSession.questionIds, ['source-014', 'source-015']);
+  let session = read.progress.activeSession;
+  session = checkCurrentAnswer({ ...session, currentIndex: 0 },
+    questions.find(question => question.id === 'source-014')).session;
+  session = checkCurrentAnswer({ ...session, currentIndex: 1 },
+    questions.find(question => question.id === 'source-015')).session;
+  const outcome = store.recordCompletedSession(
+    { ...read.progress, activeSession: session }, session,
+    new Map(questions.map(question => [question.id, question])),
+  );
+  assert.equal(outcome.error, null);
+  assert.deepEqual(outcome.progress.completedBlockIds, []);
+  assert.equal(outcome.progress.completedTestCount, 3);
+});
 
 test('a reordered active-session object is still accepted', () => {
   const session = checkedSession();
