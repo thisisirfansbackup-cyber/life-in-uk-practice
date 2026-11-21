@@ -147,3 +147,22 @@ test('full release gate rejects malformed inventory rather than claiming full co
     assert.ok(validate(fullBank(), invalid).length > 0);
   }
 });
+
+test('legacy identity mappings reject missing targets, ambiguous identities and unsafe choices', async () => {
+  const { validateLegacyQuestionMap } = await getBankModule();
+  assert.equal(typeof validateLegacyQuestionMap, 'function', 'explicit migration map validator must exist');
+  const entry = {
+    oldId: 'lesson-1-q14', newId: 'source-001',
+    choiceIds: { a: 'a', b: 'b', c: 'c', d: 'd' }, resumeSafe: true,
+    reason: 'Manual review confirms identical answer meanings and correctness.',
+  };
+  assert.deepEqual(validateLegacyQuestionMap({ version: 1, mappings: [entry] }, fullBank()), []);
+  for (const entries of [
+    [entry, entry], [{ ...entry, newId: 'missing' }],
+    [{ ...entry, choiceIds: { a: 'missing' } }],
+    [{ ...entry, choiceIds: { a: 'a', b: 'a' } }],
+    [{ ...entry, reason: '' }], [{ ...entry, resumeSafe: 'yes' }],
+    [{ ...entry, choiceIds: {} }],
+  ]) assert.ok(validateLegacyQuestionMap({ version: 1, mappings: entries }, fullBank()).length > 0);
+  assert.ok(validateLegacyQuestionMap({ version: 2, mappings: [] }, fullBank()).length > 0);
+});

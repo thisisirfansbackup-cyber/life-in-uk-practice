@@ -143,3 +143,36 @@ export function validateFullCollection(questions, inventory) {
   }
   return errors;
 }
+
+export function validateLegacyQuestionMap(map, questions) {
+  if (map?.version !== 1 || !Array.isArray(map.mappings)) {
+    return ['Legacy question map must use version 1 and a mappings array.'];
+  }
+  const errors = [];
+  const seen = new Set();
+  const targets = new Map((Array.isArray(questions) ? questions : []).map(q => [q.id, q]));
+  for (const [index, entry] of map.mappings.entries()) {
+    const label = `Legacy mapping ${index + 1}`;
+    if (!isNonEmptyString(entry?.oldId) || seen.has(entry.oldId)) errors.push(`${label}: oldId must be unique and non-empty.`);
+    if (entry?.oldId) seen.add(entry.oldId);
+    const target = targets.get(entry?.newId);
+    if (!target) errors.push(`${label}: target question does not exist.`);
+    if (typeof entry?.resumeSafe !== 'boolean') errors.push(`${label}: resumeSafe must be a boolean.`);
+    if (!isNonEmptyString(entry?.reason)) errors.push(`${label}: manual review reason is required.`);
+    const choices = entry?.choiceIds;
+    if (!choices || typeof choices !== 'object' || Array.isArray(choices)) {
+      errors.push(`${label}: choiceIds must be an object.`);
+      continue;
+    }
+    const pairs = Object.entries(choices);
+    const validChoices = new Set(target?.choices?.map(choice => choice.id));
+    if (pairs.some(([oldId, newId]) => !isNonEmptyString(oldId) || !validChoices.has(newId))
+      || new Set(pairs.map(([, newId]) => newId)).size !== pairs.length) {
+      errors.push(`${label}: choice mapping must be one-to-one and refer to target choices.`);
+    }
+    if (entry.resumeSafe && (pairs.length !== 4 || validChoices.size !== 4)) {
+      errors.push(`${label}: safe resume requires all four choice identities.`);
+    }
+  }
+  return errors;
+}

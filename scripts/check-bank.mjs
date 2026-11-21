@@ -1,7 +1,7 @@
 import { readFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import path from 'node:path';
-import { loadQuestionBank, validateFullCollection } from '../src/question-bank.js';
+import { loadQuestionBank, validateFullCollection, validateLegacyQuestionMap } from '../src/question-bank.js';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 
@@ -11,6 +11,10 @@ try {
   if (process.argv.includes('--full')) {
     const inventory = JSON.parse(await readFile(path.join(root, 'data/source-questions.json'), 'utf8'));
     errors.push(...validateFullCollection(JSON.parse(raw), inventory));
+    if (errors.length === 0) {
+      const mapping = JSON.parse(await readFile(path.join(root, 'data/legacy-question-map.json'), 'utf8'));
+      errors.push(...validateLegacyQuestionMap(mapping, questions));
+    }
   }
   if (errors.length > 0) {
     console.error(errors.join('\n'));
