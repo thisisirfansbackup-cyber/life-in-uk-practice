@@ -596,3 +596,15 @@ h1 {
     flex: 1;
   }
 }
+
+@media (max-width: 480px) {
+  .block-choice {
+    grid-template-columns: 1fr;
+  }
+
+  .block-choice span {
+    min-width: 0;
+    word-break: break-word;
+  }
+}
+

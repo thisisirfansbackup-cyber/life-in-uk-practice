@@ -154,7 +154,7 @@ export function mountApp(root, dependencies) {
         <section class="revision-section" aria-labelledby="revision-heading">
           <h2 id="revision-heading">Revisit what needs practice</h2>
           <p>Mistakes and due reviews stay separate from your study blocks.</p>
-          <button class="button button-secondary" type="button" data-action="revision">Start revision${review.questionIds.length ? ` · ${review.questionIds.length} questions` : ''}</button>
+          <button class="button button-secondary" type="button" data-action="revision">Start revision${review.questionIds.length ? ` · ${review.questionIds.length} ${review.questionIds.length === 1 ? 'question' : 'questions'}` : ''}</button>
         </section>
         <p class="privacy-note">Your progress is saved only in this browser on this device. Clearing site data may remove it.</p>
         ${renderWarning()}
