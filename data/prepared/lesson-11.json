@@ -1,0 +1,948 @@
+[
+  {
+    "id": "source-241",
+    "sourceNumber": 241,
+    "lessonNumbers": [
+      11
+    ],
+    "question": "Is Saint Helena part of the United Kingdom?",
+    "romanUrdu": "Kya Saint Helena United Kingdom ka hissa hai?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "Yes, it is a Crown Dependency"
+      },
+      {
+        "id": "b",
+        "text": "Yes, it is part of England"
+      },
+      {
+        "id": "a",
+        "text": "No, it is a British Overseas Territory"
+      },
+      {
+        "id": "d",
+        "text": "Yes, it is part of Scotland"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Saint Helena is a British Overseas Territory, not part of the United Kingdom.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.2 Britain since 1945: British Overseas Territories",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-242",
+    "sourceNumber": 242,
+    "lessonNumbers": [
+      11
+    ],
+    "question": "Where is Theatreland?",
+    "romanUrdu": "Theatreland kahan hai?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "In Cardiff"
+      },
+      {
+        "id": "a",
+        "text": "In London's West End"
+      },
+      {
+        "id": "b",
+        "text": "In Edinburgh"
+      },
+      {
+        "id": "d",
+        "text": "In Belfast"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Theatreland is the name for London's West End theatre district.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.5 Places of interest: London",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-243",
+    "sourceNumber": 243,
+    "lessonNumbers": [
+      11
+    ],
+    "question": "What is the name of the UK currency?",
+    "romanUrdu": "UK ki currency ka kya naam hai?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "Dollar"
+      },
+      {
+        "id": "d",
+        "text": "Franc"
+      },
+      {
+        "id": "b",
+        "text": "Euro"
+      },
+      {
+        "id": "a",
+        "text": "Pound sterling"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The UK currency is pound sterling.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.8 The UK today: currency",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-244",
+    "sourceNumber": 244,
+    "lessonNumbers": [
+      11
+    ],
+    "question": "What other name is given to Diwali?",
+    "romanUrdu": "Diwali ka doosra naam kya hai?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "The Festival of Flowers"
+      },
+      {
+        "id": "d",
+        "text": "The New Year Festival"
+      },
+      {
+        "id": "c",
+        "text": "The Harvest Festival"
+      },
+      {
+        "id": "a",
+        "text": "The Festival of Lights"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Diwali is also known as the Festival of Lights.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.3 Customs and traditions: Diwali",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-245",
+    "sourceNumber": 245,
+    "lessonNumbers": [
+      11
+    ],
+    "question": "Which charity works to help the environment?",
+    "romanUrdu": "Kaunsi charity environment ki madad ke liye kaam karti hai?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "The Royal British Legion"
+      },
+      {
+        "id": "b",
+        "text": "The National Trust for Scotland"
+      },
+      {
+        "id": "d",
+        "text": "The Salvation Army"
+      },
+      {
+        "id": "a",
+        "text": "Friends of the Earth"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Friends of the Earth is an environmental charity.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.8 Your role in the community: charities",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-246",
+    "sourceNumber": 246,
+    "lessonNumbers": [
+      11
+    ],
+    "question": "Which crucial aerial battle was fought between Germany and Britain in 1940?",
+    "romanUrdu": "1940 mein Germany aur Britain ke darmiyan kaunsi aham hawai jang hui?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "The Battle of Trafalgar"
+      },
+      {
+        "id": "c",
+        "text": "The Battle of Hastings"
+      },
+      {
+        "id": "b",
+        "text": "The Battle of Waterloo"
+      },
+      {
+        "id": "a",
+        "text": "The Battle of Britain"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The Battle of Britain was an aerial battle fought in the summer of 1940.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.4 The 20th century: the Battle of Britain",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-247",
+    "sourceNumber": 247,
+    "lessonNumbers": [
+      11
+    ],
+    "question": "What was Margaret Thatcher famous for?",
+    "romanUrdu": "Margaret Thatcher kis liye mashhoor thin?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "She led the suffragettes"
+      },
+      {
+        "id": "a",
+        "text": "She was the first female Prime Minister of the UK"
+      },
+      {
+        "id": "c",
+        "text": "She wrote the Magna Carta"
+      },
+      {
+        "id": "b",
+        "text": "She was the first female Speaker"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Margaret Thatcher was the first female British Prime Minister, serving from 1979 to 1990.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.2 Britain since 1945: Margaret Thatcher",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-248",
+    "sourceNumber": 248,
+    "lessonNumbers": [
+      11
+    ],
+    "question": "Which TWO languages combined to become the English language? Select two.",
+    "romanUrdu": "Kaunsi DO zubanein mil kar English zaban bani?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "Welsh"
+      },
+      {
+        "id": "c",
+        "text": "Latin"
+      },
+      {
+        "id": "a",
+        "text": "Anglo-Saxon"
+      },
+      {
+        "id": "b",
+        "text": "Norman French"
+      }
+    ],
+    "correctChoiceIds": [
+      "a",
+      "b"
+    ],
+    "answerType": "select-two",
+    "verificationStatus": "corrected",
+    "explanation": "English developed from a mixture of Anglo-Saxon and Norman French.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.5 The Middle Ages: the English language",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-249",
+    "sourceNumber": 249,
+    "lessonNumbers": [
+      11
+    ],
+    "question": "Which statement about broadcast election coverage is correct?",
+    "romanUrdu": "Broadcast election coverage ke bare mein kaunsa bayan durust hai?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "Broadcasters may not cover elections at all"
+      },
+      {
+        "id": "c",
+        "text": "Only newspapers must be impartial"
+      },
+      {
+        "id": "a",
+        "text": "Television and radio must meet due-impartiality rules, but not give identical airtime to every view"
+      },
+      {
+        "id": "b",
+        "text": "Broadcasters must give exactly equal airtime to every party"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Ofcom requires due impartiality and due weight, not an equal division of time for every view.",
+    "sources": [
+      {
+        "title": "Ofcom: Due impartiality and due accuracy",
+        "url": "https://www.ofcom.org.uk/tv-radio-and-on-demand/broadcast-standards/section-five-due-impartiality-accuracy",
+        "locator": "Meaning of due impartiality; rules 5.1 and 5.5",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-250",
+    "sourceNumber": 250,
+    "lessonNumbers": [
+      11
+    ],
+    "question": "Where did the Spanish Armada come from?",
+    "romanUrdu": "Spanish Armada kahan se aayi thi?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Spain"
+      },
+      {
+        "id": "c",
+        "text": "Portugal"
+      },
+      {
+        "id": "d",
+        "text": "The Netherlands"
+      },
+      {
+        "id": "b",
+        "text": "France"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The Spanish Armada was sent by Spain and defeated by an English fleet in 1588.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.6 The Tudors and Stuarts: the Spanish Armada",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-251",
+    "sourceNumber": 251,
+    "lessonNumbers": [
+      11
+    ],
+    "question": "What is the name of the war memorial in Whitehall?",
+    "romanUrdu": "Whitehall mein war memorial ka kya naam hai?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "The Cenotaph"
+      },
+      {
+        "id": "b",
+        "text": "The Albert Memorial"
+      },
+      {
+        "id": "d",
+        "text": "The Victoria Memorial"
+      },
+      {
+        "id": "c",
+        "text": "Nelson's Column"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The Cenotaph in Whitehall is a war memorial to those who died in conflicts.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.5 Places of interest: the Cenotaph",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-252",
+    "sourceNumber": 252,
+    "lessonNumbers": [
+      11
+    ],
+    "question": "Has the UK Government ever suspended the Northern Ireland Assembly?",
+    "romanUrdu": "Kya UK Government ne kabhi Northern Ireland Assembly ko suspend kiya hai?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "No, never"
+      },
+      {
+        "id": "d",
+        "text": "Only during elections"
+      },
+      {
+        "id": "a",
+        "text": "Yes, it has been suspended on several occasions"
+      },
+      {
+        "id": "c",
+        "text": "Only before 1998"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The Northern Ireland Assembly has been suspended on a few occasions since it was established.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.6 The government: devolved administrations",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-253",
+    "sourceNumber": 253,
+    "lessonNumbers": [
+      11
+    ],
+    "question": "What kind of church did Scotland establish in 1560?",
+    "romanUrdu": "1560 mein Scotland ne kis qisam ka church qaim kiya?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "A Methodist church"
+      },
+      {
+        "id": "a",
+        "text": "A Protestant Presbyterian church"
+      },
+      {
+        "id": "b",
+        "text": "A Roman Catholic church"
+      },
+      {
+        "id": "c",
+        "text": "An Anglican church"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The Church of Scotland is Presbyterian and Protestant, established after the Reformation.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.6 The Tudors and Stuarts: the Reformation in Scotland",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-254",
+    "sourceNumber": 254,
+    "lessonNumbers": [
+      11
+    ],
+    "question": "When was the Domesday Book compiled?",
+    "romanUrdu": "Domesday Book kab tayyar hui?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "Before the Roman invasion"
+      },
+      {
+        "id": "a",
+        "text": "After the Norman Conquest"
+      },
+      {
+        "id": "c",
+        "text": "During the Victorian era"
+      },
+      {
+        "id": "d",
+        "text": "After the First World War"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The Domesday Book was compiled after the Norman Conquest to record land and property.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.7 Early Britain: the Domesday Book",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-255",
+    "sourceNumber": 255,
+    "lessonNumbers": [
+      11
+    ],
+    "question": "Which TWO issues can the Northern Ireland Assembly NOT decide? Select two.",
+    "romanUrdu": "Northern Ireland Assembly kin DO mamlon mein faisla nahin kar sakti?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "Education"
+      },
+      {
+        "id": "b",
+        "text": "Defence"
+      },
+      {
+        "id": "a",
+        "text": "Immigration"
+      },
+      {
+        "id": "d",
+        "text": "Health"
+      }
+    ],
+    "correctChoiceIds": [
+      "a",
+      "b"
+    ],
+    "answerType": "select-two",
+    "verificationStatus": "corrected",
+    "explanation": "Immigration, defence, foreign affairs, taxation and social security remain under the UK government. Education and health are devolved.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.6 The government: devolved administrations",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-256",
+    "sourceNumber": 256,
+    "lessonNumbers": [
+      11
+    ],
+    "question": "Which TWO are valid ways to make a complaint about the police? Select two.",
+    "romanUrdu": "Police ke bare mein shikayat karne ke DO durust tareeqe kaunse hain?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "Write only to the local newspaper"
+      },
+      {
+        "id": "b",
+        "text": "Contact the Independent Office for Police Conduct"
+      },
+      {
+        "id": "a",
+        "text": "Complain directly to the police force involved"
+      },
+      {
+        "id": "d",
+        "text": "Complain only through a solicitor"
+      }
+    ],
+    "correctChoiceIds": [
+      "a",
+      "b"
+    ],
+    "answerType": "select-two",
+    "verificationStatus": "corrected",
+    "explanation": "You can complain directly to the force or organisation, or use the IOPC complaints process. Eligibility rules apply.",
+    "sources": [
+      {
+        "title": "IOPC: A guide to the complaints process",
+        "url": "https://www.policeconduct.gov.uk/complaints/guide-to-complaints-process",
+        "locator": "Making a complaint",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-257",
+    "sourceNumber": 257,
+    "lessonNumbers": [
+      11
+    ],
+    "question": "Which flower did William Wordsworth write about in 'I wandered lonely as a cloud'?",
+    "romanUrdu": "William Wordsworth ne 'I wandered lonely as a cloud' mein kis phool ka zikr kiya?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "The thistle"
+      },
+      {
+        "id": "a",
+        "text": "The daffodil"
+      },
+      {
+        "id": "b",
+        "text": "The rose"
+      },
+      {
+        "id": "d",
+        "text": "The lily"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Wordsworth's poem describes a host of golden daffodils.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.2 Arts and culture: William Wordsworth",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-258",
+    "sourceNumber": 258,
+    "lessonNumbers": [
+      11
+    ],
+    "question": "When is St Andrew's Day celebrated?",
+    "romanUrdu": "St Andrew's Day kab manaya jata hai?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "1 March"
+      },
+      {
+        "id": "d",
+        "text": "23 April"
+      },
+      {
+        "id": "c",
+        "text": "17 March"
+      },
+      {
+        "id": "a",
+        "text": "30 November"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "St Andrew's Day is celebrated on 30 November, Scotland's national day.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.3 Customs and traditions: St Andrew's Day",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-259",
+    "sourceNumber": 259,
+    "lessonNumbers": [
+      11
+    ],
+    "question": "Who rebuilt St Paul's Cathedral after the Great Fire of 1666?",
+    "romanUrdu": "1666 ke Great Fire ke baad St Paul's Cathedral kis ne dobara banaya?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "Isambard Kingdom Brunel"
+      },
+      {
+        "id": "b",
+        "text": "Sir Edwin Lutyens"
+      },
+      {
+        "id": "d",
+        "text": "John Nash"
+      },
+      {
+        "id": "a",
+        "text": "Sir Christopher Wren"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Sir Christopher Wren designed the rebuilt St Paul's Cathedral.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.2 Arts and culture: architecture",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-260",
+    "sourceNumber": 260,
+    "lessonNumbers": [
+      11
+    ],
+    "question": "When were the first coins minted in Britain?",
+    "romanUrdu": "Britain mein pehle sikkay kab tayyar kiye gaye?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "During the Industrial Revolution"
+      },
+      {
+        "id": "c",
+        "text": "During the Middle Ages"
+      },
+      {
+        "id": "b",
+        "text": "During the Roman period"
+      },
+      {
+        "id": "a",
+        "text": "During the Iron Age"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The people of the Iron Age made the first coins minted in Britain.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.7 Early Britain: the Iron Age",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-261",
+    "sourceNumber": 261,
+    "lessonNumbers": [
+      11
+    ],
+    "question": "Who was Emmeline Pankhurst?",
+    "romanUrdu": "Emmeline Pankhurst kaun thin?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "A leader of the suffragette campaign for women's votes"
+      },
+      {
+        "id": "d",
+        "text": "A nurse in the Crimean War"
+      },
+      {
+        "id": "c",
+        "text": "A Victorian novelist"
+      },
+      {
+        "id": "b",
+        "text": "The first female Prime Minister"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Emmeline Pankhurst led the Women's Social and Political Union, whose members were called suffragettes.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.4 The 20th century: the suffragettes",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-262",
+    "sourceNumber": 262,
+    "lessonNumbers": [
+      11
+    ],
+    "question": "Whom did Britain fight against in the Crimean War?",
+    "romanUrdu": "Crimean War mein Britain kis ke khilaf larhi?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "Germany"
+      },
+      {
+        "id": "a",
+        "text": "Russia"
+      },
+      {
+        "id": "c",
+        "text": "Spain"
+      },
+      {
+        "id": "b",
+        "text": "France"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Britain fought Russia in the Crimean War of 1853–56.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.3 A global power: the Crimean War",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-263",
+    "sourceNumber": 263,
+    "lessonNumbers": [
+      11
+    ],
+    "question": "How old do you have to be to buy alcohol in the UK?",
+    "romanUrdu": "UK mein sharaab kharidne ke liye kam az kam umar kya hai?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "25"
+      },
+      {
+        "id": "c",
+        "text": "21"
+      },
+      {
+        "id": "a",
+        "text": "18"
+      },
+      {
+        "id": "b",
+        "text": "16"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "It is a criminal offence to sell alcohol to anyone under 18, subject to limited exceptions.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.5 Respecting the law: buying alcohol",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  }
+]
