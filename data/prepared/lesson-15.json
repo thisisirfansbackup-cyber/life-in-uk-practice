@@ -1,0 +1,991 @@
+[
+  {
+    "id": "source-336",
+    "sourceNumber": 336,
+    "lessonNumbers": [
+      15
+    ],
+    "question": "Which TWO languages were spoken across England during the Middle Ages? Select two.",
+    "romanUrdu": "Middle Ages mein England mein kaunsi DO zubanein boli jati thin?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "Welsh"
+      },
+      {
+        "id": "a",
+        "text": "Anglo-Saxon"
+      },
+      {
+        "id": "c",
+        "text": "Latin"
+      },
+      {
+        "id": "b",
+        "text": "Norman French"
+      }
+    ],
+    "correctChoiceIds": [
+      "a",
+      "b"
+    ],
+    "answerType": "select-two",
+    "verificationStatus": "corrected",
+    "explanation": "After the Norman Conquest, Norman French and Anglo-Saxon both influenced English.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.5 The Middle Ages: language",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-337",
+    "sourceNumber": 337,
+    "lessonNumbers": [
+      15
+    ],
+    "question": "In 1776, which British colonies declared independence demanding 'no taxation without representation'?",
+    "romanUrdu": "1776 mein kis British colony ne 'no taxation without representation' ke mutalbe ke saath azadi ka elan kiya?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "India"
+      },
+      {
+        "id": "d",
+        "text": "Ireland"
+      },
+      {
+        "id": "a",
+        "text": "The 13 North American colonies"
+      },
+      {
+        "id": "c",
+        "text": "Australia"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The 13 North American colonies declared independence in 1776.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.3 A global power: the American colonies",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-338",
+    "sourceNumber": 338,
+    "lessonNumbers": [
+      15
+    ],
+    "question": "When was England ruled as a republic rather than by a monarch?",
+    "romanUrdu": "England par badshah ke bajaye republic kab hukoomat ki gayi?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "1649–1660, after Charles I was executed"
+      },
+      {
+        "id": "d",
+        "text": "1914–1918"
+      },
+      {
+        "id": "b",
+        "text": "1215–1300"
+      },
+      {
+        "id": "c",
+        "text": "1688–1702"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "England was a republic from 1649, after Charles I was executed, until the monarchy was restored in 1660.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.6 The Tudors and Stuarts: the republic",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-339",
+    "sourceNumber": 339,
+    "lessonNumbers": [
+      15
+    ],
+    "question": "Which UK-produced film franchise is one of the highest-grossing film series of all time?",
+    "romanUrdu": "Kaunsi UK-produced film franchise history ki sab se zyada kamai karne wali series mein se hai?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Harry Potter"
+      },
+      {
+        "id": "b",
+        "text": "James Bond"
+      },
+      {
+        "id": "d",
+        "text": "Paddington"
+      },
+      {
+        "id": "c",
+        "text": "The Lord of the Rings"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The Harry Potter films are among the highest-grossing film series and were produced in the UK.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.2 Arts and culture: film",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-340",
+    "sourceNumber": 340,
+    "lessonNumbers": [
+      15
+    ],
+    "question": "When did the first farmers come to Britain?",
+    "romanUrdu": "Britain mein pehle kisan kab aaye?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "About 1,000 years ago"
+      },
+      {
+        "id": "d",
+        "text": "About 20,000 years ago"
+      },
+      {
+        "id": "a",
+        "text": "About 6,000 years ago"
+      },
+      {
+        "id": "c",
+        "text": "About 300 years ago"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The first farmers came to Britain about 6,000 years ago.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.7 Early Britain: the first farmers",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-341",
+    "sourceNumber": 341,
+    "lessonNumbers": [
+      15
+    ],
+    "question": "When did the First World War end?",
+    "romanUrdu": "First World War kab khatam hui?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "On 11 November 1917"
+      },
+      {
+        "id": "a",
+        "text": "At 11:00 am on 11 November 1918"
+      },
+      {
+        "id": "b",
+        "text": "On 1 January 1919"
+      },
+      {
+        "id": "d",
+        "text": "On 6 June 1944"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The First World War ended at 11:00 am on 11 November 1918.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.4 The 20th century: the end of the First World War",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-342",
+    "sourceNumber": 342,
+    "lessonNumbers": [
+      15
+    ],
+    "question": "Can a court order protect a person from being forced into marriage?",
+    "romanUrdu": "Kya court order kisi ko zabardasti shadi se bachane ke liye diya ja sakta hai?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Yes, a Forced Marriage Protection Order"
+      },
+      {
+        "id": "c",
+        "text": "Only if the person is under 16"
+      },
+      {
+        "id": "b",
+        "text": "No, courts cannot intervene"
+      },
+      {
+        "id": "d",
+        "text": "Only outside the UK"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "A court can make a Forced Marriage Protection Order to protect someone at risk.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.5 Respecting the law: forced marriage",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-343",
+    "sourceNumber": 343,
+    "lessonNumbers": [
+      15
+    ],
+    "question": "What medal did Mary Peters win at the 1972 Olympic Games?",
+    "romanUrdu": "Mary Peters ne 1972 Olympic Games mein kaunsa medal jeeta?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "A gold medal in the pentathlon"
+      },
+      {
+        "id": "b",
+        "text": "A silver medal in swimming"
+      },
+      {
+        "id": "c",
+        "text": "A bronze medal in athletics"
+      },
+      {
+        "id": "d",
+        "text": "No medal"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Mary Peters won an Olympic gold medal in the pentathlon in 1972.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.2 Britain since 1945: Mary Peters",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-344",
+    "sourceNumber": 344,
+    "lessonNumbers": [
+      15
+    ],
+    "question": "Which TWO people normally hear Youth Court cases in England, Wales and Northern Ireland? Select two.",
+    "romanUrdu": "England, Wales aur Northern Ireland mein Youth Court ke cases aam tor par kaun DO log sunte hain?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "A jury of twelve"
+      },
+      {
+        "id": "b",
+        "text": "A District Judge"
+      },
+      {
+        "id": "a",
+        "text": "Up to three specially trained magistrates"
+      },
+      {
+        "id": "d",
+        "text": "The Lord Chancellor"
+      }
+    ],
+    "correctChoiceIds": [
+      "a",
+      "b"
+    ],
+    "answerType": "select-two",
+    "verificationStatus": "corrected",
+    "explanation": "Youth Courts are normally heard by up to three specially trained magistrates or a District Judge.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.5 Respecting the law: Youth Courts",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-345",
+    "sourceNumber": 345,
+    "lessonNumbers": [
+      15
+    ],
+    "question": "What did Alan Turing describe in the 1930s?",
+    "romanUrdu": "Alan Turing ne 1930s mein kya bayan kiya?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "The jet engine"
+      },
+      {
+        "id": "d",
+        "text": "The structure of DNA"
+      },
+      {
+        "id": "b",
+        "text": "The World Wide Web"
+      },
+      {
+        "id": "a",
+        "text": "The Turing machine"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Alan Turing described the Turing machine, a foundation of computer science, in the 1930s.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.2 Britain since 1945: computing",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-346",
+    "sourceNumber": 346,
+    "lessonNumbers": [
+      15
+    ],
+    "question": "Which record tells us about land, livestock and people in England just after the Norman Conquest?",
+    "romanUrdu": "Norman Conquest ke foran baad England ki zameen, maweshi aur logon ke bare mein kaunsi record batati hai?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "The Canterbury Tales"
+      },
+      {
+        "id": "d",
+        "text": "The Bayeux Tapestry"
+      },
+      {
+        "id": "c",
+        "text": "Magna Carta"
+      },
+      {
+        "id": "a",
+        "text": "The Domesday Book"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The Domesday Book recorded land, property and people after the Norman Conquest.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.7 Early Britain: the Domesday Book",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-347",
+    "sourceNumber": 347,
+    "lessonNumbers": [
+      15
+    ],
+    "question": "Who led the team that first split the atom?",
+    "romanUrdu": "Pehli baar atom split karne wali team ki qiyadat kis ne ki?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "Alexander Fleming"
+      },
+      {
+        "id": "b",
+        "text": "Alan Turing"
+      },
+      {
+        "id": "d",
+        "text": "Francis Crick"
+      },
+      {
+        "id": "a",
+        "text": "Ernest Rutherford"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Ernest Rutherford led the team that first split the atom.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.4 The 20th century: science",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-348",
+    "sourceNumber": 348,
+    "lessonNumbers": [
+      15
+    ],
+    "question": "Which traditional song is sung to celebrate the New Year in the UK?",
+    "romanUrdu": "UK mein naya saal manane ke liye kaunsa riwayati geet gaya jata hai?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Auld Lang Syne"
+      },
+      {
+        "id": "c",
+        "text": "Rule Britannia"
+      },
+      {
+        "id": "d",
+        "text": "Jerusalem"
+      },
+      {
+        "id": "b",
+        "text": "God Save the King"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Auld Lang Syne is traditionally sung at New Year.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.3 Customs and traditions: New Year",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-349",
+    "sourceNumber": 349,
+    "lessonNumbers": [
+      15
+    ],
+    "question": "Which TWO sides fought in the English Civil War? Select two.",
+    "romanUrdu": "English Civil War mein kaunse DO groups larhe?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "The Cavaliers"
+      },
+      {
+        "id": "c",
+        "text": "The Whigs"
+      },
+      {
+        "id": "d",
+        "text": "The Jacobites"
+      },
+      {
+        "id": "b",
+        "text": "The Roundheads"
+      }
+    ],
+    "correctChoiceIds": [
+      "a",
+      "b"
+    ],
+    "answerType": "select-two",
+    "verificationStatus": "corrected",
+    "explanation": "The Cavaliers supported the king; the Roundheads supported Parliament.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.6 The Tudors and Stuarts: the Civil War",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-350",
+    "sourceNumber": 350,
+    "lessonNumbers": [
+      15
+    ],
+    "question": "Which TWO Roman forts were part of Hadrian's Wall? Select two.",
+    "romanUrdu": "Kaunse DO Roman forts Hadrian's Wall ka hissa thay?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "Silchester"
+      },
+      {
+        "id": "a",
+        "text": "Housesteads"
+      },
+      {
+        "id": "c",
+        "text": "Colchester"
+      },
+      {
+        "id": "b",
+        "text": "Vindolanda"
+      }
+    ],
+    "correctChoiceIds": [
+      "a",
+      "b"
+    ],
+    "answerType": "select-two",
+    "verificationStatus": "corrected",
+    "explanation": "Housesteads and Vindolanda are Roman forts associated with Hadrian's Wall.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.7 Early Britain: Hadrian's Wall",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-351",
+    "sourceNumber": 351,
+    "lessonNumbers": [
+      15
+    ],
+    "question": "What was the religion of the Puritans?",
+    "romanUrdu": "Puritans ka mazhab kya tha?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "Islam"
+      },
+      {
+        "id": "c",
+        "text": "Judaism"
+      },
+      {
+        "id": "a",
+        "text": "Protestantism"
+      },
+      {
+        "id": "b",
+        "text": "Roman Catholicism"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The Puritans were strict Protestants.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.6 The Tudors and Stuarts: the Puritans",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-352",
+    "sourceNumber": 352,
+    "lessonNumbers": [
+      15
+    ],
+    "question": "Which 19th-century Irish movement favoured complete independence from the UK?",
+    "romanUrdu": "19th sadi ki kaunsi Irish tehreek UK se mukammal azadi ki haami karti thi?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "The Fenians"
+      },
+      {
+        "id": "d",
+        "text": "The Cavaliers"
+      },
+      {
+        "id": "b",
+        "text": "The Chartists"
+      },
+      {
+        "id": "c",
+        "text": "The Whigs"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The Fenians favoured complete Irish independence.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.3 A global power: Ireland",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-353",
+    "sourceNumber": 353,
+    "lessonNumbers": [
+      15
+    ],
+    "question": "Which TWO British pop groups were famous in the Swinging Sixties? Select two.",
+    "romanUrdu": "Swinging Sixties mein kaunse DO British pop groups mashhoor thay?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "The Beatles"
+      },
+      {
+        "id": "b",
+        "text": "The Rolling Stones"
+      },
+      {
+        "id": "d",
+        "text": "Take That"
+      },
+      {
+        "id": "c",
+        "text": "The Spice Girls"
+      }
+    ],
+    "correctChoiceIds": [
+      "a",
+      "b"
+    ],
+    "answerType": "select-two",
+    "verificationStatus": "corrected",
+    "explanation": "The Beatles and the Rolling Stones were famous British groups of the 1960s.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.2 Britain since 1945: the 1960s",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-354",
+    "sourceNumber": 354,
+    "lessonNumbers": [
+      15
+    ],
+    "question": "What is the minimum age to ride or drive a motorcycle in the UK?",
+    "romanUrdu": "UK mein motorcycle chalane ke liye kam az kam umar kya hai?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "21"
+      },
+      {
+        "id": "b",
+        "text": "16"
+      },
+      {
+        "id": "a",
+        "text": "17"
+      },
+      {
+        "id": "c",
+        "text": "18"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The minimum age to ride or drive a motorcycle in the UK is 17; a moped can be ridden from 16.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.5 Respecting the law: driving",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-355",
+    "sourceNumber": 355,
+    "lessonNumbers": [
+      15
+    ],
+    "question": "Are members of the House of Lords elected by the public?",
+    "romanUrdu": "Kya House of Lords ke members awam ki taraf se chune jate hain?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "Yes, all are directly elected"
+      },
+      {
+        "id": "d",
+        "text": "Only life peers are elected"
+      },
+      {
+        "id": "a",
+        "text": "No, they are not elected"
+      },
+      {
+        "id": "c",
+        "text": "Yes, every five years"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Members of the House of Lords, known as peers, are not elected by the public.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.6 The government: the House of Lords",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-356",
+    "sourceNumber": 356,
+    "lessonNumbers": [
+      15
+    ],
+    "question": "In what year did the Emancipation Act abolish slavery throughout the British Empire?",
+    "romanUrdu": "Emancipation Act ne poori British Empire mein ghulami kis saal khatam ki?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "1918"
+      },
+      {
+        "id": "a",
+        "text": "1833"
+      },
+      {
+        "id": "b",
+        "text": "1807"
+      },
+      {
+        "id": "d",
+        "text": "1928"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The Emancipation Act of 1833 abolished slavery throughout the British Empire.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.3 A global power: the abolition of slavery",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-357",
+    "sourceNumber": 357,
+    "lessonNumbers": [
+      15
+    ],
+    "question": "Who in government is responsible for crime, policing and immigration?",
+    "romanUrdu": "Government mein crime, policing aur immigration ka zimmedar kaun hai?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "The Home Secretary"
+      },
+      {
+        "id": "b",
+        "text": "The Chancellor of the Exchequer"
+      },
+      {
+        "id": "c",
+        "text": "The Foreign Secretary"
+      },
+      {
+        "id": "d",
+        "text": "The Speaker"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The Home Secretary is responsible for crime, policing and immigration.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.6 The government: Secretaries of State",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-358",
+    "sourceNumber": 358,
+    "lessonNumbers": [
+      15
+    ],
+    "question": "What type of films are Wallace and Gromit?",
+    "romanUrdu": "Wallace and Gromit kis qisam ki films hain?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "Documentaries"
+      },
+      {
+        "id": "b",
+        "text": "Live-action dramas"
+      },
+      {
+        "id": "a",
+        "text": "Animated films"
+      },
+      {
+        "id": "d",
+        "text": "Musicals"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Wallace and Gromit are animated films created by Nick Park.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.2 Arts and culture: film",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-359",
+    "sourceNumber": 359,
+    "lessonNumbers": [
+      15
+    ],
+    "question": "Can a person who is violent towards their partner be prosecuted, whether married or cohabiting?",
+    "romanUrdu": "Kya partner par tashaddud karne wale shakhs ke khilaf, shadi shuda ya saath rehne wale, muqadma chalaya ja sakta hai?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "Only if they are divorced"
+      },
+      {
+        "id": "c",
+        "text": "Only if the victim is under 18"
+      },
+      {
+        "id": "b",
+        "text": "No, only strangers can be prosecuted"
+      },
+      {
+        "id": "a",
+        "text": "Yes, domestic violence is a serious crime"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Domestic violence is a serious crime whether the parties are married or cohabiting.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.5 Respecting the law: domestic violence",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  }
+]
