@@ -197,6 +197,35 @@ test('a changed storage snapshot halts later writes while practice stays usable 
   assert.match(app.root.textContent, /another tab.*reload/i);
 });
 
+test('duplicate finish activation records one completion and remount shows saved coverage', () => {
+  const active = {
+    ...createSession(blocks[0].questionIds, { id: 'once', mode: 'study', blockId: 'block-1' }),
+    currentIndex: 50, checkedQuestionIds: blocks[0].questionIds.slice(0,50),
+    answers: Object.fromEntries(blocks[0].questionIds.slice(0,50).map(id => [id, ['b']])),
+  };
+  const app = harness({ ...blank(), activeSession: active });
+  app.click('[data-action="resume"]');
+  app.choose();
+  app.click('[data-action="check"]');
+  const submit = app.root.querySelector('[data-action="submit"]');
+  submit.click();
+  submit.click();
+  assert.equal(app.progress().completedTestCount, 1);
+  assert.deepEqual(app.progress().completedBlockIds, ['block-1']);
+  assert.equal(app.progress().questions['source-001'].attempts, 1);
+  const reload = harness(app.progress());
+  assert.match(reload.root.textContent, /1 of 8/);
+});
+
+test('corrupt-storage warning survives answer changes and navigation', () => {
+  const app = harness(blank(), '{bad');
+  app.click('[data-action="study-block"][data-block-id="block-1"]');
+  app.choose();
+  app.click('[data-action="check"]');
+  app.click('[data-action="next"]');
+  assert.match(app.root.textContent, /could not be read|cannot be saved|could not be saved/i);
+});
+
 test('unsafe content is displayed as text rather than inserted markup', () => {
   const bank = structuredClone(questions);
   bank[0].question = '<img src=x onerror="alert(1)">';

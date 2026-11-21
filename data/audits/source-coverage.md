@@ -11,8 +11,10 @@
 
 ## Preparation status
 
-Source questions 1–407 await the full per-item verification/correction and translation pass.
-The existing runtime bank has 51 audited items; these have not yet been mapped to original source numbers.
+Prepared and verified so far: source questions **1–72** (lessons 1–3), in `data/prepared/lesson-01.json` through `lesson-03.json`. Lessons 2 repeats lesson 1's topics but keeps its own 24 source positions and identities.
+
+Remaining: source questions **73–407** await the same per-item verification/correction and translation pass.
+The existing 51-item published bank is archived for migration review at `data/audits/legacy-published-bank.json`.
 No source item may be silently dropped or treated as verified merely because it appears in this inventory.
 
 Run `npm run check:bank:full` to enforce full coverage before release. It intentionally fails while the runtime bank is incomplete.
