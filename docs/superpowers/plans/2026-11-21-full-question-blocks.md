@@ -157,8 +157,8 @@ test('blocks cover all source positions without overlap', () => {
 - Existing `updateAnswer`, `checkCurrentAnswer`, `moveToQuestion`, `scoreSession`, and `submitSession` retain their interfaces and propagate metadata.
 - `mode: 'study'` carries its matching block ID; revision and legacy sessions carry no block ID.
 
-- [ ] Write tests asserting injected session identity and mode survive selecting, checking, navigation, and submission; separate calls generate different identities.
-- [ ] Write tests for one-question revision and the final 50-question study block: all checked permits completion, one unchecked prevents it, checked answers cannot change, and select-two requires exactly the pair. Empty sessions must not be submittable.
+- [x] Write tests asserting injected session identity and mode survive selecting, checking, navigation, and submission; separate calls generate different identities.
+- [x] Write tests for one-question revision and the final 50-question study block: all checked permits completion, one unchecked prevents it, checked answers cannot change, and select-two requires exactly the pair. Empty sessions must not be submittable.
 
 Test anchor:
 ```js
@@ -168,8 +168,8 @@ test('empty revision cannot be completed', () => {
 });
 ```
 
-- [ ] Run `node --test tests/session.test.js`; verify red, implement metadata and empty-session protection, rerun for green without rewriting the existing scoring/checking algorithms.
-- [ ] Commit: `feat: identify study and revision sessions`.
+- [x] Run `node --test tests/session.test.js`; verify red, implement metadata and empty-session protection, rerun for green without rewriting the existing scoring/checking algorithms.
+- [x] Commit: `feat: identify study and revision sessions`.
 
 ## Task 5: Safe progress migration and exactly-once completion
 
