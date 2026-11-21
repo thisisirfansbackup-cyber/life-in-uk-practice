@@ -11,9 +11,9 @@
 
 ## Preparation status
 
-Prepared and verified so far: source questions **1–72** (lessons 1–3), in `data/prepared/lesson-01.json` through `lesson-03.json`. Lessons 2 repeats lesson 1's topics but keeps its own 24 source positions and identities.
+Prepared and verified so far: source questions **1–96** (lessons 1–4), in `data/prepared/lesson-01.json` through `lesson-04.json`. Lessons 2 repeats lesson 1's topics but keeps its own 24 source positions and identities. Lesson 4 uses the official 3rd-edition handbook text, with section-level locators.
 
-Remaining: source questions **73–407** await the same per-item verification/correction and translation pass.
+Remaining: source questions **97–407** await the same per-item verification/correction and translation pass.
 The existing 51-item published bank is archived for migration review at `data/audits/legacy-published-bank.json`.
 No source item may be silently dropped or treated as verified merely because it appears in this inventory.
 

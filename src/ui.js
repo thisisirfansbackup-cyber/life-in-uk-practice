@@ -1,3 +1,5 @@
+import { emptyProgressV2 } from './progress-validation.js';
+
 const emptyProgress = () => ({ version: 1, questions: {}, activeSession: null });
 
 const escapeHtml = (value) => String(value ?? '').replace(/[&<>"']/g, (character) => ({
@@ -450,4 +452,3 @@ export function mountApp(root, dependencies) {
     },
   };
 }
-import { emptyProgressV2 } from './progress-validation.js';
