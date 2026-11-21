@@ -1,0 +1,989 @@
+[
+  {
+    "id": "source-145",
+    "sourceNumber": 145,
+    "lessonNumbers": [
+      7
+    ],
+    "question": "Which TWO are responsibilities shared by everyone living in the UK? Select two.",
+    "romanUrdu": "UK mein rehne wale har shakhs ki DO zimmedariyan kaunsi hain?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Respect and obey the law"
+      },
+      {
+        "id": "b",
+        "text": "Always vote for the governing party"
+      },
+      {
+        "id": "c",
+        "text": "Look after the area where you live and the environment"
+      },
+      {
+        "id": "d",
+        "text": "Never question the government"
+      }
+    ],
+    "correctChoiceIds": [
+      "a",
+      "c"
+    ],
+    "answerType": "select-two",
+    "verificationStatus": "corrected",
+    "explanation": "Shared responsibilities include respecting and obeying the law, looking after yourself and your family, and looking after your local area and environment.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "1.3 The values and principles of the UK: responsibilities",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-146",
+    "sourceNumber": 146,
+    "lessonNumbers": [
+      7
+    ],
+    "question": "When is Halloween celebrated?",
+    "romanUrdu": "Halloween kab manaya jata hai?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "31 October"
+      },
+      {
+        "id": "b",
+        "text": "1 November"
+      },
+      {
+        "id": "c",
+        "text": "5 November"
+      },
+      {
+        "id": "d",
+        "text": "25 December"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Halloween is celebrated on 31 October and has roots in an ancient festival marking the beginning of winter.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.3 Customs and traditions: Halloween",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-147",
+    "sourceNumber": 147,
+    "lessonNumbers": [
+      7
+    ],
+    "question": "Did the Bill of Rights of 1689 give women the right to vote?",
+    "romanUrdu": "Kya 1689 ke Bill of Rights ne aurton ko vote ka haq diya?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "No"
+      },
+      {
+        "id": "b",
+        "text": "Yes, for parliamentary elections"
+      },
+      {
+        "id": "c",
+        "text": "Yes, but only in Scotland"
+      },
+      {
+        "id": "d",
+        "text": "Yes, for local elections only"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The Bill of Rights did not give women the vote. Women gained limited parliamentary voting rights in 1918 and equal terms with men in 1928.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.2 The development of British democracy",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-148",
+    "sourceNumber": 148,
+    "lessonNumbers": [
+      7
+    ],
+    "question": "What is the name of the Test cricket series played between England and Australia?",
+    "romanUrdu": "England aur Australia ke darmiyan Test cricket series ka kya naam hai?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "The Ashes"
+      },
+      {
+        "id": "b",
+        "text": "The Six Nations"
+      },
+      {
+        "id": "c",
+        "text": "The Grand National"
+      },
+      {
+        "id": "d",
+        "text": "The Ryder Cup"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The Ashes is the famous series of Test matches between England and Australia.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.7 Sport: cricket",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-149",
+    "sourceNumber": 149,
+    "lessonNumbers": [
+      7
+    ],
+    "question": "Before the 18th century, what was the biggest source of employment in Britain?",
+    "romanUrdu": "18th sadi se pehle Britain mein rozgaar ka sab se bara zariya kya tha?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Agriculture"
+      },
+      {
+        "id": "b",
+        "text": "Shipbuilding"
+      },
+      {
+        "id": "c",
+        "text": "Coal mining"
+      },
+      {
+        "id": "d",
+        "text": "Tourism"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Before the 18th century, agriculture was the biggest source of employment in Britain.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.3 A global power: before the Industrial Revolution",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-150",
+    "sourceNumber": 150,
+    "lessonNumbers": [
+      7
+    ],
+    "question": "In 1314, did the Scots led by Robert the Bruce defeat the English at Bannockburn?",
+    "romanUrdu": "1314 mein kya Robert the Bruce ki qiyadat mein Scots ne Bannockburn mein English ko shikast di?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Yes, and Scotland remained unconquered"
+      },
+      {
+        "id": "b",
+        "text": "No, the English won"
+      },
+      {
+        "id": "c",
+        "text": "Yes, but Scotland was then conquered"
+      },
+      {
+        "id": "d",
+        "text": "The battle was a draw"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Robert the Bruce defeated the English at Bannockburn in 1314, and Scotland remained unconquered.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.5 The Middle Ages: Bannockburn",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-151",
+    "sourceNumber": 151,
+    "lessonNumbers": [
+      7
+    ],
+    "question": "Which of these is an example of a criminal offence?",
+    "romanUrdu": "In mein se kaunsa mujrimana jurm ki misaal hai?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Smoking in a public place where it is not allowed"
+      },
+      {
+        "id": "b",
+        "text": "Paying income tax late"
+      },
+      {
+        "id": "c",
+        "text": "Reading a newspaper in public"
+      },
+      {
+        "id": "d",
+        "text": "Joining a trade union"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Smoking in enclosed public places where it is prohibited is against the law and can be a criminal offence.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.5 Respecting the law: smoking in public places",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-152",
+    "sourceNumber": 152,
+    "lessonNumbers": [
+      7
+    ],
+    "question": "Which Scottish clan was killed for taking the oath of loyalty late?",
+    "romanUrdu": "Kis Scottish qabeelay ko wafadari ki qasam der se lene par qatl kiya gaya?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "The MacDonalds of Glencoe"
+      },
+      {
+        "id": "b",
+        "text": "The Campbells of Argyll"
+      },
+      {
+        "id": "c",
+        "text": "The Stewarts of Edinburgh"
+      },
+      {
+        "id": "d",
+        "text": "The Douglases of Lanarkshire"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The MacDonalds of Glencoe were late taking the oath and were killed in the Glencoe massacre.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.6 The Tudors and Stuarts: the Glencoe massacre",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-153",
+    "sourceNumber": 153,
+    "lessonNumbers": [
+      7
+    ],
+    "question": "Which TWO policy areas can the devolved administrations make laws on? Select two.",
+    "romanUrdu": "Devolved administrations kin DO policy areas mein qanoon bana sakti hain?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Health"
+      },
+      {
+        "id": "b",
+        "text": "Education"
+      },
+      {
+        "id": "c",
+        "text": "Defence"
+      },
+      {
+        "id": "d",
+        "text": "Foreign affairs"
+      }
+    ],
+    "correctChoiceIds": [
+      "a",
+      "b"
+    ],
+    "answerType": "select-two",
+    "verificationStatus": "corrected",
+    "explanation": "Education and health are devolved. Defence, foreign affairs, immigration, taxation and social security remain under the UK government.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.6 The government: devolved administrations",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-154",
+    "sourceNumber": 154,
+    "lessonNumbers": [
+      7
+    ],
+    "question": "The assassination of Archduke Franz Ferdinand in 1914 led to which war?",
+    "romanUrdu": "1914 mein Archduke Franz Ferdinand ke qatl ne kis jang ka rasta khola?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "The First World War"
+      },
+      {
+        "id": "b",
+        "text": "The Second World War"
+      },
+      {
+        "id": "c",
+        "text": "The Crimean War"
+      },
+      {
+        "id": "d",
+        "text": "The Boer War"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The assassination of Archduke Franz Ferdinand in 1914 was the trigger for the First World War.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.4 The 20th century: the First World War",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-155",
+    "sourceNumber": 155,
+    "lessonNumbers": [
+      7
+    ],
+    "question": "What is the capital city of Scotland?",
+    "romanUrdu": "Scotland ka dar-ul-hukoomat kaunsa hai?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Edinburgh"
+      },
+      {
+        "id": "b",
+        "text": "Glasgow"
+      },
+      {
+        "id": "c",
+        "text": "Aberdeen"
+      },
+      {
+        "id": "d",
+        "text": "Dundee"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Edinburgh is the capital city of Scotland and the home of the Scottish Parliament.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.6 The government: the Scottish Parliament",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-156",
+    "sourceNumber": 156,
+    "lessonNumbers": [
+      7
+    ],
+    "question": "Did the 1833 Emancipation Act abolish slavery throughout the British Empire?",
+    "romanUrdu": "Kya 1833 ke Emancipation Act ne poori British Empire mein ghulami khatam ki?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Yes"
+      },
+      {
+        "id": "b",
+        "text": "No, it applied only to England"
+      },
+      {
+        "id": "c",
+        "text": "No, it applied only to Scotland"
+      },
+      {
+        "id": "d",
+        "text": "No, slavery continued until 1928"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The Emancipation Act of 1833 abolished slavery throughout the British Empire.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.3 A global power: the slave trade and its abolition",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-157",
+    "sourceNumber": 157,
+    "lessonNumbers": [
+      7
+    ],
+    "question": "What was the clearing of small Scottish farms for large sheep and cattle farms called?",
+    "romanUrdu": "Chhoti Scottish kheton ko bare gosht aur doodh ke farms ke liye khatam karne ko kya kaha jata tha?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "The Highland Clearances"
+      },
+      {
+        "id": "b",
+        "text": "The Enclosure Acts"
+      },
+      {
+        "id": "c",
+        "text": "The Corn Laws"
+      },
+      {
+        "id": "d",
+        "text": "The Act of Union"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Scottish landlords destroyed small farms called crofts to make space for large flocks; this became known as the Highland Clearances.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.3 A global power: the Highland Clearances",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-158",
+    "sourceNumber": 158,
+    "lessonNumbers": [
+      7
+    ],
+    "question": "Are the Falkland Islands a British Overseas Territory and part of the United Kingdom?",
+    "romanUrdu": "Kya Falkland Islands British Overseas Territory hain aur United Kingdom ka hissa hain?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "They are a British Overseas Territory but not part of the UK"
+      },
+      {
+        "id": "b",
+        "text": "They are part of England"
+      },
+      {
+        "id": "c",
+        "text": "They are a Crown Dependency"
+      },
+      {
+        "id": "d",
+        "text": "They are part of Scotland"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The Falkland Islands are a British Overseas Territory, but they are not part of the United Kingdom.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.2 Britain since 1945: the Falkland Islands",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-159",
+    "sourceNumber": 159,
+    "lessonNumbers": [
+      7
+    ],
+    "question": "Which TWO were battles of the English Civil War? Select two.",
+    "romanUrdu": "English Civil War ki DO jangon kaunsi thin?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "The Battle of Marston Moor"
+      },
+      {
+        "id": "b",
+        "text": "The Battle of Naseby"
+      },
+      {
+        "id": "c",
+        "text": "The Battle of Hastings"
+      },
+      {
+        "id": "d",
+        "text": "The Battle of Waterloo"
+      }
+    ],
+    "correctChoiceIds": [
+      "a",
+      "b"
+    ],
+    "answerType": "select-two",
+    "verificationStatus": "corrected",
+    "explanation": "The king's army was defeated at Marston Moor and Naseby during the English Civil War.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.6 The Tudors and Stuarts: the Civil War",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-160",
+    "sourceNumber": 160,
+    "lessonNumbers": [
+      7
+    ],
+    "question": "What was the name of the activist group that campaigned for women's right to vote?",
+    "romanUrdu": "Aurton ke vote ke haq ke liye campaign karne wale group ka kya naam tha?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "The Suffragettes"
+      },
+      {
+        "id": "b",
+        "text": "The Chartists"
+      },
+      {
+        "id": "c",
+        "text": "The Cavaliers"
+      },
+      {
+        "id": "d",
+        "text": "The Roundheads"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Members of the women's suffrage movement became known as suffragettes; Emmeline Pankhurst helped found the WSPU.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.4 The 20th century: the suffragettes",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-161",
+    "sourceNumber": 161,
+    "lessonNumbers": [
+      7
+    ],
+    "question": "Which UK view was voted Britain's favourite in 2007?",
+    "romanUrdu": "2007 mein Britain ka pasandeeda manzar kaunsa chuna gaya?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Wastwater in the Lake District"
+      },
+      {
+        "id": "b",
+        "text": "The White Cliffs of Dover"
+      },
+      {
+        "id": "c",
+        "text": "Snowdon"
+      },
+      {
+        "id": "d",
+        "text": "The Giant's Causeway"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "In 2007 television viewers voted Wastwater in the Lake District as Britain's favourite view.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.5 Places of interest: the Lake District",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-162",
+    "sourceNumber": 162,
+    "lessonNumbers": [
+      7
+    ],
+    "question": "Who were the first people to live in Britain during the Stone Age?",
+    "romanUrdu": "Stone Age mein Britain mein rehne wale pehle log kaun thay?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Hunter-gatherers"
+      },
+      {
+        "id": "b",
+        "text": "Roman soldiers"
+      },
+      {
+        "id": "c",
+        "text": "Norman settlers"
+      },
+      {
+        "id": "d",
+        "text": "Victorian factory workers"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The first people to live in Britain were hunter-gatherers in the Stone Age.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.7 Early Britain: the Stone Age",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-163",
+    "sourceNumber": 163,
+    "lessonNumbers": [
+      7
+    ],
+    "question": "What was the movement against the authority of the Pope and the Catholic Church called?",
+    "romanUrdu": "Pope aur Catholic Church ki iqtidar ke khilaf tehreek ko kya kaha jata tha?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "The Reformation"
+      },
+      {
+        "id": "b",
+        "text": "The Enlightenment"
+      },
+      {
+        "id": "c",
+        "text": "The Renaissance"
+      },
+      {
+        "id": "d",
+        "text": "The Restoration"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The Reformation was a movement against the authority of the Pope and the ideas and practices of the Roman Catholic Church.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.6 The Tudors and Stuarts: the Reformation",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-164",
+    "sourceNumber": 164,
+    "lessonNumbers": [
+      7
+    ],
+    "question": "Which department should you contact to apply for a National Insurance number?",
+    "romanUrdu": "National Insurance number ke liye kis department se rabta karna chahiye?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "The Department for Work and Pensions"
+      },
+      {
+        "id": "b",
+        "text": "The Home Office"
+      },
+      {
+        "id": "c",
+        "text": "The Foreign Office"
+      },
+      {
+        "id": "d",
+        "text": "The Department for Education"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "You contact the Department for Work and Pensions to arrange a National Insurance number.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.5 Respecting the law: National Insurance",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-165",
+    "sourceNumber": 165,
+    "lessonNumbers": [
+      7
+    ],
+    "question": "Which of these is a major horse-racing event in England?",
+    "romanUrdu": "In mein se England ka koi bara horse-racing event kaunsa hai?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Royal Ascot"
+      },
+      {
+        "id": "b",
+        "text": "The Grand National at Aintree"
+      },
+      {
+        "id": "c",
+        "text": "The Six Nations"
+      },
+      {
+        "id": "d",
+        "text": "The Ashes"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Royal Ascot is a famous five-day horse-racing meeting in Berkshire.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.7 Sport: horse racing",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-166",
+    "sourceNumber": 166,
+    "lessonNumbers": [
+      7
+    ],
+    "question": "How many people form a jury in Scotland?",
+    "romanUrdu": "Scotland mein jury kitne logon par mushtamil hoti hai?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "15"
+      },
+      {
+        "id": "b",
+        "text": "12"
+      },
+      {
+        "id": "c",
+        "text": "10"
+      },
+      {
+        "id": "d",
+        "text": "8"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "A jury has 15 members in Scotland and 12 in England, Wales and Northern Ireland.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.5 Respecting the law: jury service",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-167",
+    "sourceNumber": 167,
+    "lessonNumbers": [
+      7
+    ],
+    "question": "What are the 40 days before Easter called?",
+    "romanUrdu": "Easter se pehle ke chalees dinon ko kya kaha jata hai?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Lent"
+      },
+      {
+        "id": "b",
+        "text": "Advent"
+      },
+      {
+        "id": "c",
+        "text": "Pentecost"
+      },
+      {
+        "id": "d",
+        "text": "Epiphany"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The 40 days before Easter are known as Lent, a time of reflection and preparation.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.3 Customs and traditions: Lent",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-168",
+    "sourceNumber": 168,
+    "lessonNumbers": [
+      7
+    ],
+    "question": "When was the last successful foreign invasion of England?",
+    "romanUrdu": "England par aakhri kamyab foreign hamla kab hua?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "1066"
+      },
+      {
+        "id": "b",
+        "text": "1314"
+      },
+      {
+        "id": "c",
+        "text": "1588"
+      },
+      {
+        "id": "d",
+        "text": "1688"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The Norman Conquest of 1066 was the last successful foreign invasion of England.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.7 Early Britain: the Norman Conquest",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  }
+]

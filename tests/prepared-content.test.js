@@ -14,6 +14,18 @@ test('prepared lesson three retains every source position with verified, transla
   assert.equal(new Set(lesson.find(q => q.sourceNumber === 67).choices.map(c => c.text)).size, 4);
 });
 
+test('prepared items match their original source number and lesson provenance', () => {
+  const source = JSON.parse(readFileSync('data/source-questions.json', 'utf8'));
+  for (const file of readdirSync('data/prepared').filter(file => file.endsWith('.json'))) {
+    for (const question of JSON.parse(readFileSync(`data/prepared/${file}`, 'utf8'))) {
+      const original = source[question.sourceNumber - 1];
+      assert.equal(question.sourceNumber, original.n, question.id);
+      assert.ok(question.lessonNumbers.includes(Number(original.lesson.slice(1))), question.id);
+      assert.ok(question.sources.every(source => /^https:\/\//.test(source.url)), question.id);
+    }
+  }
+});
+
 test('every prepared item has a stable source identity, Latin translation and distinct choices', () => {
   assert.ok(existsSync('data/prepared'), 'prepared-content directory must exist');
   for (const file of readdirSync('data/prepared').filter(file => file.endsWith('.json'))) {
