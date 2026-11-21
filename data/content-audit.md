@@ -41,7 +41,13 @@ The lesson audits at `data/audits/lessons-*.md` mark unsupported claims as **unc
 
 ## Current bank coverage
 
-The current bank contains 51 questions drawn from the supplied lesson claims, each marked verified or corrected and paired with a dated HTTPS citation. It currently represents lessons 1, 4, 5, and 7–17; lessons 2, 3, and 6 have no included question yet. This is a curated, source-supported first bank rather than an exhaustive normalization of every lesson item. Add more verified items, especially from the uncovered lessons, before treating the content set as comprehensive.
+The current bank contains **all 407 source positions** from the supplied 17 lessons, in original order. Each item is marked verified or corrected and carries a dated HTTPS source with a section locator. Lesson 2 repeats lesson 1's topics but keeps its own 24 source positions. Lessons 4–8 and 9–17 are checked against the official 3rd-edition handbook text, with current official guidance used where the handbook is older (for example Senedd membership and term length). Corrupted source choices were replaced, genuine select-two questions restored, and choice order shuffled at authoring time so the correct option is not always first.
+
+The full release gate (`npm run check:bank:full`) refuses a partial, untranslated, unconfirmed, or source-number-mismatched bank. The earlier 51-question published bank is archived at `data/audits/legacy-published-bank.json` for migration review.
+
+## Handbook source limitation
+
+Many lesson 4–17 items cite *Life in the UK: A guide for new residents*, 3rd edition (Crown copyright), using an accessible PDF copy hosted at `https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf`. That URL is a **third-party mirror of the official text**, not a government publication page. The edition, title and section locators identify the cited passages, and the full text was read during verification. Items whose only source is this handbook are therefore recorded as `corrected` rather than `verified`; the distinction is intentional. Current-law or changed-institution items use current official government, Parliament, regulator, Senedd or legislation pages instead. The paid official guide was not purchased or accessed through a government portal.
 
 ## Direct official pages checked
 

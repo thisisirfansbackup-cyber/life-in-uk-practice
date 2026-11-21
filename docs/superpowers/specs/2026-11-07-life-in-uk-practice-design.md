@@ -3,6 +3,8 @@
 **Status:** Approved  
 **Date:** 2026-11-07
 
+**Scope update (2026-11-21):** The user approved all 407 source questions in ordered 51-question study blocks with separate revision rounds. See the approved replacement specification, `2026-11-21-full-question-blocks-design.md`. The earlier random 50-question format below is historical, not the target for the next implementation.
+
 ## Purpose
 
 Create a polished, mobile-first practice website for the user's brother to study for the Life in the UK test. The site will turn the user's supplied Lessons 1–17 into a verified question bank and use his answers to concentrate practice on unfamiliar and difficult material.

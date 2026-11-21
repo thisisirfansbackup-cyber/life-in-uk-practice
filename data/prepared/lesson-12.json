@@ -1,0 +1,987 @@
+[
+  {
+    "id": "source-264",
+    "sourceNumber": 264,
+    "lessonNumbers": [
+      12
+    ],
+    "question": "Which of these is a Crown Dependency but not part of the UK?",
+    "romanUrdu": "In mein se kaunsa Crown Dependency hai lekin UK ka hissa nahin?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "The Isle of Man"
+      },
+      {
+        "id": "d",
+        "text": "Northern Ireland"
+      },
+      {
+        "id": "c",
+        "text": "Scotland"
+      },
+      {
+        "id": "b",
+        "text": "Wales"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The Isle of Man is a Crown Dependency and is not part of the UK.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "2.2 What is the UK? Crown Dependencies",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-265",
+    "sourceNumber": 265,
+    "lessonNumbers": [
+      12
+    ],
+    "question": "Is the BBC controlled by the government?",
+    "romanUrdu": "Kya BBC government ke control mein hai?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "Yes, Parliament chooses its editors"
+      },
+      {
+        "id": "b",
+        "text": "Yes, the Prime Minister runs it"
+      },
+      {
+        "id": "a",
+        "text": "No, it is independent"
+      },
+      {
+        "id": "d",
+        "text": "Yes, but only during elections"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The BBC is independent of government, although it is funded by the licence fee.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.2 Arts and culture: the BBC",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-266",
+    "sourceNumber": 266,
+    "lessonNumbers": [
+      12
+    ],
+    "question": "How many members does the Northern Ireland Assembly have?",
+    "romanUrdu": "Northern Ireland Assembly ke kitne members hain?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "60"
+      },
+      {
+        "id": "d",
+        "text": "120"
+      },
+      {
+        "id": "c",
+        "text": "96"
+      },
+      {
+        "id": "a",
+        "text": "90"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The Northern Ireland Assembly has 90 members.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.6 The government: the Northern Ireland Assembly",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-267",
+    "sourceNumber": 267,
+    "lessonNumbers": [
+      12
+    ],
+    "question": "Who commanded the British fleet at the Battle of Trafalgar?",
+    "romanUrdu": "Battle of Trafalgar mein British fleet ki qiyadat kis ne ki?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Admiral Nelson"
+      },
+      {
+        "id": "b",
+        "text": "The Duke of Wellington"
+      },
+      {
+        "id": "d",
+        "text": "Admiral Jellicoe"
+      },
+      {
+        "id": "c",
+        "text": "Sir Francis Drake"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Admiral Nelson commanded the British fleet at Trafalgar, where he died in 1805.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.3 A global power: Trafalgar",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-268",
+    "sourceNumber": 268,
+    "lessonNumbers": [
+      12
+    ],
+    "question": "What was inscribed on Iron Age coins?",
+    "romanUrdu": "Iron Age ke sikkon par kya likha hota tha?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "The name of the local council"
+      },
+      {
+        "id": "a",
+        "text": "The names of Iron Age kings"
+      },
+      {
+        "id": "c",
+        "text": "The date of the Norman Conquest"
+      },
+      {
+        "id": "b",
+        "text": "The name of the Roman Emperor"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Iron Age coins carried the names of Iron Age kings.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.7 Early Britain: the Iron Age",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-269",
+    "sourceNumber": 269,
+    "lessonNumbers": [
+      12
+    ],
+    "question": "Does the UK central government directly govern towns, cities and rural areas?",
+    "romanUrdu": "Kya UK ki central government towns, cities aur rural areas ko barah-e-rast chalati hai?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "Only in Scotland"
+      },
+      {
+        "id": "b",
+        "text": "Yes, central government runs everything"
+      },
+      {
+        "id": "d",
+        "text": "Only during elections"
+      },
+      {
+        "id": "a",
+        "text": "No, local councils are responsible for many local services"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Local councils are responsible for many local services; central government does not directly govern every area.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.6 The government: local government",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-270",
+    "sourceNumber": 270,
+    "lessonNumbers": [
+      12
+    ],
+    "question": "Where is Tate Britain located?",
+    "romanUrdu": "Tate Britain kahan waqe hai?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "In Edinburgh"
+      },
+      {
+        "id": "c",
+        "text": "In Cardiff"
+      },
+      {
+        "id": "d",
+        "text": "In Manchester"
+      },
+      {
+        "id": "a",
+        "text": "In London"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Tate Britain is in London.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.2 Arts and culture: museums and galleries",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-271",
+    "sourceNumber": 271,
+    "lessonNumbers": [
+      12
+    ],
+    "question": "What is the Bible translation produced under King James I called?",
+    "romanUrdu": "King James I ke daur mein tayyar Bible translation ko kya kaha jata hai?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "The Authorised Version (King James Version)"
+      },
+      {
+        "id": "c",
+        "text": "The Latin Vulgate"
+      },
+      {
+        "id": "d",
+        "text": "The Revised Standard Version"
+      },
+      {
+        "id": "b",
+        "text": "The Geneva Bible"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The Authorised Version, also called the King James Version, was produced under King James I.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.6 The Tudors and Stuarts: James I",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-272",
+    "sourceNumber": 272,
+    "lessonNumbers": [
+      12
+    ],
+    "question": "What is the 1960s period known for?",
+    "romanUrdu": "1960s ka daur kis liye mashhoor hai?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "A growth in British fashion and pop music"
+      },
+      {
+        "id": "d",
+        "text": "The Great Depression"
+      },
+      {
+        "id": "c",
+        "text": "The Norman Conquest"
+      },
+      {
+        "id": "b",
+        "text": "The Industrial Revolution"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The 1960s saw the rise of British fashion and pop music, often called the Swinging Sixties.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.2 Britain since 1945: the 1960s",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-273",
+    "sourceNumber": 273,
+    "lessonNumbers": [
+      12
+    ],
+    "question": "Between 1680 and 1720, Huguenot refugees came to England mainly from which country?",
+    "romanUrdu": "1680 se 1720 ke darmiyan Huguenot refugees England kis mulk se aaye?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "Italy"
+      },
+      {
+        "id": "a",
+        "text": "France"
+      },
+      {
+        "id": "d",
+        "text": "The Netherlands"
+      },
+      {
+        "id": "b",
+        "text": "Spain"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The Huguenots were Protestants who fled France.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.6 The Tudors and Stuarts: Huguenots",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-274",
+    "sourceNumber": 274,
+    "lessonNumbers": [
+      12
+    ],
+    "question": "What is the most famous tennis tournament played in the UK?",
+    "romanUrdu": "UK mein khela jane wala sab se mashhoor tennis tournament kaunsa hai?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "The US Open"
+      },
+      {
+        "id": "c",
+        "text": "The French Open"
+      },
+      {
+        "id": "d",
+        "text": "The Australian Open"
+      },
+      {
+        "id": "a",
+        "text": "The Wimbledon Championships"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Wimbledon is the most famous tennis tournament played in the UK.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.7 Sport: tennis",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-275",
+    "sourceNumber": 275,
+    "lessonNumbers": [
+      12
+    ],
+    "question": "Can MPs only be contacted at their House of Commons office?",
+    "romanUrdu": "Kya MPs se sirf House of Commons ke office mein rabta kiya ja sakta hai?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "No, they can also be contacted at constituency offices and by other means"
+      },
+      {
+        "id": "d",
+        "text": "Only during Parliament sittings"
+      },
+      {
+        "id": "b",
+        "text": "Yes, only at the House of Commons"
+      },
+      {
+        "id": "c",
+        "text": "Only by post"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "MPs can be contacted at their constituency offices and by other means, not only at the House of Commons.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.6 The government: MPs",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-276",
+    "sourceNumber": 276,
+    "lessonNumbers": [
+      12
+    ],
+    "question": "On which day are joke stories published and broadcast until midday?",
+    "romanUrdu": "Kis din dopahar tak mazaqiya khabrein chapti aur broadcast hoti hain?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "Halloween, 31 October"
+      },
+      {
+        "id": "c",
+        "text": "Christmas Day, 25 December"
+      },
+      {
+        "id": "d",
+        "text": "New Year's Day, 1 January"
+      },
+      {
+        "id": "a",
+        "text": "April Fool's Day, 1 April"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "April Fool's Day is 1 April, when joke stories are traditionally published until midday.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.3 Customs and traditions: April Fool's Day",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-277",
+    "sourceNumber": 277,
+    "lessonNumbers": [
+      12
+    ],
+    "question": "Which Scottish king defeated the English at Bannockburn?",
+    "romanUrdu": "Bannockburn mein kis Scottish king ne English ko shikast di?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "Charles II"
+      },
+      {
+        "id": "c",
+        "text": "James I"
+      },
+      {
+        "id": "b",
+        "text": "Macbeth"
+      },
+      {
+        "id": "a",
+        "text": "Robert the Bruce"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Robert the Bruce defeated the English at Bannockburn in 1314.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.5 The Middle Ages: Bannockburn",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-278",
+    "sourceNumber": 278,
+    "lessonNumbers": [
+      12
+    ],
+    "question": "Who invented the World Wide Web?",
+    "romanUrdu": "World Wide Web kis ne ijad kiya?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "John Logie Baird"
+      },
+      {
+        "id": "c",
+        "text": "Alexander Fleming"
+      },
+      {
+        "id": "b",
+        "text": "Sir Robert Watson-Watt"
+      },
+      {
+        "id": "a",
+        "text": "Sir Tim Berners-Lee"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Sir Tim Berners-Lee invented the World Wide Web.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.2 Britain since 1945: the internet",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-279",
+    "sourceNumber": 279,
+    "lessonNumbers": [
+      12
+    ],
+    "question": "How are civil servants appointed, and what is their political position?",
+    "romanUrdu": "Civil servants ki taqarrur kaise hoti hai aur unki siyasi haisiyat kya hai?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "By the monarch personally"
+      },
+      {
+        "id": "b",
+        "text": "By the governing party, and they are political"
+      },
+      {
+        "id": "c",
+        "text": "By public election"
+      },
+      {
+        "id": "a",
+        "text": "On merit, and they are politically neutral"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Civil servants are appointed on merit after fair and open competition and are politically neutral.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.6 The government: the civil service",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-280",
+    "sourceNumber": 280,
+    "lessonNumbers": [
+      12
+    ],
+    "question": "What is meant by the 'Dunkirk spirit'?",
+    "romanUrdu": "'Dunkirk spirit' se kya murad hai?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "The Blitz in London"
+      },
+      {
+        "id": "d",
+        "text": "The D-Day landings"
+      },
+      {
+        "id": "b",
+        "text": "The celebration of VE Day"
+      },
+      {
+        "id": "a",
+        "text": "The evacuation of Allied forces from France during World War II"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The Dunkirk spirit refers to the evacuation of Allied forces from France in 1940 and the civilian boats that helped.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.4 The 20th century: Dunkirk",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-281",
+    "sourceNumber": 281,
+    "lessonNumbers": [
+      12
+    ],
+    "question": "Must you be at least 21 years old to serve on a jury?",
+    "romanUrdu": "Kya jury service ke liye kam az kam 21 saal ki umar zaroori hai?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "No, the minimum age is 18"
+      },
+      {
+        "id": "c",
+        "text": "Yes, 25 is required"
+      },
+      {
+        "id": "d",
+        "text": "Only in Scotland"
+      },
+      {
+        "id": "b",
+        "text": "Yes, 21 is required"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The minimum age for jury service in England and Wales is 18, not 21.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.5 Respecting the law: jury service",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-282",
+    "sourceNumber": 282,
+    "lessonNumbers": [
+      12
+    ],
+    "question": "Which TWO responsibilities should a permanent resident or citizen observe? Select two.",
+    "romanUrdu": "Permanent resident ya citizen ko kaunsi DO zimmedariyan manni chahiye?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "Support the governing party"
+      },
+      {
+        "id": "a",
+        "text": "Respect the rights of others, including their opinions"
+      },
+      {
+        "id": "b",
+        "text": "Look after yourself and your family"
+      },
+      {
+        "id": "d",
+        "text": "Avoid all community activity"
+      }
+    ],
+    "correctChoiceIds": [
+      "a",
+      "b"
+    ],
+    "answerType": "select-two",
+    "verificationStatus": "corrected",
+    "explanation": "Shared responsibilities include respecting others' rights and looking after yourself and your family.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "1.3 The values and principles of the UK: responsibilities",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-283",
+    "sourceNumber": 283,
+    "lessonNumbers": [
+      12
+    ],
+    "question": "Which major sports event took place in the UK in 2012?",
+    "romanUrdu": "2012 mein UK mein kaunsa bara sports event hua?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "The Rugby World Cup"
+      },
+      {
+        "id": "d",
+        "text": "The Cricket World Cup"
+      },
+      {
+        "id": "a",
+        "text": "The Olympic Games"
+      },
+      {
+        "id": "b",
+        "text": "The FIFA World Cup"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The UK hosted the Olympic Games in London in 2012.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.7 Sport: the Olympic Games",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-284",
+    "sourceNumber": 284,
+    "lessonNumbers": [
+      12
+    ],
+    "question": "King Charles I believed in the divine right of kings, so he tried to do what?",
+    "romanUrdu": "King Charles I divine right of kings par yaqeen rakhta tha, is liye us ne kya karne ki koshish ki?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "Join the Catholic Church"
+      },
+      {
+        "id": "b",
+        "text": "Abolish the monarchy"
+      },
+      {
+        "id": "c",
+        "text": "Give the vote to everyone"
+      },
+      {
+        "id": "a",
+        "text": "Rule without Parliament"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Charles I believed his authority came from God and tried to rule without Parliament, contributing to the Civil War.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.6 The Tudors and Stuarts: Charles I",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-285",
+    "sourceNumber": 285,
+    "lessonNumbers": [
+      12
+    ],
+    "question": "What is the Union Jack?",
+    "romanUrdu": "Union Jack kya hai?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "The royal standard"
+      },
+      {
+        "id": "b",
+        "text": "The flag of England only"
+      },
+      {
+        "id": "a",
+        "text": "The national flag of the United Kingdom"
+      },
+      {
+        "id": "c",
+        "text": "The flag of the Commonwealth"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The Union Jack is the national flag of the United Kingdom.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "2.2 What is the UK? the Union Flag",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-286",
+    "sourceNumber": 286,
+    "lessonNumbers": [
+      12
+    ],
+    "question": "Who was voted the greatest Briton of all time in a 2002 BBC poll?",
+    "romanUrdu": "2002 ke BBC poll mein sab se bara Briton kaun chuna gaya?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "William Shakespeare"
+      },
+      {
+        "id": "a",
+        "text": "Winston Churchill"
+      },
+      {
+        "id": "b",
+        "text": "Margaret Thatcher"
+      },
+      {
+        "id": "d",
+        "text": "Isaac Newton"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Winston Churchill was voted the greatest Briton of all time in the 2002 BBC poll.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.4 The 20th century: Winston Churchill",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-287",
+    "sourceNumber": 287,
+    "lessonNumbers": [
+      12
+    ],
+    "question": "Which statement about the UK workforce is true?",
+    "romanUrdu": "UK workforce ke bare mein kaunsa bayan durust hai?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "Only men work full time"
+      },
+      {
+        "id": "b",
+        "text": "Women are not allowed to work"
+      },
+      {
+        "id": "d",
+        "text": "Most workers are employed by the monarchy"
+      },
+      {
+        "id": "a",
+        "text": "Women make up about half of the workforce"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Women today make up about half of the UK workforce.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.8 The UK today: the workforce",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  }
+]

@@ -1,0 +1,986 @@
+[
+  {
+    "id": "source-288",
+    "sourceNumber": 288,
+    "lessonNumbers": [
+      13
+    ],
+    "question": "When is St George's Day celebrated?",
+    "romanUrdu": "St George's Day kab manaya jata hai?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "17 March"
+      },
+      {
+        "id": "b",
+        "text": "1 March"
+      },
+      {
+        "id": "a",
+        "text": "23 April"
+      },
+      {
+        "id": "d",
+        "text": "30 November"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "St George's Day is celebrated on 23 April, England's national day.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.3 Customs and traditions: St George's Day",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-289",
+    "sourceNumber": 289,
+    "lessonNumbers": [
+      13
+    ],
+    "question": "Which is the largest national park in England by area?",
+    "romanUrdu": "Raqbe ke lihaz se England ka sab se bara national park kaunsa hai?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "Yorkshire Dales"
+      },
+      {
+        "id": "d",
+        "text": "Northumberland"
+      },
+      {
+        "id": "a",
+        "text": "The Lake District"
+      },
+      {
+        "id": "b",
+        "text": "The Peak District"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The Lake District is England's largest national park by area.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.5 Places of interest: the Lake District",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-290",
+    "sourceNumber": 290,
+    "lessonNumbers": [
+      13
+    ],
+    "question": "Boudicca fought against which foreign invaders?",
+    "romanUrdu": "Boudicca kis foreign hamlawar ke khilaf larhi?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "The Romans"
+      },
+      {
+        "id": "c",
+        "text": "The Normans"
+      },
+      {
+        "id": "d",
+        "text": "The Saxons"
+      },
+      {
+        "id": "b",
+        "text": "The Vikings"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Boudicca, queen of the Iceni, fought against the Romans.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.7 Early Britain: Boudicca",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-291",
+    "sourceNumber": 291,
+    "lessonNumbers": [
+      13
+    ],
+    "question": "Which work is about a group of people travelling on a pilgrimage?",
+    "romanUrdu": "Kaunsi tehreer ziyarat ke safar par jane wale logon ke bare mein hai?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "Paradise Lost"
+      },
+      {
+        "id": "b",
+        "text": "Beowulf"
+      },
+      {
+        "id": "a",
+        "text": "The Canterbury Tales"
+      },
+      {
+        "id": "c",
+        "text": "The Domesday Book"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Chaucer's Canterbury Tales is about a group of pilgrims travelling to Canterbury.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.2 Arts and culture: Chaucer",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-292",
+    "sourceNumber": 292,
+    "lessonNumbers": [
+      13
+    ],
+    "question": "What are public holidays called in the UK?",
+    "romanUrdu": "UK mein public holidays ko kya kaha jata hai?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "Rest days"
+      },
+      {
+        "id": "a",
+        "text": "Bank holidays"
+      },
+      {
+        "id": "c",
+        "text": "Civic days"
+      },
+      {
+        "id": "b",
+        "text": "Holy days"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Public holidays in the UK are called bank holidays.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.3 Customs and traditions: bank holidays",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-293",
+    "sourceNumber": 293,
+    "lessonNumbers": [
+      13
+    ],
+    "question": "How did Charles II escape to Europe after his defeat in the Civil War?",
+    "romanUrdu": "Civil War mein shikast ke baad Charles II Europe kaise bhaaga?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "By sailing on a warship"
+      },
+      {
+        "id": "c",
+        "text": "By disguising himself as a priest"
+      },
+      {
+        "id": "a",
+        "text": "By hiding in an oak tree"
+      },
+      {
+        "id": "d",
+        "text": "By crossing the Alps"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Charles II escaped after Worcester by hiding in an oak tree before fleeing to Europe.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.6 The Tudors and Stuarts: Charles II",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-294",
+    "sourceNumber": 294,
+    "lessonNumbers": [
+      13
+    ],
+    "question": "Who defeated the Vikings?",
+    "romanUrdu": "Vikings ko kis ne shikast di?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "Robert the Bruce"
+      },
+      {
+        "id": "c",
+        "text": "Boudicca"
+      },
+      {
+        "id": "a",
+        "text": "King Alfred the Great"
+      },
+      {
+        "id": "b",
+        "text": "William the Conqueror"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "King Alfred the Great defeated the Vikings and united the Anglo-Saxon kingdoms.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.7 Early Britain: Alfred the Great",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-295",
+    "sourceNumber": 295,
+    "lessonNumbers": [
+      13
+    ],
+    "question": "Who was William Caxton?",
+    "romanUrdu": "William Caxton kaun thay?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "The first person in England to print books using a printing press"
+      },
+      {
+        "id": "b",
+        "text": "A Roman emperor"
+      },
+      {
+        "id": "d",
+        "text": "The architect of St Paul's Cathedral"
+      },
+      {
+        "id": "c",
+        "text": "A Tudor king"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "William Caxton was the first person in England to print books using a printing press.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.2 Arts and culture: William Caxton",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-296",
+    "sourceNumber": 296,
+    "lessonNumbers": [
+      13
+    ],
+    "question": "Where do the Yeoman Warders, or Beefeaters, serve as tour guides?",
+    "romanUrdu": "Yeoman Warders yani Beefeaters kahan tour guides ke tor par kaam karte hain?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "At Edinburgh Castle"
+      },
+      {
+        "id": "a",
+        "text": "At the Tower of London"
+      },
+      {
+        "id": "c",
+        "text": "At Buckingham Palace"
+      },
+      {
+        "id": "b",
+        "text": "At Windsor Castle"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Yeoman Warders, known as Beefeaters, give tours at the Tower of London.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.5 Places of interest: the Tower of London",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-297",
+    "sourceNumber": 297,
+    "lessonNumbers": [
+      13
+    ],
+    "question": "In the 1745 rebellion, Bonnie Prince Charlie was supported by clansmen from which Scottish region?",
+    "romanUrdu": "1745 ki baghawat mein Bonnie Prince Charlie ko Scotland ke kis ilaqe ke qabeelon ki himayat thi?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "The Scottish Borders"
+      },
+      {
+        "id": "c",
+        "text": "Orkney"
+      },
+      {
+        "id": "a",
+        "text": "The Scottish Highlands"
+      },
+      {
+        "id": "d",
+        "text": "The Western Isles only"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Some Highland clans supported Bonnie Prince Charlie in the 1745 rising.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.6 The Tudors and Stuarts: the 1745 rebellion",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-298",
+    "sourceNumber": 298,
+    "lessonNumbers": [
+      13
+    ],
+    "question": "What religion did Elizabeth I follow?",
+    "romanUrdu": "Elizabeth I kis mazhab ki paband thin?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "Judaism"
+      },
+      {
+        "id": "c",
+        "text": "Presbyterianism"
+      },
+      {
+        "id": "a",
+        "text": "Protestantism"
+      },
+      {
+        "id": "b",
+        "text": "Roman Catholicism"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Elizabeth I was a Protestant and sought a balance between Catholic and more extreme Protestant views.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.6 The Tudors and Stuarts: Elizabeth I",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-299",
+    "sourceNumber": 299,
+    "lessonNumbers": [
+      13
+    ],
+    "question": "Who became famous for his 'Tramp' character in silent films?",
+    "romanUrdu": "Silent films mein apne 'Tramp' kirdar se kaun mashhoor hua?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "Stan Laurel"
+      },
+      {
+        "id": "d",
+        "text": "Buster Keaton"
+      },
+      {
+        "id": "a",
+        "text": "Charlie Chaplin"
+      },
+      {
+        "id": "c",
+        "text": "Oliver Hardy"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Charlie Chaplin became famous for his tramp character in silent films.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.2 Arts and culture: Charlie Chaplin",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-300",
+    "sourceNumber": 300,
+    "lessonNumbers": [
+      13
+    ],
+    "question": "Which armed force fought in the Battle of Britain?",
+    "romanUrdu": "Battle of Britain mein kaunsi armed force larhi?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "The British Army"
+      },
+      {
+        "id": "b",
+        "text": "The Royal Navy"
+      },
+      {
+        "id": "d",
+        "text": "The Home Guard"
+      },
+      {
+        "id": "a",
+        "text": "The Royal Air Force"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The Battle of Britain was an aerial battle fought by the Royal Air Force.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.4 The 20th century: the Battle of Britain",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-301",
+    "sourceNumber": 301,
+    "lessonNumbers": [
+      13
+    ],
+    "question": "Must you be 21 years old to vote in a UK general election?",
+    "romanUrdu": "Kya UK general election mein vote dene ke liye 21 saal ki umar zaroori hai?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "Only in Scotland"
+      },
+      {
+        "id": "b",
+        "text": "Yes, 21 is required"
+      },
+      {
+        "id": "a",
+        "text": "No, the voting age is 18"
+      },
+      {
+        "id": "c",
+        "text": "Yes, 25 is required"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The voting age in UK general elections is 18, not 21.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.2 The development of British democracy: 1969",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-302",
+    "sourceNumber": 302,
+    "lessonNumbers": [
+      13
+    ],
+    "question": "Which poet was famously inspired by nature?",
+    "romanUrdu": "Kaunsa shayar fitrat se mashhoor tor par mutasir hua?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "William Wordsworth"
+      },
+      {
+        "id": "d",
+        "text": "Alexander Pope"
+      },
+      {
+        "id": "c",
+        "text": "John Milton"
+      },
+      {
+        "id": "b",
+        "text": "Geoffrey Chaucer"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "William Wordsworth was inspired by nature; his poem 'Daffodils' is a famous example.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.2 Arts and culture: William Wordsworth",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-303",
+    "sourceNumber": 303,
+    "lessonNumbers": [
+      13
+    ],
+    "question": "Against which country did Britain fight at the Battle of Waterloo?",
+    "romanUrdu": "Battle of Waterloo mein Britain kis mulk ke khilaf larhi?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "Russia"
+      },
+      {
+        "id": "a",
+        "text": "France"
+      },
+      {
+        "id": "d",
+        "text": "Austria"
+      },
+      {
+        "id": "b",
+        "text": "Spain"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Britain and its allies defeated Napoleon's France at Waterloo in 1815.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.3 A global power: Waterloo",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-304",
+    "sourceNumber": 304,
+    "lessonNumbers": [
+      13
+    ],
+    "question": "Who was William Wilberforce?",
+    "romanUrdu": "William Wilberforce kaun thay?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "A politician who campaigned to abolish the slave trade"
+      },
+      {
+        "id": "d",
+        "text": "An architect"
+      },
+      {
+        "id": "c",
+        "text": "A Victorian novelist"
+      },
+      {
+        "id": "b",
+        "text": "A Tudor king"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "William Wilberforce was a politician who campaigned successfully to abolish the slave trade.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.3 A global power: William Wilberforce",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-305",
+    "sourceNumber": 305,
+    "lessonNumbers": [
+      13
+    ],
+    "question": "Who is the spiritual leader of the Church of England?",
+    "romanUrdu": "Church of England ka rohani rehnuma kaun hai?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "The Speaker"
+      },
+      {
+        "id": "a",
+        "text": "The Archbishop of Canterbury"
+      },
+      {
+        "id": "c",
+        "text": "The Prime Minister"
+      },
+      {
+        "id": "b",
+        "text": "The Monarch"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The Archbishop of Canterbury is the spiritual leader of the Church of England.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.6 Religion: the Church of England",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-306",
+    "sourceNumber": 306,
+    "lessonNumbers": [
+      13
+    ],
+    "question": "James I was king of which country before becoming King of England?",
+    "romanUrdu": "King of England banne se pehle James I kis mulk ka badshah tha?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Scotland"
+      },
+      {
+        "id": "d",
+        "text": "Wales"
+      },
+      {
+        "id": "c",
+        "text": "Ireland"
+      },
+      {
+        "id": "b",
+        "text": "France"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "James I was King James VI of Scotland before becoming King of England in 1603.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.6 The Tudors and Stuarts: James I",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-307",
+    "sourceNumber": 307,
+    "lessonNumbers": [
+      13
+    ],
+    "question": "Are many shops in the UK open seven days a week?",
+    "romanUrdu": "Kya UK mein bohat si dukanein hafte ke saat din khuli hoti hain?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "No, all shops close on Sundays"
+      },
+      {
+        "id": "c",
+        "text": "No, shops open only three days a week"
+      },
+      {
+        "id": "d",
+        "text": "Only food shops open at weekends"
+      },
+      {
+        "id": "a",
+        "text": "Yes, many shops open seven days a week"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Many shops in the UK are open seven days a week, although opening hours vary.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.4 Leisure: shopping",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-308",
+    "sourceNumber": 308,
+    "lessonNumbers": [
+      13
+    ],
+    "question": "Which country sent an armada to England in 1588?",
+    "romanUrdu": "1588 mein kis mulk ne England ko armada bheja?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "The Netherlands"
+      },
+      {
+        "id": "b",
+        "text": "France"
+      },
+      {
+        "id": "d",
+        "text": "Portugal"
+      },
+      {
+        "id": "a",
+        "text": "Spain"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Spain sent the Spanish Armada, which was defeated by an English fleet in 1588.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.6 The Tudors and Stuarts: the Spanish Armada",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-309",
+    "sourceNumber": 309,
+    "lessonNumbers": [
+      13
+    ],
+    "question": "Where is the National Horse Racing Museum located?",
+    "romanUrdu": "National Horse Racing Museum kahan waqe hai?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Newmarket in Suffolk"
+      },
+      {
+        "id": "d",
+        "text": "Epsom in Surrey"
+      },
+      {
+        "id": "c",
+        "text": "Ascot in Berkshire"
+      },
+      {
+        "id": "b",
+        "text": "Aintree in Liverpool"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The National Horseracing Museum is in Newmarket, Suffolk.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.7 Sport: horse racing",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-310",
+    "sourceNumber": 310,
+    "lessonNumbers": [
+      13
+    ],
+    "question": "Which of these castles is located in Scotland?",
+    "romanUrdu": "In mein se kaunsa castle Scotland mein hai?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "Caernarfon Castle"
+      },
+      {
+        "id": "c",
+        "text": "Tower of London"
+      },
+      {
+        "id": "a",
+        "text": "Crathes Castle"
+      },
+      {
+        "id": "b",
+        "text": "Windsor Castle"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Crathes Castle is in Aberdeenshire, Scotland.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.5 Places of interest: castles",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-311",
+    "sourceNumber": 311,
+    "lessonNumbers": [
+      13
+    ],
+    "question": "Who was a famous Art Deco ceramic designer?",
+    "romanUrdu": "Mashhoor Art Deco ceramic designer kaun thin?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "Laura Ashley"
+      },
+      {
+        "id": "a",
+        "text": "Clarice Cliff"
+      },
+      {
+        "id": "c",
+        "text": "Vivienne Westwood"
+      },
+      {
+        "id": "d",
+        "text": "Mary Quant"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Clarice Cliff was a famous designer of Art Deco ceramics.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.2 Arts and culture: design",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  }
+]

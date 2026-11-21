@@ -1,0 +1,993 @@
+[
+  {
+    "id": "source-217",
+    "sourceNumber": 217,
+    "lessonNumbers": [
+      10
+    ],
+    "question": "Who is the patron saint of England?",
+    "romanUrdu": "England ke sarparast saint kaun hain?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "St David"
+      },
+      {
+        "id": "c",
+        "text": "St George"
+      },
+      {
+        "id": "a",
+        "text": "St Andrew"
+      },
+      {
+        "id": "d",
+        "text": "St Patrick"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Each part of the UK has a national saint, called a patron saint. St George is the patron saint of England and his day is 23 April. St Andrew is Scotland's patron saint, St David is Wales' and St Patrick is Northern Ireland's.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.6 Religion: Patron Saints' days",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-218",
+    "sourceNumber": 218,
+    "lessonNumbers": [
+      10
+    ],
+    "question": "Where is Loch Lomond and The Trossachs National Park located?",
+    "romanUrdu": "Loch Lomond aur The Trossachs National Park kahan waqe hai?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "In Scotland"
+      },
+      {
+        "id": "a",
+        "text": "In Wales"
+      },
+      {
+        "id": "c",
+        "text": "In Northern Ireland"
+      },
+      {
+        "id": "d",
+        "text": "In England"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Loch Lomond and The Trossachs National Park covers 720 square miles (1,865 square kilometres) in the west of Scotland. Loch Lomond, the largest expanse of fresh water in mainland Britain, is probably its best-known part.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.5 Places of interest: UK landmarks (Loch Lomond and the Trossachs National Park)",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-219",
+    "sourceNumber": 219,
+    "lessonNumbers": [
+      10
+    ],
+    "question": "Wales has its own established church. True or false?",
+    "romanUrdu": "Wales ka apna established church hai. Sahi ya ghalat?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "False, Wales has no established church"
+      },
+      {
+        "id": "c",
+        "text": "True, but only in Welsh-speaking areas"
+      },
+      {
+        "id": "d",
+        "text": "True, but only since the Senedd was created"
+      },
+      {
+        "id": "a",
+        "text": "True, Wales has its own established church"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "There is no established Church in Wales or Northern Ireland. The Church of England, also called the Anglican Church, is the Church of the state in England, and it is the only established Church in the UK.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.6 Religion: Christian Churches",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-220",
+    "sourceNumber": 220,
+    "lessonNumbers": [
+      10
+    ],
+    "question": "Which collection of stories is associated with Geoffrey Chaucer?",
+    "romanUrdu": "Geoffrey Chaucer ke saath kis kahaniyon ka majmua mansoob hai?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "Beowulf"
+      },
+      {
+        "id": "a",
+        "text": "The Decameron"
+      },
+      {
+        "id": "b",
+        "text": "The Canterbury Tales"
+      },
+      {
+        "id": "d",
+        "text": "The Mabinogion"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "In the years leading up to 1400, Geoffrey Chaucer wrote a series of poems in English about a group of people going to Canterbury on a pilgrimage, who tell each other stories on the journey. The collection is called The Canterbury Tales, and it was one of the first books printed by William Caxton.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.5 The Middle Ages: Geoffrey Chaucer and The Canterbury Tales",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-221",
+    "sourceNumber": 221,
+    "lessonNumbers": [
+      10
+    ],
+    "question": "When is Boxing Day celebrated?",
+    "romanUrdu": "Boxing Day kab manaya jata hai?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "24 December, Christmas Eve"
+      },
+      {
+        "id": "d",
+        "text": "1 January, New Year's Day"
+      },
+      {
+        "id": "a",
+        "text": "26 December, the day after Christmas Day"
+      },
+      {
+        "id": "c",
+        "text": "25 December, Christmas Day"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Christmas Day is 25 December and is a public holiday. Boxing Day is the day after Christmas Day, 26 December, and is also a public holiday.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.3 Customs and traditions: The main Christian festivals (Christmas and Boxing Day)",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-222",
+    "sourceNumber": 222,
+    "lessonNumbers": [
+      10
+    ],
+    "question": "What is a public holiday called when banks and many other businesses are closed for the day?",
+    "romanUrdu": "Us public holiday ka kya naam hai jab banks aur bohat se karobar band rehte hain?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "A statutory rest day"
+      },
+      {
+        "id": "c",
+        "text": "A civic holiday"
+      },
+      {
+        "id": "d",
+        "text": "A bank holiday"
+      },
+      {
+        "id": "a",
+        "text": "A national festival day"
+      }
+    ],
+    "correctChoiceIds": [
+      "d"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Public holidays of this kind are called bank holidays, when banks and many other businesses are closed for the day. They are of no religious significance and fall at the beginning of May, in late May or early June, and in August. In Northern Ireland the anniversary of the Battle of the Boyne in July is also a public holiday.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.3 Customs and traditions: Bank holidays",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-223",
+    "sourceNumber": 223,
+    "lessonNumbers": [
+      10
+    ],
+    "question": "Why were women given the right to vote in 1918?",
+    "romanUrdu": "1918 mein khawateen ko vote ka haq kyun diya gaya?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Because Parliament wanted to lower the voting age to 18 for everyone"
+      },
+      {
+        "id": "b",
+        "text": "Partly in recognition of the contribution women made to the war effort during the First World War"
+      },
+      {
+        "id": "c",
+        "text": "Because women had served as Members of Parliament during the war"
+      },
+      {
+        "id": "d",
+        "text": "Because the monarchy ordered Parliament to change the law"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "In 1918, women over the age of 30 were given voting rights and the right to stand for Parliament, partly in recognition of the contribution women made to the war effort during the First World War. Shortly before Emmeline Pankhurst's death in 1928, women were given the right to vote at the age of 21, the same as men.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.3 A global power: Emmeline Pankhurst and votes for women (1918)",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-224",
+    "sourceNumber": 224,
+    "lessonNumbers": [
+      10
+    ],
+    "question": "What do you need to drive legally on public roads in the UK?",
+    "romanUrdu": "UK mein qanooni tor par gari chalane ke liye aap ko kya chahiye?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "A valid driving licence"
+      },
+      {
+        "id": "c",
+        "text": "A National Insurance number"
+      },
+      {
+        "id": "b",
+        "text": "A letter from your local council"
+      },
+      {
+        "id": "d",
+        "text": "Membership of a motoring organisation"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "You must be at least 17 years old to drive a car or motor cycle and you must have a driving licence to drive on public roads. To get a UK driving licence you must pass a driving theory test and a practical driving test.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.4.2 Driving: driving licences",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-225",
+    "sourceNumber": 225,
+    "lessonNumbers": [
+      10
+    ],
+    "question": "Where does the Edinburgh Festival Fringe take place?",
+    "romanUrdu": "Edinburgh Festival Fringe kahan hota hai?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "In London, England"
+      },
+      {
+        "id": "d",
+        "text": "In Belfast, Northern Ireland"
+      },
+      {
+        "id": "c",
+        "text": "In Edinburgh, Scotland"
+      },
+      {
+        "id": "a",
+        "text": "In Cardiff, Wales"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The Edinburgh Festival takes place in Edinburgh, Scotland, every summer. It is a series of arts and cultural festivals, and the biggest and best known of them is the Edinburgh Festival Fringe, a showcase of mainly theatre and comedy performances that often includes experimental work.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.2 Arts and culture: Theatre (The Edinburgh Festival Fringe)",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-226",
+    "sourceNumber": 226,
+    "lessonNumbers": [
+      10
+    ],
+    "question": "How many Members does the Senedd (the Welsh Parliament) have?",
+    "romanUrdu": "Senedd (Welsh Parliament) mein kitne Members hain?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "90"
+      },
+      {
+        "id": "b",
+        "text": "96"
+      },
+      {
+        "id": "d",
+        "text": "129"
+      },
+      {
+        "id": "a",
+        "text": "60"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The Senedd has 96 Members. The number rose from 60 at the election on 7 May 2026, when Wales was divided into 16 constituencies electing six Members each. The handbook's figure of 60 Members was correct when it was published but has since been superseded. For comparison, the Scottish Parliament has 129 Members and the Northern Ireland Assembly has 90.",
+    "sources": [
+      {
+        "title": "Senedd Cymru / Welsh Parliament: Senedd Election and Member Changes",
+        "url": "https://senedd.wales/how-we-work/our-role/senedd-election-and-member-changes",
+        "locator": "How many Members will the Senedd have? (96 Members from the election on 7 May 2026)",
+        "checkedAt": "2026-11-21"
+      },
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.6 The government: The Welsh government (figure of 60 Assembly members, now superseded)",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-227",
+    "sourceNumber": 227,
+    "lessonNumbers": [
+      10
+    ],
+    "question": "The names or photographs of young people found guilty of a crime can be published in newspapers or used by the media. True or false?",
+    "romanUrdu": "Jurm mein mujrim thehraye gaye jawaan logon ke naam ya tasweerein akhbaron mein shaya ki ja sakti hain ya media unhein istemal kar sakta hai. Sahi ya ghalat?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "True, but only if the young person is over 16"
+      },
+      {
+        "id": "b",
+        "text": "False, they cannot be published in newspapers or used by the media"
+      },
+      {
+        "id": "a",
+        "text": "True, they can be published once there is a guilty verdict"
+      },
+      {
+        "id": "c",
+        "text": "True, but only in Scotland"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "In England, Wales and Northern Ireland, if an accused person is aged 10 to 17 the case is normally heard in a Youth Court, and the name or photographs of the accused young person cannot be published in newspapers or used by the media. Members of the public are not allowed in Youth Courts.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.5.1 The role of the courts: Youth Courts",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-228",
+    "sourceNumber": 228,
+    "lessonNumbers": [
+      10
+    ],
+    "question": "What was Sir Edward Elgar famous for?",
+    "romanUrdu": "Sir Edward Elgar kis cheez ke liye mashhoor thay?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "Painting portraits of the royal family"
+      },
+      {
+        "id": "a",
+        "text": "Writing novels such as Great Expectations"
+      },
+      {
+        "id": "d",
+        "text": "Composing classical music, including the Pomp and Circumstance Marches"
+      },
+      {
+        "id": "c",
+        "text": "Designing bridges and railway stations"
+      }
+    ],
+    "correctChoiceIds": [
+      "d"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Sir Edward Elgar (1857-1934) was born in Worcester, England, and was a composer of classical music. His best-known work is probably the Pomp and Circumstance Marches; March No 1, known as Land of Hope and Glory, is usually played at the Last Night of the Proms at the Royal Albert Hall.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.2 Arts and culture: Music (Sir Edward Elgar)",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-229",
+    "sourceNumber": 229,
+    "lessonNumbers": [
+      10
+    ],
+    "question": "Which of the following is not a British banknote?",
+    "romanUrdu": "In mein se kaun sa British banknote nahi hai?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "£50"
+      },
+      {
+        "id": "c",
+        "text": "£25"
+      },
+      {
+        "id": "b",
+        "text": "£20"
+      },
+      {
+        "id": "a",
+        "text": "£5"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The notes in UK currency are £5, £10, £20 and £50, so there is no £25 banknote. The coins are 1p, 2p, 5p, 10p, 20p, 50p, £1 and £2.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.8 The UK today: UK currency",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-230",
+    "sourceNumber": 230,
+    "lessonNumbers": [
+      10
+    ],
+    "question": "Where does the Scottish Grand National take place?",
+    "romanUrdu": "Scottish Grand National kahan hota hai?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "At Ayr, in Scotland"
+      },
+      {
+        "id": "d",
+        "text": "At Newmarket, in Suffolk"
+      },
+      {
+        "id": "c",
+        "text": "At Ascot, in Berkshire"
+      },
+      {
+        "id": "b",
+        "text": "At Aintree, near Liverpool"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The Scottish Grand National is run at Ayr, in Scotland. Other famous horse-racing events are Royal Ascot, a five-day meeting in Berkshire attended by members of the Royal Family, and the Grand National at Aintree near Liverpool.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.7 Sport: Horse-racing",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-231",
+    "sourceNumber": 231,
+    "lessonNumbers": [
+      10
+    ],
+    "question": "The laws passed after the Glorious Revolution marked the beginning of what?",
+    "romanUrdu": "Glorious Revolution ke baad pass kiye gaye qawaneen kis cheez ka aghaz the?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "A written constitution"
+      },
+      {
+        "id": "c",
+        "text": "A constitutional monarchy"
+      },
+      {
+        "id": "a",
+        "text": "A republic"
+      },
+      {
+        "id": "b",
+        "text": "An absolute monarchy"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The laws passed after the Glorious Revolution are the beginning of what is called constitutional monarchy. The Bill of Rights of 1689 confirmed the rights of Parliament and the limits of the king's power, so the monarch remained very important but could no longer insist on particular policies or actions if Parliament did not agree.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.3 A global power: Constitutional monarchy - The Bill of Rights",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-232",
+    "sourceNumber": 232,
+    "lessonNumbers": [
+      10
+    ],
+    "question": "During the reign of Elizabeth I, a large fleet was sent to conquer England and restore Catholicism. Where did this fleet come from?",
+    "romanUrdu": "Elizabeth I ke daur-e-hukoomat mein England ko fatah karne aur Catholicism bahal karne ke liye ek bara fleet bheja gaya. Yeh fleet kahan se aayi thi?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "Spain"
+      },
+      {
+        "id": "d",
+        "text": "The Netherlands"
+      },
+      {
+        "id": "c",
+        "text": "Scotland"
+      },
+      {
+        "id": "a",
+        "text": "France"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "In 1588 the English defeated the Spanish Armada, a large fleet of ships sent by Spain to conquer England and restore Catholicism. The victory made Elizabeth I one of the most popular monarchs in English history.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.6 The Tudors and Stuarts: Queen Elizabeth I (the Spanish Armada)",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-233",
+    "sourceNumber": 233,
+    "lessonNumbers": [
+      10
+    ],
+    "question": "What did the Habeas Corpus Act introduce?",
+    "romanUrdu": "Habeas Corpus Act ne kya muta'arif karwaya?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "The right to vote in general elections"
+      },
+      {
+        "id": "d",
+        "text": "The right of every prisoner to a court hearing"
+      },
+      {
+        "id": "b",
+        "text": "The abolition of the monarchy"
+      },
+      {
+        "id": "c",
+        "text": "The right to publish newspapers without a government licence"
+      }
+    ],
+    "correctChoiceIds": [
+      "d"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The Habeas Corpus Act became law in 1679 and remains relevant today. Habeas corpus is Latin for 'you must present the person in court', and the Act guaranteed that no one could be held prisoner unlawfully: every prisoner has a right to a court hearing.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.6 The Tudors and Stuarts: The Habeas Corpus Act",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-234",
+    "sourceNumber": 234,
+    "lessonNumbers": [
+      10
+    ],
+    "question": "What did Emmeline Pankhurst fight for?",
+    "romanUrdu": "Emmeline Pankhurst kis cheez ke liye larti rahin?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "The right for women to own property"
+      },
+      {
+        "id": "a",
+        "text": "The right for women to vote"
+      },
+      {
+        "id": "d",
+        "text": "The right for all children to go to school"
+      },
+      {
+        "id": "c",
+        "text": "The abolition of the House of Lords"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Emmeline Pankhurst led the campaign for women's suffrage. She set up the Women's Franchise League in 1889 and in 1903 helped found the Women's Social and Political Union, the first group whose members were called suffragettes. In 1918 women over 30 were given the right to vote, and in 1928 women could vote at 21, the same as men.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.3 A global power: Emmeline Pankhurst",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-235",
+    "sourceNumber": 235,
+    "lessonNumbers": [
+      10
+    ],
+    "question": "What are the Proms?",
+    "romanUrdu": "Proms kya hain?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "A winter series of football matches"
+      },
+      {
+        "id": "c",
+        "text": "A weekly television drama series"
+      },
+      {
+        "id": "b",
+        "text": "An eight-week summer season of orchestral classical music concerts"
+      },
+      {
+        "id": "d",
+        "text": "A touring exhibition of British paintings"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The Proms is an eight-week summer season of orchestral classical music that takes place in various venues, including the Royal Albert Hall in London. It has been organised by the BBC since 1927, and the Last Night of the Proms is its best-known concert.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.2 Arts and culture: Music (The Proms)",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-236",
+    "sourceNumber": 236,
+    "lessonNumbers": [
+      10
+    ],
+    "question": "What was Sir Isaac Newton known for?",
+    "romanUrdu": "Sir Isaac Newton kis cheez ke liye mashhoor thay?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "His discovery of penicillin"
+      },
+      {
+        "id": "d",
+        "text": "His invention of the World Wide Web"
+      },
+      {
+        "id": "c",
+        "text": "His work on gravity and the laws of motion"
+      },
+      {
+        "id": "b",
+        "text": "His theory of evolution by natural selection"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Sir Isaac Newton (1643-1727) was an important figure in science. His most famous published work, the Principia Mathematica, showed how gravity applied to the whole universe, and he also discovered that white light is made up of the colours of the rainbow.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.6 The Tudors and Stuarts: Isaac Newton",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-237",
+    "sourceNumber": 237,
+    "lessonNumbers": [
+      10
+    ],
+    "question": "When did the First World War come to an end?",
+    "romanUrdu": "Pehli Jang-e-Azeem kab khatam hui?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "In 1918"
+      },
+      {
+        "id": "c",
+        "text": "In 1945"
+      },
+      {
+        "id": "b",
+        "text": "In 1939"
+      },
+      {
+        "id": "a",
+        "text": "In 1914"
+      }
+    ],
+    "correctChoiceIds": [
+      "d"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The First World War ended at 11.00 am on 11 November 1918 with victory for Britain and its allies. Remembrance Day on 11 November commemorates those who died fighting for the UK and its allies.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.4 The 20th century: The First World War",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-238",
+    "sourceNumber": 238,
+    "lessonNumbers": [
+      10
+    ],
+    "question": "Who ordered the wall in the north of England to be built to keep out the Picts?",
+    "romanUrdu": "England ke shumal mein Picts ko rokne ke liye deewar banane ka hukm kis ne diya?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "Julius Caesar"
+      },
+      {
+        "id": "a",
+        "text": "The Roman Emperor Hadrian"
+      },
+      {
+        "id": "c",
+        "text": "The Emperor Claudius"
+      },
+      {
+        "id": "d",
+        "text": "Boudicca, queen of the Iceni"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Areas of what is now Scotland were never conquered by the Romans, and the Emperor Hadrian built a wall in the north of England to keep out the Picts, the ancestors of the Scottish people. Parts of Hadrian's Wall can still be seen and it is a UNESCO World Heritage Site.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.7 Early Britain: The Romans (Hadrian's Wall)",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-239",
+    "sourceNumber": 239,
+    "lessonNumbers": [
+      10
+    ],
+    "question": "Which two universities take part in the annual rowing race that takes place on the River Thames?",
+    "romanUrdu": "River Thames par hone wali saalana rowing race mein kaun si do universities hissa leti hain?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "The University of Cambridge"
+      },
+      {
+        "id": "a",
+        "text": "The University of Oxford"
+      },
+      {
+        "id": "c",
+        "text": "The University of Durham"
+      },
+      {
+        "id": "d",
+        "text": "The University of Edinburgh"
+      }
+    ],
+    "correctChoiceIds": [
+      "a",
+      "b"
+    ],
+    "answerType": "select-two",
+    "verificationStatus": "corrected",
+    "explanation": "Rowing is popular in the UK both as a leisure activity and as a competitive sport, and there is a popular yearly race on the Thames between Oxford and Cambridge Universities, known as the Boat Race.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.7 Sport: Water sports (the Oxford and Cambridge boat race)",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-240",
+    "sourceNumber": 240,
+    "lessonNumbers": [
+      10
+    ],
+    "question": "Does the UK have a single written constitution?",
+    "romanUrdu": "Kya Britain ka ek hi likha hua aayeen (constitution) hai?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "Yes, it is set out in Magna Carta"
+      },
+      {
+        "id": "a",
+        "text": "Yes, it is set out in one document called the Bill of Rights"
+      },
+      {
+        "id": "d",
+        "text": "No, it is not written down in any single document"
+      },
+      {
+        "id": "c",
+        "text": "No, the UK has no constitution of any kind"
+      }
+    ],
+    "correctChoiceIds": [
+      "d"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The British constitution is not written down in any single document, and is therefore described as 'unwritten'. It is made up of laws, conventions and the institutions that run the country, and it has developed over hundreds of years rather than being created by a revolution.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.3 The British constitution",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  }
+]

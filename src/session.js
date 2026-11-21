@@ -1,5 +1,12 @@
-export function createSession(questionIds) {
+export function createSession(questionIds, { id = globalThis.crypto.randomUUID(), mode = 'legacy', blockId = null } = {}) {
+  if (!['study', 'revision', 'legacy'].includes(mode)) throw new Error('Unknown practice mode.');
+  if (mode === 'study' && !/^block-[1-8]$/.test(blockId ?? '')) {
+    throw new Error('A study session requires a valid block identity.');
+  }
   return {
+    id,
+    mode,
+    blockId: mode === 'study' ? blockId : null,
     questionIds: [...questionIds],
     answers: {},
     checkedQuestionIds: [],
@@ -95,7 +102,8 @@ export function scoreSession(session, questionMap) {
 
 export function submitSession(session, questionMap) {
   const checkedQuestionIds = new Set(session.checkedQuestionIds ?? []);
-  if (!session.questionIds.every((questionId) => checkedQuestionIds.has(questionId))) {
+  if (session.questionIds.length === 0
+    || !session.questionIds.every((questionId) => checkedQuestionIds.has(questionId))) {
     return { ...session, submitted: false };
   }
 

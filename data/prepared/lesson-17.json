@@ -1,0 +1,988 @@
+[
+  {
+    "id": "source-384",
+    "sourceNumber": 384,
+    "lessonNumbers": [
+      17
+    ],
+    "question": "Which of these is a constitutional institution in the UK?",
+    "romanUrdu": "In mein se kaunsi UK ki constitutional institution hai?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "A football club"
+      },
+      {
+        "id": "a",
+        "text": "Parliament"
+      },
+      {
+        "id": "c",
+        "text": "A trade union"
+      },
+      {
+        "id": "d",
+        "text": "A private company"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Parliament is a constitutional institution; private bodies such as companies and clubs are not.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.3 The British constitution",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-385",
+    "sourceNumber": 385,
+    "lessonNumbers": [
+      17
+    ],
+    "question": "What food shortage caused the Great Famine in Ireland in the mid-19th century?",
+    "romanUrdu": "19th sadi ke ausat mein Ireland ke Great Famine ki wajah kaunsi khurai ki kami thi?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "Fish stocks disappeared"
+      },
+      {
+        "id": "c",
+        "text": "Rice could not be grown"
+      },
+      {
+        "id": "b",
+        "text": "Wheat imports stopped"
+      },
+      {
+        "id": "a",
+        "text": "The potato crop failed"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The potato crop failed, causing the Great Famine in Ireland.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.3 A global power: Ireland and the Great Famine",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-386",
+    "sourceNumber": 386,
+    "lessonNumbers": [
+      17
+    ],
+    "question": "What is the group of senior opposition MPs who challenge government policy called?",
+    "romanUrdu": "Government policy ko challenge karne wale senior opposition MPs ke group ko kya kaha jata hai?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "The Privy Council"
+      },
+      {
+        "id": "d",
+        "text": "The Civil Service"
+      },
+      {
+        "id": "a",
+        "text": "The Shadow Cabinet"
+      },
+      {
+        "id": "b",
+        "text": "The Cabinet Office"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Senior opposition MPs form the Shadow Cabinet.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.6 The government: the opposition",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-387",
+    "sourceNumber": 387,
+    "lessonNumbers": [
+      17
+    ],
+    "question": "Which TWO are responsibilities of MPs? Select two.",
+    "romanUrdu": "MPs ki DO zimmedariyan kaunsi hain?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "Command the armed forces"
+      },
+      {
+        "id": "a",
+        "text": "Represent everyone in their constituency"
+      },
+      {
+        "id": "b",
+        "text": "Help create new laws"
+      },
+      {
+        "id": "c",
+        "text": "Appoint every local councillor"
+      }
+    ],
+    "correctChoiceIds": [
+      "a",
+      "b"
+    ],
+    "answerType": "select-two",
+    "verificationStatus": "corrected",
+    "explanation": "MPs represent their constituents and help create laws.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.6 The government: MPs",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-388",
+    "sourceNumber": 388,
+    "lessonNumbers": [
+      17
+    ],
+    "question": "Who was the longest-serving UK Prime Minister of the 20th century by continuous tenure?",
+    "romanUrdu": "20th sadi mein musalsal sab se lambi muddat tak UK Prime Minister kaun rahe?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Margaret Thatcher"
+      },
+      {
+        "id": "b",
+        "text": "Clement Attlee"
+      },
+      {
+        "id": "d",
+        "text": "Harold Wilson"
+      },
+      {
+        "id": "c",
+        "text": "Tony Blair"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Margaret Thatcher served continuously from 1979 to 1990, the longest continuous tenure of a 20th-century UK Prime Minister.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.2 Britain since 1945: Margaret Thatcher",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-389",
+    "sourceNumber": 389,
+    "lessonNumbers": [
+      17
+    ],
+    "question": "What name is given to territories linked to the Crown but not part of the UK?",
+    "romanUrdu": "Crown se linked lekin UK ka hissa na hone wale territories ko kya kaha jata hai?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "Commonwealth countries"
+      },
+      {
+        "id": "d",
+        "text": "Devolution areas"
+      },
+      {
+        "id": "a",
+        "text": "Crown Dependencies"
+      },
+      {
+        "id": "b",
+        "text": "British Overseas Territories"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Crown Dependencies, such as the Isle of Man and the Channel Islands, are linked to the Crown but are not part of the UK.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "2.2 What is the UK? Crown Dependencies",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-390",
+    "sourceNumber": 390,
+    "lessonNumbers": [
+      17
+    ],
+    "question": "To which area of study did David Hume contribute during the Scottish Enlightenment?",
+    "romanUrdu": "Scottish Enlightenment mein David Hume ne kis shobe mein hissa dala?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "Engineering"
+      },
+      {
+        "id": "c",
+        "text": "Astronomy"
+      },
+      {
+        "id": "b",
+        "text": "Medicine"
+      },
+      {
+        "id": "a",
+        "text": "Philosophy"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "David Hume was a philosopher of the Scottish Enlightenment.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.3 A global power: the Enlightenment",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-391",
+    "sourceNumber": 391,
+    "lessonNumbers": [
+      17
+    ],
+    "question": "What proportion of England's population died in the Black Death?",
+    "romanUrdu": "Black Death mein England ki kitni abadi mari?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "About three quarters"
+      },
+      {
+        "id": "a",
+        "text": "About one third"
+      },
+      {
+        "id": "b",
+        "text": "About one tenth"
+      },
+      {
+        "id": "c",
+        "text": "About half"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The Black Death killed about one third of the population of England.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.5 The Middle Ages: the Black Death",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-392",
+    "sourceNumber": 392,
+    "lessonNumbers": [
+      17
+    ],
+    "question": "What happened to King Charles I after he was imprisoned in the Civil War?",
+    "romanUrdu": "Civil War mein qaid hone ke baad King Charles I ke saath kya hua?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "He was executed"
+      },
+      {
+        "id": "c",
+        "text": "He escaped to Scotland"
+      },
+      {
+        "id": "d",
+        "text": "He became a Member of Parliament"
+      },
+      {
+        "id": "b",
+        "text": "He was exiled to France"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Charles I was executed in 1649.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.6 The Tudors and Stuarts: Charles I",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-393",
+    "sourceNumber": 393,
+    "lessonNumbers": [
+      17
+    ],
+    "question": "Which TWO are constitutional responsibilities of the Monarch? Select two.",
+    "romanUrdu": "Monarch ki DO constitutional zimmedariyan kaunsi hain?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "Advise, warn and encourage the Prime Minister"
+      },
+      {
+        "id": "c",
+        "text": "Write all new laws personally"
+      },
+      {
+        "id": "a",
+        "text": "Appoint the government"
+      },
+      {
+        "id": "d",
+        "text": "Choose every local councillor"
+      }
+    ],
+    "correctChoiceIds": [
+      "a",
+      "b"
+    ],
+    "answerType": "select-two",
+    "verificationStatus": "corrected",
+    "explanation": "The monarch appoints the government and has the right to advise, warn and encourage the Prime Minister.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.6 The government: the monarch",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-394",
+    "sourceNumber": 394,
+    "lessonNumbers": [
+      17
+    ],
+    "question": "What kind of disaster was the Black Death?",
+    "romanUrdu": "Black Death kis qisam ki aafat thi?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "A famine caused by drought"
+      },
+      {
+        "id": "c",
+        "text": "An earthquake"
+      },
+      {
+        "id": "a",
+        "text": "A plague epidemic"
+      },
+      {
+        "id": "b",
+        "text": "A flood"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The Black Death was a plague epidemic that reached Britain in 1348.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.5 The Middle Ages: the Black Death",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-395",
+    "sourceNumber": 395,
+    "lessonNumbers": [
+      17
+    ],
+    "question": "Which country was Britain in frequent conflict with over trade and colonies in the 18th century?",
+    "romanUrdu": "18th sadi mein trade aur colonies par Britain ka kis mulk se bar bar takrao tha?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "The Netherlands"
+      },
+      {
+        "id": "b",
+        "text": "Spain"
+      },
+      {
+        "id": "c",
+        "text": "Portugal"
+      },
+      {
+        "id": "a",
+        "text": "France"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Britain fought France frequently in the 18th century over trade and colonies.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.3 A global power: war with France",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-396",
+    "sourceNumber": 396,
+    "lessonNumbers": [
+      17
+    ],
+    "question": "Is the Speaker of the House of Commons an MP who represents a constituency?",
+    "romanUrdu": "Kya House of Commons ka Speaker ek MP hai jo constituency ki numaindagi karta hai?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Yes"
+      },
+      {
+        "id": "c",
+        "text": "No, the Speaker sits in the Lords"
+      },
+      {
+        "id": "b",
+        "text": "No, the Speaker is not an MP"
+      },
+      {
+        "id": "d",
+        "text": "Only in Scotland"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The Speaker is an MP who represents a constituency and deals with constituents' issues.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.6 The government: the Speaker",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-397",
+    "sourceNumber": 397,
+    "lessonNumbers": [
+      17
+    ],
+    "question": "Where is Skara Brae, a well-preserved prehistoric village?",
+    "romanUrdu": "Skara Brae, ek behtar mehfooz prehistoric gaon, kahan hai?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "In Orkney, Scotland"
+      },
+      {
+        "id": "b",
+        "text": "In Cornwall, England"
+      },
+      {
+        "id": "d",
+        "text": "In County Antrim, Northern Ireland"
+      },
+      {
+        "id": "c",
+        "text": "In Anglesey, Wales"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Skara Brae is a prehistoric village in Orkney, Scotland.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.5 Places of interest: Skara Brae",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-398",
+    "sourceNumber": 398,
+    "lessonNumbers": [
+      17
+    ],
+    "question": "Which of these plays was written by William Shakespeare?",
+    "romanUrdu": "In mein se kaunsa play William Shakespeare ne likha?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Macbeth"
+      },
+      {
+        "id": "c",
+        "text": "The Importance of Being Earnest"
+      },
+      {
+        "id": "d",
+        "text": "Pygmalion"
+      },
+      {
+        "id": "b",
+        "text": "The Rivals"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Macbeth is a play by William Shakespeare.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.2 Arts and culture: William Shakespeare",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-399",
+    "sourceNumber": 399,
+    "lessonNumbers": [
+      17
+    ],
+    "question": "Where was William the Conqueror from?",
+    "romanUrdu": "William the Conqueror kahan se thay?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "Brittany, France"
+      },
+      {
+        "id": "c",
+        "text": "Wessex, England"
+      },
+      {
+        "id": "a",
+        "text": "Normandy, France"
+      },
+      {
+        "id": "d",
+        "text": "Flanders"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "William the Conqueror was Duke of Normandy before invading England in 1066.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.7 Early Britain: the Norman Conquest",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-400",
+    "sourceNumber": 400,
+    "lessonNumbers": [
+      17
+    ],
+    "question": "What were the Dutch-origin settlers who fought the British in South Africa called?",
+    "romanUrdu": "South Africa mein British se larne wale Dutch asal ke settlers ko kya kaha jata tha?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "The Boers"
+      },
+      {
+        "id": "b",
+        "text": "The Huguenots"
+      },
+      {
+        "id": "c",
+        "text": "The Jacobites"
+      },
+      {
+        "id": "d",
+        "text": "The Cavaliers"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The Boers were Dutch-origin settlers in South Africa.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.3 A global power: the Boer War",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-401",
+    "sourceNumber": 401,
+    "lessonNumbers": [
+      17
+    ],
+    "question": "In Northern Ireland, are Youth Court cases heard by up to three specially trained magistrates or a District Judge?",
+    "romanUrdu": "Northern Ireland mein kya Youth Court cases teen specially trained magistrates ya District Judge sunte hain?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Yes"
+      },
+      {
+        "id": "c",
+        "text": "No, only the Lord Chancellor"
+      },
+      {
+        "id": "b",
+        "text": "No, a jury of twelve hears them"
+      },
+      {
+        "id": "d",
+        "text": "No, they are heard in Parliament"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "In Northern Ireland, Youth Court cases are heard by up to three specially trained magistrates or a District Judge.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.5 Respecting the law: Youth Courts",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-402",
+    "sourceNumber": 402,
+    "lessonNumbers": [
+      17
+    ],
+    "question": "What achievement made Sir Roger Bannister famous?",
+    "romanUrdu": "Sir Roger Bannister kis kamyabi se mashhoor hue?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "He invented the jet engine"
+      },
+      {
+        "id": "a",
+        "text": "He ran the first officially recorded mile in under four minutes"
+      },
+      {
+        "id": "d",
+        "text": "He discovered penicillin"
+      },
+      {
+        "id": "b",
+        "text": "He won an Olympic gold medal in swimming"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Roger Bannister ran the first officially recorded sub-four-minute mile in 1954.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.2 Britain since 1945: sport",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-403",
+    "sourceNumber": 403,
+    "lessonNumbers": [
+      17
+    ],
+    "question": "Who was invited to take the English throne in 1688 during the Glorious Revolution?",
+    "romanUrdu": "1688 ki Glorious Revolution mein English takht par kis ko bulaya gaya?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "James I"
+      },
+      {
+        "id": "b",
+        "text": "Oliver Cromwell"
+      },
+      {
+        "id": "a",
+        "text": "William of Orange"
+      },
+      {
+        "id": "c",
+        "text": "Charles II"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "William of Orange was invited to take the throne in 1688.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.6 The Tudors and Stuarts: the Glorious Revolution",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-404",
+    "sourceNumber": 404,
+    "lessonNumbers": [
+      17
+    ],
+    "question": "Who was defeated at the Battle of the Boyne in 1690?",
+    "romanUrdu": "1690 ki Battle of the Boyne mein kise shikast hui?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "Oliver Cromwell"
+      },
+      {
+        "id": "a",
+        "text": "King James II"
+      },
+      {
+        "id": "c",
+        "text": "Charles I"
+      },
+      {
+        "id": "b",
+        "text": "William III"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "James II was defeated by William III at the Battle of the Boyne in 1690.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.6 The Tudors and Stuarts: the Battle of the Boyne",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-405",
+    "sourceNumber": 405,
+    "lessonNumbers": [
+      17
+    ],
+    "question": "What did the Factories Act of 1847 introduce?",
+    "romanUrdu": "Factories Act 1847 ne kya muta'arif karwaya?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "A ten-hour limit on working hours for women and children in textile mills"
+      },
+      {
+        "id": "b",
+        "text": "Free schooling for all children"
+      },
+      {
+        "id": "c",
+        "text": "The right to vote for women"
+      },
+      {
+        "id": "d",
+        "text": "A ban on all factories"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The Factories Act 1847, the Ten Hours Act, limited working hours for women and children in textile mills.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.3 A global power: factory reform",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-406",
+    "sourceNumber": 406,
+    "lessonNumbers": [
+      17
+    ],
+    "question": "What is the group of official-opposition MPs who scrutinise government departments called?",
+    "romanUrdu": "Government departments ki nigrani karne wale official opposition MPs ke group ko kya kaha jata hai?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "The House of Lords"
+      },
+      {
+        "id": "c",
+        "text": "The Privy Council"
+      },
+      {
+        "id": "a",
+        "text": "The Shadow Cabinet"
+      },
+      {
+        "id": "b",
+        "text": "The Cabinet"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The Shadow Cabinet is made up of senior opposition MPs who scrutinise the government.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.6 The government: the opposition",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-407",
+    "sourceNumber": 407,
+    "lessonNumbers": [
+      17
+    ],
+    "question": "In which devolved area can the Scottish Parliament legislate?",
+    "romanUrdu": "Scottish Parliament kis devolved area mein qanoon bana sakti hai?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "Foreign affairs"
+      },
+      {
+        "id": "d",
+        "text": "Immigration"
+      },
+      {
+        "id": "b",
+        "text": "Defence"
+      },
+      {
+        "id": "a",
+        "text": "Education"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Education is devolved to the Scottish Parliament; defence, foreign affairs and immigration are reserved.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.6 The government: the Scottish Parliament",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  }
+]

@@ -104,3 +104,75 @@ export function loadQuestionBank(rawData) {
 
   return { questions: errors.length === 0 ? rawData : [], errors };
 }
+
+export function validateFullCollection(questions, inventory) {
+  const errors = [...loadQuestionBank(questions).errors];
+  const sourceNumbers = new Set();
+  const validInventory = Array.isArray(inventory) && inventory.length === 407
+    && inventory.every((item, index) => item?.n === index + 1
+      && /^L(?:[1-9]|1[0-7])$/.test(item.lesson));
+  if (!validInventory) errors.push('Source inventory must contain ordered source numbers 1–407 with valid lessons.');
+  if (!Array.isArray(questions) || questions.length !== 407) {
+    errors.push(`Full collection needs 407 questions; ${Array.isArray(questions) ? questions.length : 0} are available.`);
+  }
+  for (const [index, question] of (Array.isArray(questions) ? questions : []).entries()) {
+    const number = question?.sourceNumber;
+    const label = `Source ${number ?? `missing at position ${index + 1}`}`;
+    if (!Number.isInteger(number) || number < 1 || number > 407) {
+      errors.push(`${label}: sourceNumber must be in 1–407.`);
+      continue;
+    }
+    if (sourceNumbers.has(number)) errors.push(`${label}: duplicate source number.`);
+    sourceNumbers.add(number);
+    if (question.id !== `source-${String(number).padStart(3, '0')}`) {
+      errors.push(`${label}: ID must match the original source number.`);
+    }
+    for (const error of validateQuestion(question)) errors.push(`${label}: ${error}`);
+    if (!['verified', 'corrected'].includes(question.verificationStatus)) {
+      errors.push(`${label}: unresolved content prevents release.`);
+    }
+    if (/[\u0600-\u06ff\u0750-\u077f\u08a0-\u08ff]/.test(question.romanUrdu ?? '')) {
+      errors.push(`${label}: Roman Urdu must use Latin script.`);
+    }
+    if (validInventory && !question.lessonNumbers?.includes(Number(inventory[number - 1].lesson.slice(1)))) {
+      errors.push(`${label}: original lesson provenance is missing.`);
+    }
+  }
+  for (let number = 1; number <= 407; number += 1) {
+    if (!sourceNumbers.has(number)) errors.push(`Source ${number}: missing from the full collection.`);
+  }
+  return errors;
+}
+
+export function validateLegacyQuestionMap(map, questions) {
+  if (map?.version !== 1 || !Array.isArray(map.mappings)) {
+    return ['Legacy question map must use version 1 and a mappings array.'];
+  }
+  const errors = [];
+  const seen = new Set();
+  const targets = new Map((Array.isArray(questions) ? questions : []).map(q => [q.id, q]));
+  for (const [index, entry] of map.mappings.entries()) {
+    const label = `Legacy mapping ${index + 1}`;
+    if (!isNonEmptyString(entry?.oldId) || seen.has(entry.oldId)) errors.push(`${label}: oldId must be unique and non-empty.`);
+    if (entry?.oldId) seen.add(entry.oldId);
+    const target = targets.get(entry?.newId);
+    if (!target) errors.push(`${label}: target question does not exist.`);
+    if (typeof entry?.resumeSafe !== 'boolean') errors.push(`${label}: resumeSafe must be a boolean.`);
+    if (!isNonEmptyString(entry?.reason)) errors.push(`${label}: manual review reason is required.`);
+    const choices = entry?.choiceIds;
+    if (!choices || typeof choices !== 'object' || Array.isArray(choices)) {
+      errors.push(`${label}: choiceIds must be an object.`);
+      continue;
+    }
+    const pairs = Object.entries(choices);
+    const validChoices = new Set(target?.choices?.map(choice => choice.id));
+    if (pairs.some(([oldId, newId]) => !isNonEmptyString(oldId) || !validChoices.has(newId))
+      || new Set(pairs.map(([, newId]) => newId)).size !== pairs.length) {
+      errors.push(`${label}: choice mapping must be one-to-one and refer to target choices.`);
+    }
+    if (entry.resumeSafe && (pairs.length !== 4 || validChoices.size !== 4)) {
+      errors.push(`${label}: safe resume requires all four choice identities.`);
+    }
+  }
+  return errors;
+}

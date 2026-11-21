@@ -1,0 +1,986 @@
+[
+  {
+    "id": "source-312",
+    "sourceNumber": 312,
+    "lessonNumbers": [
+      14
+    ],
+    "question": "When is St Patrick's Day celebrated?",
+    "romanUrdu": "St Patrick's Day kab manaya jata hai?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "30 November"
+      },
+      {
+        "id": "c",
+        "text": "23 April"
+      },
+      {
+        "id": "a",
+        "text": "17 March"
+      },
+      {
+        "id": "b",
+        "text": "1 March"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "St Patrick's Day is celebrated on 17 March, Northern Ireland's national day.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.3 Customs and traditions: St Patrick's Day",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-313",
+    "sourceNumber": 313,
+    "lessonNumbers": [
+      14
+    ],
+    "question": "How are members of the Northern Ireland Assembly elected?",
+    "romanUrdu": "Northern Ireland Assembly ke members kaise chune jate hain?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "By selection by local councils"
+      },
+      {
+        "id": "a",
+        "text": "By a system of proportional representation"
+      },
+      {
+        "id": "c",
+        "text": "By hereditary right"
+      },
+      {
+        "id": "b",
+        "text": "By appointment by the monarch"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Members of the Northern Ireland Assembly are elected by proportional representation.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.6 The government: the Northern Ireland Assembly",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-314",
+    "sourceNumber": 314,
+    "lessonNumbers": [
+      14
+    ],
+    "question": "Who was the first British Prime Minister?",
+    "romanUrdu": "Britain ke pehle Prime Minister kaun thay?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "Winston Churchill"
+      },
+      {
+        "id": "b",
+        "text": "William Pitt"
+      },
+      {
+        "id": "c",
+        "text": "Clement Attlee"
+      },
+      {
+        "id": "a",
+        "text": "Sir Robert Walpole"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Sir Robert Walpole is regarded as the first British Prime Minister.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.6 The government: the Prime Minister",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-315",
+    "sourceNumber": 315,
+    "lessonNumbers": [
+      14
+    ],
+    "question": "Which of these British actresses has not won an Oscar?",
+    "romanUrdu": "In British actresses mein se kis ne Oscar nahin jeeta?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "Helen Mirren"
+      },
+      {
+        "id": "a",
+        "text": "Emma Watson"
+      },
+      {
+        "id": "d",
+        "text": "Kate Winslet"
+      },
+      {
+        "id": "b",
+        "text": "Judi Dench"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Emma Watson has not won an acting Oscar; the other three have.",
+    "sources": [
+      {
+        "title": "Academy of Motion Picture Arts and Sciences: Oscar winners",
+        "url": "https://www.oscars.org/oscars/ceremonies",
+        "locator": "Searchable official winners database",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-316",
+    "sourceNumber": 316,
+    "lessonNumbers": [
+      14
+    ],
+    "question": "During the Enlightenment, Adam Smith developed groundbreaking ideas about which subject?",
+    "romanUrdu": "Enlightenment ke daur mein Adam Smith ne kis mozu par naye ideas diye?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "Architecture"
+      },
+      {
+        "id": "b",
+        "text": "Astronomy"
+      },
+      {
+        "id": "a",
+        "text": "Economics"
+      },
+      {
+        "id": "c",
+        "text": "Medicine"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Adam Smith developed influential ideas about economics during the Enlightenment.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.3 A global power: the Enlightenment",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-317",
+    "sourceNumber": 317,
+    "lessonNumbers": [
+      14
+    ],
+    "question": "Who died at the Battle of Trafalgar?",
+    "romanUrdu": "Battle of Trafalgar mein kaun shaheed hua?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "Sir Francis Drake"
+      },
+      {
+        "id": "d",
+        "text": "Captain James Cook"
+      },
+      {
+        "id": "a",
+        "text": "Admiral Lord Nelson"
+      },
+      {
+        "id": "b",
+        "text": "The Duke of Wellington"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Admiral Lord Nelson died at the Battle of Trafalgar in 1805.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.3 A global power: Trafalgar",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-318",
+    "sourceNumber": 318,
+    "lessonNumbers": [
+      14
+    ],
+    "question": "When is Hogmanay celebrated?",
+    "romanUrdu": "Hogmanay kab manaya jata hai?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "1 January"
+      },
+      {
+        "id": "d",
+        "text": "30 November"
+      },
+      {
+        "id": "b",
+        "text": "25 December"
+      },
+      {
+        "id": "a",
+        "text": "31 December"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Hogmanay is the Scottish name for New Year's Eve, 31 December.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.3 Customs and traditions: Hogmanay",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-319",
+    "sourceNumber": 319,
+    "lessonNumbers": [
+      14
+    ],
+    "question": "What are the official written reports of parliamentary debates called?",
+    "romanUrdu": "Parliamentary debates ki sarkari tehri reporton ko kya kaha jata hai?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "The Cabinet Manual"
+      },
+      {
+        "id": "a",
+        "text": "Hansard"
+      },
+      {
+        "id": "d",
+        "text": "The Statute Roll"
+      },
+      {
+        "id": "b",
+        "text": "The Domesday Book"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Proceedings in Parliament are published in official reports known as Hansard.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.6 The government: Parliament",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-320",
+    "sourceNumber": 320,
+    "lessonNumbers": [
+      14
+    ],
+    "question": "Which of these is a major rugby competition?",
+    "romanUrdu": "In mein se kaunsi bari rugby competition hai?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "Wimbledon"
+      },
+      {
+        "id": "a",
+        "text": "The Six Nations Championship"
+      },
+      {
+        "id": "c",
+        "text": "The Grand National"
+      },
+      {
+        "id": "b",
+        "text": "The Ashes"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The Six Nations Championship is a major rugby competition.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.7 Sport: rugby",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-321",
+    "sourceNumber": 321,
+    "lessonNumbers": [
+      14
+    ],
+    "question": "Who appoints life peers in the House of Lords?",
+    "romanUrdu": "House of Lords mein life peers kis ki taraf se appoint hote hain?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "The Archbishop of Canterbury"
+      },
+      {
+        "id": "a",
+        "text": "The Monarch, on the advice of the Prime Minister"
+      },
+      {
+        "id": "d",
+        "text": "A public election"
+      },
+      {
+        "id": "b",
+        "text": "The Speaker of the Commons"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Life peers are appointed by the monarch on the advice of the Prime Minister.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.6 The government: the House of Lords",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-322",
+    "sourceNumber": 322,
+    "lessonNumbers": [
+      14
+    ],
+    "question": "Who mapped the coast of Australia?",
+    "romanUrdu": "Australia ke sahil ka naqsha kis ne banaya?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Captain James Cook"
+      },
+      {
+        "id": "b",
+        "text": "Sir Francis Drake"
+      },
+      {
+        "id": "c",
+        "text": "Admiral Nelson"
+      },
+      {
+        "id": "d",
+        "text": "Captain Robert Scott"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Captain James Cook mapped the coast of Australia.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.3 A global power: Captain Cook",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-323",
+    "sourceNumber": 323,
+    "lessonNumbers": [
+      14
+    ],
+    "question": "Which war was the first to be extensively covered by the media?",
+    "romanUrdu": "Kaunsi jang pehli baar media mein ba-tafseel cover hui?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "The Crimean War"
+      },
+      {
+        "id": "c",
+        "text": "The Boer War"
+      },
+      {
+        "id": "d",
+        "text": "The Spanish Armada"
+      },
+      {
+        "id": "b",
+        "text": "The First World War"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The Crimean War was the first war to be extensively covered by the media.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.3 A global power: the Crimean War",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-324",
+    "sourceNumber": 324,
+    "lessonNumbers": [
+      14
+    ],
+    "question": "Which famous prehistoric monument is in Wiltshire?",
+    "romanUrdu": "Wiltshire mein kaunsa mashhoor prehistoric monument hai?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "Avebury"
+      },
+      {
+        "id": "c",
+        "text": "The Giant's Causeway"
+      },
+      {
+        "id": "a",
+        "text": "Stonehenge"
+      },
+      {
+        "id": "b",
+        "text": "Skara Brae"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Stonehenge is a prehistoric monument in Wiltshire.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.5 Places of interest: Stonehenge",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-325",
+    "sourceNumber": 325,
+    "lessonNumbers": [
+      14
+    ],
+    "question": "Who was the first Archbishop of Canterbury?",
+    "romanUrdu": "Canterbury ke pehle Archbishop kaun thay?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "St Augustine"
+      },
+      {
+        "id": "d",
+        "text": "Thomas Becket"
+      },
+      {
+        "id": "c",
+        "text": "St Andrew"
+      },
+      {
+        "id": "b",
+        "text": "St Patrick"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "St Augustine was the first Archbishop of Canterbury.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.7 Early Britain: St Augustine",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-326",
+    "sourceNumber": 326,
+    "lessonNumbers": [
+      14
+    ],
+    "question": "How old must you be to enter a betting shop or gambling club?",
+    "romanUrdu": "Betting shop ya gambling club mein jane ke liye kam az kam umar kya hai?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "25"
+      },
+      {
+        "id": "b",
+        "text": "16"
+      },
+      {
+        "id": "a",
+        "text": "18"
+      },
+      {
+        "id": "c",
+        "text": "21"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The minimum age to enter a betting shop or gambling club is 18.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.4 Leisure: gambling",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-327",
+    "sourceNumber": 327,
+    "lessonNumbers": [
+      14
+    ],
+    "question": "Is the UK system of government a parliamentary democracy?",
+    "romanUrdu": "Kya UK ka nizam-e-hukoomat parliamentary democracy hai?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "No, it is a one-party state"
+      },
+      {
+        "id": "a",
+        "text": "Yes"
+      },
+      {
+        "id": "d",
+        "text": "No, it is a military government"
+      },
+      {
+        "id": "b",
+        "text": "No, it is an absolute monarchy"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The UK is a parliamentary democracy.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.1 The UK government, the law and your role",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-328",
+    "sourceNumber": 328,
+    "lessonNumbers": [
+      14
+    ],
+    "question": "What is the traditional cooked breakfast dish of Northern Ireland?",
+    "romanUrdu": "Northern Ireland ka riwayati cooked breakfast kaunsa hai?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "Welsh cakes"
+      },
+      {
+        "id": "d",
+        "text": "The full English"
+      },
+      {
+        "id": "a",
+        "text": "The Ulster fry"
+      },
+      {
+        "id": "b",
+        "text": "Haggis"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The Ulster fry is the traditional cooked breakfast of Northern Ireland.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.3 Customs and traditions: food",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-329",
+    "sourceNumber": 329,
+    "lessonNumbers": [
+      14
+    ],
+    "question": "Who was elected British Prime Minister in 1945?",
+    "romanUrdu": "1945 mein British Prime Minister kaun chune gaye?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Clement Attlee"
+      },
+      {
+        "id": "b",
+        "text": "Winston Churchill"
+      },
+      {
+        "id": "d",
+        "text": "Harold Wilson"
+      },
+      {
+        "id": "c",
+        "text": "Anthony Eden"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Clement Attlee became Prime Minister after Labour won the 1945 general election.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.2 Britain since 1945: the 1945 election",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-330",
+    "sourceNumber": 330,
+    "lessonNumbers": [
+      14
+    ],
+    "question": "How many times has the UK hosted the Olympic Games?",
+    "romanUrdu": "UK ne kitni baar Olympic Games ki mezbani ki hai?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "Twice"
+      },
+      {
+        "id": "d",
+        "text": "Five times"
+      },
+      {
+        "id": "b",
+        "text": "Once"
+      },
+      {
+        "id": "a",
+        "text": "Three times"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The UK has hosted the Olympic Games three times: 1908, 1948 and 2012.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.7 Sport: the Olympic Games",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-331",
+    "sourceNumber": 331,
+    "lessonNumbers": [
+      14
+    ],
+    "question": "Why were canals built during the Industrial Revolution?",
+    "romanUrdu": "Industrial Revolution ke daur mein nahrein kyun banayi gayi?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "To mark county boundaries"
+      },
+      {
+        "id": "c",
+        "text": "To supply drinking water only"
+      },
+      {
+        "id": "b",
+        "text": "For military defence"
+      },
+      {
+        "id": "a",
+        "text": "To link factories to towns, cities and ports"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Canals were built to transport goods and link factories to towns, cities and ports.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.3 A global power: canals",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-332",
+    "sourceNumber": 332,
+    "lessonNumbers": [
+      14
+    ],
+    "question": "Are civil servants appointed by politicians or the governing party?",
+    "romanUrdu": "Kya civil servants politicians ya hukoomati party ki taraf se appoint hote hain?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "No, they are appointed on merit and are politically neutral"
+      },
+      {
+        "id": "d",
+        "text": "Yes, by Parliament"
+      },
+      {
+        "id": "c",
+        "text": "Yes, by the governing party"
+      },
+      {
+        "id": "b",
+        "text": "Yes, by the Prime Minister"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Civil servants are appointed on merit and are politically neutral, not appointed by the governing party.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.6 The government: the civil service",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-333",
+    "sourceNumber": 333,
+    "lessonNumbers": [
+      14
+    ],
+    "question": "Which country collaborated with Britain to develop Concorde?",
+    "romanUrdu": "Concorde banane mein Britain ke saath kis mulk ne taawun kiya?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "France"
+      },
+      {
+        "id": "d",
+        "text": "Italy"
+      },
+      {
+        "id": "b",
+        "text": "Germany"
+      },
+      {
+        "id": "c",
+        "text": "The United States"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Britain and France jointly developed Concorde.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.2 Britain since 1945: Concorde",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-334",
+    "sourceNumber": 334,
+    "lessonNumbers": [
+      14
+    ],
+    "question": "Which power source drove rapid industrial development in Britain?",
+    "romanUrdu": "Britain mein tez sanati taraqqi kis power source ne chalayi?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "Solar power"
+      },
+      {
+        "id": "c",
+        "text": "Nuclear power"
+      },
+      {
+        "id": "a",
+        "text": "Steam power"
+      },
+      {
+        "id": "d",
+        "text": "Wind power"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Steam power, along with machinery, drove the Industrial Revolution.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.3 A global power: the Industrial Revolution",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-335",
+    "sourceNumber": 335,
+    "lessonNumbers": [
+      14
+    ],
+    "question": "Who led a rebellion against the Romans in Britain?",
+    "romanUrdu": "Britain mein Romans ke khilaf baghawat kis ne ki?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Boudicca"
+      },
+      {
+        "id": "c",
+        "text": "William the Conqueror"
+      },
+      {
+        "id": "d",
+        "text": "Robert the Bruce"
+      },
+      {
+        "id": "b",
+        "text": "Alfred the Great"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Boudicca, queen of the Iceni, led a rebellion against Roman rule.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.7 Early Britain: Boudicca",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  }
+]

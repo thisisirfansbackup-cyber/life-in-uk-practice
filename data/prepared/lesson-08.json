@@ -1,0 +1,994 @@
+[
+  {
+    "id": "source-169",
+    "sourceNumber": 169,
+    "lessonNumbers": [
+      8
+    ],
+    "question": "World War II began after Germany invaded which country?",
+    "romanUrdu": "Germany ke kis mulk par hamle se World War II shuru hui?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "France"
+      },
+      {
+        "id": "c",
+        "text": "Belgium"
+      },
+      {
+        "id": "a",
+        "text": "Poland"
+      },
+      {
+        "id": "d",
+        "text": "Norway"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Germany invaded Poland in September 1939, beginning the Second World War.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.4 The 20th century: the Second World War",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-170",
+    "sourceNumber": 170,
+    "lessonNumbers": [
+      8
+    ],
+    "question": "Which flower is associated with Scotland?",
+    "romanUrdu": "Scotland se kaunsa phool mansoob kiya jata hai?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "The rose"
+      },
+      {
+        "id": "d",
+        "text": "The shamrock"
+      },
+      {
+        "id": "a",
+        "text": "The thistle"
+      },
+      {
+        "id": "c",
+        "text": "The daffodil"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The thistle is a national emblem of Scotland.",
+    "sources": [
+      {
+        "title": "VisitScotland: Scotland's national symbols",
+        "url": "https://www.visitscotland.com/about/scotland-information/national-symbols",
+        "locator": "The thistle as Scotland's national flower",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-171",
+    "sourceNumber": 171,
+    "lessonNumbers": [
+      8
+    ],
+    "question": "Can a police complaint only be made by writing to the Chief Constable?",
+    "romanUrdu": "Kya police shikayat sirf Chief Constable ko likh kar ki ja sakti hai?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "No, complaints can also be made directly to the force or through the oversight body"
+      },
+      {
+        "id": "c",
+        "text": "Yes, but only through a solicitor"
+      },
+      {
+        "id": "b",
+        "text": "Yes, that is the only route"
+      },
+      {
+        "id": "d",
+        "text": "No, police complaints are not allowed"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Complaints can be made directly to the force or organisation involved, subject to eligibility rules. Complaints about a Chief Constable go to the relevant Police and Crime Commissioner.",
+    "sources": [
+      {
+        "title": "IOPC: A guide to the complaints process",
+        "url": "https://www.policeconduct.gov.uk/complaints/guide-to-complaints-process",
+        "locator": "Making a complaint",
+        "checkedAt": "2026-11-21"
+      },
+      {
+        "title": "IOPC: Submit a complaint",
+        "url": "https://www.policeconduct.gov.uk/complaints/submit-a-complaint",
+        "locator": "Complaints about a Chief Constable",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-172",
+    "sourceNumber": 172,
+    "lessonNumbers": [
+      8
+    ],
+    "question": "Which area is the Home Secretary responsible for?",
+    "romanUrdu": "Home Secretary kis area ka zimmedar hai?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "Defence"
+      },
+      {
+        "id": "a",
+        "text": "Crime and policing"
+      },
+      {
+        "id": "c",
+        "text": "Health"
+      },
+      {
+        "id": "b",
+        "text": "Education"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The Home Secretary is responsible for crime, policing and immigration, among other home affairs.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.6 The government: Secretaries of State",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-173",
+    "sourceNumber": 173,
+    "lessonNumbers": [
+      8
+    ],
+    "question": "When is St David's Day celebrated?",
+    "romanUrdu": "St David's Day kab manaya jata hai?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "23 April"
+      },
+      {
+        "id": "b",
+        "text": "17 March"
+      },
+      {
+        "id": "d",
+        "text": "30 November"
+      },
+      {
+        "id": "a",
+        "text": "1 March"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "St David's Day is celebrated on 1 March, Wales's national day.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.3 Customs and traditions: St David's Day",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-174",
+    "sourceNumber": 174,
+    "lessonNumbers": [
+      8
+    ],
+    "question": "What happened to Mary, Queen of Scots, after 20 years in prison?",
+    "romanUrdu": "Mary, Queen of Scots ke saath bees saal qaid ke baad kya hua?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "She was exiled to France"
+      },
+      {
+        "id": "d",
+        "text": "She escaped to Scotland"
+      },
+      {
+        "id": "a",
+        "text": "She was executed"
+      },
+      {
+        "id": "b",
+        "text": "She became Queen of England"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Mary, Queen of Scots was executed after being imprisoned for 20 years by Elizabeth I.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.6 The Tudors and Stuarts: Mary, Queen of Scots",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-175",
+    "sourceNumber": 175,
+    "lessonNumbers": [
+      8
+    ],
+    "question": "What did Francis Crick help discover?",
+    "romanUrdu": "Francis Crick ne kis cheez ki talaash mein madad ki?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "Radar"
+      },
+      {
+        "id": "a",
+        "text": "The structure of the DNA molecule"
+      },
+      {
+        "id": "d",
+        "text": "The jet engine"
+      },
+      {
+        "id": "b",
+        "text": "Penicillin"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Francis Crick helped discover the structure of the DNA molecule.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.2 Britain since 1945: scientific discoveries",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-176",
+    "sourceNumber": 176,
+    "lessonNumbers": [
+      8
+    ],
+    "question": "Which statement about Scottish and Northern Irish banknotes is correct?",
+    "romanUrdu": "Scotland aur Northern Ireland ke banknotes ke bare mein kaunsa bayan durust hai?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "They are valid only in Scotland and Northern Ireland"
+      },
+      {
+        "id": "c",
+        "text": "They are not valid anywhere in the UK"
+      },
+      {
+        "id": "a",
+        "text": "They are valid throughout the UK, but shops need not accept them"
+      },
+      {
+        "id": "d",
+        "text": "They are issued by the Bank of England"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Scotland and Northern Ireland have their own banknotes, valid everywhere in the UK, but shops and businesses do not have to accept them.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.8 The UK today: banknotes",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-177",
+    "sourceNumber": 177,
+    "lessonNumbers": [
+      8
+    ],
+    "question": "How many national parks are there in England, Wales and Scotland?",
+    "romanUrdu": "England, Wales aur Scotland mein kitne national parks hain?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "15"
+      },
+      {
+        "id": "b",
+        "text": "10"
+      },
+      {
+        "id": "c",
+        "text": "20"
+      },
+      {
+        "id": "d",
+        "text": "25"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "There are 15 national parks in England, Wales and Scotland.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.5 Places of interest: national parks",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-178",
+    "sourceNumber": 178,
+    "lessonNumbers": [
+      8
+    ],
+    "question": "Is Northern Ireland part of Great Britain?",
+    "romanUrdu": "Kya Northern Ireland Great Britain ka hissa hai?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "No, it is part of the United Kingdom but not Great Britain"
+      },
+      {
+        "id": "b",
+        "text": "Yes"
+      },
+      {
+        "id": "d",
+        "text": "Only in sporting competitions"
+      },
+      {
+        "id": "c",
+        "text": "Only for election purposes"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Great Britain refers to England, Scotland and Wales. Northern Ireland is part of the UK but not Great Britain.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "2.2 What is the UK?",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-179",
+    "sourceNumber": 179,
+    "lessonNumbers": [
+      8
+    ],
+    "question": "Which TWO details must be on a dog's collar in a public place? Select two.",
+    "romanUrdu": "Public place mein kutte ke collar par kaunsi DO tafseelat honi chahiye?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "The owner's name"
+      },
+      {
+        "id": "d",
+        "text": "The dog's vet's phone number"
+      },
+      {
+        "id": "c",
+        "text": "The dog's date of birth"
+      },
+      {
+        "id": "b",
+        "text": "The owner's address"
+      }
+    ],
+    "correctChoiceIds": [
+      "a",
+      "b"
+    ],
+    "answerType": "select-two",
+    "verificationStatus": "corrected",
+    "explanation": "In a public place, a dog's collar must show the owner's name and address.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.5 Respecting the law: dogs",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-180",
+    "sourceNumber": 180,
+    "lessonNumbers": [
+      8
+    ],
+    "question": "Which Christian holiday commemorates the death of Jesus Christ?",
+    "romanUrdu": "Kaunsa Christian tayohar Jesus Christ ki wafat ki yaad dilata hai?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "Christmas Day"
+      },
+      {
+        "id": "c",
+        "text": "Easter Sunday"
+      },
+      {
+        "id": "a",
+        "text": "Good Friday"
+      },
+      {
+        "id": "d",
+        "text": "Pentecost"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Good Friday commemorates the death of Jesus Christ; Easter Sunday celebrates his resurrection.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.3 Customs and traditions: Easter",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-181",
+    "sourceNumber": 181,
+    "lessonNumbers": [
+      8
+    ],
+    "question": "A key responsibility of an MP is to represent everyone in their what?",
+    "romanUrdu": "MP ki aham zimmedari apne kis ilaqe ke sab logon ki numaindagi karna hai?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Constituency"
+      },
+      {
+        "id": "c",
+        "text": "Trade union"
+      },
+      {
+        "id": "d",
+        "text": "Church parish"
+      },
+      {
+        "id": "b",
+        "text": "County council"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "MPs represent everyone in their constituency.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.6 The government: MPs",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-182",
+    "sourceNumber": 182,
+    "lessonNumbers": [
+      8
+    ],
+    "question": "What did Magna Carta achieve?",
+    "romanUrdu": "Magna Carta ne kya hasil kiya?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "It gave everyone the vote"
+      },
+      {
+        "id": "a",
+        "text": "It restricted the King's power"
+      },
+      {
+        "id": "b",
+        "text": "It abolished Parliament"
+      },
+      {
+        "id": "d",
+        "text": "It created the Church of England"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Magna Carta limited the king's power and established that even the monarch was subject to the law.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.2 The development of British democracy: Magna Carta",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-183",
+    "sourceNumber": 183,
+    "lessonNumbers": [
+      8
+    ],
+    "question": "Is FGM, including taking a girl abroad for FGM, a criminal offence in the UK?",
+    "romanUrdu": "Kya FGM, jismein ladki ko bahar le jana bhi shamil hai, UK mein mujrimana jurm hai?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Yes"
+      },
+      {
+        "id": "b",
+        "text": "No, it is only a civil matter"
+      },
+      {
+        "id": "c",
+        "text": "Only if the girl is under 16"
+      },
+      {
+        "id": "d",
+        "text": "Only if it happens in a hospital"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "FGM and taking a girl or woman abroad for FGM are criminal offences in the UK.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.5 Respecting the law: FGM",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-184",
+    "sourceNumber": 184,
+    "lessonNumbers": [
+      8
+    ],
+    "question": "In what year were women first granted the right to vote in UK parliamentary elections?",
+    "romanUrdu": "UK parliamentary elections mein aurton ko pehli baar kis saal vote ka haq mila?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "1969"
+      },
+      {
+        "id": "b",
+        "text": "1928"
+      },
+      {
+        "id": "c",
+        "text": "1948"
+      },
+      {
+        "id": "a",
+        "text": "1918"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "In 1918 women over 30 who met property qualifications gained the vote; equal terms with men came in 1928.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.2 The development of British democracy: 1918 and 1928",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-185",
+    "sourceNumber": 185,
+    "lessonNumbers": [
+      8
+    ],
+    "question": "Which TWO are British Overseas Territories? Select two.",
+    "romanUrdu": "Kaunse DO British Overseas Territories hain?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "The Isle of Man"
+      },
+      {
+        "id": "a",
+        "text": "Saint Helena"
+      },
+      {
+        "id": "d",
+        "text": "Jersey"
+      },
+      {
+        "id": "b",
+        "text": "The Falkland Islands"
+      }
+    ],
+    "correctChoiceIds": [
+      "a",
+      "b"
+    ],
+    "answerType": "select-two",
+    "verificationStatus": "corrected",
+    "explanation": "Saint Helena and the Falkland Islands are British Overseas Territories. The Isle of Man and Jersey are Crown Dependencies.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.2 Britain since 1945: British Overseas Territories",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-186",
+    "sourceNumber": 186,
+    "lessonNumbers": [
+      8
+    ],
+    "question": "Whom did the English fleet defeat in 1588?",
+    "romanUrdu": "1588 mein English fleet ne kise shikast di?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "The Spanish Armada"
+      },
+      {
+        "id": "d",
+        "text": "The Roman fleet"
+      },
+      {
+        "id": "b",
+        "text": "The French navy"
+      },
+      {
+        "id": "c",
+        "text": "The Dutch fleet"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The English fleet defeated the Spanish Armada in the Channel in 1588.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.6 The Tudors and Stuarts: the Spanish Armada",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-187",
+    "sourceNumber": 187,
+    "lessonNumbers": [
+      8
+    ],
+    "question": "Who designed the Cenotaph in Whitehall?",
+    "romanUrdu": "Whitehall ke Cenotaph ka design kis ne banaya?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "Christopher Wren"
+      },
+      {
+        "id": "c",
+        "text": "Isambard Kingdom Brunel"
+      },
+      {
+        "id": "d",
+        "text": "John Nash"
+      },
+      {
+        "id": "a",
+        "text": "Sir Edwin Lutyens"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Sir Edwin Lutyens designed the Cenotaph, the war memorial in Whitehall.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.5 Places of interest: the Cenotaph",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-188",
+    "sourceNumber": 188,
+    "lessonNumbers": [
+      8
+    ],
+    "question": "How often are Senedd elections held?",
+    "romanUrdu": "Senedd ke intikhabat kitne waqt baad hote hain?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "Every five years"
+      },
+      {
+        "id": "a",
+        "text": "Every four years"
+      },
+      {
+        "id": "b",
+        "text": "Every two years"
+      },
+      {
+        "id": "d",
+        "text": "Every seven years"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "From 2026, Senedd elections are held every four years.",
+    "sources": [
+      {
+        "title": "Senedd: Election and Member changes",
+        "url": "https://senedd.wales/how-we-work/our-role/senedd-election-and-member-changes",
+        "locator": "From 2026, Senedd elections happen every four years",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-189",
+    "sourceNumber": 189,
+    "lessonNumbers": [
+      8
+    ],
+    "question": "In which decade did the Beatles become popular and social laws become more liberal?",
+    "romanUrdu": "Kis decade mein Beatles mashhoor hue aur samaji qawaneen zyada liberal hue?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "The 1960s"
+      },
+      {
+        "id": "c",
+        "text": "The 1970s"
+      },
+      {
+        "id": "b",
+        "text": "The 1940s"
+      },
+      {
+        "id": "d",
+        "text": "The 1980s"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The 1960s saw the rise of the Beatles and a period of social liberalisation.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.2 Britain since 1945: the 1960s",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-190",
+    "sourceNumber": 190,
+    "lessonNumbers": [
+      8
+    ],
+    "question": "The Booker Prize is awarded in which category?",
+    "romanUrdu": "Booker Prize kis category mein diya jata hai?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "Science"
+      },
+      {
+        "id": "a",
+        "text": "Literature"
+      },
+      {
+        "id": "d",
+        "text": "Music"
+      },
+      {
+        "id": "c",
+        "text": "Sport"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The Booker Prize is a literary award for fiction. It was called the Man Booker Prize until 2019.",
+    "sources": [
+      {
+        "title": "The Booker Prize: About",
+        "url": "https://thebookerprizes.com/the-booker-library/prize-years",
+        "locator": "Booker Prize for fiction",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-191",
+    "sourceNumber": 191,
+    "lessonNumbers": [
+      8
+    ],
+    "question": "What sort of election takes place when an MP dies or resigns?",
+    "romanUrdu": "MP ke inteqal ya istifa par kis qisam ka election hota hai?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "A general election"
+      },
+      {
+        "id": "a",
+        "text": "A by-election"
+      },
+      {
+        "id": "c",
+        "text": "A referendum"
+      },
+      {
+        "id": "d",
+        "text": "A local council election"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "A by-election is held when a seat in Parliament becomes vacant between general elections.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.6 The government: by-elections",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-192",
+    "sourceNumber": 192,
+    "lessonNumbers": [
+      8
+    ],
+    "question": "What is the Turner Prize?",
+    "romanUrdu": "Turner Prize kya hai?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "A horse race"
+      },
+      {
+        "id": "a",
+        "text": "A contemporary art award"
+      },
+      {
+        "id": "d",
+        "text": "A music competition"
+      },
+      {
+        "id": "b",
+        "text": "A literary prize"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The Turner Prize is a prestigious award for contemporary British art.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.2 Arts and culture: the Turner Prize",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  }
+]

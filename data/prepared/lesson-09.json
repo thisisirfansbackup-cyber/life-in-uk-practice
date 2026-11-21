@@ -1,0 +1,988 @@
+[
+  {
+    "id": "source-193",
+    "sourceNumber": 193,
+    "lessonNumbers": [
+      9
+    ],
+    "question": "Which flower is associated with Northern Ireland?",
+    "romanUrdu": "Northern Ireland se kaunsa phool mansoob kiya jata hai?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "The thistle"
+      },
+      {
+        "id": "c",
+        "text": "The daffodil"
+      },
+      {
+        "id": "d",
+        "text": "The rose"
+      },
+      {
+        "id": "a",
+        "text": "The shamrock"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The shamrock, a three-leafed clover, is the plant symbol of Ireland and is worn to mark St Patrick's Day, which is a festival in Northern Ireland. The thistle is associated with Scotland, the daffodil with Wales and the rose with England.",
+    "sources": [
+      {
+        "title": "CAIN, Ulster University: Symbols used by both traditions in Northern Ireland",
+        "url": "https://cain.ulster.ac.uk/images/symbols/crosstrad.htm",
+        "locator": "Shamrock: one of Ireland's national emblems, used in Northern Ireland and on St Patrick's Day",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-194",
+    "sourceNumber": 194,
+    "lessonNumbers": [
+      9
+    ],
+    "question": "The French Wars between Britain and France ended with Napoleon's defeat at the Battle of Waterloo in 1815. True or false?",
+    "romanUrdu": "Sahi ya ghalat: Britain aur France ke French Wars ka khatma 1815 mein Waterloo ki jang mein Napoleon ki shikast se hua.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "True"
+      },
+      {
+        "id": "c",
+        "text": "True, but only for the naval war"
+      },
+      {
+        "id": "b",
+        "text": "False"
+      },
+      {
+        "id": "d",
+        "text": "False, because the wars ended at Trafalgar"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "In 1815 the French Wars ended with the defeat of the Emperor Napoleon by the Duke of Wellington at the Battle of Waterloo. Waterloo was Napoleon's final defeat, although British and French forces later fought alongside each other in other conflicts, so it is not accurate to call it the last battle involving both countries.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.3 A global power: War with France",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-195",
+    "sourceNumber": 195,
+    "lessonNumbers": [
+      9
+    ],
+    "question": "The £100 note is the highest-value Bank of England note in circulation. True or false?",
+    "romanUrdu": "Sahi ya ghalat: £100 ka note circulation mein sab se zyada qeemat ka Bank of England note hai.",
+    "choices": [
+      {
+        "id": "a",
+        "text": "False"
+      },
+      {
+        "id": "d",
+        "text": "True, but only for business payments"
+      },
+      {
+        "id": "b",
+        "text": "True"
+      },
+      {
+        "id": "c",
+        "text": "True, but only in Scotland"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The Bank of England notes in circulation are £5, £10, £20 and £50, so the £50 note is the highest-value Bank of England note. Scottish and Northern Irish banks do issue £100 notes, but those are not Bank of England notes.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.8 The UK today: UK currency",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-196",
+    "sourceNumber": 196,
+    "lessonNumbers": [
+      9
+    ],
+    "question": "Where is the Lake District National Park located?",
+    "romanUrdu": "Lake District National Park kahan waqia hai?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "In Wales"
+      },
+      {
+        "id": "a",
+        "text": "In England"
+      },
+      {
+        "id": "d",
+        "text": "In Northern Ireland"
+      },
+      {
+        "id": "c",
+        "text": "In Scotland"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The Lake District is England's largest national park, in Cumbria. It is famous for its lakes and mountains, and its biggest stretch of water is Windermere.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.5 Places of interest: The Lake District",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-197",
+    "sourceNumber": 197,
+    "lessonNumbers": [
+      9
+    ],
+    "question": "Which two of these are responsibilities that everyone living in the UK is expected to accept?",
+    "romanUrdu": "In mein se kaun si do zimmedariyan hain jo UK mein rehne wale har shakhs se tawaqqo ki jati hain?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "To respect the rights of others, including their right to their own opinions"
+      },
+      {
+        "id": "d",
+        "text": "To serve in the armed forces"
+      },
+      {
+        "id": "a",
+        "text": "To look after yourself and your family"
+      },
+      {
+        "id": "c",
+        "text": "To join a political party"
+      }
+    ],
+    "correctChoiceIds": [
+      "a",
+      "b"
+    ],
+    "answerType": "select-two",
+    "verificationStatus": "corrected",
+    "explanation": "The handbook lists respecting the rights of others, including their right to their own opinions, and looking after yourself and your family among the responsibilities shared by all those living in the UK. Joining a political party and serving in the armed forces are voluntary choices, not general responsibilities.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "1.3 The values and principles of the UK: responsibilities and freedoms",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-198",
+    "sourceNumber": 198,
+    "lessonNumbers": [
+      9
+    ],
+    "question": "Who was born in Stratford-upon-Avon?",
+    "romanUrdu": "Stratford-upon-Avon mein kaun paida hua tha?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "William of Orange"
+      },
+      {
+        "id": "a",
+        "text": "William Shakespeare"
+      },
+      {
+        "id": "b",
+        "text": "Anne Boleyn"
+      },
+      {
+        "id": "c",
+        "text": "John Major"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "William Shakespeare was born in Stratford-upon-Avon, England. He was a playwright and actor whose plays include A Midsummer Night's Dream, Hamlet, Macbeth and Romeo and Juliet.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.6 The Tudors and Stuarts: William Shakespeare",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-199",
+    "sourceNumber": 199,
+    "lessonNumbers": [
+      9
+    ],
+    "question": "Why is 1928 an important year in women's voting history?",
+    "romanUrdu": "Khawateen ke voting rights ki tareekh mein 1928 ka saal kyun ahem hai?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "Women were given the right to vote for the first time"
+      },
+      {
+        "id": "c",
+        "text": "The voting age for both men and women was lowered to 18"
+      },
+      {
+        "id": "a",
+        "text": "Women were given the right to vote at the age of 21, the same as men"
+      },
+      {
+        "id": "d",
+        "text": "Women were given the right to sit in the House of Lords"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "In 1928 the vote was extended to men and women over 21, so women could vote at the same age as men. Women over 30 had already been given the vote in 1918, and the voting age for both men and women was lowered to 18 in 1969.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.2 The development of British democracy: extension of the franchise",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-200",
+    "sourceNumber": 200,
+    "lessonNumbers": [
+      9
+    ],
+    "question": "What does Hogmanay refer to?",
+    "romanUrdu": "Hogmanay se kya murad hai?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "Scotland's national day"
+      },
+      {
+        "id": "a",
+        "text": "New Year's Eve in Scotland"
+      },
+      {
+        "id": "c",
+        "text": "A Welsh music festival"
+      },
+      {
+        "id": "d",
+        "text": "The last day of the Edinburgh Festival"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "In Scotland, 31 December is called Hogmanay, and 2 January is also a public holiday. For some Scottish people, Hogmanay is a bigger holiday than Christmas.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.3 Customs and traditions: Other festivals and traditions (Hogmanay)",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-201",
+    "sourceNumber": 201,
+    "lessonNumbers": [
+      9
+    ],
+    "question": "What is the capital city of Northern Ireland?",
+    "romanUrdu": "Northern Ireland ka darul hukoomat kaun sa shehar hai?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Belfast"
+      },
+      {
+        "id": "b",
+        "text": "Cardiff"
+      },
+      {
+        "id": "d",
+        "text": "Londonderry"
+      },
+      {
+        "id": "c",
+        "text": "Edinburgh"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The capital city of Northern Ireland is Belfast. Cardiff is the capital of Wales and Edinburgh is the capital of Scotland.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.8 The UK today: Capital cities (Northern Ireland)",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-202",
+    "sourceNumber": 202,
+    "lessonNumbers": [
+      9
+    ],
+    "question": "Which war took place between 1899 and 1902 in South Africa?",
+    "romanUrdu": "1899 se 1902 ke darmiyan South Africa mein kaun si jang hui?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "The Zulu War"
+      },
+      {
+        "id": "b",
+        "text": "The Crimean War"
+      },
+      {
+        "id": "a",
+        "text": "The Boer War"
+      },
+      {
+        "id": "c",
+        "text": "The First World War"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The Boer War of 1899 to 1902 was fought in South Africa between the British and settlers from the Netherlands called the Boers. The Crimean War ran from 1853 to 1856 and the First World War began in 1914.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.3 A global power: The future of the Empire (the Boer War)",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-203",
+    "sourceNumber": 203,
+    "lessonNumbers": [
+      9
+    ],
+    "question": "Northern Ireland uses a system called individual registration, and everyone entitled to vote must complete their own registration form. True or false?",
+    "romanUrdu": "Sahi ya ghalat: Northern Ireland mein individual registration naam ka nizam hai aur vote dene ka haq rakhne wale sab log apna registration form khud purte hain.",
+    "choices": [
+      {
+        "id": "d",
+        "text": "False, because household registration applies throughout the UK"
+      },
+      {
+        "id": "c",
+        "text": "True, but only for local elections"
+      },
+      {
+        "id": "a",
+        "text": "True"
+      },
+      {
+        "id": "b",
+        "text": "False"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "In Northern Ireland a different system operates, called 'individual registration', and all those entitled to vote must complete their own registration form. Elsewhere in the UK a registration form is sent to every household.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.6.1 Who can vote?: the electoral register in Northern Ireland",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-204",
+    "sourceNumber": 204,
+    "lessonNumbers": [
+      9
+    ],
+    "question": "Which two policy areas are not controlled by the devolved administrations?",
+    "romanUrdu": "Kaun se do policy areas devolved administrations ke control mein nahi hain?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Defence"
+      },
+      {
+        "id": "d",
+        "text": "Health"
+      },
+      {
+        "id": "b",
+        "text": "Immigration"
+      },
+      {
+        "id": "c",
+        "text": "Education"
+      }
+    ],
+    "correctChoiceIds": [
+      "a",
+      "b"
+    ],
+    "answerType": "select-two",
+    "verificationStatus": "corrected",
+    "explanation": "Policy and laws governing defence, foreign affairs, immigration, taxation and social security remain under central UK government control. Public services such as education and health are controlled by the devolved administrations.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.6 The government: Devolved administrations",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-205",
+    "sourceNumber": 205,
+    "lessonNumbers": [
+      9
+    ],
+    "question": "What is the minimum age at which most citizens of the UK, the Irish Republic or the Commonwealth can stand for public office?",
+    "romanUrdu": "UK, Irish Republic ya Commonwealth ke zyadatar shehriyon ke liye public office ke liye khare hone ki kam az kam umar kya hai?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "25 years old"
+      },
+      {
+        "id": "a",
+        "text": "18 years old"
+      },
+      {
+        "id": "c",
+        "text": "16 years old"
+      },
+      {
+        "id": "b",
+        "text": "21 years old"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Most citizens of the UK, the Irish Republic or the Commonwealth aged 18 or over can stand for public office. There are exceptions, including members of the armed forces, civil servants, people found guilty of certain criminal offences, and members of the House of Lords for election to the House of Commons.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.6 The government: Standing for office",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-206",
+    "sourceNumber": 206,
+    "lessonNumbers": [
+      9
+    ],
+    "question": "How did the government promote free trade policies during the Victorian age?",
+    "romanUrdu": "Victorian daur mein hukumat ne free trade policies ko kaise promote kiya?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "By nationalising British industry"
+      },
+      {
+        "id": "a",
+        "text": "By abolishing a number of taxes on imported goods"
+      },
+      {
+        "id": "b",
+        "text": "By raising tariffs on imported goods"
+      },
+      {
+        "id": "c",
+        "text": "By banning trade with the Empire"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The government began to promote policies of free trade, abolishing a number of taxes on imported goods. One example was the repeal of the Corn Laws in 1846, which had prevented the import of cheap grain.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.3 A global power: Trade and industry",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-207",
+    "sourceNumber": 207,
+    "lessonNumbers": [
+      9
+    ],
+    "question": "Who was Admiral Nelson?",
+    "romanUrdu": "Admiral Nelson kaun thay?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "The British officer in charge of the British fleet at the Battle of Trafalgar"
+      },
+      {
+        "id": "b",
+        "text": "The Duke who defeated Napoleon at Waterloo"
+      },
+      {
+        "id": "d",
+        "text": "The commander of the Spanish fleet at Trafalgar"
+      },
+      {
+        "id": "c",
+        "text": "The Prime Minister during the Crimean War"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Admiral Nelson was in charge of the British fleet at the Battle of Trafalgar in 1805 and was killed in the battle. Nelson's Column in Trafalgar Square, London, is a monument to him, and his ship, HMS Victory, can be visited in Portsmouth.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.3 A global power: War with France (Trafalgar)",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-208",
+    "sourceNumber": 208,
+    "lessonNumbers": [
+      9
+    ],
+    "question": "During the Middle Ages, who were the serfs?",
+    "romanUrdu": "Middle Ages mein serfs kaun hote thay?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "Soldiers who fought on horseback"
+      },
+      {
+        "id": "d",
+        "text": "Monks who copied manuscripts"
+      },
+      {
+        "id": "b",
+        "text": "Wealthy landowners who served the king"
+      },
+      {
+        "id": "a",
+        "text": "Peasants who worked a small area of their lord's land"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Under the feudal system, most peasants were serfs. They had a small area of their lord's land where they could grow food, and in return they had to work for their lord and could not move away.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.5 The Middle Ages: feudalism and serfs",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-209",
+    "sourceNumber": 209,
+    "lessonNumbers": [
+      9
+    ],
+    "question": "Which invention led to the rapid development of industry in Britain during the 18th and 19th centuries?",
+    "romanUrdu": "18th aur 19th sadi mein Britain mein industry ki tez tarraqi kis ijaad ki wajah se hui?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "Electricity"
+      },
+      {
+        "id": "d",
+        "text": "The internet"
+      },
+      {
+        "id": "c",
+        "text": "The printing press"
+      },
+      {
+        "id": "a",
+        "text": "Steam power"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The Industrial Revolution was the rapid development of industry in Britain in the 18th and 19th centuries. It happened because of the development of machinery and the use of steam power, which mechanised agriculture and the manufacturing of goods.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.3 A global power: The Industrial Revolution",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-210",
+    "sourceNumber": 210,
+    "lessonNumbers": [
+      9
+    ],
+    "question": "MPs can only be contacted by post. True or false?",
+    "romanUrdu": "Sahi ya ghalat: MPs se sirf dak ke zariye rabta kiya ja sakta hai.",
+    "choices": [
+      {
+        "id": "b",
+        "text": "True"
+      },
+      {
+        "id": "d",
+        "text": "False, because MPs cannot be contacted directly"
+      },
+      {
+        "id": "c",
+        "text": "True, but only at their constituency office"
+      },
+      {
+        "id": "a",
+        "text": "False"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The statement is false because of the word 'only'. MPs can be contacted by letter or telephone at their constituency office or at the House of Commons, and many also hold local 'surgeries' where constituents can go in person.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.6 The government: Contacting elected members",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-211",
+    "sourceNumber": 211,
+    "lessonNumbers": [
+      9
+    ],
+    "question": "What religious movement challenged the authority of the Pope?",
+    "romanUrdu": "Kis mazhabi tehreek ne Pope ke ikhtiyar ko challenge kiya?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "The Restoration"
+      },
+      {
+        "id": "c",
+        "text": "The Renaissance"
+      },
+      {
+        "id": "b",
+        "text": "The Enlightenment"
+      },
+      {
+        "id": "a",
+        "text": "The Reformation"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The Reformation was a movement against the authority of the Pope and the ideas and practices of the Roman Catholic Church. The Protestants formed their own churches and read the Bible in their own languages.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.6 The Tudors and Stuarts: The Reformation",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-212",
+    "sourceNumber": 212,
+    "lessonNumbers": [
+      9
+    ],
+    "question": "Which English king ordered the survey that became the Domesday Book?",
+    "romanUrdu": "Kis English badshah ne woh survey karwaya jis se Domesday Book bani?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "William the Conqueror"
+      },
+      {
+        "id": "b",
+        "text": "King Alfred the Great"
+      },
+      {
+        "id": "c",
+        "text": "Henry VIII"
+      },
+      {
+        "id": "d",
+        "text": "Harold, the last Saxon king"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "William the Conqueror sent people all over England to draw up lists of all the towns and villages, who lived there, who owned the land and what animals they owned. This record was called the Domesday Book and still exists today.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.7 Early Britain: The Norman Conquest (the Domesday Book)",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-213",
+    "sourceNumber": 213,
+    "lessonNumbers": [
+      9
+    ],
+    "question": "What did the Butler Act introduce in 1944?",
+    "romanUrdu": "Butler Act ne 1944 mein kya muta'arif karwaya?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "The right to vote for women"
+      },
+      {
+        "id": "c",
+        "text": "The National Health Service"
+      },
+      {
+        "id": "b",
+        "text": "Free primary education in Scotland"
+      },
+      {
+        "id": "a",
+        "text": "Free secondary education in England and Wales"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "R A Butler oversaw the Education Act 1944, often called 'The Butler Act', which introduced free secondary education in England and Wales.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.2 Britain since 1945: R A Butler (Education Act 1944)",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-214",
+    "sourceNumber": 214,
+    "lessonNumbers": [
+      9
+    ],
+    "question": "What is the small claims procedure?",
+    "romanUrdu": "Small claims procedure kya hai?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "A procedure for appealing against a criminal conviction"
+      },
+      {
+        "id": "d",
+        "text": "A method of registering a new company"
+      },
+      {
+        "id": "b",
+        "text": "A formal trial in the Crown Court before a jury"
+      },
+      {
+        "id": "a",
+        "text": "An informal way of helping people settle minor disputes without spending a lot of time and money using a lawyer"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The small claims procedure is an informal way of helping people settle minor disputes without spending a lot of time and money using a lawyer. It is used for claims of less than £10,000 in England and Wales.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.5.1 The role of the courts: the small claims procedure",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-215",
+    "sourceNumber": 215,
+    "lessonNumbers": [
+      9
+    ],
+    "question": "Which building was constructed in Hyde Park to hold the Great Exhibition of 1851?",
+    "romanUrdu": "1851 ki Great Exhibition ke liye Hyde Park mein kaun si imarat banayi gayi thi?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "The Millennium Dome"
+      },
+      {
+        "id": "a",
+        "text": "The Crystal Palace"
+      },
+      {
+        "id": "b",
+        "text": "The Royal Albert Hall"
+      },
+      {
+        "id": "d",
+        "text": "The Great Exhibition Hall"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "In 1851 the Great Exhibition opened in Hyde Park in the Crystal Palace, a huge building made of steel and glass. Exhibits ranged from huge machines to handmade goods, and most of the objects were made in Britain.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.3 A global power: The Great Exhibition (the Crystal Palace)",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-216",
+    "sourceNumber": 216,
+    "lessonNumbers": [
+      9
+    ],
+    "question": "Who was Florence Nightingale?",
+    "romanUrdu": "Florence Nightingale kaun thin?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "A military commander in the Crimean War"
+      },
+      {
+        "id": "c",
+        "text": "A monarch who introduced the Victoria Cross"
+      },
+      {
+        "id": "a",
+        "text": "A nurse who is often regarded as the founder of modern nursing"
+      },
+      {
+        "id": "d",
+        "text": "A scientist who discovered penicillin"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Florence Nightingale trained as a nurse, worked in military hospitals during the Crimean War and in 1860 established the Nightingale Training School for nurses at St Thomas' Hospital. She is often regarded as the founder of modern nursing.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.3 A global power: Florence Nightingale",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  }
+]

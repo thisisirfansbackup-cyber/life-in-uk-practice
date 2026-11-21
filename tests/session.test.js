@@ -114,3 +114,49 @@ test('submission returns complete result review for all session questions', () =
     { questionId: 'two', correct: true },
   ]);
 });
+
+test('session identity and mode survive all question operations', () => {
+  let session = createSession(['single'], { id: 'revision-1', mode: 'revision' });
+  session = updateAnswer(session, 'single', ['b']);
+  session = sessionModule.checkCurrentAnswer(session, questionMap.single).session;
+  session = moveToQuestion(session, 0);
+  session = submitSession(session, questionMap);
+  assert.equal(session.id, 'revision-1');
+  assert.equal(session.mode, 'revision');
+  assert.equal(session.blockId, null);
+  assert.equal(session.result.total, 1);
+  assert.notEqual(createSession(['single']).id, createSession(['single']).id);
+  assert.equal(createSession(['single']).mode, 'legacy');
+});
+
+test('final 50-question block completes only after every question has been checked', () => {
+  const questions = Array.from({ length: 50 }, (_, i) => ({
+    id: `q${358 + i}`, answerType: 'single', correctChoiceIds: ['a'],
+  }));
+  const map = new Map(questions.map(q => [q.id, q]));
+  let session = createSession(questions.map(q => q.id), { id: 'study-last', mode: 'study', blockId: 'block-8' });
+  for (let i = 0; i < questions.length; i += 1) {
+    assert.equal(submitSession(session, map).submitted, false);
+    session = updateAnswer(session, questions[i].id, ['a']);
+    session = sessionModule.checkCurrentAnswer(session, questions[i]).session;
+    session = moveToQuestion(session, i + 1);
+  }
+  const completed = submitSession(session, map);
+  assert.equal(completed.submitted, true);
+  assert.equal(completed.result.total, 50);
+  assert.equal(completed.result.correctCount, 50);
+  assert.equal(completed.mode, 'study');
+  assert.equal(completed.blockId, 'block-8');
+  assert.equal(completed.id, 'study-last');
+});
+
+test('an empty revision round cannot be submitted', () => {
+  const session = createSession([], { id: 'empty', mode: 'revision' });
+  assert.equal(submitSession(session, {} ).submitted, false);
+});
+
+test('revision cannot accidentally carry a study-block identity', () => {
+  assert.equal(createSession(['single'], { mode: 'revision', blockId: 'block-1' }).blockId, null);
+  assert.throws(() => createSession(['single'], { mode: 'study' }));
+  assert.throws(() => createSession(['single'], { mode: 'unknown' }));
+});

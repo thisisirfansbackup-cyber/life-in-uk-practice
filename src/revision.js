@@ -84,3 +84,30 @@ export function selectTestQuestions(questions, progress = {}, size = 50, random 
 
   return { questionIds: ordered.slice(0, size).map((question) => question.id), error: null };
 }
+
+export function selectRevisionQuestions(questions, progress = {}, size = 51, random = Math.random) {
+  if (!Number.isInteger(size) || size < 1 || size > 51) {
+    return { questionIds: [], error: 'A revision round must contain at most 51 questions.' };
+  }
+  const upcomingTestNumber = (progress?.completedTestCount ?? 0) + 1;
+  const seen = new Set();
+  const misses = [];
+  const due = [];
+  for (const question of questions ?? []) {
+    if (!question?.id || seen.has(question.id)
+      || !['verified', 'corrected'].includes(question.verificationStatus)) continue;
+    seen.add(question.id);
+    const history = progress?.questions?.[question.id];
+    if (!(history?.attempts > 0)) continue;
+    if ((history.consecutiveIncorrect ?? 0) > 0) {
+      misses.push({ ...question, progress: history });
+    } else if (!Number.isInteger(history.nextReviewTest) || history.nextReviewTest <= upcomingTestNumber) {
+      due.push(question);
+    }
+  }
+  return {
+    questionIds: [...shuffleMissesWithinRanks(misses, random), ...shuffle(due, random)]
+      .slice(0, size).map(question => question.id),
+    error: null,
+  };
+}

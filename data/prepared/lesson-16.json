@@ -1,0 +1,987 @@
+[
+  {
+    "id": "source-360",
+    "sourceNumber": 360,
+    "lessonNumbers": [
+      16
+    ],
+    "question": "When was the United Nations set up?",
+    "romanUrdu": "United Nations kab qaim hui?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "After the First World War, in 1918"
+      },
+      {
+        "id": "a",
+        "text": "After the Second World War, in 1945"
+      },
+      {
+        "id": "d",
+        "text": "In 1999"
+      },
+      {
+        "id": "c",
+        "text": "In 1969"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The United Nations was set up after the Second World War, in 1945.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.7 The UK and international institutions: the UN",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-361",
+    "sourceNumber": 361,
+    "lessonNumbers": [
+      16
+    ],
+    "question": "Where is the Giant's Causeway located?",
+    "romanUrdu": "Giant's Causeway kahan waqe hai?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "In England"
+      },
+      {
+        "id": "a",
+        "text": "In Northern Ireland"
+      },
+      {
+        "id": "b",
+        "text": "In Scotland"
+      },
+      {
+        "id": "c",
+        "text": "In Wales"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The Giant's Causeway is on the north-east coast of Northern Ireland.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.5 Places of interest: the Giant's Causeway",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-362",
+    "sourceNumber": 362,
+    "lessonNumbers": [
+      16
+    ],
+    "question": "What happened to Mary, Queen of Scots, after 20 years in prison?",
+    "romanUrdu": "Mary, Queen of Scots ke saath bees saal qaid ke baad kya hua?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "She escaped to Scotland"
+      },
+      {
+        "id": "b",
+        "text": "She became Queen of England"
+      },
+      {
+        "id": "c",
+        "text": "She was exiled to France"
+      },
+      {
+        "id": "a",
+        "text": "She was executed"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Mary, Queen of Scots was executed after being imprisoned by Elizabeth I.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.6 The Tudors and Stuarts: Mary, Queen of Scots",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-363",
+    "sourceNumber": 363,
+    "lessonNumbers": [
+      16
+    ],
+    "question": "Which tribes came to Britain from northern Europe after the Romans left in AD 410?",
+    "romanUrdu": "AD 410 mein Romans ke jane ke baad kis qabeelay northern Europe se Britain aaye?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "The Celts and Picts"
+      },
+      {
+        "id": "a",
+        "text": "The Jutes, Angles and Saxons"
+      },
+      {
+        "id": "b",
+        "text": "The Normans and Vikings"
+      },
+      {
+        "id": "c",
+        "text": "The Romans and Greeks"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The Jutes, Angles and Saxons came to Britain after the Romans left.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.7 Early Britain: the Anglo-Saxons",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-364",
+    "sourceNumber": 364,
+    "lessonNumbers": [
+      16
+    ],
+    "question": "Which is one of the highest-grossing film franchises produced in the UK?",
+    "romanUrdu": "UK mein bani sab se zyada kamai karne wali film franchises mein se ek kaunsi hai?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "James Bond"
+      },
+      {
+        "id": "d",
+        "text": "Back to the Future"
+      },
+      {
+        "id": "b",
+        "text": "The Godfather"
+      },
+      {
+        "id": "c",
+        "text": "Star Wars"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Harry Potter and James Bond are among the highest-grossing film franchises produced in the UK.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.2 Arts and culture: film",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-365",
+    "sourceNumber": 365,
+    "lessonNumbers": [
+      16
+    ],
+    "question": "Which TWO people can hear cases in Youth Courts in England, Wales and Northern Ireland? Select two.",
+    "romanUrdu": "England, Wales aur Northern Ireland mein Youth Courts ke cases kaun DO log sun sakte hain?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "A jury of twelve"
+      },
+      {
+        "id": "d",
+        "text": "The Lord Chancellor"
+      },
+      {
+        "id": "b",
+        "text": "A District Judge"
+      },
+      {
+        "id": "a",
+        "text": "Specially trained magistrates"
+      }
+    ],
+    "correctChoiceIds": [
+      "a",
+      "b"
+    ],
+    "answerType": "select-two",
+    "verificationStatus": "corrected",
+    "explanation": "Youth Court cases are heard by specially trained magistrates or a District Judge.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.5 Respecting the law: Youth Courts",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-366",
+    "sourceNumber": 366,
+    "lessonNumbers": [
+      16
+    ],
+    "question": "Who came from the Netherlands to become British monarch in 1688?",
+    "romanUrdu": "1688 mein Netherlands se kaun British monarch banne aaya?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "Charles II"
+      },
+      {
+        "id": "d",
+        "text": "Henry VIII"
+      },
+      {
+        "id": "a",
+        "text": "William of Orange"
+      },
+      {
+        "id": "c",
+        "text": "James I"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "William of Orange became William III after the Glorious Revolution of 1688.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.6 The Tudors and Stuarts: the Glorious Revolution",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-367",
+    "sourceNumber": 367,
+    "lessonNumbers": [
+      16
+    ],
+    "question": "Before it concluded in 2025, which age group could take part in the National Citizen Service?",
+    "romanUrdu": "2025 mein khatam hone se pehle National Citizen Service mein kis umar ke log shamil ho sakte thay?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "16- and 17-year-olds"
+      },
+      {
+        "id": "d",
+        "text": "Anyone over 25"
+      },
+      {
+        "id": "b",
+        "text": "11- and 12-year-olds"
+      },
+      {
+        "id": "c",
+        "text": "18- and 19-year-olds only"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "National Citizen Service was a voluntary programme for 16- and 17-year-olds; delivery ended on 31 March 2025.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.8 Your role in the community: National Citizen Service",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-368",
+    "sourceNumber": 368,
+    "lessonNumbers": [
+      16
+    ],
+    "question": "Nick Park has won Oscars for animated films featuring which characters?",
+    "romanUrdu": "Nick Park ne kin kirdaron wali animated films ke liye Oscars jeete?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "Paddington and Winnie-the-Pooh"
+      },
+      {
+        "id": "d",
+        "text": "Tom and Jerry"
+      },
+      {
+        "id": "b",
+        "text": "Shaun the Sheep and Peppa Pig"
+      },
+      {
+        "id": "a",
+        "text": "Wallace and Gromit"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Nick Park won Oscars for his Wallace and Gromit animated films.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.2 Arts and culture: film",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-369",
+    "sourceNumber": 369,
+    "lessonNumbers": [
+      16
+    ],
+    "question": "Which British scientist co-discovered the structure of DNA in the 1950s?",
+    "romanUrdu": "1950s mein DNA ka structure kis British scientist ne co-discover kiya?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "Alexander Fleming"
+      },
+      {
+        "id": "c",
+        "text": "Alan Turing"
+      },
+      {
+        "id": "a",
+        "text": "Francis Crick"
+      },
+      {
+        "id": "d",
+        "text": "Isaac Newton"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Francis Crick helped discover the structure of the DNA molecule.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.2 Britain since 1945: science",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-370",
+    "sourceNumber": 370,
+    "lessonNumbers": [
+      16
+    ],
+    "question": "What percentage of the UK population has a parent or grandparent born outside the UK?",
+    "romanUrdu": "UK ki kitni percentage abadi ke walidain ya dada-dadi/nana-nani UK se bahar paida hue?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "Nearly 25%"
+      },
+      {
+        "id": "b",
+        "text": "Nearly 50%"
+      },
+      {
+        "id": "d",
+        "text": "Nearly 1%"
+      },
+      {
+        "id": "a",
+        "text": "Nearly 10%"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Post-war immigration means nearly 10% of the population has a parent or grandparent born outside the UK.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.8 The UK today: a diverse society",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-371",
+    "sourceNumber": 371,
+    "lessonNumbers": [
+      16
+    ],
+    "question": "How old must you be to ride or drive a moped in the UK?",
+    "romanUrdu": "UK mein moped chalane ke liye kitni umar chahiye?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "16"
+      },
+      {
+        "id": "c",
+        "text": "18"
+      },
+      {
+        "id": "d",
+        "text": "21"
+      },
+      {
+        "id": "b",
+        "text": "17"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "A moped can be ridden from age 16; a motorcycle requires age 17.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.5 Respecting the law: driving",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-372",
+    "sourceNumber": 372,
+    "lessonNumbers": [
+      16
+    ],
+    "question": "Which Labour leader introduced devolution for Scotland and Wales?",
+    "romanUrdu": "Kis Labour leader ne Scotland aur Wales ke liye devolution muta'arif ki?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "Harold Wilson"
+      },
+      {
+        "id": "b",
+        "text": "Clement Attlee"
+      },
+      {
+        "id": "d",
+        "text": "Gordon Brown"
+      },
+      {
+        "id": "a",
+        "text": "Tony Blair"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Tony Blair's government introduced the Scottish Parliament and Welsh Assembly in 1999.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.2 Britain since 1945: devolution",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-373",
+    "sourceNumber": 373,
+    "lessonNumbers": [
+      16
+    ],
+    "question": "What is the small claims procedure designed to do?",
+    "romanUrdu": "Small claims procedure ka maqsad kya hai?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "Elect local councillors"
+      },
+      {
+        "id": "d",
+        "text": "Set the rate of income tax"
+      },
+      {
+        "id": "b",
+        "text": "Decide serious criminal cases"
+      },
+      {
+        "id": "a",
+        "text": "Settle minor disputes informally without a lawyer"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The small claims procedure helps people settle minor disputes informally and without great expense.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.5 Respecting the law: small claims",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-374",
+    "sourceNumber": 374,
+    "lessonNumbers": [
+      16
+    ],
+    "question": "Which historical monument did William the Conqueror build?",
+    "romanUrdu": "William the Conqueror ne kaunsi tareekhi imarat banayi?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "The Crystal Palace"
+      },
+      {
+        "id": "d",
+        "text": "Buckingham Palace"
+      },
+      {
+        "id": "c",
+        "text": "St Paul's Cathedral"
+      },
+      {
+        "id": "a",
+        "text": "The White Tower at the Tower of London"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "William the Conqueror built the White Tower, the central keep of the Tower of London.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.5 Places of interest: the Tower of London",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-375",
+    "sourceNumber": 375,
+    "lessonNumbers": [
+      16
+    ],
+    "question": "Who became Prime Minister after Margaret Thatcher and helped the Northern Ireland peace process?",
+    "romanUrdu": "Margaret Thatcher ke baad kaun Prime Minister bana aur Northern Ireland ke aman process mein madad ki?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "John Major"
+      },
+      {
+        "id": "d",
+        "text": "David Cameron"
+      },
+      {
+        "id": "b",
+        "text": "Tony Blair"
+      },
+      {
+        "id": "c",
+        "text": "Gordon Brown"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "John Major became Prime Minister after Margaret Thatcher and helped establish the Northern Ireland peace process.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.2 Britain since 1945: John Major",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-376",
+    "sourceNumber": 376,
+    "lessonNumbers": [
+      16
+    ],
+    "question": "Whom should you contact to report terrorist activity or extremism?",
+    "romanUrdu": "Dehshat gardi ya extremism ki report kis se karni chahiye?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "The TV Licensing authority"
+      },
+      {
+        "id": "d",
+        "text": "The Land Registry"
+      },
+      {
+        "id": "c",
+        "text": "The Passport Office"
+      },
+      {
+        "id": "a",
+        "text": "Your local police force, or the ACT Early support service"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Concerns about terrorism or extremism should be reported to the police; ACT Early provides support. Call 999 in an emergency.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.8 Your role in the community: reporting concerns",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-377",
+    "sourceNumber": 377,
+    "lessonNumbers": [
+      16
+    ],
+    "question": "Which Paralympic swimmer won gold medals in 2008, 2012 and 2016?",
+    "romanUrdu": "Kis Paralympic swimmer ne 2008, 2012 aur 2016 mein gold medals jeete?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "Sarah Storey"
+      },
+      {
+        "id": "c",
+        "text": "Mary Peters"
+      },
+      {
+        "id": "b",
+        "text": "Tanni Grey-Thompson"
+      },
+      {
+        "id": "a",
+        "text": "Ellie Simmonds"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Ellie Simmonds won Paralympic swimming gold medals in 2008, 2012 and 2016.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.7 Sport: Paralympics",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-378",
+    "sourceNumber": 378,
+    "lessonNumbers": [
+      16
+    ],
+    "question": "Which country of the UK is associated with the rose?",
+    "romanUrdu": "UK ka kaunsa mulk rose se mansoob hai?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "Scotland"
+      },
+      {
+        "id": "d",
+        "text": "Northern Ireland"
+      },
+      {
+        "id": "c",
+        "text": "Wales"
+      },
+      {
+        "id": "a",
+        "text": "England"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The rose is a national emblem of England.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.3 Customs and traditions: national emblems",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-379",
+    "sourceNumber": 379,
+    "lessonNumbers": [
+      16
+    ],
+    "question": "Which major engineering project was Isambard Kingdom Brunel responsible for?",
+    "romanUrdu": "Isambard Kingdom Brunel kaunse bare engineering project ke zimmedar thay?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "The Forth Bridge"
+      },
+      {
+        "id": "a",
+        "text": "The Great Western Railway"
+      },
+      {
+        "id": "c",
+        "text": "The Channel Tunnel"
+      },
+      {
+        "id": "b",
+        "text": "The London Underground"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Brunel was responsible for the Great Western Railway, the first major railway built in Britain.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.3 A global power: the Great Western Railway",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-380",
+    "sourceNumber": 380,
+    "lessonNumbers": [
+      16
+    ],
+    "question": "What is the Commonwealth?",
+    "romanUrdu": "Commonwealth kya hai?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "An association of countries working together on shared goals in democracy and development"
+      },
+      {
+        "id": "b",
+        "text": "A single country governed from London"
+      },
+      {
+        "id": "d",
+        "text": "A court that governs the UK"
+      },
+      {
+        "id": "c",
+        "text": "A military alliance with one army"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The Commonwealth is a voluntary association of countries supporting each other and working towards shared goals in democracy and development.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.7 The UK and international institutions: the Commonwealth",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-381",
+    "sourceNumber": 381,
+    "lessonNumbers": [
+      16
+    ],
+    "question": "What was the movement against the Pope's authority during Henry VIII's reign called?",
+    "romanUrdu": "Henry VIII ke daur mein Pope ki iqtidar ke khilaf tehreek ka kya naam tha?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "The Enlightenment"
+      },
+      {
+        "id": "d",
+        "text": "The Restoration"
+      },
+      {
+        "id": "a",
+        "text": "The Reformation"
+      },
+      {
+        "id": "c",
+        "text": "The Renaissance"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The Reformation was the movement against the authority of the Pope and the Roman Catholic Church.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.6 The Tudors and Stuarts: the Reformation",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-382",
+    "sourceNumber": 382,
+    "lessonNumbers": [
+      16
+    ],
+    "question": "What did Sir Isaac Newton discover?",
+    "romanUrdu": "Sir Isaac Newton ne kya discover kiya?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "The World Wide Web"
+      },
+      {
+        "id": "b",
+        "text": "Penicillin"
+      },
+      {
+        "id": "a",
+        "text": "Gravity and the laws of motion"
+      },
+      {
+        "id": "c",
+        "text": "The structure of DNA"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Newton is known for his work on gravity and the laws of motion.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.6 The Tudors and Stuarts: Isaac Newton",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-383",
+    "sourceNumber": 383,
+    "lessonNumbers": [
+      16
+    ],
+    "question": "What kind of films does Nick Park specialise in?",
+    "romanUrdu": "Nick Park kis qisam ki films mein maharat rakhte hain?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "Live-action thrillers"
+      },
+      {
+        "id": "d",
+        "text": "Musicals"
+      },
+      {
+        "id": "c",
+        "text": "Documentaries"
+      },
+      {
+        "id": "a",
+        "text": "Animated films, especially stop-motion"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Nick Park specialises in animated films, especially stop-motion animation.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.2 Arts and culture: film",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  }
+]

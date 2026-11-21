@@ -1,7 +1,8 @@
-import { loadQuestionBank } from './question-bank.js';
-import { selectTestQuestions } from './revision.js';
+import { loadQuestionBank, validateLegacyQuestionMap } from './question-bank.js';
+import { selectRevisionQuestions, selectTestQuestions } from './revision.js';
+import { getStudyBlocks, getNextStudyBlock } from './study-blocks.js';
 import { checkCurrentAnswer, createSession, moveToQuestion, submitSession, updateAnswer } from './session.js';
-import { readProgress, recordCompletedTest, writeProgress } from './progress-store.js';
+import { readProgress, recordCompletedSession, recordCompletedTest, writeProgress } from './progress-store.js';
 import { mountApp } from './ui.js';
 
 export async function startApp({ root, fetchImpl, storage } = {}) {
@@ -15,6 +16,16 @@ export async function startApp({ root, fetchImpl, storage } = {}) {
     const rawBank = await response.json();
     const bank = loadQuestionBank(rawBank);
     if (bank.errors.length) throw new Error('Question bank validation failed.');
+    const blocks = getStudyBlocks(bank.questions);
+    if (bank.questions.some(question => !['verified', 'corrected'].includes(question.verificationStatus))) {
+      throw new Error('The complete question collection is not ready.');
+    }
+    const mappingResponse = await request(new URL('../data/legacy-question-map.json', import.meta.url));
+    if (!mappingResponse.ok) throw new Error('Question mapping request failed.');
+    const legacyQuestionMap = await mappingResponse.json();
+    if (validateLegacyQuestionMap(legacyQuestionMap, bank.questions).length) {
+      throw new Error('Question mapping validation failed.');
+    }
 
     let browserStorage = storage;
     if (browserStorage === undefined) {
@@ -27,6 +38,9 @@ export async function startApp({ root, fetchImpl, storage } = {}) {
 
     return mountApp(appRoot, {
       questions: bank.questions,
+      blocks,
+      getNextStudyBlock,
+      selectRevisionQuestions,
       selectTestQuestions,
       createSession,
       updateAnswer,
@@ -34,8 +48,9 @@ export async function startApp({ root, fetchImpl, storage } = {}) {
       moveToQuestion,
       submitSession,
       progressStore: {
-        read: () => readProgress(browserStorage),
-        write: (progress) => writeProgress(browserStorage, progress),
+        read: () => readProgress(browserStorage, { questions: bank.questions, blocks, legacyQuestionMap }),
+        write: (progress, options) => writeProgress(browserStorage, progress, options),
+        recordCompletedSession,
         recordCompletedTest,
       },
     });

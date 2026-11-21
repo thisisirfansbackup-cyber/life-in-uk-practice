@@ -1,0 +1,1006 @@
+[
+  {
+    "id": "source-049",
+    "sourceNumber": 49,
+    "lessonNumbers": [
+      3
+    ],
+    "question": "Which of these is a fundamental British value?",
+    "romanUrdu": "In mein se kaunsi Britain ki bunyadi qadr hai?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Individual liberty"
+      },
+      {
+        "id": "b",
+        "text": "Rule by a single unelected party"
+      },
+      {
+        "id": "c",
+        "text": "Compulsory membership of a religion"
+      },
+      {
+        "id": "d",
+        "text": "Denial of freedom of belief"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The official British-values framework includes individual liberty, alongside democracy, the rule of law, and mutual respect and tolerance.",
+    "sources": [
+      {
+        "title": "Department for Education: promoting British values",
+        "url": "https://www.gov.uk/government/news/guidance-on-promoting-british-values-in-schools-published",
+        "locator": "Paragraph beginning 'The guidance aims': fundamental British values",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-050",
+    "sourceNumber": 50,
+    "lessonNumbers": [
+      3
+    ],
+    "question": "Which statement describes the legal status of the Church in Wales?",
+    "romanUrdu": "Church in Wales ki qanooni haisiyat ke bare mein kaunsa bayan durust hai?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "It ceased to be established by law"
+      },
+      {
+        "id": "a",
+        "text": "It remains established by law throughout Wales"
+      },
+      {
+        "id": "d",
+        "text": "It remains established by law only in southern Wales"
+      },
+      {
+        "id": "c",
+        "text": "It remains established by law only in northern Wales"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The Welsh Church Act provided that the Church in Wales would cease to be established by law. This does not mean that Wales has no churches.",
+    "sources": [
+      {
+        "title": "Welsh Church Act 1914",
+        "url": "https://www.legislation.gov.uk/ukpga/Geo5/4-5/91/section/1",
+        "locator": "Section 1: disestablishment",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-051",
+    "sourceNumber": 51,
+    "lessonNumbers": [
+      3
+    ],
+    "question": "What is New Year's Eve called in Scotland?",
+    "romanUrdu": "Scotland mein naye saal se pehli shaam ko kya kehte hain?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "St Andrew's Day"
+      },
+      {
+        "id": "d",
+        "text": "Boxing Day"
+      },
+      {
+        "id": "a",
+        "text": "Burns Night"
+      },
+      {
+        "id": "c",
+        "text": "Hogmanay"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Hogmanay is the Scottish name for New Year's Eve, celebrated on 31 December.",
+    "sources": [
+      {
+        "title": "Scotland.org: Hogmanay",
+        "url": "https://www.scotland.org/events/hogmanay",
+        "locator": "What is Hogmanay",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-052",
+    "sourceNumber": 52,
+    "lessonNumbers": [
+      3
+    ],
+    "question": "What marriage dispute contributed to Henry VIII's break with Rome?",
+    "romanUrdu": "Shadi ke kis tanazay ne Henry VIII ke Rome se alag hone mein kirdar ada kiya?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "The Pope ordered him to marry a French princess"
+      },
+      {
+        "id": "d",
+        "text": "He could not obtain the Pope's agreement to annul his marriage to Catherine of Aragon"
+      },
+      {
+        "id": "c",
+        "text": "The Pope required him to give up the English throne before marrying"
+      },
+      {
+        "id": "a",
+        "text": "The Pope required him to marry Catherine of Aragon again"
+      }
+    ],
+    "correctChoiceIds": [
+      "d"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Henry wanted his marriage to Catherine of Aragon annulled. The dispute helped lead to his rejection of papal authority and his claim to royal supremacy over the Church of England.",
+    "sources": [
+      {
+        "title": "Historic Royal Palaces: Henry VIII",
+        "url": "https://www.hrp.org.uk/hampton-court-palace/history-and-stories/henry-viii/",
+        "locator": "The King's Great Matter; Henry's break with Rome",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-053",
+    "sourceNumber": 53,
+    "lessonNumbers": [
+      3
+    ],
+    "question": "What name is given to the medieval conflicts between England and France from 1337 to 1453?",
+    "romanUrdu": "1337 se 1453 tak England aur France ke darmiyan qaroone wusta ki jangon ko kya naam diya jata hai?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "The Hundred Years' War"
+      },
+      {
+        "id": "b",
+        "text": "The Wars of the Roses"
+      },
+      {
+        "id": "d",
+        "text": "The Crimean War"
+      },
+      {
+        "id": "c",
+        "text": "The English Civil War"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The Hundred Years' War was a prolonged series of campaigns between England and France, not 116 uninterrupted years of fighting.",
+    "sources": [
+      {
+        "title": "Royal Armouries: The Hundred Years' War",
+        "url": "https://royalarmouries.org/objects-and-stories/stories/the-hundred-years-war-1337-1453",
+        "locator": "Opening description of the 1337–1453 conflict",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-054",
+    "sourceNumber": 54,
+    "lessonNumbers": [
+      3
+    ],
+    "question": "Who raised his standard in 1745 and gained support from some Highland clans?",
+    "romanUrdu": "1745 mein kis ne apna parcham buland kiya aur Highland ke kuch qabeelon ki himayat hasil ki?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "William the Conqueror"
+      },
+      {
+        "id": "b",
+        "text": "Bonnie Prince Charlie"
+      },
+      {
+        "id": "d",
+        "text": "Edward Elgar"
+      },
+      {
+        "id": "c",
+        "text": "Charles II"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Charles Edward Stuart, known as Bonnie Prince Charlie, raised his standard at Glenfinnan in August 1745. Some Highland clans rallied to him; others supported the government.",
+    "sources": [
+      {
+        "title": "National Army Museum: Jacobite Risings",
+        "url": "https://www.nam.ac.uk/explore/jacobites",
+        "locator": "The Forty-five; Highland guard",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-055",
+    "sourceNumber": 55,
+    "lessonNumbers": [
+      3
+    ],
+    "question": "Who can you contact for help if you are worried someone is being drawn into terrorism?",
+    "romanUrdu": "Agar aap ko fikr ho ke kisi ko dehshat gardi ki taraf le jaya ja raha hai, to madad ke liye kis se rabta kar sakte hain?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "The Land Registry"
+      },
+      {
+        "id": "a",
+        "text": "The TV Licensing authority"
+      },
+      {
+        "id": "b",
+        "text": "The Passport Office's lost-passport department"
+      },
+      {
+        "id": "c",
+        "text": "The police through the ACT Early support service"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "ACT Early offers support from specially trained police officers for concerns about radicalisation. Call 999 in an emergency.",
+    "sources": [
+      {
+        "title": "Home Office: Get help for radicalisation concerns",
+        "url": "https://www.gov.uk/guidance/get-help-if-youre-worried-about-someone-being-radicalised",
+        "locator": "Public support and ACT Early guidance",
+        "checkedAt": "2026-11-21"
+      },
+      {
+        "title": "Counter Terrorism Policing: ACT Early",
+        "url": "https://www.counterterrorism.police.uk/what-you-can-do/act-early/",
+        "locator": "How can I get help about my concerns",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-056",
+    "sourceNumber": 56,
+    "lessonNumbers": [
+      3
+    ],
+    "question": "Before it concluded on 31 March 2025, what kind of programme was National Citizen Service in England?",
+    "romanUrdu": "31 March 2025 ko khatam hone se pehle, England mein National Citizen Service kis qisam ka programme tha?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "A statutory school-attendance requirement"
+      },
+      {
+        "id": "d",
+        "text": "A voluntary youth development programme"
+      },
+      {
+        "id": "b",
+        "text": "Compulsory civilian service for every teenager"
+      },
+      {
+        "id": "a",
+        "text": "Compulsory military service"
+      }
+    ],
+    "correctChoiceIds": [
+      "d"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "National Citizen Service was a voluntary programme for 16- and 17-year-olds. Its programme delivery ended on 31 March 2025.",
+    "sources": [
+      {
+        "title": "National Citizen Service Trust annual report and accounts 2023 to 2024",
+        "url": "https://www.gov.uk/government/publications/national-citizen-service-trust-annual-report-and-accounts-2023-to-2024",
+        "locator": "Details: voluntary programme and delivery closure",
+        "checkedAt": "2026-11-21"
+      },
+      {
+        "title": "National Citizen Service: About us",
+        "url": "https://www.gov.uk/government/organisations/national-citizen-service/about",
+        "locator": "Programme conclusion and opportunities in England",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-057",
+    "sourceNumber": 57,
+    "lessonNumbers": [
+      3
+    ],
+    "question": "What is the nickname of the Yeoman Warders who lead tours at the Tower of London?",
+    "romanUrdu": "Tower of London mein sair karwane wale Yeoman Warders ka mashhoor laqab kya hai?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "Chelsea Pensioners"
+      },
+      {
+        "id": "c",
+        "text": "Pearlies"
+      },
+      {
+        "id": "a",
+        "text": "Beefeaters"
+      },
+      {
+        "id": "d",
+        "text": "Bobbies"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Yeoman Warders, also known as Beefeaters, tell visitors stories from the Tower's history.",
+    "sources": [
+      {
+        "title": "Historic Royal Palaces: Yeoman Warder tours",
+        "url": "https://www.hrp.org.uk/tower-of-london/whats-on/yeoman-warder-tours/",
+        "locator": "Tour description: Yeoman Warders also known as Beefeaters",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-058",
+    "sourceNumber": 58,
+    "lessonNumbers": [
+      3
+    ],
+    "question": "Which TWO countries jointly developed Concorde?",
+    "romanUrdu": "Kin DO mulkon ne mil kar Concorde tayyar kiya?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Germany"
+      },
+      {
+        "id": "b",
+        "text": "Britain"
+      },
+      {
+        "id": "d",
+        "text": "France"
+      },
+      {
+        "id": "c",
+        "text": "Italy"
+      }
+    ],
+    "correctChoiceIds": [
+      "b",
+      "d"
+    ],
+    "answerType": "select-two",
+    "verificationStatus": "corrected",
+    "explanation": "Britain and France pooled their resources to develop Concorde, a supersonic passenger aircraft.",
+    "sources": [
+      {
+        "title": "Smithsonian National Air and Space Museum: Concorde, Fox Alpha, Air France",
+        "url": "https://airandspace.si.edu/collection-objects/concorde-fox-alpha-air-france/nasm_A20030139000",
+        "locator": "Long description: British and French plans; November 1962 agreement",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-059",
+    "sourceNumber": 59,
+    "lessonNumbers": [
+      3
+    ],
+    "question": "In which country is Eryri (Snowdonia) National Park?",
+    "romanUrdu": "Eryri yani Snowdonia National Park kis mulk mein hai?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "Scotland"
+      },
+      {
+        "id": "c",
+        "text": "Wales"
+      },
+      {
+        "id": "d",
+        "text": "Northern Ireland"
+      },
+      {
+        "id": "a",
+        "text": "England"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Eryri, also known as Snowdonia, is in Wales.",
+    "sources": [
+      {
+        "title": "Eryri National Park Authority",
+        "url": "https://eryri.gov.wales",
+        "locator": "Welcome: Eryri is Wales' largest National Park; Snowdonia branding",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-060",
+    "sourceNumber": 60,
+    "lessonNumbers": [
+      3
+    ],
+    "question": "Who wrote the Sherlock Holmes stories?",
+    "romanUrdu": "Sherlock Holmes ki kahaniyan kis ne likhin?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "Arthur Conan Doyle"
+      },
+      {
+        "id": "a",
+        "text": "Charles Dickens"
+      },
+      {
+        "id": "b",
+        "text": "Jane Austen"
+      },
+      {
+        "id": "c",
+        "text": "Agatha Christie"
+      }
+    ],
+    "correctChoiceIds": [
+      "d"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Arthur Conan Doyle created Sherlock Holmes and wrote the first Holmes story while living in Portsmouth.",
+    "sources": [
+      {
+        "title": "Portsmouth City Council: Conan Doyle Collection",
+        "url": "https://librariesandarchives.portsmouth.gov.uk/archive-service-and-history-centre/our-collections/conan-doyle-collection/",
+        "locator": "Opening description of Conan Doyle and the first Sherlock Holmes story",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-061",
+    "sourceNumber": 61,
+    "lessonNumbers": [
+      3
+    ],
+    "question": "Which country did Germany invade on 1 September 1939?",
+    "romanUrdu": "1 September 1939 ko Germany ne kis mulk par hamla kiya?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "Denmark"
+      },
+      {
+        "id": "d",
+        "text": "Belgium"
+      },
+      {
+        "id": "b",
+        "text": "Norway"
+      },
+      {
+        "id": "a",
+        "text": "Poland"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Germany invaded Poland on 1 September 1939.",
+    "sources": [
+      {
+        "title": "United States Holocaust Memorial Museum: Invasion of Poland, Fall 1939",
+        "url": "https://encyclopedia.ushmm.org/content/en/article/invasion-of-poland-fall-1939",
+        "locator": "Invasion and Partition of Poland",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-062",
+    "sourceNumber": 62,
+    "lessonNumbers": [
+      3
+    ],
+    "question": "Who is the patron saint of Wales?",
+    "romanUrdu": "Wales ke sarparast saint kaun hain?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "St Andrew"
+      },
+      {
+        "id": "d",
+        "text": "St Patrick"
+      },
+      {
+        "id": "b",
+        "text": "St David"
+      },
+      {
+        "id": "a",
+        "text": "St George"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "St David is the patron saint of Wales.",
+    "sources": [
+      {
+        "title": "Visit Wales: Facts about St David",
+        "url": "https://www.visitwales.com/info/history-heritage-and-traditions/st-david-five-facts",
+        "locator": "Introduction identifying Wales' patron saint",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-063",
+    "sourceNumber": 63,
+    "lessonNumbers": [
+      3
+    ],
+    "question": "Which is the largest national park in England by area?",
+    "romanUrdu": "Raqbe ke lihaz se England ka sab se bara national park kaunsa hai?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "Northumberland"
+      },
+      {
+        "id": "c",
+        "text": "Lake District"
+      },
+      {
+        "id": "a",
+        "text": "Yorkshire Dales"
+      },
+      {
+        "id": "b",
+        "text": "Peak District"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The Lake District is England's largest national park by area.",
+    "sources": [
+      {
+        "title": "Lake District National Park Authority: Facts and figures",
+        "url": "https://lakedistrict.gov.uk/authority/contact-us/media-centre/facts-and-figures/",
+        "locator": "Lake District National Park area",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-064",
+    "sourceNumber": 64,
+    "lessonNumbers": [
+      3
+    ],
+    "question": "What nickname is used for London's West End theatre district?",
+    "romanUrdu": "London ke West End ke theatre wale ilaqe ko kis laqab se pukara jata hai?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "The Square Mile"
+      },
+      {
+        "id": "d",
+        "text": "Theatreland"
+      },
+      {
+        "id": "c",
+        "text": "Silicon Roundabout"
+      },
+      {
+        "id": "b",
+        "text": "Docklands"
+      }
+    ],
+    "correctChoiceIds": [
+      "d"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The West End theatre district is often called Theatreland.",
+    "sources": [
+      {
+        "title": "Westminster City Council: West End LIVE turns 21",
+        "url": "https://www.westminster.gov.uk/news/huge-crowds-take-sun-and-dazzling-array-acts-west-end-live-turns-21",
+        "locator": "Paragraph beginning 'Launched in 2005': West End's theatreland",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-065",
+    "sourceNumber": 65,
+    "lessonNumbers": [
+      3
+    ],
+    "question": "Which TWO are key roles of governors at maintained schools in England?",
+    "romanUrdu": "England ke maintained schools mein governors ki DO aham zimmedariyan kaunsi hain?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "Personally teaching every daily lesson"
+      },
+      {
+        "id": "d",
+        "text": "Replacing the headteacher in all day-to-day management"
+      },
+      {
+        "id": "a",
+        "text": "Setting the school's strategic direction"
+      },
+      {
+        "id": "c",
+        "text": "Monitoring the school's performance and progress"
+      }
+    ],
+    "correctChoiceIds": [
+      "a",
+      "c"
+    ],
+    "answerType": "select-two",
+    "verificationStatus": "corrected",
+    "explanation": "Governing bodies set strategic direction and monitor progress and performance. The headteacher is responsible for day-to-day running.",
+    "sources": [
+      {
+        "title": "Department for Education: Maintained schools governance guide",
+        "url": "https://www.gov.uk/government/publications/maintained-schools-governance-guide/maintained-schools-governance-guide",
+        "locator": "Applies to England; sections 1.2, 2.2 and 3: strategic direction and accountability",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-066",
+    "sourceNumber": 66,
+    "lessonNumbers": [
+      3
+    ],
+    "question": "Which British policy contributed to American colonial grievances before independence?",
+    "romanUrdu": "Azadi se pehle Britain ki kaunsi policy ne America ki koloniyon mein narazgi barhane mein kirdar ada kiya?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "Abolishing all British control over colonial trade"
+      },
+      {
+        "id": "b",
+        "text": "Laws imposing taxes and regulating colonial trade"
+      },
+      {
+        "id": "c",
+        "text": "Giving every colony complete independence in 1763"
+      },
+      {
+        "id": "a",
+        "text": "A ban on all parliamentary taxes in the colonies"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "British laws regulating trade and imposing taxes were among the grievances that contributed to the American Revolution.",
+    "sources": [
+      {
+        "title": "US Department of State, Office of the Historian: Parliamentary taxation of colonies",
+        "url": "https://history.state.gov/milestones/1750-1775/parliamentary-taxation",
+        "locator": "Opening discussion of laws passed between 1763 and 1775; retired historical essay",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-067",
+    "sourceNumber": 67,
+    "lessonNumbers": [
+      3
+    ],
+    "question": "In which historical period did the Black Death first reach Britain in 1348?",
+    "romanUrdu": "1348 mein Black Death pehli baar Britain pohnchi; yeh tareekh ka kaunsa daur tha?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "The Middle Ages"
+      },
+      {
+        "id": "b",
+        "text": "The Victorian period"
+      },
+      {
+        "id": "a",
+        "text": "The Roman period"
+      },
+      {
+        "id": "d",
+        "text": "The twentieth century"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The Black Death first reached Britain in 1348, during the Middle Ages.",
+    "sources": [
+      {
+        "title": "The National Archives: Plague",
+        "url": "https://www.nationalarchives.gov.uk/explore-the-collection/explore-by-time-period/early-modern/plague/",
+        "locator": "Introduction: Black Death first came to Britain in 1348; Statute of Labourers section",
+        "checkedAt": "2026-11-21"
+      },
+      {
+        "title": "Royal Armouries: The Hundred Years' War",
+        "url": "https://royalarmouries.org/objects-and-stories/stories/the-hundred-years-war-1337-1453",
+        "locator": "Medieval chronology and Black Death in 1347–1350",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-068",
+    "sourceNumber": 68,
+    "lessonNumbers": [
+      3
+    ],
+    "question": "Who led the Women's Social and Political Union, a leading suffragette organisation?",
+    "romanUrdu": "Aurton ke haq-e-raaye dahi ki aham tanzeem Women's Social and Political Union ki rehnuma kaun thin?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "Mary Seacole"
+      },
+      {
+        "id": "b",
+        "text": "Margaret Thatcher"
+      },
+      {
+        "id": "a",
+        "text": "Florence Nightingale"
+      },
+      {
+        "id": "d",
+        "text": "Emmeline Pankhurst"
+      }
+    ],
+    "correctChoiceIds": [
+      "d"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Emmeline Pankhurst led the Women's Social and Political Union. Its members became known as suffragettes.",
+    "sources": [
+      {
+        "title": "The National Archives: Emmeline Pankhurst",
+        "url": "https://www.nationalarchives.gov.uk/explore-the-collection/stories/emmeline-pankhurst/",
+        "locator": "Background; The Women's Social and Political Union",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-069",
+    "sourceNumber": 69,
+    "lessonNumbers": [
+      3
+    ],
+    "question": "Cardiff is the capital city of which country?",
+    "romanUrdu": "Cardiff kis mulk ka dar-ul-hukoomat hai?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "Scotland"
+      },
+      {
+        "id": "d",
+        "text": "Northern Ireland"
+      },
+      {
+        "id": "a",
+        "text": "Wales"
+      },
+      {
+        "id": "b",
+        "text": "England"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Cardiff is the capital of Wales.",
+    "sources": [
+      {
+        "title": "Welsh Government, Wales.com: Introducing Cardiff",
+        "url": "https://www.wales.com/about/cities-and-regions/cardiff-thoroughly-modern-capital",
+        "locator": "Historical section: Cardiff announced as capital of Wales in 1955",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-070",
+    "sourceNumber": 70,
+    "lessonNumbers": [
+      3
+    ],
+    "question": "What happened to British shipbuilding during the inter-war slump of 1929–33?",
+    "romanUrdu": "1929 se 1933 ke darmiyani iqtisadi buhran mein Britain ki jahaz saazi ki sanat ka kya haal hua?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "It was entirely unaffected"
+      },
+      {
+        "id": "b",
+        "text": "It was among several particularly badly affected industries"
+      },
+      {
+        "id": "a",
+        "text": "It was the only industry affected"
+      },
+      {
+        "id": "d",
+        "text": "No British shipbuilding industry existed at that time"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Shipbuilding was among the worst-affected industries, alongside coal, cotton, iron and steel. It was not the only industry affected.",
+    "sources": [
+      {
+        "title": "UK Parliament: Supporting industry, the inter-war years",
+        "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/tradeindustry/industrycommunity/overview/interwaryears/",
+        "locator": "Opening discussion of the slump of 1929–33 and worst-affected industries",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-071",
+    "sourceNumber": 71,
+    "lessonNumbers": [
+      3
+    ],
+    "question": "Who was the first man officially recorded running a mile in under four minutes?",
+    "romanUrdu": "Ek mile chaar minute se kam waqt mein daurne ka pehla rasmi record kis mard ne banaya?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "Roger Bannister"
+      },
+      {
+        "id": "b",
+        "text": "Sebastian Coe"
+      },
+      {
+        "id": "d",
+        "text": "Steve Redgrave"
+      },
+      {
+        "id": "a",
+        "text": "Mo Farah"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Roger Bannister ran the first officially recorded sub-four-minute mile in Oxford on 6 May 1954.",
+    "sources": [
+      {
+        "title": "World Athletics: First sub-four-minute mile programme",
+        "url": "https://worldathletics.org/news/press-release/programme-first-sub-four-minute-mile-iaaf-her",
+        "locator": "Opening description of Bannister's performance on 6 May 1954",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-072",
+    "sourceNumber": 72,
+    "lessonNumbers": [
+      3
+    ],
+    "question": "Which festival marks the end of Ramadan?",
+    "romanUrdu": "Ramadan ke khatam hone par kaunsi Eid manai jati hai?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Eid-ul-Adha"
+      },
+      {
+        "id": "d",
+        "text": "Eid-ul-Fitr"
+      },
+      {
+        "id": "b",
+        "text": "Diwali"
+      },
+      {
+        "id": "c",
+        "text": "Vaisakhi"
+      }
+    ],
+    "correctChoiceIds": [
+      "d"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Eid-ul-Fitr marks the end of Ramadan, the month of daily dawn-to-sunset fasting for Muslims who observe the fast.",
+    "sources": [
+      {
+        "title": "Government Science and Engineering: The Moon and Eid Al-Fitr",
+        "url": "https://governmentscienceandengineering.blog.gov.uk/2024/04/10/the-moon-and-the-celebration-of-eid-al-fitr/",
+        "locator": "Opening description and Eid Al-Fitr bullet",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  }
+]
