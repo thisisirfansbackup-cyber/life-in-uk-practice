@@ -9,20 +9,20 @@
     "romanUrdu": "1815 mein Duke of Wellington ne Napoleon ko kis jang mein shikast di?",
     "choices": [
       {
-        "id": "a",
-        "text": "The Battle of Waterloo"
-      },
-      {
-        "id": "b",
-        "text": "The Battle of Hastings"
-      },
-      {
         "id": "c",
         "text": "The Battle of Trafalgar"
       },
       {
+        "id": "a",
+        "text": "The Battle of Waterloo"
+      },
+      {
         "id": "d",
         "text": "The Battle of Britain"
+      },
+      {
+        "id": "b",
+        "text": "The Battle of Hastings"
       }
     ],
     "correctChoiceIds": [
@@ -54,16 +54,16 @@
         "text": "The daffodil"
       },
       {
-        "id": "b",
-        "text": "The rose"
+        "id": "d",
+        "text": "The shamrock"
       },
       {
         "id": "c",
         "text": "The thistle"
       },
       {
-        "id": "d",
-        "text": "The shamrock"
+        "id": "b",
+        "text": "The rose"
       }
     ],
     "correctChoiceIds": [
@@ -91,20 +91,20 @@
     "romanUrdu": "Charles II ke daur mein 1666 mein London ka bara hissa kis cheez ne tabah kiya?",
     "choices": [
       {
-        "id": "a",
-        "text": "The Great Fire of London"
-      },
-      {
-        "id": "b",
-        "text": "A major flood"
-      },
-      {
         "id": "c",
         "text": "An earthquake"
       },
       {
         "id": "d",
         "text": "A invasion by France"
+      },
+      {
+        "id": "a",
+        "text": "The Great Fire of London"
+      },
+      {
+        "id": "b",
+        "text": "A major flood"
       }
     ],
     "correctChoiceIds": [
@@ -132,20 +132,20 @@
     "romanUrdu": "UK ke aam intikhabat aam tor par kitne waqt baad hote hain?",
     "choices": [
       {
-        "id": "a",
-        "text": "At least every five years"
-      },
-      {
-        "id": "b",
-        "text": "Every two years"
-      },
-      {
         "id": "c",
         "text": "Every seven years"
       },
       {
+        "id": "a",
+        "text": "At least every five years"
+      },
+      {
         "id": "d",
         "text": "Only when the monarch changes"
+      },
+      {
+        "id": "b",
+        "text": "Every two years"
       }
     ],
     "correctChoiceIds": [
@@ -173,20 +173,20 @@
     "romanUrdu": "Scotland aur Northern Ireland ke banknotes ke bare mein kaunsa bayan durust hai?",
     "choices": [
       {
+        "id": "d",
+        "text": "They are issued by the Bank of England"
+      },
+      {
         "id": "a",
-        "text": "They are valid everywhere in the UK, but shops do not have to accept them"
+        "text": "They are legal currency but not legal tender, and shops may refuse them"
       },
       {
         "id": "b",
-        "text": "They are valid only in Scotland and Northern Ireland"
+        "text": "They are legal tender everywhere and every shop must accept them"
       },
       {
         "id": "c",
-        "text": "They are not legal currency anywhere"
-      },
-      {
-        "id": "d",
-        "text": "They are issued by the Bank of England"
+        "text": "They are valid only in Scotland and Northern Ireland"
       }
     ],
     "correctChoiceIds": [
@@ -194,12 +194,18 @@
     ],
     "answerType": "single",
     "verificationStatus": "corrected",
-    "explanation": "Scotland and Northern Ireland have their own banknotes, which are valid throughout the UK. Shops and businesses do not have to accept them.",
+    "explanation": "Scotland and Northern Ireland have their own banknotes, issued by commercial banks. They are not legal tender, but many shops accept them; businesses do not have to.",
     "sources": [
       {
-        "title": "Life in the UK: A guide for new residents, 3rd edition",
-        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
-        "locator": "4.8 The UK today: banknotes",
+        "title": "Bank of England: What is legal tender?",
+        "url": "https://www.bankofengland.co.uk/explainers/what-is-legal-tender",
+        "locator": "Scottish notes are not legal tender in England or Scotland",
+        "checkedAt": "2026-11-21"
+      },
+      {
+        "title": "Bank of England: Scottish and Northern Ireland banknotes",
+        "url": "https://www.bankofengland.co.uk/banknotes/scottish-and-northern-ireland-banknotes",
+        "locator": "Six banks in Scotland and Northern Ireland can issue banknotes",
         "checkedAt": "2026-11-21"
       }
     ]
@@ -214,20 +220,20 @@
     "romanUrdu": "UK mein aham imaraatein, sahil aur dehat ko mehfooz rakhne ke liye kaunsi charity kaam karti hai?",
     "choices": [
       {
-        "id": "a",
-        "text": "The National Trust"
-      },
-      {
         "id": "b",
         "text": "The BBC"
       },
       {
-        "id": "c",
-        "text": "The Royal Society"
+        "id": "a",
+        "text": "The National Trust"
       },
       {
         "id": "d",
         "text": "The Commonwealth"
+      },
+      {
+        "id": "c",
+        "text": "The Royal Society"
       }
     ],
     "correctChoiceIds": [
@@ -255,20 +261,20 @@
     "romanUrdu": "Kya 'Great Britain' sirf England, Scotland aur Wales ko kaha jata hai?",
     "choices": [
       {
-        "id": "a",
-        "text": "Yes"
+        "id": "d",
+        "text": "No, it includes the Channel Islands"
       },
       {
         "id": "b",
         "text": "No, it includes Northern Ireland"
       },
       {
-        "id": "c",
-        "text": "No, it includes the Republic of Ireland"
+        "id": "a",
+        "text": "Yes"
       },
       {
-        "id": "d",
-        "text": "No, it includes the Channel Islands"
+        "id": "c",
+        "text": "No, it includes the Republic of Ireland"
       }
     ],
     "correctChoiceIds": [
@@ -300,12 +306,12 @@
         "text": "Boudicca"
       },
       {
-        "id": "b",
-        "text": "Boudin"
-      },
-      {
         "id": "c",
         "text": "Cartimandua"
+      },
+      {
+        "id": "b",
+        "text": "Boudin"
       },
       {
         "id": "d",
@@ -337,12 +343,12 @@
     "romanUrdu": "2002 ke awami poll mein sab se bara Briton kaun chuna gaya?",
     "choices": [
       {
-        "id": "a",
-        "text": "Winston Churchill"
-      },
-      {
         "id": "b",
         "text": "Margaret Thatcher"
+      },
+      {
+        "id": "a",
+        "text": "Winston Churchill"
       },
       {
         "id": "c",
@@ -378,16 +384,16 @@
     "romanUrdu": "UK Parliament ke DO Houses kaunse hain?",
     "choices": [
       {
-        "id": "a",
-        "text": "The House of Commons"
-      },
-      {
         "id": "b",
         "text": "The House of Lords"
       },
       {
         "id": "c",
         "text": "The House of Stuart"
+      },
+      {
+        "id": "a",
+        "text": "The House of Commons"
       },
       {
         "id": "d",
@@ -420,16 +426,16 @@
     "romanUrdu": "Kis saal aurton ko mardon ki hi umar mein vote ka haq mila?",
     "choices": [
       {
-        "id": "a",
-        "text": "1928"
-      },
-      {
         "id": "b",
         "text": "1918"
       },
       {
         "id": "c",
         "text": "1948"
+      },
+      {
+        "id": "a",
+        "text": "1928"
       },
       {
         "id": "d",
@@ -457,24 +463,24 @@
     "lessonNumbers": [
       4
     ],
-    "question": "Who is the head of the Church of England?",
-    "romanUrdu": "Church of England ka sarparast kaun hai?",
+    "question": "Who is the Supreme Governor of the Church of England?",
+    "romanUrdu": "Church of England ka Supreme Governor kaun hai?",
     "choices": [
       {
-        "id": "a",
-        "text": "The Monarch"
-      },
-      {
-        "id": "b",
-        "text": "The Archbishop of Canterbury"
+        "id": "d",
+        "text": "The Speaker"
       },
       {
         "id": "c",
         "text": "The Prime Minister"
       },
       {
-        "id": "d",
-        "text": "The Speaker"
+        "id": "b",
+        "text": "The Archbishop of Canterbury"
+      },
+      {
+        "id": "a",
+        "text": "The Monarch"
       }
     ],
     "correctChoiceIds": [
@@ -482,7 +488,7 @@
     ],
     "answerType": "single",
     "verificationStatus": "corrected",
-    "explanation": "The monarch is the head of the Church of England. The Archbishop of Canterbury is its spiritual leader.",
+    "explanation": "The monarch is the Supreme Governor of the Church of England. The Archbishop of Canterbury is its spiritual leader.",
     "sources": [
       {
         "title": "Life in the UK: A guide for new residents, 3rd edition",
@@ -502,8 +508,8 @@
     "romanUrdu": "Grand National kis qisam ka khel hai?",
     "choices": [
       {
-        "id": "a",
-        "text": "Horse racing"
+        "id": "d",
+        "text": "Cricket"
       },
       {
         "id": "b",
@@ -514,8 +520,8 @@
         "text": "Tennis"
       },
       {
-        "id": "d",
-        "text": "Cricket"
+        "id": "a",
+        "text": "Horse racing"
       }
     ],
     "correctChoiceIds": [
@@ -543,10 +549,6 @@
     "romanUrdu": "Chaucer ki Canterbury Tales kis qisam ki tehreer hain?",
     "choices": [
       {
-        "id": "a",
-        "text": "Poems"
-      },
-      {
         "id": "b",
         "text": "Novels"
       },
@@ -557,6 +559,10 @@
       {
         "id": "d",
         "text": "Legal statutes"
+      },
+      {
+        "id": "a",
+        "text": "Poems"
       }
     ],
     "correctChoiceIds": [
@@ -584,20 +590,20 @@
     "romanUrdu": "Christmas Day kab manaya jata hai?",
     "choices": [
       {
-        "id": "a",
-        "text": "25 December"
-      },
-      {
-        "id": "b",
-        "text": "24 December"
-      },
-      {
         "id": "c",
         "text": "26 December"
       },
       {
         "id": "d",
         "text": "1 January"
+      },
+      {
+        "id": "b",
+        "text": "24 December"
+      },
+      {
+        "id": "a",
+        "text": "25 December"
       }
     ],
     "correctChoiceIds": [
@@ -625,20 +631,20 @@
     "romanUrdu": "English Civil War mein King Charles I ki himayat kis group ne ki?",
     "choices": [
       {
-        "id": "a",
-        "text": "The Cavaliers"
+        "id": "d",
+        "text": "The Jacobites"
       },
       {
-        "id": "b",
-        "text": "The Roundheads"
+        "id": "a",
+        "text": "The Cavaliers"
       },
       {
         "id": "c",
         "text": "The Whigs"
       },
       {
-        "id": "d",
-        "text": "The Jacobites"
+        "id": "b",
+        "text": "The Roundheads"
       }
     ],
     "correctChoiceIds": [
@@ -666,20 +672,20 @@
     "romanUrdu": "Bayeux Tapestry kis jang ki yaadgar hai?",
     "choices": [
       {
-        "id": "a",
-        "text": "The Battle of Hastings"
-      },
-      {
-        "id": "b",
-        "text": "The Battle of Waterloo"
-      },
-      {
         "id": "c",
         "text": "The Battle of Towton"
       },
       {
         "id": "d",
         "text": "The Battle of Trafalgar"
+      },
+      {
+        "id": "a",
+        "text": "The Battle of Hastings"
+      },
+      {
+        "id": "b",
+        "text": "The Battle of Waterloo"
       }
     ],
     "correctChoiceIds": [
@@ -707,20 +713,20 @@
     "romanUrdu": "Anne Boleyn ko kahan qatl kiya gaya?",
     "choices": [
       {
-        "id": "a",
-        "text": "The Tower of London"
-      },
-      {
-        "id": "b",
-        "text": "Windsor Castle"
-      },
-      {
         "id": "c",
         "text": "Westminster Abbey"
       },
       {
         "id": "d",
         "text": "Hampton Court Palace"
+      },
+      {
+        "id": "a",
+        "text": "The Tower of London"
+      },
+      {
+        "id": "b",
+        "text": "Windsor Castle"
       }
     ],
     "correctChoiceIds": [
@@ -748,8 +754,12 @@
     "romanUrdu": "In mein se kaunse mujrimana jurm ki misalein hain?",
     "choices": [
       {
+        "id": "d",
+        "text": "Joining a trade union and attending school"
+      },
+      {
         "id": "a",
-        "text": "Racial crime and smoking in enclosed public places"
+        "text": "Racially aggravated offences and smoking in enclosed public places"
       },
       {
         "id": "b",
@@ -758,10 +768,6 @@
       {
         "id": "c",
         "text": "Driving a car and paying tax"
-      },
-      {
-        "id": "d",
-        "text": "Joining a trade union and attending school"
       }
     ],
     "correctChoiceIds": [
@@ -769,7 +775,7 @@
     ],
     "answerType": "single",
     "verificationStatus": "corrected",
-    "explanation": "Racial crime and smoking in enclosed public places are given as examples of criminal offences.",
+    "explanation": "Racially aggravated offences and smoking in enclosed public places are examples of criminal offences.",
     "sources": [
       {
         "title": "Life in the UK: A guide for new residents, 3rd edition",
@@ -789,20 +795,20 @@
     "romanUrdu": "Charlie Chaplin mashhoor tor par kis qisam ka kirdar ada karte thay?",
     "choices": [
       {
-        "id": "a",
-        "text": "A tramp"
-      },
-      {
         "id": "b",
         "text": "A king"
       },
       {
-        "id": "c",
-        "text": "A detective"
+        "id": "a",
+        "text": "A tramp"
       },
       {
         "id": "d",
         "text": "A soldier"
+      },
+      {
+        "id": "c",
+        "text": "A detective"
       }
     ],
     "correctChoiceIds": [
@@ -830,20 +836,20 @@
     "romanUrdu": "Kya MP ke liye khare hone ke liye kam az kam 21 saal ki umar zaroori hai?",
     "choices": [
       {
-        "id": "a",
-        "text": "No, the minimum age is 18"
+        "id": "d",
+        "text": "Only for candidates in Scotland"
       },
       {
         "id": "b",
         "text": "Yes, 21 is required"
       },
       {
-        "id": "c",
-        "text": "Yes, 25 is required"
+        "id": "a",
+        "text": "No, the minimum age is 18"
       },
       {
-        "id": "d",
-        "text": "Only for candidates in Scotland"
+        "id": "c",
+        "text": "Yes, 25 is required"
       }
     ],
     "correctChoiceIds": [
@@ -875,16 +881,16 @@
         "text": "Sir Robert Watson-Watt"
       },
       {
+        "id": "d",
+        "text": "Sir Bernard Lovell"
+      },
+      {
         "id": "b",
         "text": "Alexander Fleming"
       },
       {
         "id": "c",
         "text": "Sir Frank Whittle"
-      },
-      {
-        "id": "d",
-        "text": "Sir Bernard Lovell"
       }
     ],
     "correctChoiceIds": [
@@ -892,7 +898,7 @@
     ],
     "answerType": "single",
     "verificationStatus": "corrected",
-    "explanation": "Scotsman Sir Robert Watson-Watt developed radar, with the first successful test in 1935.",
+    "explanation": "Sir Robert Watson-Watt led the team that developed radar; the first successful test took place in 1935.",
     "sources": [
       {
         "title": "Life in the UK: A guide for new residents, 3rd edition",
@@ -953,12 +959,12 @@
     "romanUrdu": "Intikhabati coverage mein kaunse DO broadcast media ko Ofcom ke due-impartiality rules follow karne hote hain?",
     "choices": [
       {
-        "id": "a",
-        "text": "Television"
-      },
-      {
         "id": "b",
         "text": "Radio"
+      },
+      {
+        "id": "a",
+        "text": "Television"
       },
       {
         "id": "c",

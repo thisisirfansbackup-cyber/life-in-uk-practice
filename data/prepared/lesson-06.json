@@ -1,0 +1,991 @@
+[
+  {
+    "id": "source-121",
+    "sourceNumber": 121,
+    "lessonNumbers": [
+      6
+    ],
+    "question": "As a British citizen or permanent resident, which TWO responsibilities do you have? Select two.",
+    "romanUrdu": "British citizen ya permanent resident ke tor par aap ki do zimmedariyan kya hain?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "To look after yourself and your family"
+      },
+      {
+        "id": "d",
+        "text": "To attend a place of worship every week"
+      },
+      {
+        "id": "a",
+        "text": "To obey the law"
+      },
+      {
+        "id": "c",
+        "text": "To serve in the armed forces"
+      }
+    ],
+    "correctChoiceIds": [
+      "a",
+      "b"
+    ],
+    "answerType": "select-two",
+    "verificationStatus": "corrected",
+    "explanation": "The handbook lists respecting and obeying the law, and looking after yourself and your family, among the responsibilities of residents and citizens. Serving in the armed forces and weekly worship are not listed as responsibilities.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "1.3 The values and principles of the UK: responsibilities of residents and citizens",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-122",
+    "sourceNumber": 122,
+    "lessonNumbers": [
+      6
+    ],
+    "question": "Who made the first coins to be minted in Britain?",
+    "romanUrdu": "Britain mein sab se pehle sikke kisne banaye?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "The Normans"
+      },
+      {
+        "id": "a",
+        "text": "The people of the Iron Age"
+      },
+      {
+        "id": "b",
+        "text": "The Romans"
+      },
+      {
+        "id": "c",
+        "text": "The Vikings"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The people of the Iron Age made the first coins to be minted in Britain, some inscribed with the names of Iron Age kings.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.7 Early Britain: the Iron Age",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-123",
+    "sourceNumber": 123,
+    "lessonNumbers": [
+      6
+    ],
+    "question": "Who first built the Tower of London?",
+    "romanUrdu": "Tower of London sab se pehle kisne banaya?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "William the Conqueror"
+      },
+      {
+        "id": "d",
+        "text": "Queen Victoria"
+      },
+      {
+        "id": "b",
+        "text": "King Alfred the Great"
+      },
+      {
+        "id": "c",
+        "text": "Henry VIII"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The Tower of London was first built by William the Conqueror after he became king in 1066. Its White Tower is a Norman castle keep built on his orders.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.5 Places of interest: the Tower of London",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-124",
+    "sourceNumber": 124,
+    "lessonNumbers": [
+      6
+    ],
+    "question": "There are 15 national parks in England, Wales and Scotland. What are national parks?",
+    "romanUrdu": "England, Wales aur Scotland mein 15 national parks hain. National parks kya hain?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Areas of protected countryside that everyone can visit"
+      },
+      {
+        "id": "b",
+        "text": "Private estates closed to the public"
+      },
+      {
+        "id": "c",
+        "text": "Areas reserved only for farming"
+      },
+      {
+        "id": "d",
+        "text": "Nature reserves where nobody may live"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The handbook describes the 15 national parks as areas of protected countryside that everyone can visit, and where people live, work and look after the landscape.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.5 Places of interest: national parks",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-125",
+    "sourceNumber": 125,
+    "lessonNumbers": [
+      6
+    ],
+    "question": "Does Northern Ireland have its own established church?",
+    "romanUrdu": "Kya Northern Ireland ka apna established church hai?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "Yes, the Church of Ireland is the established church"
+      },
+      {
+        "id": "c",
+        "text": "Yes, the Presbyterian Church is the established church"
+      },
+      {
+        "id": "a",
+        "text": "No, there is no established church in Northern Ireland"
+      },
+      {
+        "id": "d",
+        "text": "Yes, the Roman Catholic Church is the established church"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The handbook states that there is no established Church in Wales or Northern Ireland. The Church of England is the established church in England only.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.6 Religion: churches in the UK",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-126",
+    "sourceNumber": 126,
+    "lessonNumbers": [
+      6
+    ],
+    "question": "Which three territories make up Great Britain?",
+    "romanUrdu": "Great Britain kaunse teen ilaqon se banta hai?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "England, Wales and Northern Ireland"
+      },
+      {
+        "id": "a",
+        "text": "England, Scotland and Wales"
+      },
+      {
+        "id": "b",
+        "text": "England, Scotland and Northern Ireland"
+      },
+      {
+        "id": "d",
+        "text": "England, Wales and the Republic of Ireland"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Great Britain refers only to England, Scotland and Wales, not to Northern Ireland.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "2.2 What is the UK?",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-127",
+    "sourceNumber": 127,
+    "lessonNumbers": [
+      6
+    ],
+    "question": "How often are Prime Minister's Questions held while Parliament is sitting?",
+    "romanUrdu": "Jab Parliament ka ijlas ho raha ho to Prime Minister's Questions kitni baar hoti hain?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "Every month"
+      },
+      {
+        "id": "d",
+        "text": "Only during a general election"
+      },
+      {
+        "id": "c",
+        "text": "Once a year"
+      },
+      {
+        "id": "a",
+        "text": "Every week"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Prime Minister's Questions takes place every week while Parliament is sitting. It is an important opportunity for the leader of the opposition to challenge the government.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.6 The government: the opposition",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-128",
+    "sourceNumber": 128,
+    "lessonNumbers": [
+      6
+    ],
+    "question": "Which king was executed in 1649?",
+    "romanUrdu": "1649 mein kis badshah ko qatl kiya gaya?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "Henry VIII"
+      },
+      {
+        "id": "b",
+        "text": "Charles II"
+      },
+      {
+        "id": "d",
+        "text": "James I"
+      },
+      {
+        "id": "a",
+        "text": "Charles I"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Charles I was held prisoner after his army was defeated, refused to reach agreement with Parliament, and was executed in 1649. England then declared itself a republic.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.6 The Tudors and Stuarts: Oliver Cromwell and the English Republic",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-129",
+    "sourceNumber": 129,
+    "lessonNumbers": [
+      6
+    ],
+    "question": "Where was William Shakespeare born?",
+    "romanUrdu": "William Shakespeare kahan paida hue?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "Edinburgh"
+      },
+      {
+        "id": "c",
+        "text": "Oxford"
+      },
+      {
+        "id": "b",
+        "text": "London"
+      },
+      {
+        "id": "a",
+        "text": "Stratford-upon-Avon"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Shakespeare was born in Stratford-upon-Avon, England. He was a playwright and actor who wrote many poems and plays.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.6 The Tudors and Stuarts: William Shakespeare",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-130",
+    "sourceNumber": 130,
+    "lessonNumbers": [
+      6
+    ],
+    "question": "Which TWO of the following are famous British Paralympians? Select two.",
+    "romanUrdu": "In mein se kaun do mashhoor British Paralympians hain?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "Dame Kelly Holmes"
+      },
+      {
+        "id": "d",
+        "text": "Sir Steve Redgrave"
+      },
+      {
+        "id": "b",
+        "text": "Ellie Simmonds"
+      },
+      {
+        "id": "a",
+        "text": "Baroness Tanni Grey-Thompson"
+      }
+    ],
+    "correctChoiceIds": [
+      "a",
+      "b"
+    ],
+    "answerType": "select-two",
+    "verificationStatus": "corrected",
+    "explanation": "Baroness Tanni Grey-Thompson won 16 Paralympic medals in wheelchair racing, and Ellie Simmonds won Paralympic swimming golds in 2008 and 2012. Kelly Holmes and Steve Redgrave were Olympic champions, not Paralympians.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.7 Sport: notable British sportsmen and women",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-131",
+    "sourceNumber": 131,
+    "lessonNumbers": [
+      6
+    ],
+    "question": "Who was reigning in England when English settlers first began to colonise the eastern coast of America?",
+    "romanUrdu": "Jab English settlers ne America ke mashriqi sahil par colony banana shuru ki, us waqt England mein kaun hukumat kar raha tha?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "Charles I"
+      },
+      {
+        "id": "a",
+        "text": "Elizabeth I"
+      },
+      {
+        "id": "c",
+        "text": "James I"
+      },
+      {
+        "id": "b",
+        "text": "Henry VIII"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "In Elizabeth I's time, English settlers first began to colonise the eastern coast of America. This colonisation greatly increased in the next century.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.6 The Tudors and Stuarts: exploration, poetry and drama",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-132",
+    "sourceNumber": 132,
+    "lessonNumbers": [
+      6
+    ],
+    "question": "Under the individual registration system used in Northern Ireland, must voters complete their own registration form?",
+    "romanUrdu": "Northern Ireland mein individual registration system ke tehat kya voters ko apna registration form khud bharna hota hai?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "Only people who own their home must complete one"
+      },
+      {
+        "id": "c",
+        "text": "No, the local council completes it for them"
+      },
+      {
+        "id": "a",
+        "text": "Yes, each person entitled to vote must complete their own form"
+      },
+      {
+        "id": "b",
+        "text": "No, one form is completed for the whole household"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "In Northern Ireland, individual registration applies: all those entitled to vote must complete their own registration form. Elsewhere in the UK a form is sent to every household.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.6.1 Who can vote? (Northern Ireland: individual registration)",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-133",
+    "sourceNumber": 133,
+    "lessonNumbers": [
+      6
+    ],
+    "question": "On which day is the birth of Jesus Christ celebrated?",
+    "romanUrdu": "Jesus Christ ki paidaish kis din manai jati hai?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Christmas Day, 25 December"
+      },
+      {
+        "id": "c",
+        "text": "Boxing Day, 26 December"
+      },
+      {
+        "id": "d",
+        "text": "New Year's Day, 1 January"
+      },
+      {
+        "id": "b",
+        "text": "Easter Sunday"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Christmas Day, 25 December, celebrates the birth of Jesus Christ and is a public holiday.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.3 Customs and traditions: the main Christian festivals",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-134",
+    "sourceNumber": 134,
+    "lessonNumbers": [
+      6
+    ],
+    "question": "What sort of battle was the Battle of Britain, fought between Germany and Britain in the summer of 1940?",
+    "romanUrdu": "1940 ki garmiyon mein Germany aur Britain ke darmiyan lari gayi Battle of Britain kaisi jang thi?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "An aerial battle fought in the air"
+      },
+      {
+        "id": "d",
+        "text": "A siege fought around London"
+      },
+      {
+        "id": "c",
+        "text": "A tank battle fought on land"
+      },
+      {
+        "id": "b",
+        "text": "A naval battle fought at sea"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Germany waged an air campaign against Britain, but the British resisted with fighter planes and won the crucial aerial battle called the Battle of Britain in the summer of 1940.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.4 The 20th century: the Second World War (the Battle of Britain)",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-135",
+    "sourceNumber": 135,
+    "lessonNumbers": [
+      6
+    ],
+    "question": "Where is Swansea located?",
+    "romanUrdu": "Swansea kahan waqia hai?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "In Scotland"
+      },
+      {
+        "id": "d",
+        "text": "In England"
+      },
+      {
+        "id": "a",
+        "text": "In Wales"
+      },
+      {
+        "id": "c",
+        "text": "In Northern Ireland"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Swansea is a city in Wales, listed with Cardiff and Newport among the cities of Wales.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.8 The UK today: cities of the UK (Wales)",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-136",
+    "sourceNumber": 136,
+    "lessonNumbers": [
+      6
+    ],
+    "question": "Which TWO political parties formed the coalition government in 2010? Select two.",
+    "romanUrdu": "2010 mein kaunsi do siyasi jamaaton ne coalition government banayi?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "The Liberal Democrats"
+      },
+      {
+        "id": "d",
+        "text": "The Green Party"
+      },
+      {
+        "id": "a",
+        "text": "The Conservative Party"
+      },
+      {
+        "id": "c",
+        "text": "The Labour Party"
+      }
+    ],
+    "correctChoiceIds": [
+      "a",
+      "b"
+    ],
+    "answerType": "select-two",
+    "verificationStatus": "corrected",
+    "explanation": "In May 2010 no political party won an overall majority, so the Conservative and Liberal Democrat parties formed a coalition and David Cameron became Prime Minister.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.2 Britain since 1945: coalition government from 2010 to 2015",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-137",
+    "sourceNumber": 137,
+    "lessonNumbers": [
+      6
+    ],
+    "question": "Who established the Church of England?",
+    "romanUrdu": "Church of England kisne qaim ki?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "Henry VIII"
+      },
+      {
+        "id": "d",
+        "text": "Charles I"
+      },
+      {
+        "id": "b",
+        "text": "Elizabeth I"
+      },
+      {
+        "id": "c",
+        "text": "James I"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "When the Pope refused to approve his divorce, Henry VIII established the Church of England, in which the king rather than the Pope appointed bishops. Elizabeth I later re-established it as the official Church in England.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.6 The Tudors and Stuarts: Henry VIII",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-138",
+    "sourceNumber": 138,
+    "lessonNumbers": [
+      6
+    ],
+    "question": "In 1348, one third of the population of England, Wales and Scotland died as a result of which disease?",
+    "romanUrdu": "1348 mein England, Wales aur Scotland ki ek tihai abadi kis bimari se mari?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "The Black Death"
+      },
+      {
+        "id": "b",
+        "text": "The Great Fire of London"
+      },
+      {
+        "id": "c",
+        "text": "Spanish flu"
+      },
+      {
+        "id": "d",
+        "text": "Cholera"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "In 1348 a disease, probably a form of plague, came to Britain and became known as the Black Death. One third of the population of England died, with a similar proportion in Scotland and Wales.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.5 The Middle Ages: the Black Death",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-139",
+    "sourceNumber": 139,
+    "lessonNumbers": [
+      6
+    ],
+    "question": "Haggis is a traditional food from which part of the UK?",
+    "romanUrdu": "Haggis UK ke kis hisse ka riwati khana hai?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "Northern Ireland"
+      },
+      {
+        "id": "b",
+        "text": "Wales"
+      },
+      {
+        "id": "a",
+        "text": "Scotland"
+      },
+      {
+        "id": "d",
+        "text": "England"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Haggis, a sheep's stomach stuffed with offal, suet, onions and oatmeal, is the traditional food associated with Scotland.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.4 Leisure: traditional foods",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-140",
+    "sourceNumber": 140,
+    "lessonNumbers": [
+      6
+    ],
+    "question": "Which court deals with minor criminal offences in Scotland?",
+    "romanUrdu": "Scotland mein halki criminal offences kaunsi adalat sunti hai?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "The Crown Court"
+      },
+      {
+        "id": "a",
+        "text": "The Justice of the Peace Court"
+      },
+      {
+        "id": "b",
+        "text": "The Magistrates' Court"
+      },
+      {
+        "id": "d",
+        "text": "The Sheriff Court"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "In Scotland, minor criminal offences go to a Justice of the Peace Court. Magistrates' Courts deal with minor criminal cases in England, Wales and Northern Ireland.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.5 Respecting the law: Magistrates' and Justice of the Peace Courts",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-141",
+    "sourceNumber": 141,
+    "lessonNumbers": [
+      6
+    ],
+    "question": "Which TWO records give us information about England during the reign of William the Conqueror? Select two.",
+    "romanUrdu": "William the Conqueror ke daur mein England ke bare mein kaunse do record maloomat dete hain?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "The Bayeux Tapestry"
+      },
+      {
+        "id": "a",
+        "text": "The Domesday Book"
+      },
+      {
+        "id": "c",
+        "text": "Magna Carta"
+      },
+      {
+        "id": "d",
+        "text": "The Book of Common Prayer"
+      }
+    ],
+    "correctChoiceIds": [
+      "a",
+      "b"
+    ],
+    "answerType": "select-two",
+    "verificationStatus": "corrected",
+    "explanation": "The Bayeux Tapestry commemorates William's victory at the Battle of Hastings, and the Domesday Book lists the towns, villages, people, land and animals of England just after the Norman Conquest.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.7 Early Britain: the Norman Conquest and the Domesday Book",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-142",
+    "sourceNumber": 142,
+    "lessonNumbers": [
+      6
+    ],
+    "question": "In 1913 the British government promised Home Rule for Ireland. Why were changes delayed until 1921?",
+    "romanUrdu": "1913 mein British government ne Ireland ke liye Home Rule ka wada kiya. Tabdeeliyan 1921 tak kyun multawi rahin?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "A general strike in 1926"
+      },
+      {
+        "id": "b",
+        "text": "The outbreak of the Second World War in 1939"
+      },
+      {
+        "id": "d",
+        "text": "The Great Depression of the 1930s"
+      },
+      {
+        "id": "a",
+        "text": "The outbreak of the First World War in 1914"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The outbreak of the First World War led the British government to postpone any changes in Ireland. A peace treaty was signed in 1921 and Ireland became two countries in 1922.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.4 The 20th century: the partition of Ireland",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-143",
+    "sourceNumber": 143,
+    "lessonNumbers": [
+      6
+    ],
+    "question": "Which statement about Queen Elizabeth I is true?",
+    "romanUrdu": "Queen Elizabeth I ke bare mein kaunsa bayan durust hai?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "She was a Puritan and banned all other forms of worship"
+      },
+      {
+        "id": "b",
+        "text": "She was a Catholic and restored the Pope's authority in England"
+      },
+      {
+        "id": "d",
+        "text": "She was a Presbyterian and made the Church of Scotland a state church"
+      },
+      {
+        "id": "a",
+        "text": "She was a Protestant and balanced the views of Catholics and more extreme Protestants"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Elizabeth I was a Protestant. She re-established the Church of England and succeeded in finding a balance between the views of Catholics and the more extreme Protestants, avoiding serious religious conflict in England.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.6 The Tudors and Stuarts: Queen Elizabeth I",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-144",
+    "sourceNumber": 144,
+    "lessonNumbers": [
+      6
+    ],
+    "question": "Which TWO documents do you need when applying for a National Insurance number? Select two.",
+    "romanUrdu": "National Insurance number ke liye apply karte waqt kaunse do documents chahiye?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "A tenancy agreement for your home"
+      },
+      {
+        "id": "c",
+        "text": "A reference from a previous employer"
+      },
+      {
+        "id": "b",
+        "text": "Documents that prove you have permission to work in the UK"
+      },
+      {
+        "id": "a",
+        "text": "Documents that prove your identity"
+      }
+    ],
+    "correctChoiceIds": [
+      "a",
+      "b"
+    ],
+    "answerType": "select-two",
+    "verificationStatus": "corrected",
+    "explanation": "The handbook says you will usually need documents that prove your identity and that you have permission to work in the UK. A National Insurance number does not on its own prove to an employer that you have the right to work.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.4.1 Taxation: getting a National Insurance number",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  }
+]

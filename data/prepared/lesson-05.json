@@ -1,0 +1,987 @@
+[
+  {
+    "id": "source-097",
+    "sourceNumber": 97,
+    "lessonNumbers": [
+      5
+    ],
+    "question": "When does Easter take place?",
+    "romanUrdu": "Easter kab hota hai?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "In March or April"
+      },
+      {
+        "id": "c",
+        "text": "In June or July"
+      },
+      {
+        "id": "a",
+        "text": "In December"
+      },
+      {
+        "id": "d",
+        "text": "In September"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Easter takes place in March or April. It marks the death of Jesus Christ on Good Friday and his rising from the dead on Easter Sunday.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.3 Customs and traditions: The main Christian festivals (Easter)",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-098",
+    "sourceNumber": 98,
+    "lessonNumbers": [
+      5
+    ],
+    "question": "Which of the following is not a valid UK coin?",
+    "romanUrdu": "In mein se kaun sa UK ka asli sikka nahi hai?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "1p"
+      },
+      {
+        "id": "c",
+        "text": "25p"
+      },
+      {
+        "id": "b",
+        "text": "£2"
+      },
+      {
+        "id": "a",
+        "text": "50p"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "UK coins in circulation are 1p, 2p, 5p, 10p, 20p, 50p, £1 and £2. There is no 25p coin.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.8 The UK today: UK currency",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-099",
+    "sourceNumber": 99,
+    "lessonNumbers": [
+      5
+    ],
+    "question": "Where is the Eden Project located?",
+    "romanUrdu": "Eden Project kahan waqe hai?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "In Northern Ireland"
+      },
+      {
+        "id": "b",
+        "text": "In Yorkshire"
+      },
+      {
+        "id": "c",
+        "text": "In the Scottish Highlands"
+      },
+      {
+        "id": "a",
+        "text": "In Cornwall"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The Eden Project is located in Cornwall, in the south west of England, where its biome greenhouses hold plants from all over the world.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.5 Places of interest: UK landmarks (The Eden Project)",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-100",
+    "sourceNumber": 100,
+    "lessonNumbers": [
+      5
+    ],
+    "question": "Saint Helena and the Falkland Islands are part of Great Britain. True or false?",
+    "romanUrdu": "Saint Helena aur Falkland Islands Great Britain ka hissa hain. Sahi ya ghalat?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "True, but only for the Falkland Islands"
+      },
+      {
+        "id": "b",
+        "text": "True, but only for Saint Helena"
+      },
+      {
+        "id": "d",
+        "text": "False"
+      },
+      {
+        "id": "a",
+        "text": "True"
+      }
+    ],
+    "correctChoiceIds": [
+      "d"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Saint Helena and the Falkland Islands are British overseas territories. They are linked to the UK but are not part of it, and 'Great Britain' refers only to England, Scotland and Wales.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "2.2 What is the UK?: British overseas territories",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-101",
+    "sourceNumber": 101,
+    "lessonNumbers": [
+      5
+    ],
+    "question": "Which two of the following are fundamental principles of British life?",
+    "romanUrdu": "In mein se kaun se DO Britain ki zindagi ke bunyadi usool hain?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "Rule by a single unelected leader"
+      },
+      {
+        "id": "d",
+        "text": "The rule of law"
+      },
+      {
+        "id": "b",
+        "text": "Democracy"
+      },
+      {
+        "id": "a",
+        "text": "Compulsory membership of a political party"
+      }
+    ],
+    "correctChoiceIds": [
+      "b",
+      "d"
+    ],
+    "answerType": "select-two",
+    "verificationStatus": "corrected",
+    "explanation": "The fundamental principles of British life include democracy, the rule of law, individual liberty, tolerance of those with different faiths and beliefs, and participation in community life.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "1.3 The values and principles of the UK: The fundamental principles of British life",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-102",
+    "sourceNumber": 102,
+    "lessonNumbers": [
+      5
+    ],
+    "question": "Where must you be registered if you want to be eligible to serve on a jury?",
+    "romanUrdu": "Jury mein khidmat ke liye ahal hone ke liye aap ko kahan registered hona chahiye?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "The National Insurance register"
+      },
+      {
+        "id": "a",
+        "text": "The council tax register"
+      },
+      {
+        "id": "c",
+        "text": "The electoral register"
+      },
+      {
+        "id": "b",
+        "text": "The Land Registry"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "People on the electoral register are randomly selected to serve on a jury, and anyone on it aged 18 to 70 can be asked to do so.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.8.1 How you can support your community: Jury service",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-103",
+    "sourceNumber": 103,
+    "lessonNumbers": [
+      5
+    ],
+    "question": "What sort of church is the Church of Scotland?",
+    "romanUrdu": "Church of Scotland kis qisam ka church hai?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "A Roman Catholic Church"
+      },
+      {
+        "id": "d",
+        "text": "A Methodist Church"
+      },
+      {
+        "id": "c",
+        "text": "An Anglican Church established by law"
+      },
+      {
+        "id": "b",
+        "text": "A Presbyterian Church"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "In Scotland the national Church is the Church of Scotland, which is a Presbyterian Church governed by ministers and elders.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.6 Religion: Churches in the UK (Church of Scotland)",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-104",
+    "sourceNumber": 104,
+    "lessonNumbers": [
+      5
+    ],
+    "question": "Where does golf originate from?",
+    "romanUrdu": "Golf ka aghaz kahan se hua?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "Ireland"
+      },
+      {
+        "id": "d",
+        "text": "Scotland"
+      },
+      {
+        "id": "a",
+        "text": "England"
+      },
+      {
+        "id": "b",
+        "text": "Wales"
+      }
+    ],
+    "correctChoiceIds": [
+      "d"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The modern game of golf can be traced back to 15th-century Scotland, and St Andrews in Scotland is known as the home of golf.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.7 Sport: Golf",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-105",
+    "sourceNumber": 105,
+    "lessonNumbers": [
+      5
+    ],
+    "question": "On which day do television and newspapers run joke stories until midday?",
+    "romanUrdu": "Kaunsa din hai jab TV aur akhbar dopahar tak mazaqi khabrein chalate hain?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "April Fool's Day, 1 April"
+      },
+      {
+        "id": "c",
+        "text": "Halloween, 31 October"
+      },
+      {
+        "id": "d",
+        "text": "New Year's Day, 1 January"
+      },
+      {
+        "id": "b",
+        "text": "Valentine's Day, 14 February"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "April Fool's Day, 1 April, is a day when people play jokes on each other until midday, and television and newspapers often carry stories that are April Fool jokes.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.3 Customs and traditions: Other festivals and traditions (April Fool's Day)",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-106",
+    "sourceNumber": 106,
+    "lessonNumbers": [
+      5
+    ],
+    "question": "Which king was defeated by Oliver Cromwell during the Civil War and hid in an oak tree before escaping to Europe?",
+    "romanUrdu": "Civil War mein Oliver Cromwell ne kis king ko shikast di, jo oak ke darakht mein chhup kar Europe bhaga?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "James II"
+      },
+      {
+        "id": "a",
+        "text": "Charles I"
+      },
+      {
+        "id": "d",
+        "text": "Henry VIII"
+      },
+      {
+        "id": "c",
+        "text": "Charles II"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Cromwell defeated Charles II's Scottish army at the Battles of Dunbar and Worcester. Charles II escaped from Worcester, famously hiding in an oak tree, and eventually fled to Europe.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.6 The Tudors and Stuarts: Oliver Cromwell and the English Republic",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-107",
+    "sourceNumber": 107,
+    "lessonNumbers": [
+      5
+    ],
+    "question": "Who was the father of Queen Elizabeth I?",
+    "romanUrdu": "Queen Elizabeth I ke walid kaun the?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "Henry VIII"
+      },
+      {
+        "id": "d",
+        "text": "Charles II"
+      },
+      {
+        "id": "a",
+        "text": "Edward VI"
+      },
+      {
+        "id": "c",
+        "text": "James I"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Elizabeth I was the daughter of Henry VIII and Anne Boleyn. She succeeded her half-sister Mary as monarch.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.6 The Tudors and Stuarts: Queen Elizabeth I",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-108",
+    "sourceNumber": 108,
+    "lessonNumbers": [
+      5
+    ],
+    "question": "Complaints against the police can only be made by writing to the Police Complaints Commissioner. True or false?",
+    "romanUrdu": "Police ke khilaf shikayat sirf Police Complaints Commissioner ko likh kar hi ki ja sakti hai. Sahi ya ghalat?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "True"
+      },
+      {
+        "id": "d",
+        "text": "False"
+      },
+      {
+        "id": "b",
+        "text": "True in England and Wales only"
+      },
+      {
+        "id": "c",
+        "text": "True in Scotland only"
+      }
+    ],
+    "correctChoiceIds": [
+      "d"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Anyone can complain about the police by going to a police station or by writing to the Chief Constable of the force involved. Complaints can also go to an independent body, which is the Police Complaints Commissioner in Scotland but a different body in England and Wales.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.5 Respecting the law: The police and their duties",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-109",
+    "sourceNumber": 109,
+    "lessonNumbers": [
+      5
+    ],
+    "question": "Who is the patron saint of Northern Ireland?",
+    "romanUrdu": "Northern Ireland ke sarparast saint kaun hain?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "St Patrick"
+      },
+      {
+        "id": "b",
+        "text": "St George"
+      },
+      {
+        "id": "c",
+        "text": "St Andrew"
+      },
+      {
+        "id": "d",
+        "text": "St David"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Each part of the UK has a patron saint: St David for Wales, St Patrick for Northern Ireland, St George for England and St Andrew for Scotland. St Patrick's Day is 17 March.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.6 Religion: Patron Saints' days",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-110",
+    "sourceNumber": 110,
+    "lessonNumbers": [
+      5
+    ],
+    "question": "What is the name of the period when new ideas about politics, philosophy and science were developed?",
+    "romanUrdu": "Us daur ka kya naam hai jab siyasat, falsafa aur science ke bare mein naye khayalat samne aaye?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "The Reformation"
+      },
+      {
+        "id": "b",
+        "text": "The Renaissance"
+      },
+      {
+        "id": "c",
+        "text": "The Enlightenment"
+      },
+      {
+        "id": "d",
+        "text": "The Industrial Revolution"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "During the 18th century, new ideas about politics, philosophy and science were developed, and this period is often called the Enlightenment.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.3 A global power: The Enlightenment",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-111",
+    "sourceNumber": 111,
+    "lessonNumbers": [
+      5
+    ],
+    "question": "Which of the following statements is true?",
+    "romanUrdu": "In mein se kaunsa bayan durust hai?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "Mary Stuart, often called Mary, Queen of Scots, was a Catholic"
+      },
+      {
+        "id": "c",
+        "text": "Mary Stuart was the wife of Henry VIII"
+      },
+      {
+        "id": "a",
+        "text": "Mary Stuart was a Protestant who re-established the Church of England"
+      },
+      {
+        "id": "d",
+        "text": "Mary Stuart led the English fleet that defeated the Spanish Armada"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Mary Stuart, the queen of Scotland often now called Mary, Queen of Scots, was a Catholic. She was Elizabeth I's cousin and was eventually executed, accused of plotting against her.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.6 The Tudors and Stuarts: The Reformation in Scotland and Mary, Queen of Scots",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-112",
+    "sourceNumber": 112,
+    "lessonNumbers": [
+      5
+    ],
+    "question": "Which of the following is an example of civil law?",
+    "romanUrdu": "In mein se civil law ki misal kaun si hai?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "Smoking in an enclosed public place"
+      },
+      {
+        "id": "a",
+        "text": "Carrying a weapon"
+      },
+      {
+        "id": "b",
+        "text": "Selling alcohol to someone under 18"
+      },
+      {
+        "id": "d",
+        "text": "Discrimination in the workplace"
+      }
+    ],
+    "correctChoiceIds": [
+      "d"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Civil law settles disputes between individuals or groups. Employment law, which covers unfair dismissal and discrimination in the workplace, is an example of civil law, while carrying a weapon, selling alcohol to someone under 18 and smoking in public places are criminal offences.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.5 Respecting the law: The law in the UK (Examples of civil laws)",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-113",
+    "sourceNumber": 113,
+    "lessonNumbers": [
+      5
+    ],
+    "question": "In which battle did Admiral Nelson die?",
+    "romanUrdu": "Admiral Nelson kis jang mein mare gaye?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "The Battle of Britain"
+      },
+      {
+        "id": "b",
+        "text": "The Battle of Waterloo"
+      },
+      {
+        "id": "c",
+        "text": "The Battle of the Boyne"
+      },
+      {
+        "id": "a",
+        "text": "The Battle of Trafalgar"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Admiral Nelson was in charge of the British fleet at Trafalgar in 1805 and was killed in the battle. Nelson's Column in Trafalgar Square, London, is a monument to him.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.3 A global power: War with France (Battle of Trafalgar)",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-114",
+    "sourceNumber": 114,
+    "lessonNumbers": [
+      5
+    ],
+    "question": "What was the event called when Protestants in England asked William of Orange to take the throne, and he met no resistance when he arrived in England?",
+    "romanUrdu": "Us waqia ka kya naam tha jab England ke Protestants ne William of Orange ko takht par bulaya aur England pohanchne par koi muqabla nahi hua?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "The Glorious Revolution"
+      },
+      {
+        "id": "b",
+        "text": "The Reformation"
+      },
+      {
+        "id": "d",
+        "text": "The English Civil War"
+      },
+      {
+        "id": "a",
+        "text": "The Restoration"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "In 1688 important Protestants in England asked William of Orange to invade and proclaim himself king. There was no resistance and James II fled to France. The event was later called the Glorious Revolution because there was no fighting in England and it guaranteed the power of Parliament.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.6 The Tudors and Stuarts: The Glorious Revolution",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-115",
+    "sourceNumber": 115,
+    "lessonNumbers": [
+      5
+    ],
+    "question": "What sort of charity is Friends of the Earth?",
+    "romanUrdu": "Friends of the Earth kis qisam ki charity hai?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "A charity working with homeless people"
+      },
+      {
+        "id": "d",
+        "text": "A charity working with animals"
+      },
+      {
+        "id": "b",
+        "text": "An environmental charity"
+      },
+      {
+        "id": "a",
+        "text": "A medical research charity"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The handbook lists Friends of the Earth alongside the National Trust as an environmental charity that volunteers can support.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.8.1 How you can support your community: Volunteering (environmental charities)",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-116",
+    "sourceNumber": 116,
+    "lessonNumbers": [
+      5
+    ],
+    "question": "If a husband forces his wife to have sex without her consent, he can be charged with rape. True or false?",
+    "romanUrdu": "Agar shohar apni biwi ko us ki razamandi ke baghair sex par majboor kare, to us par rape ka ilzam lag sakta hai. Sahi ya ghalat?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "True, but only after the couple have separated"
+      },
+      {
+        "id": "d",
+        "text": "False, because marriage always implies consent"
+      },
+      {
+        "id": "b",
+        "text": "False"
+      },
+      {
+        "id": "a",
+        "text": "True"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "Any man who forces a woman to have sex, including a woman's husband, can be charged with rape. Violence in the home is a serious crime whoever commits it.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.5 Respecting the law: Domestic violence",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-117",
+    "sourceNumber": 117,
+    "lessonNumbers": [
+      5
+    ],
+    "question": "In which country did the Boer War of 1899 to 1902 take place?",
+    "romanUrdu": "1899 se 1902 tak ki Boer War kis mulk mein lari gayi?",
+    "choices": [
+      {
+        "id": "d",
+        "text": "South Africa"
+      },
+      {
+        "id": "a",
+        "text": "India"
+      },
+      {
+        "id": "c",
+        "text": "Australia"
+      },
+      {
+        "id": "b",
+        "text": "Canada"
+      }
+    ],
+    "correctChoiceIds": [
+      "d"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "The Boer War of 1899 to 1902 was fought in South Africa, where the British went to war with settlers from the Netherlands called the Boers.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.3 A global power: The Boer War",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-118",
+    "sourceNumber": 118,
+    "lessonNumbers": [
+      5
+    ],
+    "question": "Which action is known as canvassing?",
+    "romanUrdu": "Kis kaam ko canvassing kaha jata hai?",
+    "choices": [
+      {
+        "id": "c",
+        "text": "Drawing the boundaries of constituencies"
+      },
+      {
+        "id": "d",
+        "text": "Registering to vote"
+      },
+      {
+        "id": "a",
+        "text": "Counting the votes after an election"
+      },
+      {
+        "id": "b",
+        "text": "Persuading people to vote for a political party"
+      }
+    ],
+    "correctChoiceIds": [
+      "b"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "At election times party members work to persuade people to vote for their candidates, for example by handing out leaflets or knocking on doors. This is called canvassing.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "5.8.1 How you can support your community: Political parties and canvassing",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-119",
+    "sourceNumber": 119,
+    "lessonNumbers": [
+      5
+    ],
+    "question": "Which novel written by J. R. R. Tolkien was voted the UK's best-loved novel in 2003?",
+    "romanUrdu": "J. R. R. Tolkien ka kaun sa novel 2003 mein UK ka sab se pasandeeda novel chuna gaya?",
+    "choices": [
+      {
+        "id": "a",
+        "text": "The Hobbit"
+      },
+      {
+        "id": "c",
+        "text": "The Lord of the Rings"
+      },
+      {
+        "id": "d",
+        "text": "Farmer Giles of Ham"
+      },
+      {
+        "id": "b",
+        "text": "The Silmarillion"
+      }
+    ],
+    "correctChoiceIds": [
+      "c"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "In 2003, The Lord of the Rings by J. R. R. Tolkien was voted the country's best-loved novel.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "4.2 Arts and culture: Literature",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  },
+  {
+    "id": "source-120",
+    "sourceNumber": 120,
+    "lessonNumbers": [
+      5
+    ],
+    "question": "When did Germany invade Poland?",
+    "romanUrdu": "Germany ne Poland par kab hamla kiya?",
+    "choices": [
+      {
+        "id": "b",
+        "text": "In 1914"
+      },
+      {
+        "id": "a",
+        "text": "In 1939"
+      },
+      {
+        "id": "d",
+        "text": "In 1982"
+      },
+      {
+        "id": "c",
+        "text": "In 1945"
+      }
+    ],
+    "correctChoiceIds": [
+      "a"
+    ],
+    "answerType": "single",
+    "verificationStatus": "corrected",
+    "explanation": "When Hitler invaded Poland in 1939, Britain and France declared war in order to stop his aggression.",
+    "sources": [
+      {
+        "title": "Life in the UK: A guide for new residents, 3rd edition",
+        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
+        "locator": "3.4 The 20th century: The Second World War",
+        "checkedAt": "2026-11-21"
+      }
+    ]
+  }
+]
