@@ -182,11 +182,11 @@ test('empty revision cannot be completed', () => {
 - `writeProgress(storage, progress, { expectedSerialized }) -> { saved, error, storageSnapshot? }` compares the current raw value with the read snapshot immediately before writing and refuses on mismatch, unreadable storage, corrupt data, or an unsupported version. Require an explicit expected snapshot (including `null` on first save). On success return the new raw snapshot for the caller's next save. This detects normal cross-tab changes, not an atomic transaction across simultaneous tabs; do not promise cross-tab synchronisation.
 - `recordCompletedSession(progress, session, questionMap, now = new Date()) -> { progress, result, error }` owns submission verification, history, count, block award, active-session clearing, and deduplication. Use existing `recordCompletedTest` history scheduling internally; UI must no longer call it directly.
 
-- [ ] Write v1 migration tests for current records, older day-based records, explicit safe identity/choice remapping, retained unknown history, no invented block completions, and no read-time storage write. Retain `completedTestCount`; map old attempted records lacking `nextReviewTest` as due without inventing missed attempts.
-- [ ] Write active-session restore tests for both new modes and safe legacy sessions. Validate unique known question IDs, valid choice IDs/counts, checked IDs, finite in-range integer position, mode and block membership. Reject a changed-answer unsafe legacy session while preserving history and producing a warning. Old sessions missing checked state gain `checkedQuestionIds: []`.
-- [ ] Write corruption tests: malformed JSON, unsupported version, invalid v2 collections, throwing reads/writes, failed backup, and payload changed between read and write. Assert the original storage string is unchanged on protected failure.
-- [ ] Write completion tests: incomplete/unknown/invalid study sessions return error and unchanged progress; a valid study completion updates one block and attempts; revision and legacy completion never award blocks. Duplicate calls with the same session ID leave all counts unchanged; replaying a block with a new session ID records a new attempt without duplicating its block ID.
-- [ ] Assert completion clears only the matching active session, uses one completion count increment, and preserves main's review milestones `[1,3,7,14,30]` then another 30 tests after later milestones.
+- [x] Write v1 migration tests for current records, older day-based records, explicit safe identity/choice remapping, retained unknown history, no invented block completions, and no read-time storage write. Retain `completedTestCount`; map old attempted records lacking `nextReviewTest` as due without inventing missed attempts.
+- [x] Write active-session restore tests for both new modes and safe legacy sessions. Validate unique known question IDs, valid choice IDs/counts, checked IDs, finite in-range integer position, mode and block membership. Reject a changed-answer unsafe legacy session while preserving history and producing a warning. Old sessions missing checked state gain `checkedQuestionIds: []`.
+- [x] Write corruption tests: malformed JSON, unsupported version, invalid v2 collections, throwing reads/writes, failed backup, and payload changed between read and write. Assert the original storage string is unchanged on protected failure.
+- [x] Write completion tests: incomplete/unknown/invalid study sessions return error and unchanged progress; a valid study completion updates one block and attempts; revision and legacy completion never award blocks. Duplicate calls with the same session ID leave all counts unchanged; replaying a block with a new session ID records a new attempt without duplicating its block ID.
+- [x] Assert completion clears only the matching active session, uses one completion count increment, and preserves main's review milestones `[1,3,7,14,30]` then another 30 tests after later milestones.
 
 Test anchor (fixture is a valid, checked active revision session):
 ```js
@@ -201,9 +201,9 @@ test('completion is idempotent by session identity', () => {
 });
 ```
 
-- [ ] Run `node --test tests/progress-store.test.js tests/session.test.js`; verify red, implement these behaviours in the progress module, rerun for green.
-- [ ] Preserve original raw data on unrecoverable input; the user may practice in memory with a clear warning. Do not add an automatic reset/delete operation.
-- [ ] Commit: `feat: migrate progress safely and record completion once`.
+- [x] Run `node --test tests/progress-store.test.js tests/session.test.js`; verify red, implement these behaviours in the progress module, rerun for green.
+- [x] Preserve original raw data on unrecoverable input; the user may practice in memory with a clear warning. Do not add an automatic reset/delete operation.
+- [x] Commit: `feat: migrate progress safely and record completion once`.
 
 ## Task 6: Wire the complete learner journey
 
