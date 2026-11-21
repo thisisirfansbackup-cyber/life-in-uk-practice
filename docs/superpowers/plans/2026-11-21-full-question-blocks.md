@@ -130,9 +130,9 @@ test('runtime collection retains every original source position', () => {
 - `selectRevisionQuestions(questions, progress = {}, size = 51, random = Math.random) -> { questionIds, error }`.
 - Retain `selectTestQuestions` until old callers/tests are removed deliberately during wiring; it is not the new learner flow.
 
-- [ ] Write block tests asserting sizes `[51,51,51,51,51,51,51,50]`, flattened IDs equal source order, first range `1..51`, last range `358..407`, no overlap, and input-array order cannot change block membership. Assert completed blocks are skipped for “next”, all complete yields `null`, and blocks remain individually available.
-- [ ] Write revision tests: repeated misses rank ahead of other misses; recency breaks ranks; ranking ties use injectable randomness; due correct answers follow misses; unseen and not-yet-due correct questions are excluded; `0`, `1`, `50`, `51`, and `52` eligible questions yield `0`, `1`, `50`, `51`, and `51` unique IDs.
-- [ ] Test existing milestone behaviour at completed-test counts `0`, `1`, `3`, `7`, `14`, and `30`, including legacy attempted records without `nextReviewTest`.
+- [x] Write block tests asserting sizes `[51,51,51,51,51,51,51,50]`, flattened IDs equal source order, first range `1..51`, last range `358..407`, no overlap, and input-array order cannot change block membership. Assert completed blocks are skipped for “next”, all complete yields `null`, and blocks remain individually available.
+- [x] Write revision tests: repeated misses rank ahead of other misses; recency breaks ranks; ranking ties use injectable randomness; due correct answers follow misses; unseen and not-yet-due correct questions are excluded; `0`, `1`, `50`, `51`, and `52` eligible questions yield `0`, `1`, `50`, `51`, and `51` unique IDs.
+- [x] Test existing milestone behaviour at completed-test counts `0`, `1`, `3`, `7`, `14`, and `30`, including legacy attempted records without `nextReviewTest`.
 
 Test anchor:
 ```js
@@ -144,9 +144,9 @@ test('blocks cover all source positions without overlap', () => {
 });
 ```
 
-- [ ] Run `node --test tests/study-blocks.test.js tests/revision.test.js`; verify red, implement minimal selection, rerun for green.
-- [ ] Keep current main's miss ordering and scheduling rules. The next test number is `(progress.completedTestCount ?? 0) + 1`; either mode will increment that same count only on completion. Empty revision selection returns `questionIds: []` with `error: null`, for an informational empty state.
-- [ ] Commit: `feat: select ordered blocks and separate revision rounds`.
+- [x] Run `node --test tests/study-blocks.test.js tests/revision.test.js`; verify red, implement minimal selection, rerun for green.
+- [x] Keep current main's miss ordering and scheduling rules. The next test number is `(progress.completedTestCount ?? 0) + 1`; either mode will increment that same count only on completion. Empty revision selection returns `questionIds: []` with `error: null`, for an informational empty state.
+- [x] Commit: `feat: select ordered blocks and separate revision rounds`.
 
 ## Task 4: Session identity, mode, and variable-size completion
 
