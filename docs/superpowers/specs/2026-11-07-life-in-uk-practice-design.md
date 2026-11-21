@@ -3,7 +3,7 @@
 **Status:** Approved  
 **Date:** 2026-11-07
 
-**Scope update (2026-11-21):** The user approved all 407 source questions in ordered 51-question study blocks with separate revision rounds. See `2026-11-21-full-question-blocks-design.md` for the replacement specification awaiting written-spec review. The earlier random 50-question format below is historical, not the target for the next implementation.
+**Scope update (2026-11-21):** The user approved all 407 source questions in ordered 51-question study blocks with separate revision rounds. See the approved replacement specification, `2026-11-21-full-question-blocks-design.md`. The earlier random 50-question format below is historical, not the target for the next implementation.
 
 ## Purpose
 

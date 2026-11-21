@@ -1,6 +1,6 @@
 # Full question collection, study blocks, and separate revision
 
-**Status:** Written specification awaiting user review. The user approved the scope in conversation on 2026-11-21; implementation has not started.
+**Status:** Approved by the user on 2026-11-21. Implementation has not started.
 
 ## Purpose and supersession
 
