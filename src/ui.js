@@ -32,7 +32,7 @@ export function mountApp(root, dependencies) {
   try {
     readResult = progressStore.read();
   } catch {
-    readResult = { progress: emptyProgress(), status: 'unavailable' };
+    readResult = { progress: blocks ? emptyProgressV2() : emptyProgress(), status: 'unavailable' };
   }
 
   const representedLessons = new Set(questions.flatMap((question) => question.lessonNumbers ?? []));
