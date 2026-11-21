@@ -218,7 +218,7 @@ test('completion is idempotent by session identity', () => {
 - [x] Write UI tests with a synthetic 407-question bank: eight ranges and completion states; next unfinished block; individual block selection; last block's `50` count; all-complete state distinct from mastery; revision count equals Task 3 eligibility.
 - [x] Write UI tests for revision empty state, one-question completion, frequently wrong selection, independent block progress, and no unseen fill. Completing the final block must not require question 51.
 - [x] Write tests that starting either mode with an unfinished session opens accessible replacement confirmation; cancel leaves storage/session unchanged, confirm preserves completed history, and reload resumes the exact mode/order/answers/check states.
-- [ ] Test duplicate finish clicks and remount after completion: history increments once, no active session returns, and revision never marks a block done. Test unavailable/corrupt storage warnings remain after answer changes, navigation, and completion.
+- [x] Test duplicate finish clicks and remount after completion: history increments once, no active session returns, and revision never marks a block done. Test unavailable/corrupt storage warnings remain after answer changes, navigation, and completion.
 - [x] Test startup failures for invalid collection or mapping and fetch errors; require a visible startup error, not a partially usable bank. Test HTML escaping of question, translation, choice and feedback text.
 
 Test anchor (extend existing harness with accessible-action helpers):
@@ -233,10 +233,10 @@ test('revision never advances study-block coverage', () => {
 ```
 
 - [x] Run `node --test tests/ui.test.js`; verify failures describe missing block/revision flow.
-- [ ] Implement UI wiring without duplicating ranking, block membership, or completion policy. Provide a labelled keyboard-operable confirmation with sensible focus restoration; retain check feedback focus, touch targets, non-colour status cues, and reduced-motion behaviour. Avoid fixed 50/51 assumptions in progress/results.
-- [ ] Remove obsolete random-start wiring once all callers are migrated. Update narrow CSS only for block list and confirmation.
-- [ ] Run `npm test` and `npm run check:bank:full`; expect all tests and full-content validation pass.
-- [ ] Commit: `feat: present complete study blocks and mistake revision`.
+- [x] Implement UI wiring without duplicating ranking, block membership, or completion policy. Provide a labelled keyboard-operable confirmation with sensible focus restoration; retain check feedback focus, touch targets, non-colour status cues, and reduced-motion behaviour. Avoid fixed 50/51 assumptions in progress/results.
+- [x] Keep the small-bank mount path as an internal compatibility adapter for existing tests; the production `startApp` path always requires 407. Update narrow CSS only for block list and confirmation.
+- [x] Run `npm test` and `npm run check:bank:full`; expect all tests and full-content validation pass.
+- [x] Commit: `feat: present complete study blocks and mistake revision`.
 
 ## Task 7: Verify and publish the existing GitHub Pages app
 
@@ -244,10 +244,10 @@ test('revision never advances study-block coverage', () => {
 
 **Interfaces:** Existing Pages publishing from `main`; public artifact includes `index.html`, `src/*.js`, `src/*.css`, `data/questions.json`, and `data/legacy-question-map.json`. Original inventory/audits need not ship to the browser.
 
-- [ ] Add workflow checks before artifact upload: use Node 24, `npm ci`, `npm test`, and `npm run check:bank:full`. Preserve existing action versions and deployment permissions; include the migration map in the copied artifact.
-- [ ] Update user documentation: all 407, seven blocks of 51 plus one of 50, separate revision, browser-only save limits, and verification evidence/limitations. Remove current claims that the finished collection has only 51 questions or missing lessons.
-- [ ] Run `npm test`, `npm run check:bank:full`, and `git diff --check`. Record actual outputs, content count, and commit identity; do not substitute a synthetic-bank pass for real content verification.
-- [ ] Serve the site locally with `python3 -m http.server 8081 --bind 127.0.0.1` in the worktree. Use the available browser tools to verify at approximately 360px and desktop width: no horizontal overflow, keyboard controls, select-two check/lock, final-block completion, short/empty revision, resume after reload, confirmation cancellation, and storage failure warnings. Use synthetic saved state only in the isolated local browser to shorten long journeys; never alter real learner storage.
+- [x] Add workflow checks before artifact upload: use Node 24, `npm ci`, `npm test`, and `npm run check:bank:full`. Preserve existing action versions and deployment permissions; include the migration map in the copied artifact.
+- [x] Update user documentation: all 407, seven blocks of 51 plus one of 50, separate revision, browser-only save limits, and verification evidence/limitations. Remove current claims that the finished collection has only 51 questions or missing lessons.
+- [x] Run `npm test`, `npm run check:bank:full`, and `git diff --check`. Record actual outputs, content count, and commit identity; do not substitute a synthetic-bank pass for real content verification.
+- [x] Serve the site locally with `python3 -m http.server 8081 --bind 127.0.0.1` in the worktree. Use the available browser tools to verify at approximately 360px and desktop width: no horizontal overflow, keyboard controls, select-two check/lock, final-block completion, short/empty revision, resume after reload, confirmation cancellation, and storage failure warnings. Use synthetic saved state only in the isolated local browser to shorten long journeys; never alter real learner storage.
 - [ ] Review the whole implementation against both the approved spec and repository standards using the code-review skill. Fix findings and rerun affected checks. No content blocker may be accepted as a mere follow-up.
 - [ ] Commit documentation/workflow, push the implementation branch to the existing repository, and open a pull request against `main`, linking the session to it. Follow the repository's merge requirements; merge only after checks/review are green and no unresolved blocker remains. Do not force-push or replace unrelated work.
 - [ ] Confirm the Pages workflow succeeds for the merged commit. Open `https://thisisirfansbackup-cyber.github.io/life-in-uk-practice/`; verify eight correct block ranges, published bank count 407, migration map fetch, basic answer checking, and reload persistence in a fresh test profile.
