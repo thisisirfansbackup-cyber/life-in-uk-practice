@@ -787,24 +787,24 @@
     "lessonNumbers": [
       7
     ],
-    "question": "Which department should you contact to apply for a National Insurance number?",
-    "romanUrdu": "National Insurance number ke liye kis department se rabta karna chahiye?",
+    "question": "How can you apply for a National Insurance number?",
+    "romanUrdu": "National Insurance number ke liye aap kaise apply kar sakte hain?",
     "choices": [
       {
-        "id": "b",
-        "text": "The Home Office"
-      },
-      {
-        "id": "d",
-        "text": "The Department for Education"
-      },
-      {
         "id": "a",
-        "text": "The Department for Work and Pensions"
+        "text": "Online or by phone through the official service"
+      },
+      {
+        "id": "b",
+        "text": "Only by visiting the House of Commons"
       },
       {
         "id": "c",
-        "text": "The Foreign Office"
+        "text": "Only through a solicitor"
+      },
+      {
+        "id": "d",
+        "text": "Only by writing to the monarch"
       }
     ],
     "correctChoiceIds": [
@@ -812,12 +812,12 @@
     ],
     "answerType": "single",
     "verificationStatus": "corrected",
-    "explanation": "You contact the Department for Work and Pensions to arrange a National Insurance number.",
+    "explanation": "You can apply for a National Insurance number online or by phone through the official service.",
     "sources": [
       {
-        "title": "Life in the UK: A guide for new residents, 3rd edition",
-        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
-        "locator": "5.5 Respecting the law: National Insurance",
+        "title": "GOV.UK: Apply for a National Insurance number",
+        "url": "https://www.gov.uk/apply-national-insurance-number",
+        "locator": "How to apply: online or by phone",
         "checkedAt": "2026-11-21"
       }
     ]

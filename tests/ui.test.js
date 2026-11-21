@@ -109,10 +109,10 @@ test('home summarizes unseen and missed questions', () => {
   assert.match(harness.root.textContent, /2 to review/i);
 });
 
-test('discloses lessons missing from the current question set', () => {
+test('does not disclose missing lessons when the complete bank covers every lesson', () => {
   const harness = makeHarness({ questions: bankContent });
 
-  assert.match(harness.root.textContent, /does not yet include questions from Lessons 2, 3 and 6/i);
+  assert.doesNotMatch(harness.root.textContent, /does not yet include questions from Lessons/i);
 });
 
 test('shows Roman Urdu directly below the English question without translating choices', () => {

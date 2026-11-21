@@ -11,9 +11,9 @@
 
 ## Preparation status
 
-Prepared and verified so far: source questions **1–192** (lessons 1–8), in `data/prepared/lesson-01.json` through `lesson-08.json`. Lessons 2 repeats lesson 1's topics but keeps its own 24 source positions and identities. Lessons 4–8 use the official 3rd-edition handbook text, with section-level locators; current-law items use current official guidance where the handbook is older.
+Prepared and verified: **all 407 source questions** across 17 lesson files, `data/prepared/lesson-01.json` through `lesson-17.json`. Lesson 2 repeats lesson 1's topics but keeps its own 24 source positions and identities. Lessons 4–17 use the official 3rd-edition handbook text with section-level locators; current-law items use current official guidance where the handbook is older (Senedd membership and term length, for example).
 
-Remaining: source questions **193–407** (lessons 9–17) await the same per-item verification/correction and translation pass.
+The runtime bank was assembled from these files and passes `npm run check:bank:full` (407 questions). There is no remaining source gap. The release still depends on the normal test, browser, and deployment checks.
 The existing 51-item published bank is archived for migration review at `data/audits/legacy-published-bank.json`.
 No source item may be silently dropped or treated as verified merely because it appears in this inventory.
 

@@ -10,4 +10,5 @@
 - **179:** restored as a genuine select-two: the owner's name and address.
 - **185:** restored as a genuine select-two: Saint Helena and the Falkland Islands are British Overseas Territories; the Isle of Man and Jersey are Crown Dependencies.
 - **188:** Senedd elections are held every four years from 2026, per the Senedd's current guidance. The older handbook's four-year wording happens to agree, but the citation is the current Senedd page.
+- **190:** the prize has been called **The Booker Prize** since 2019; “Man Booker Prize” is the former name. The runtime question uses the current name and the explanation records the former name.
 - No unresolved factual blocker in this lesson.

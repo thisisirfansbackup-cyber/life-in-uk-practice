@@ -874,8 +874,8 @@
     "lessonNumbers": [
       8
     ],
-    "question": "The Man Booker Prize is awarded in which category?",
-    "romanUrdu": "Man Booker Prize kis category mein diya jata hai?",
+    "question": "The Booker Prize is awarded in which category?",
+    "romanUrdu": "Booker Prize kis category mein diya jata hai?",
     "choices": [
       {
         "id": "c",
@@ -899,12 +899,12 @@
     ],
     "answerType": "single",
     "verificationStatus": "corrected",
-    "explanation": "The Man Booker Prize is a literary award for fiction.",
+    "explanation": "The Booker Prize is a literary award for fiction. It was called the Man Booker Prize until 2019.",
     "sources": [
       {
-        "title": "Life in the UK: A guide for new residents, 3rd edition",
-        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
-        "locator": "4.2 Arts and culture: literature prizes",
+        "title": "The Booker Prize: About",
+        "url": "https://thebookerprizes.com/the-booker-library/prize-years",
+        "locator": "Booker Prize for fiction",
         "checkedAt": "2026-11-21"
       }
     ]

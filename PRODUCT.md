@@ -16,7 +16,7 @@ An independent practice site turns the user's lesson material into question-base
 
 ## Positioning
 
-The practice is a 50-question learning session, longer than the official test. The site is not a government service or official test simulator.
+The practice covers all 407 supplied questions in ordered study blocks, longer than the official test. The site is not a government service or official test simulator.
 
 ## Operating Context
 
@@ -24,15 +24,15 @@ The learner opens a public GitHub Pages link on his phone. Roman Urdu appears be
 
 ## Capabilities and Constraints
 
-- Each session contains 50 distinct eligible questions when at least 50 verified or corrected questions are available.
-- Missed and unseen questions receive priority; correct answers return on spaced intervals.
-- Progress and unfinished sessions stay in the current browser's local storage. There are no accounts, cloud sync, or progress uploads.
-- The question bank comes from the user's supplied lessons. Public official government, legal, and institutional sources are used where the complete paid official guide is inaccessible; unresolved claims are audited and excluded from verified practice.
+- All 407 supplied source questions are represented in original order: seven blocks of 51 and a final block of 50.
+- Revision rounds are separate from study blocks and prioritise previously missed questions, especially repeatedly missed ones.
+- Progress, completed blocks, and unfinished sessions stay in the current browser's local storage. There are no accounts, cloud sync, or progress uploads.
+- The question bank comes from the user's supplied lessons. Answers are checked against official government, legal, institutional, or museum sources; sourcing and corrections are audited.
 - Learner-facing copy must not imply government affiliation or show internal correction warnings.
 
 ## Evidence on Hand
 
-The current bank is in `data/questions.json`; sourcing limitations and material corrections are recorded in `data/content-audit.md` and `data/audits/`. The current 51-item bank is not yet comprehensive and does not yet represent lessons 2, 3, and 6.
+The complete runtime bank is `data/questions.json` (407 items). Original source records are in `data/source-questions.json`; per-lesson evidence is in `data/audits/`; sourcing limitations and material corrections are in `data/content-audit.md`.
 
 ## Product Principles
 
