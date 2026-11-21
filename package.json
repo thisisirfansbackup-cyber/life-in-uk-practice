@@ -6,7 +6,8 @@
   "scripts": {
     "test": "node --test",
     "check:bank": "node scripts/check-bank.mjs",
-    "check:bank:full": "node scripts/check-bank.mjs --full"
+    "check:bank:full": "node scripts/check-bank.mjs --full",
+    "build:bank": "node scripts/assemble-bank.mjs"
   },
   "devDependencies": {
     "jsdom": "^31.0.0"

@@ -18,6 +18,21 @@ No source item may be silently dropped or treated as verified merely because it 
 Run `npm run check:bank:full` to enforce full coverage before release. It intentionally fails while the runtime bank is incomplete.
 The ordinary bank check continues to support the current partial app and small test fixtures.
 
+## Legacy published-bank review
+
+The previously published 51-question bank was reviewed against the original collection. 45 identities have a reviewed mapping to one primary source occurrence in `data/legacy-question-map.json`; two of those (jury age and jury selection) preserve enough choice meaning to resume an old answer, and the rest retain history without restoring answers.
+
+Six old identities have no reliable original-source occurrence and are deliberately **not** mapped. Their history remains under the old identity rather than being guessed onto a similar question:
+
+- `lesson-7-q7` — smoking in a smoke-free place (no exact original item).
+- `lesson-9-q3` — highest Bank of England note (no exact original item).
+- `lesson-12-q6` — responsibility for local services (no exact original item).
+- `lesson-14-q8` — Hansard (no exact original item).
+- `lesson-14-q13` — Stonehenge county (no exact original item).
+- `lesson-15-q6` — 1918 Armistice time (no exact original item).
+
+An unfinished old mixed-question test can resume only when every one of its questions maps safely. Otherwise it is dropped with a warning and completed history is retained.
+
 ## Per-item audit requirements
 
 The preparation pass will record each source number's final runtime identity, original lesson,
