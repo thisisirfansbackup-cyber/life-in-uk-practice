@@ -1,6 +1,6 @@
 # Full question collection, study blocks, and separate revision
 
-**Status:** Approved by the user on 2026-11-21. Implementation has not started.
+**Status:** Approved and implemented on 2026-11-21. Published to GitHub Pages; see the implementation plan for the deployed revision and verification record.
 
 ## Purpose and supersession
 
