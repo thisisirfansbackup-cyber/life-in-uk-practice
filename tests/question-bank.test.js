@@ -107,3 +107,43 @@ test('requires an explicit verification status for every item', async () => {
   assert.ok(validateQuestion(question({ verificationStatus: 'pending' })).some((error) => error.includes('verificationStatus')));
   assert.ok(validateQuestion(question({ verificationStatus: undefined })).some((error) => error.includes('verificationStatus')));
 });
+
+const inventory = Array.from({ length: 407 }, (_, i) => ({ n: i + 1, lesson: 'L1' }));
+const fullBank = () => inventory.map(({ n }) => question({
+  id: `source-${String(n).padStart(3, '0')}`, sourceNumber: n,
+}));
+
+async function getFullValidator() {
+  const module = await getBankModule();
+  assert.equal(typeof module.validateFullCollection, 'function', 'full collection release gate must exist');
+  return module.validateFullCollection;
+}
+
+test('full release gate rejects partial content without rejecting small ordinary banks', async () => {
+  const validateFullCollection = await getFullValidator();
+  const { loadQuestionBank } = await getBankModule();
+  assert.deepEqual(loadQuestionBank(fullBank().slice(0, 51)).errors, []);
+  assert.ok(validateFullCollection(fullBank().slice(0, 51), inventory).length > 0);
+  assert.deepEqual(validateFullCollection(fullBank(), inventory), []);
+});
+
+test('full release gate identifies invalid content by original source number', async () => {
+  const validate = await getFullValidator();
+  for (const override of [
+    { sourceNumber: 1 }, { romanUrdu: '' }, { verificationStatus: 'unconfirmed' },
+    { lessonNumbers: [2] }, { id: 'wrong-source-id' }, { romanUrdu: 'یہ سوال ہے' },
+  ]) {
+    const bank = fullBank();
+    bank[1] = { ...bank[1], ...override };
+    const errors = validate(bank, inventory);
+    assert.ok(errors.length > 0, JSON.stringify(override));
+    assert.ok(errors.some(error => /2|002/.test(error)), JSON.stringify(errors));
+  }
+});
+
+test('full release gate rejects malformed inventory rather than claiming full coverage', async () => {
+  const validate = await getFullValidator();
+  for (const invalid of [null, [], inventory.slice(1), inventory.map(q => ({ ...q, n: 1 }))]) {
+    assert.ok(validate(fullBank(), invalid).length > 0);
+  }
+});

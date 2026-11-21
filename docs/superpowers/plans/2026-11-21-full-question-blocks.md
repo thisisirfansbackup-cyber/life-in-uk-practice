@@ -72,8 +72,8 @@ Do not add a general-purpose dependency-injection framework. Existing browser st
 - `validateFullCollection(questions, inventory) -> string[]` supplements, rather than replaces, `loadQuestionBank`.
 - `npm run check:bank:full` runs `node scripts/check-bank.mjs --full`; nonzero exit on incomplete or unconfirmed content.
 
-- [ ] Write extraction tests: 407 distinct numbered source entries survive a fixture import unchanged; malformed assignment, duplicate/missing number, invalid choice index, and code disguised as data are rejected without execution.
-- [ ] Write full-collection tests: 51 valid items still pass ordinary bank validation but fail the full gate; 407 valid synthetic items pass; duplicate source number, missing translation, wrong provenance, and `unconfirmed` item fail with the source number identified.
+- [x] Write extraction tests: 407 distinct numbered source entries survive a fixture import unchanged; malformed assignment, duplicate/missing number, invalid choice index, and code disguised as data are rejected without execution.
+- [x] Write full-collection tests: 51 valid items still pass ordinary bank validation but fail the full gate; 407 valid synthetic items pass; duplicate source number, missing translation, wrong provenance, and `unconfirmed` item fail with the source number identified.
 
 Test anchor (fixtures supply valid synthetic content):
 ```js
@@ -83,11 +83,11 @@ test('full release gate rejects partial content', () => {
 });
 ```
 
-- [ ] Run `node --test tests/source-inventory.test.js tests/question-bank.test.js`; confirm failures are caused by the missing new behaviour.
-- [ ] Implement data-only extraction of the JSON array between the known assignment and closing delimiter using `JSON.parse`, not `eval` or a browser. Import `/home/ubuntu/research-reports/reports/life-in-uk-test-2026/life-in-uk-test-mcq.html`. Record its SHA-256 and extraction date in the audit. The committed inventory becomes the portable source of truth.
-- [ ] Implement the full gate and script command. Ordinary bank validation must continue supporting small test fixtures. Full checking also requires exact source-number coverage and that each declared source lesson appears in its corresponding runtime item's `lessonNumbers`.
-- [ ] Run the focused tests and ordinary bank check; expect pass. Run the full check on the existing partial bank; expect an explicit nonzero incomplete-content result, not an import crash.
-- [ ] Commit only Task 1 files: `feat: inventory all source questions and gate complete content`.
+- [x] Run `node --test tests/source-inventory.test.js tests/question-bank.test.js`; confirm failures are caused by the missing new behaviour.
+- [x] Implement data-only extraction of the JSON array between the known assignment and closing delimiter using `JSON.parse`, not `eval` or a browser. Import `/home/ubuntu/research-reports/reports/life-in-uk-test-2026/life-in-uk-test-mcq.html`. Record its SHA-256 and extraction date in the audit. The committed inventory becomes the portable source of truth.
+- [x] Implement the full gate and script command. Ordinary bank validation must continue supporting small test fixtures. Full checking also requires exact source-number coverage and that each declared source lesson appears in its corresponding runtime item's `lessonNumbers`.
+- [x] Run the focused tests and ordinary bank check; expect pass. Run the full check on the existing partial bank; expect an explicit nonzero incomplete-content result, not an import crash.
+- [x] Commit only Task 1 files: `feat: inventory all source questions and gate complete content`.
 
 ## Task 2: Prepare and verify the complete bank
 

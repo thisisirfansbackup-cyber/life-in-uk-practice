@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "test": "node --test",
-    "check:bank": "node scripts/check-bank.mjs"
+    "check:bank": "node scripts/check-bank.mjs",
+    "check:bank:full": "node scripts/check-bank.mjs --full"
   },
   "devDependencies": {
     "jsdom": "^31.0.0"
