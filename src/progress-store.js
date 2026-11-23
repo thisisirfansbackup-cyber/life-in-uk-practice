@@ -1,4 +1,4 @@
-import { emptyProgressV2, migrateProgress, validHistory, validProgressV2, validSession } from './progress-validation.js';
+import { emptyProgressV2, migrateProgress, sanitizeHistory, validHistory, validProgressShell, validProgressV2, validSession } from './progress-validation.js';
 import { getStudyBlocks } from './study-blocks.js';
 import { submitSession } from './session.js';
 import { refreshSessionContent } from './question-content.js';
@@ -8,6 +8,7 @@ import { legacyQuestionRevisions } from './legacy-question-revisions.js';
 export const PROGRESS_STORAGE_KEY = 'lifeinuk-progress-v1';
 
 const emptyProgress = () => ({ version: 1, questions: {}, activeSession: null });
+const object = value => value !== null && typeof value === 'object' && !Array.isArray(value);
 const stableStringify = (value) => JSON.stringify(value, (key, item) => (
   item && typeof item === 'object' && !Array.isArray(item)
     ? Object.fromEntries(Object.entries(item).sort(([left], [right]) => left.localeCompare(right)))
@@ -91,32 +92,45 @@ function readProgressV2(storage, context) {
     return { ...fallback('corrupt'), storageSnapshot: raw };
   }
   if (stored?.version === 1) {
-    if (!isProgress(stored) || !validHistory(stored.questions)) {
+    const repaired = isProgress(stored) ? sanitizeHistory(stored.questions) : null;
+    if (!repaired || !validHistory(repaired.history)) {
       return { ...fallback('corrupt'), storageSnapshot: raw };
     }
-    const migrated = migrateProgress(stored, context);
+    const migrated = migrateProgress({ ...stored, questions: repaired.history }, context);
     const refreshed = context.questionRevisions
       ? refreshSessionContent(migrated.progress.activeSession, context.questionRevisions, legacyQuestionRevisions)
       : { session: migrated.progress.activeSession };
     return {
       progress: { ...migrated.progress, activeSession: refreshed.session },
-      warning: refreshed.warning ?? migrated.warning, status: 'migrated', storageSnapshot: raw,
+      warning: [repaired.changed ? 'Some saved details could not be read. Your question history was kept.' : undefined,
+        refreshed.warning ?? migrated.warning].filter(Boolean).join(' ') || undefined,
+      status: 'migrated', storageSnapshot: raw,
     };
   }
   if (stored?.version !== 2) return { ...fallback('incompatible'), storageSnapshot: raw };
-  if (!validProgressV2(stored)) return { ...fallback('corrupt'), storageSnapshot: raw };
+  if (!validProgressShell(stored)) return { ...fallback('corrupt'), storageSnapshot: raw };
+  const sanitized = sanitizeHistory(stored.questions);
+  if (!validHistory(sanitized.history)) return { ...fallback('corrupt'), storageSnapshot: raw };
+  const repairedHistory = sanitized.changed
+    ? 'Some saved details could not be read. Your question history was kept.' : undefined;
+  const activeSession = object(stored.activeSession) ? stored.activeSession : null;
+  const droppedSession = stored.activeSession != null && activeSession === null
+    ? 'Your unfinished test could not be restored safely. Your saved question history was retained.' : undefined;
   const refreshed = context.questionRevisions
-    ? refreshSessionContent(stored.activeSession, context.questionRevisions, legacyQuestionRevisions)
-    : { session: stored.activeSession };
+    ? refreshSessionContent(activeSession, context.questionRevisions, legacyQuestionRevisions)
+    : { session: activeSession };
   if (refreshed.session && !validSession(refreshed.session, context.questions, context.blocks)) {
     return {
-      progress: { ...stored, activeSession: null }, status: 'saved', storageSnapshot: raw,
-      warning: 'Your unfinished test could not be restored safely. Your saved question history was retained.',
+      progress: { ...stored, questions: sanitized.history, activeSession: null },
+      status: 'saved', storageSnapshot: raw,
+      warning: [repairedHistory, 'Your unfinished test could not be restored safely. Your saved question history was retained.']
+        .filter(Boolean).join(' '),
     };
   }
   return {
-    progress: { ...stored, activeSession: refreshed.session },
-    warning: refreshed.warning, status: 'saved', storageSnapshot: raw,
+    progress: { ...stored, questions: sanitized.history, activeSession: refreshed.session },
+    warning: [repairedHistory, droppedSession, refreshed.warning].filter(Boolean).join(' ') || undefined,
+    status: 'saved', storageSnapshot: raw,
   };
 }
 
@@ -132,10 +146,16 @@ function writeProgressV2(storage, progress, options) {
     if (current !== null) {
       const previous = JSON.parse(current);
       if (previous?.version === 1) {
-        if (!isProgress(previous) || !validHistory(previous.questions)) throw new Error('Saved progress cannot be safely replaced.');
+        const repaired = isProgress(previous) ? sanitizeHistory(previous.questions) : null;
+        if (!repaired || !validHistory(repaired.history)) throw new Error('Saved progress cannot be safely replaced.');
         const backupKey = 'lifeinuk-progress-backup-v1';
         if (storage.getItem(backupKey) === null) storage.setItem(backupKey, current);
-      } else if (!validProgressV2(previous)) throw new Error('Saved progress cannot be safely replaced.');
+      } else if (!validProgressV2(previous)) {
+        const repaired = validProgressShell(previous) ? sanitizeHistory(previous.questions) : null;
+        if (!repaired || !validHistory(repaired.history)) throw new Error('Saved progress cannot be safely replaced.');
+        const backupKey = 'lifeinuk-progress-backup-repaired';
+        if (storage.getItem(backupKey) === null) storage.setItem(backupKey, current);
+      }
     }
     const serialized = JSON.stringify(progress);
     storage.setItem(PROGRESS_STORAGE_KEY, serialized);

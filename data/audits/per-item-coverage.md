@@ -2,7 +2,7 @@
 
 Generated from `data/questions.json` on 2026-11-21. One row per original source position.
 
-| Source | Runtime ID | Lesson | Status | Primary source | URL | Checked |
+| Source | Runtime ID | Lesson | Status | First cited source | URL | Checked |
 |---:|---|---|---|---|---|---|
 | 1 | source-001 | 1 | corrected | Home Office: citizenship ceremonies guidance | https://www.gov.uk/government/publications/british-citizenship-successful-applicants/citizenship-ceremonies-guidance-notes-english-and-welsh | 2026-11-21 |
 | 2 | source-002 | 1 | corrected | UK Parliament: Big Ben and Elizabeth Tower facts | https://www.parliament.uk/about/living-heritage/building/palace/big-ben/facts-figures/ | 2026-11-21 |

@@ -23,7 +23,7 @@ if (process.argv[1] && process.argv[1].endsWith('assemble-bank.mjs')) {
     )));
     const questions = assemblePreparedBank(lessons);
     await writeFile('data/questions.json', `${JSON.stringify(questions, null, 2)}\n`);
-    console.log(`Assembled ${questions.length} verified questions from ${files.length} lessons.`);
+    console.log(`Assembled ${questions.length} prepared questions from ${files.length} lessons.`);
   } catch (error) {
     console.error(`Could not assemble question bank: ${error.message}`);
     process.exitCode = 1;
