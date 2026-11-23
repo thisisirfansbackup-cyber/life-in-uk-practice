@@ -177,6 +177,68 @@ test('study restore preserves final-block membership and rejects duplicate and o
   }
 });
 
+test('all four draft select-two choices can resume but cannot be treated as checked', () => {
+  const bank = structuredClone(questions);
+  bank[0].answerType = 'select-two';
+  bank[0].correctChoiceIds = ['a', 'b'];
+  const activeSession = {
+    ...createSession(['source-001'], { id: 'draft', mode: 'revision' }),
+    answers: { 'source-001': ['a', 'b', 'c', 'd'] },
+  };
+  const read = checked => store.readProgress(memory(JSON.stringify({
+    ...empty(), activeSession: { ...activeSession, checkedQuestionIds: checked },
+  })), { ...context, questions: bank });
+  const resumed = read([]).progress.activeSession;
+  assert.ok(resumed, 'unfinished select-two choices must remain resumable');
+  assert.deepEqual(resumed.answers, activeSession.answers);
+  assert.equal(read(['source-001']).progress.activeSession, null);
+});
+
+test('content revisions retain untouched answers and history while reopening changed questions', () => {
+  const activeSession = {
+    ...createSession(blocks[0].questionIds, { id: 'old-content', mode: 'study', blockId: 'block-1' }),
+    currentIndex: 2,
+    checkedQuestionIds: ['source-001', 'source-002'],
+    answers: { 'source-001': ['b'], 'source-002': ['b'] },
+    questionRevisions: Object.fromEntries(blocks[0].questionIds.map(id => [id, 'original'])),
+  };
+  const progress = { ...empty(), activeSession, completedBlockIds: ['block-8'],
+    completedTestCount: 4, questions: { 'source-003': { attempts: 3, incorrectTotal: 1 } } };
+  const raw = JSON.stringify(progress);
+  const storage = memory(raw);
+  const read = store.readProgress(storage, { ...context,
+    questionRevisions: Object.fromEntries(questions.map(q => [q.id, q.id === 'source-001' ? 'corrected' : 'original'])),
+  });
+  assert.match(read.warning, /updated/i);
+  assert.deepEqual(read.progress.activeSession.answers, { 'source-002': ['b'] });
+  assert.deepEqual(read.progress.activeSession.checkedQuestionIds, ['source-002']);
+  assert.equal(read.progress.activeSession.currentIndex, 0);
+  assert.deepEqual(read.progress.questions, progress.questions);
+  assert.deepEqual(read.progress.completedBlockIds, ['block-8']);
+  assert.equal(read.progress.completedTestCount, 4);
+  assert.equal(storage.getItem(KEY), raw);
+});
+
+test('content checks do not throw or repair malformed session identities and positions', () => {
+  const invalidNumber = { valueOf: null, toString: null };
+  for (const fields of [
+    { questionIds: [invalidNumber] },
+    { currentIndex: invalidNumber },
+  ]) {
+    const activeSession = {
+      ...createSession(['source-001'], { id: 'malformed-content-session', mode: 'revision' }),
+      answers: { 'source-001': ['b'] }, checkedQuestionIds: ['source-001'],
+      ...fields,
+    };
+    const read = store.readProgress(memory(JSON.stringify({
+      ...empty(), activeSession, questions: { 'source-001': { attempts: 2 } },
+    })), { ...context, questionRevisions: { 'source-001': 'corrected' } });
+    assert.equal(read.progress.activeSession, null);
+    assert.equal(read.progress.questions['source-001'].attempts, 2);
+    assert.match(read.warning, /restore/i);
+  }
+});
+
 const checkedSession = (mode = 'revision') => {
   const selected = mode === 'study' ? questions.slice(357) : [questions[0]];
   let session = createSession(selected.map(q => q.id), { id: `${mode}-1`, mode,

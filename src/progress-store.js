@@ -1,6 +1,8 @@
 import { emptyProgressV2, migrateProgress, validHistory, validProgressV2, validSession } from './progress-validation.js';
 import { getStudyBlocks } from './study-blocks.js';
 import { submitSession } from './session.js';
+import { refreshSessionContent } from './question-content.js';
+import { legacyQuestionRevisions } from './legacy-question-revisions.js';
 
 // Legacy key name retained so version-1 progress can be found and migrated.
 export const PROGRESS_STORAGE_KEY = 'lifeinuk-progress-v1';
@@ -92,17 +94,30 @@ function readProgressV2(storage, context) {
     if (!isProgress(stored) || !validHistory(stored.questions)) {
       return { ...fallback('corrupt'), storageSnapshot: raw };
     }
-    return { ...migrateProgress(stored, context), status: 'migrated', storageSnapshot: raw };
+    const migrated = migrateProgress(stored, context);
+    const refreshed = context.questionRevisions
+      ? refreshSessionContent(migrated.progress.activeSession, context.questionRevisions, legacyQuestionRevisions)
+      : { session: migrated.progress.activeSession };
+    return {
+      progress: { ...migrated.progress, activeSession: refreshed.session },
+      warning: refreshed.warning ?? migrated.warning, status: 'migrated', storageSnapshot: raw,
+    };
   }
   if (stored?.version !== 2) return { ...fallback('incompatible'), storageSnapshot: raw };
   if (!validProgressV2(stored)) return { ...fallback('corrupt'), storageSnapshot: raw };
-  if (stored.activeSession && !validSession(stored.activeSession, context.questions, context.blocks)) {
+  const refreshed = context.questionRevisions
+    ? refreshSessionContent(stored.activeSession, context.questionRevisions, legacyQuestionRevisions)
+    : { session: stored.activeSession };
+  if (refreshed.session && !validSession(refreshed.session, context.questions, context.blocks)) {
     return {
       progress: { ...stored, activeSession: null }, status: 'saved', storageSnapshot: raw,
       warning: 'Your unfinished test could not be restored safely. Your saved question history was retained.',
     };
   }
-  return { progress: stored, status: 'saved', storageSnapshot: raw };
+  return {
+    progress: { ...stored, activeSession: refreshed.session },
+    warning: refreshed.warning, status: 'saved', storageSnapshot: raw,
+  };
 }
 
 function writeProgressV2(storage, progress, options) {

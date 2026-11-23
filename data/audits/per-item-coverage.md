@@ -404,7 +404,7 @@ Generated from `data/questions.json` on 2026-11-21. One row per original source 
 | 398 | source-398 | 17 | corrected | Life in the UK: A guide for new residents, 3rd edition | https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf | 2026-11-21 |
 | 399 | source-399 | 17 | corrected | Life in the UK: A guide for new residents, 3rd edition | https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf | 2026-11-21 |
 | 400 | source-400 | 17 | corrected | Life in the UK: A guide for new residents, 3rd edition | https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf | 2026-11-21 |
-| 401 | source-401 | 17 | corrected | Life in the UK: A guide for new residents, 3rd edition | https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf | 2026-11-21 |
+| 401 | source-401 | 17 | corrected | NI Direct — Youth justice | https://www.nidirect.gov.uk/articles/youth-justice | 2026-11-23 |
 | 402 | source-402 | 17 | corrected | Life in the UK: A guide for new residents, 3rd edition | https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf | 2026-11-21 |
 | 403 | source-403 | 17 | corrected | Life in the UK: A guide for new residents, 3rd edition | https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf | 2026-11-21 |
 | 404 | source-404 | 17 | corrected | Life in the UK: A guide for new residents, 3rd edition | https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf | 2026-11-21 |

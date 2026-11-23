@@ -24,7 +24,7 @@ function harness(initialProgress = blank(), rawOverride, bank = questions) {
   const root = dom.window.document.querySelector('main');
   if (rawOverride !== undefined) dom.window.localStorage.setItem('lifeinuk-progress-v1', rawOverride);
   else dom.window.localStorage.setItem('lifeinuk-progress-v1', JSON.stringify(initialProgress));
-  const context = { questions, blocks, legacyQuestionMap: { version: 1, mappings: [] } };
+  const context = { questions: bank, blocks, legacyQuestionMap: { version: 1, mappings: [] } };
   mountApp(root, {
     questions: bank, blocks, getNextStudyBlock, selectRevisionQuestions,
     createSession, updateAnswer, moveToQuestion, checkCurrentAnswer, submitSession,
@@ -187,6 +187,35 @@ test('revision resumes after reload with locked checked answer and unchanged ord
   assert.match(second.root.textContent, /correct.*well done/i);
 });
 
+test('extra unchecked select-two choices survive reload without losing earlier checked work', () => {
+  const bank = structuredClone(questions);
+  bank[1].answerType = 'select-two';
+  bank[1].correctChoiceIds = ['a', 'b'];
+  const first = harness(blank(), undefined, bank);
+  first.click('[data-action="next-block"]');
+  first.choose();
+  first.click('[data-action="check"]');
+  first.click('[data-action="next"]');
+  for (const id of ['a', 'b', 'c']) {
+    const input = first.root.querySelector(`input[value="${id}"]`);
+    input.checked = true;
+    input.dispatchEvent(new first.dom.window.Event('change', { bubbles: true }));
+  }
+  assert.equal(first.root.querySelector('[data-action="check"]').disabled, true);
+
+  const reloaded = harness(first.progress(), undefined, bank);
+  reloaded.click('[data-action="resume"]');
+  assert.deepEqual(reloaded.progress().activeSession.checkedQuestionIds, ['source-001']);
+  assert.equal(reloaded.root.querySelectorAll('input:checked').length, 3);
+  assert.equal(reloaded.root.querySelector('[data-action="check"]').disabled, true);
+  const extra = reloaded.root.querySelector('input[value="c"]');
+  extra.checked = false;
+  extra.dispatchEvent(new reloaded.dom.window.Event('change', { bubbles: true }));
+  reloaded.click('[data-action="check"]');
+  assert.match(reloaded.root.textContent, /correct.*well done/i);
+  assert.deepEqual(reloaded.progress().activeSession.checkedQuestionIds, ['source-001', 'source-002']);
+});
+
 test('a changed storage snapshot halts later writes while practice stays usable in memory', () => {
   const app = harness();
   const foreign = JSON.stringify({ ...blank(), completedBlockIds: ['block-3'] });
@@ -267,4 +296,72 @@ test('startup refuses partial, unconfirmed or unmapped invalid runtime content',
     assert.ok(root.querySelector('.startup-error'));
     assert.equal(root.querySelector('[data-action="study-block"]'), null);
   }
+});
+
+const bootSavedPractice = async (bank, saved) => {
+  const dom = new JSDOM('<main id="app-root"></main>', { url: 'https://example.test' });
+  const storage = dom.window.localStorage;
+  if (saved) storage.setItem('lifeinuk-progress-v1', saved);
+  const root = dom.window.document.querySelector('main');
+  const app = await startApp({
+    root, storage,
+    fetchImpl: async url => ({ ok: true, json: async () => String(url).endsWith('legacy-question-map.json')
+      ? { version: 1, mappings: [] } : bank }),
+  });
+  return { root, storage, dom, close: () => { app.destroy(); dom.window.close(); } };
+};
+
+test('changed question meaning reopens only affected answers instead of silently rescoring them', async t => {
+  const bank = questions.map(q => ({ ...q, sources: [{
+    title: 'Fixture evidence', locator: 'Section 1',
+    url: 'https://example.gov.uk/fixture', checkedAt: '2026-11-21',
+  }] }));
+  const first = await bootSavedPractice(bank);
+  t.after(first.close);
+  first.root.querySelector('[data-action="next-block"]').click();
+  for (let i = 0; i < 2; i++) {
+    const input = first.root.querySelector('input[value="b"]');
+    input.click();
+    first.root.querySelector('[data-action="check"]').click();
+    first.root.querySelector('[data-action="next"]').click();
+  }
+  const saved = first.storage.getItem('lifeinuk-progress-v1');
+
+  for (const [name, change] of [
+    ['answer key', q => { q.correctChoiceIds = ['a']; }],
+    ['question wording', q => { q.question = 'A revised question?'; }],
+    ['choice meaning', q => { q.choices[1].text = 'A different meaning'; }],
+    ['translation', q => { q.romanUrdu = 'Badla hua sawal?'; }],
+    ['answer type', q => { q.answerType = 'select-two'; q.correctChoiceIds = ['a', 'b']; }],
+  ]) {
+    await t.test(name, async () => {
+      const updated = structuredClone(bank);
+      change(updated[0]);
+      const reloaded = await bootSavedPractice(updated, saved);
+      try {
+        assert.match(reloaded.root.textContent, /questions?.*updated/i);
+        assert.equal(reloaded.storage.getItem('lifeinuk-progress-v1'), saved, 'reads must not overwrite the original');
+        reloaded.root.querySelector('[data-action="resume"]').click();
+        assert.equal(reloaded.root.querySelector('h1').textContent, updated[0].question);
+        assert.equal(reloaded.root.querySelectorAll('input:checked').length, 0);
+        assert.equal(reloaded.root.querySelector('input').disabled, false);
+        assert.match(reloaded.root.textContent, /updated/i, 'the explanation must remain visible after resuming');
+      } finally { reloaded.close(); }
+    });
+  }
+
+  await t.test('citation, explanation and choice-order changes retain checked answers', async () => {
+    const updated = structuredClone(bank);
+    updated[0].sources[0].checkedAt = '2026-11-23';
+    updated[0].explanation = 'A clearer explanation of the same answer.';
+    updated[0].choices.reverse();
+    const reloaded = await bootSavedPractice(updated, saved);
+    try {
+      reloaded.root.querySelector('[data-action="resume"]').click();
+      reloaded.root.querySelector('[data-action="previous"]').click();
+      assert.equal(reloaded.root.querySelector('input[value="b"]').checked, true);
+      assert.equal(reloaded.root.querySelector('input[value="b"]').disabled, true);
+      assert.match(reloaded.root.textContent, /correct.*well done/i);
+    } finally { reloaded.close(); }
+  });
 });

@@ -15,6 +15,7 @@ const escapeAttribute = escapeHtml;
 export function mountApp(root, dependencies) {
   const {
     questions,
+    questionRevisions,
     selectTestQuestions,
     createSession,
     updateAnswer,
@@ -194,6 +195,7 @@ export function mountApp(root, dependencies) {
         <h1 id="question-heading" class="question-prompt" tabindex="-1">${escapeHtml(question.question)}</h1>
         <p class="question-translation" lang="ur-Latn" dir="ltr">${escapeHtml(question.romanUrdu)}</p>
         <p class="answer-instruction">${question.answerType === 'select-two' ? 'Select two answers.' : 'Select one answer.'}</p>
+        ${session.contentNotice ? `<p class="session-notice" role="status">${escapeHtml(session.contentNotice)}</p>` : ''}
         <fieldset class="answer-list" aria-labelledby="question-heading">
           <legend class="visually-hidden">${escapeHtml(question.question)}</legend>
           ${question.choices.map((choice) => `
@@ -286,7 +288,7 @@ export function mountApp(root, dependencies) {
 
   const beginPractice = (request) => {
     state.pendingStart = null;
-    persist({ ...state.progress, activeSession: createSession(request.questionIds, request) });
+    persist({ ...state.progress, activeSession: createSession(request.questionIds, { ...request, questionRevisions }) });
     state.message = '';
     state.screen = 'test';
     render();

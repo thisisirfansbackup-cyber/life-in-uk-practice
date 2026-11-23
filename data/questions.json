@@ -6468,24 +6468,24 @@
     "lessonNumbers": [
       7
     ],
-    "question": "Did the 1833 Emancipation Act abolish slavery throughout the British Empire?",
-    "romanUrdu": "Kya 1833 ke Emancipation Act ne poori British Empire mein ghulami khatam ki?",
+    "question": "Which statement correctly describes the territorial scope of the Slavery Abolition Act 1833?",
+    "romanUrdu": "Slavery Abolition Act 1833 ke ilaqai daire ke bare mein kaunsa bayan durust hai?",
     "choices": [
       {
         "id": "d",
-        "text": "No, slavery continued until 1928"
+        "text": "It abolished slavery only in Ceylon and Saint Helena"
       },
       {
         "id": "c",
-        "text": "No, it applied only to Scotland"
+        "text": "It abolished slavery only in East India Company territories"
       },
       {
         "id": "b",
-        "text": "No, it applied only to England"
+        "text": "It abolished slavery in every British territory without exceptions"
       },
       {
         "id": "a",
-        "text": "Yes"
+        "text": "It abolished slavery in most of the British Empire, with territorial exceptions"
       }
     ],
     "correctChoiceIds": [
@@ -6493,13 +6493,19 @@
     ],
     "answerType": "single",
     "verificationStatus": "corrected",
-    "explanation": "The Emancipation Act of 1833 abolished slavery throughout the British Empire.",
+    "explanation": "The Slavery Abolition Act 1833 provided for abolition in most of the British Empire, not every territory. Section 64 excluded East India Company territories, Ceylon and Saint Helena. Abolition took effect from 1834 in the covered colonies, with an apprenticeship transition.",
     "sources": [
       {
         "title": "Life in the UK: A guide for new residents, 3rd edition",
         "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
         "locator": "3.3 A global power: the slave trade and its abolition",
         "checkedAt": "2026-11-21"
+      },
+      {
+        "title": "Slavery Abolition Act 1833, section 64 (enacted)",
+        "url": "https://www.irishstatutebook.ie/eli/1833/act/73/section/64/enacted/en/html",
+        "locator": "Section 64: exceptions for East India Company territories, Ceylon and Saint Helena",
+        "checkedAt": "2026-11-23"
       }
     ]
   },
@@ -7418,8 +7424,8 @@
     "lessonNumbers": [
       8
     ],
-    "question": "Which TWO details must be on a dog's collar in a public place? Select two.",
-    "romanUrdu": "Public place mein kutte ke collar par kaunsi DO tafseelat honi chahiye?",
+    "question": "Under the ordinary dog-collar rule in England and Wales, which TWO owner details must appear on the collar or an attached tag in a public place? Select two.",
+    "romanUrdu": "England aur Wales ke aam qanoon ke mutabiq public place mein kutte ke collar ya us se lage tag par malik ki kaunsi DO tafseelat honi chahiye?",
     "choices": [
       {
         "id": "a",
@@ -7444,13 +7450,19 @@
     ],
     "answerType": "select-two",
     "verificationStatus": "corrected",
-    "explanation": "In a public place, a dog's collar must show the owner's name and address.",
+    "explanation": "In England and Wales, the ordinary rule requires the owner's name and address on the collar or on a plate or badge attached to the collar when a dog is on a highway or in a place of public resort. Article 2(2) provides exemptions, including specified working uses and registered guide dogs; it does not permit identification elsewhere on the dog instead of the collar.",
     "sources": [
       {
         "title": "Life in the UK: A guide for new residents, 3rd edition",
         "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
         "locator": "5.5 Respecting the law: dogs",
         "checkedAt": "2026-11-21"
+      },
+      {
+        "title": "The Control of Dogs Order 1992, article 2",
+        "url": "https://www.legislation.gov.uk/uksi/1992/901/article/2/made",
+        "locator": "Article 2(1): collar identification; article 2(2): exemptions",
+        "checkedAt": "2026-11-23"
       }
     ]
   },
@@ -14199,8 +14211,8 @@
     "lessonNumbers": [
       15
     ],
-    "question": "Which TWO people normally hear Youth Court cases in England, Wales and Northern Ireland? Select two.",
-    "romanUrdu": "England, Wales aur Northern Ireland mein Youth Court ke cases aam tor par kaun DO log sunte hain?",
+    "question": "In which TWO alternative ways can a Youth Court in England and Wales be constituted? Select two.",
+    "romanUrdu": "England aur Wales mein Youth Court kin DO mutabadil tareeqon se tashkeel di ja sakti hai? Do jawab chunein.",
     "choices": [
       {
         "id": "d",
@@ -14208,7 +14220,7 @@
       },
       {
         "id": "a",
-        "text": "Up to three specially trained magistrates"
+        "text": "Three specially trained magistrates"
       },
       {
         "id": "b",
@@ -14225,13 +14237,19 @@
     ],
     "answerType": "select-two",
     "verificationStatus": "corrected",
-    "explanation": "Youth Courts are normally heard by up to three specially trained magistrates or a District Judge.",
+    "explanation": "In England and Wales, a Youth Court has either three magistrates or a district judge, with no jury. These are two alternative court compositions, not two people sitting together. Northern Ireland has a different panel.",
     "sources": [
       {
         "title": "Life in the UK: A guide for new residents, 3rd edition",
         "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
         "locator": "5.5 Respecting the law: Youth Courts",
         "checkedAt": "2026-11-21"
+      },
+      {
+        "title": "GOV.UK — Criminal courts: Youth courts",
+        "url": "https://www.gov.uk/courts/youth-courts",
+        "locator": "Youth courts: either 3 magistrates or a district judge; no jury",
+        "checkedAt": "2026-11-23"
       }
     ]
   },
@@ -14695,8 +14713,8 @@
     "lessonNumbers": [
       15
     ],
-    "question": "In what year did the Emancipation Act abolish slavery throughout the British Empire?",
-    "romanUrdu": "Emancipation Act ne poori British Empire mein ghulami kis saal khatam ki?",
+    "question": "In which year was the Slavery Abolition Act passed, providing for abolition in most of the British Empire with territorial exceptions?",
+    "romanUrdu": "British Empire ke zyada tar hisson mein ghulami khatam karne wala Slavery Abolition Act, ilaqai istisna ke sath, kis saal pass hua?",
     "choices": [
       {
         "id": "c",
@@ -14720,13 +14738,25 @@
     ],
     "answerType": "single",
     "verificationStatus": "corrected",
-    "explanation": "The Emancipation Act of 1833 abolished slavery throughout the British Empire.",
+    "explanation": "The Slavery Abolition Act was passed in 1833 and provided for abolition in most of the British Empire. Section 64 excluded East India Company territories, Ceylon and Saint Helena. Abolition took effect from 1834 in the covered colonies, with an apprenticeship transition; 1833 is the passage year, not a date of immediate Empire-wide abolition.",
     "sources": [
       {
         "title": "Life in the UK: A guide for new residents, 3rd edition",
         "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
         "locator": "3.3 A global power: the abolition of slavery",
         "checkedAt": "2026-11-21"
+      },
+      {
+        "title": "Slavery Abolition Act 1833, section 64 (enacted)",
+        "url": "https://www.irishstatutebook.ie/eli/1833/act/73/section/64/enacted/en/html",
+        "locator": "Section 64: exceptions for East India Company territories, Ceylon and Saint Helena",
+        "checkedAt": "2026-11-23"
+      },
+      {
+        "title": "The National Archives — The 1833 Abolition of Slavery Act and compensation claims",
+        "url": "https://www.nationalarchives.gov.uk/explore-the-collection/explore-by-time-period/georgians/1833-abolition-of-slavery-act-and-compensation-claims",
+        "locator": "Parliament passed the Act in August 1833; apprenticeship transition",
+        "checkedAt": "2026-11-23"
       }
     ]
   },
@@ -15064,8 +15094,8 @@
     "lessonNumbers": [
       16
     ],
-    "question": "Which TWO people can hear cases in Youth Courts in England, Wales and Northern Ireland? Select two.",
-    "romanUrdu": "England, Wales aur Northern Ireland mein Youth Courts ke cases kaun DO log sun sakte hain?",
+    "question": "In which TWO alternative ways can a Youth Court in England and Wales be constituted? Select two.",
+    "romanUrdu": "England aur Wales mein Youth Court kin DO mutabadil tareeqon se tashkeel di ja sakti hai? Do jawab chunein.",
     "choices": [
       {
         "id": "c",
@@ -15081,7 +15111,7 @@
       },
       {
         "id": "a",
-        "text": "Specially trained magistrates"
+        "text": "Three specially trained magistrates"
       }
     ],
     "correctChoiceIds": [
@@ -15090,13 +15120,19 @@
     ],
     "answerType": "select-two",
     "verificationStatus": "corrected",
-    "explanation": "Youth Court cases are heard by specially trained magistrates or a District Judge.",
+    "explanation": "In England and Wales, a Youth Court has either three magistrates or a district judge, with no jury. These are two alternative court compositions, not two people sitting together. Northern Ireland has a different panel.",
     "sources": [
       {
         "title": "Life in the UK: A guide for new residents, 3rd edition",
         "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
         "locator": "5.5 Respecting the law: Youth Courts",
         "checkedAt": "2026-11-21"
+      },
+      {
+        "title": "GOV.UK — Criminal courts: Youth courts",
+        "url": "https://www.gov.uk/courts/youth-courts",
+        "locator": "Youth courts: either 3 magistrates or a district judge; no jury",
+        "checkedAt": "2026-11-23"
       }
     ]
   },
@@ -15589,6 +15625,12 @@
         "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
         "locator": "4.7 Sport: Paralympics",
         "checkedAt": "2026-11-21"
+      },
+      {
+        "title": "ParalympicsGB — Ellie Simmonds",
+        "url": "https://paralympics.org.uk/athletes/ellie-simmonds",
+        "locator": "Paralympic Games results: golds at Beijing 2008, London 2012 and Rio 2016 (200m individual medley SM6)",
+        "checkedAt": "2026-11-23"
       }
     ]
   },
@@ -16543,24 +16585,24 @@
     "lessonNumbers": [
       17
     ],
-    "question": "In Northern Ireland, are Youth Court cases heard by up to three specially trained magistrates or a District Judge?",
-    "romanUrdu": "Northern Ireland mein kya Youth Court cases teen specially trained magistrates ya District Judge sunte hain?",
+    "question": "Which combination of a district judge and lay magistrates hears Youth Court cases in Northern Ireland?",
+    "romanUrdu": "Northern Ireland mein Youth Court ke cases district judge aur lay magistrates ke kis majmue ke samne sune jate hain?",
     "choices": [
       {
         "id": "a",
-        "text": "Yes"
+        "text": "A district judge as chairperson and two lay magistrates"
       },
       {
         "id": "c",
-        "text": "No, only the Lord Chancellor"
+        "text": "A district judge as chairperson and one lay magistrate"
       },
       {
         "id": "b",
-        "text": "No, a jury of twelve hears them"
+        "text": "Two district judges and no lay magistrates"
       },
       {
         "id": "d",
-        "text": "No, they are heard in Parliament"
+        "text": "Three lay magistrates and no district judge"
       }
     ],
     "correctChoiceIds": [
@@ -16568,13 +16610,13 @@
     ],
     "answerType": "single",
     "verificationStatus": "corrected",
-    "explanation": "In Northern Ireland, Youth Court cases are heard by up to three specially trained magistrates or a District Judge.",
+    "explanation": "In Northern Ireland, the Youth Court has a district judge as chairperson and two lay magistrates. They sit together as a panel, rather than being alternative ways of constituting the court.",
     "sources": [
       {
-        "title": "Life in the UK: A guide for new residents, 3rd edition",
-        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
-        "locator": "5.5 Respecting the law: Youth Courts",
-        "checkedAt": "2026-11-21"
+        "title": "NI Direct — Youth justice",
+        "url": "https://www.nidirect.gov.uk/articles/youth-justice",
+        "locator": "Youth court: district judge as chairperson and two lay magistrates",
+        "checkedAt": "2026-11-23"
       }
     ]
   },
@@ -16707,12 +16749,12 @@
     "lessonNumbers": [
       17
     ],
-    "question": "What did the Factories Act of 1847 introduce?",
-    "romanUrdu": "Factories Act 1847 ne kya muta'arif karwaya?",
+    "question": "What did the Factories Act of 1847 introduce for women and young people aged 13–18 in textile mills?",
+    "romanUrdu": "Factories Act 1847 ne textile mills mein aurton aur 13–18 saal ke naujawanon ke liye kya muta'arif karwaya?",
     "choices": [
       {
         "id": "a",
-        "text": "A ten-hour limit on working hours for women and children in textile mills"
+        "text": "A ten-hour limit on working hours for women and young people aged 13–18 in textile mills"
       },
       {
         "id": "b",
@@ -16732,13 +16774,19 @@
     ],
     "answerType": "single",
     "verificationStatus": "corrected",
-    "explanation": "The Factories Act 1847, the Ten Hours Act, limited working hours for women and children in textile mills.",
+    "explanation": "The Factories Act 1847, the Ten Hours Act, introduced a ten-hour limit on working hours for women and young people aged 13–18 in textile mills. The protected young-person category is more precise than an unqualified reference to children.",
     "sources": [
       {
         "title": "Life in the UK: A guide for new residents, 3rd edition",
         "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
         "locator": "3.3 A global power: factory reform",
         "checkedAt": "2026-11-21"
+      },
+      {
+        "title": "UK Parliament — Later factory legislation",
+        "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/livinglearning/19thcentury/overview/laterfactoryleg",
+        "locator": "Ten Hours Act 1847: women and young persons aged 13 to 18",
+        "checkedAt": "2026-11-23"
       }
     ]
   },

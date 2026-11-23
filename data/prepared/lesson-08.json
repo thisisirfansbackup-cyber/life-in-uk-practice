@@ -421,8 +421,8 @@
     "lessonNumbers": [
       8
     ],
-    "question": "Which TWO details must be on a dog's collar in a public place? Select two.",
-    "romanUrdu": "Public place mein kutte ke collar par kaunsi DO tafseelat honi chahiye?",
+    "question": "Under the ordinary dog-collar rule in England and Wales, which TWO owner details must appear on the collar or an attached tag in a public place? Select two.",
+    "romanUrdu": "England aur Wales ke aam qanoon ke mutabiq public place mein kutte ke collar ya us se lage tag par malik ki kaunsi DO tafseelat honi chahiye?",
     "choices": [
       {
         "id": "a",
@@ -447,13 +447,19 @@
     ],
     "answerType": "select-two",
     "verificationStatus": "corrected",
-    "explanation": "In a public place, a dog's collar must show the owner's name and address.",
+    "explanation": "In England and Wales, the ordinary rule requires the owner's name and address on the collar or on a plate or badge attached to the collar when a dog is on a highway or in a place of public resort. Article 2(2) provides exemptions, including specified working uses and registered guide dogs; it does not permit identification elsewhere on the dog instead of the collar.",
     "sources": [
       {
         "title": "Life in the UK: A guide for new residents, 3rd edition",
         "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
         "locator": "5.5 Respecting the law: dogs",
         "checkedAt": "2026-11-21"
+      },
+      {
+        "title": "The Control of Dogs Order 1992, article 2",
+        "url": "https://www.legislation.gov.uk/uksi/1992/901/article/2/made",
+        "locator": "Article 2(1): collar identification; article 2(2): exemptions",
+        "checkedAt": "2026-11-23"
       }
     ]
   },
