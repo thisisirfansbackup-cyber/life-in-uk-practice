@@ -87,6 +87,8 @@
 **Supported claim:** True only with qualification. The 1833 Act (Royal Assent 28 August 1833) abolished slavery in the British **Colonies** from 1 August 1834, but converted most formerly enslaved people into "apprentice labourers", and it excluded certain territories (the Act's long title covers "the British Colonies"; territories of the East India Company, Ceylon and St Helena were excluded).
 **Evidence [Tier A]:** The National Archives, *The 1833 Abolition of Slavery Act and compensation claims*, https://www.nationalarchives.gov.uk/explore-the-collection/explore-by-time-period/georgians/1833-abolition-of-slavery-act-and-compensation-claims — "In August 1833, Parliament passed *An Act for the Abolition of Slavery throughout the British Colonies*, converting enslaved people into apprentice labourers and taking steps to protect their work and wellbeing."
 **Status:** **Corrected.** "Throughout the British Empire" and "in 1833" are both inaccurate as stated (colonies, from 1834, with apprenticeship and exclusions). legislation.gov.uk has no digitised text for this Act (only a "repealed 19.11.1998" stub), so the Archives page is the primary support.
+
+**Targeted follow-up, 2026-11-23:** source 156 now teaches the qualified scope. [The enacted section 64 reproduced by the Irish Statute Book](https://www.irishstatutebook.ie/eli/1833/act/73/section/64/enacted/en/html) directly identifies the exceptions: East India Company territories, Ceylon and Saint Helena.
 **Checked:** 2026-11-21.
 
 ## 157 — "What was the process called by which Scottish landlords cleared small farms (crofts) to make room for large flocks of sheep and cattle?" (key: The Highland Clearances)
@@ -227,6 +229,8 @@
 
 ## 179 — "When out for a walk in a public place, which two things must a dog's collar have?" (key: The owner's name and address)
 **Supported claim:** In England and Wales a dog in a highway or place of public resort must wear a collar with the owner's name and address (on the collar or on an attached plate/badge).
+
+**Targeted follow-up, 2026-11-23:** source 179 now explicitly asks about the ordinary England/Wales rule. [Article 2(2)](https://www.legislation.gov.uk/uksi/1992/901/article/2/made) exempts specified dogs/uses, including working uses and registered guide dogs; it does not allow identification elsewhere on the dog instead of the collar.
 **Evidence [Tier A]:** *Control of Dogs Order 1992*, article 2(1), https://www.legislation.gov.uk/uksi/1992/901 — "every dog while in a highway or in a place of public resort shall wear a collar with the name and address of the owner inscribed on the collar or on a plate or badge attached to it."
 **Status:** Confirmed, with jurisdiction scope (England and Wales; Scotland and NI have their own rules) and the statutory exemptions in article 2(2) (e.g. dogs used for sporting purposes, pack hounds).
 **Checked:** 2026-11-21.

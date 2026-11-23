@@ -1,6 +1,9 @@
 name: Deploy Life in the UK Practice
 
 on:
+  pull_request:
+    branches:
+      - main
   push:
     branches:
       - main
@@ -10,7 +13,7 @@ permissions:
   contents: read
 
 concurrency:
-  group: pages
+  group: pages-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
@@ -39,12 +42,19 @@ jobs:
           cp src/*.js src/*.css _site/src/
           cp data/questions.json _site/data/questions.json
           cp data/legacy-question-map.json _site/data/legacy-question-map.json
+      - name: Install test browser
+        run: npx playwright install --with-deps chromium
+      - name: Verify the assembled public site in a browser
+        run: npm run test:browser
+        env:
+          E2E_SITE_DIR: _site
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v5.0.0
         with:
           path: _site
 
   deploy:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

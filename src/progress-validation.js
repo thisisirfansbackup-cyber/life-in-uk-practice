@@ -41,12 +41,18 @@ export function validSession(session, questions, blocks = []) {
     if (!block || JSON.stringify(block.questionIds) !== JSON.stringify(session.questionIds)) return false;
   } else if (session.blockId !== null) return false;
   if (session.mode === 'revision' && session.questionIds.length > 51) return false;
+  if (session.questionRevisions !== undefined && (!object(session.questionRevisions)
+    || session.questionIds.some(id => typeof session.questionRevisions[id] !== 'string'
+      || !session.questionRevisions[id]))) return false;
+  if (session.contentNotice !== undefined && typeof session.contentNotice !== 'string') return false;
   for (const [id, selected] of Object.entries(session.answers)) {
     const question = map.get(id);
     if (!ids.has(id) || !question || !uniqueStrings(selected)) return false;
     const allowed = new Set(question.choices.map(choice => choice.id));
     const required = question.answerType === 'select-two' ? 2 : 1;
-    if (selected.length > required || selected.some(choice => !allowed.has(choice))) return false;
+    // Extra checkbox selections are a recoverable draft, never a checked answer.
+    if ((question.answerType !== 'select-two' && selected.length > required)
+      || selected.some(choice => !allowed.has(choice))) return false;
   }
   return session.checkedQuestionIds.every(id => (
     (session.answers[id]?.length ?? 0) === (map.get(id).answerType === 'select-two' ? 2 : 1)

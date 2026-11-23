@@ -210,8 +210,8 @@
     "lessonNumbers": [
       16
     ],
-    "question": "Which TWO people can hear cases in Youth Courts in England, Wales and Northern Ireland? Select two.",
-    "romanUrdu": "England, Wales aur Northern Ireland mein Youth Courts ke cases kaun DO log sun sakte hain?",
+    "question": "In which TWO alternative ways can a Youth Court in England and Wales be constituted? Select two.",
+    "romanUrdu": "England aur Wales mein Youth Court kin DO mutabadil tareeqon se tashkeel di ja sakti hai? Do jawab chunein.",
     "choices": [
       {
         "id": "c",
@@ -227,7 +227,7 @@
       },
       {
         "id": "a",
-        "text": "Specially trained magistrates"
+        "text": "Three specially trained magistrates"
       }
     ],
     "correctChoiceIds": [
@@ -236,13 +236,19 @@
     ],
     "answerType": "select-two",
     "verificationStatus": "corrected",
-    "explanation": "Youth Court cases are heard by specially trained magistrates or a District Judge.",
+    "explanation": "In England and Wales, a Youth Court has either three magistrates or a district judge, with no jury. These are two alternative court compositions, not two people sitting together. Northern Ireland has a different panel.",
     "sources": [
       {
         "title": "Life in the UK: A guide for new residents, 3rd edition",
         "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
         "locator": "5.5 Respecting the law: Youth Courts",
         "checkedAt": "2026-11-21"
+      },
+      {
+        "title": "GOV.UK — Criminal courts: Youth courts",
+        "url": "https://www.gov.uk/courts/youth-courts",
+        "locator": "Youth courts: either 3 magistrates or a district judge; no jury",
+        "checkedAt": "2026-11-23"
       }
     ]
   },
@@ -735,6 +741,12 @@
         "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
         "locator": "4.7 Sport: Paralympics",
         "checkedAt": "2026-11-21"
+      },
+      {
+        "title": "ParalympicsGB — Ellie Simmonds",
+        "url": "https://paralympics.org.uk/athletes/ellie-simmonds",
+        "locator": "Paralympic Games results: golds at Beijing 2008, London 2012 and Rio 2016 (200m individual medley SM6)",
+        "checkedAt": "2026-11-23"
       }
     ]
   },

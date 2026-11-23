@@ -1,5 +1,9 @@
 node_modules/
+test-results/
+playwright-report/
+_site/
 .DS_Store
 .superpowers/
+.worktrees/
 .playwright-mcp/
 .impeccable/review/

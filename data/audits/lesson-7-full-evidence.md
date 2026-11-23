@@ -4,6 +4,8 @@
 
 ## Findings
 
+- **Targeted follow-up, 2026-11-23 — 156 only:** replaced the unqualified “throughout” claim with abolition in most of the Empire. [Slavery Abolition Act 1833, enacted s.64](https://www.irishstatutebook.ie/eli/1833/act/73/section/64/enacted/en/html) excludes East India Company territories, Ceylon and Saint Helena. Prepared wording, choices and Roman Urdu were corrected; this is not a fresh whole-lesson verification.
+
 - Answers 145–168 are supported by the handbook, with wording tightened and choices made mutually exclusive.
 - **145:** restored as a genuine select-two (respect/obey the law; look after the local area and environment). The handbook lists these among shared responsibilities.
 - **149:** the original “biggest source of employment during the 18th century: manufacturing” is not what the handbook says. It says agriculture was the biggest source **before** the 18th century; the runtime question asks that supported claim and answers “Agriculture”.

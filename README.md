@@ -25,6 +25,8 @@ Completed blocks, question history, and an unfinished test are stored in browser
 
 If an unfinished test exists, starting a different block or revision round asks before replacing it. Completed history is kept. Unreadable saved data is never silently overwritten.
 
+Unfinished select-two questions remain resumable even if extra choices were selected; checking still requires exactly two. If a later content correction changes a question or its answer meanings, only its unfinished answer is reopened. Other answers and completed history are kept, and the app explains what changed rather than silently rescoring a locked answer.
+
 The published files contain the static app, the public question bank, and the legacy-progress mapping only. They do not contain learner progress. The site is an independent practice aid and cannot guarantee that its questions will appear in the official test.
 
 ## Local preview
@@ -40,6 +42,17 @@ python3 -m http.server 4173
 
 Open `http://localhost:4173/` in a browser. The server is needed because the app loads its question bank and legacy mapping as JSON requests.
 
+### Browser regression checks
+
+```sh
+npx playwright install chromium
+npm run test:browser
+```
+
+The browser suite starts a loopback-only preview and uses isolated progress. It covers extra checkbox selections and reload, a complete block and short revision, replacement confirmation, and saved sessions from before the content corrections. `E2E_SITE_DIR` can point it at an assembled public artifact. On hosts with an existing compatible Chromium, set `PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH` instead of downloading another copy.
+
+Content stamps include question wording, Roman Urdu, answer type, choice meanings and the answer key, but not citation edits, explanations or choice display order. `src/legacy-question-revisions.js` is the immutable compatibility baseline for pre-stamp sessions from release `0d05d19`; do not regenerate it when editing questions.
+
 ## Content preparation
 
 Source questions are kept in `data/source-questions.json`. Verified lesson content is prepared in `data/prepared/lesson-01.json` through `lesson-17.json`, then assembled into `data/questions.json`:
@@ -54,7 +67,7 @@ The full check refuses release unless all 407 source positions are present, veri
 
 ## GitHub Pages deployment
 
-The workflow at `.github/workflows/pages.yml` installs dependencies, runs the tests and full content gate, then publishes only `index.html`, `src/`, `data/questions.json`, and `data/legacy-question-map.json`. It runs when code is pushed to the repository’s default branch (`main`) or started manually with **Actions → Deploy Life in the UK Practice → Run workflow**.
+The workflow at `.github/workflows/pages.yml` installs dependencies, runs the tests and full content gate, assembles only `index.html`, `src/`, `data/questions.json`, and `data/legacy-question-map.json`, and runs the browser suite against that artifact. Pull requests to `main` run these checks without deploying. Pushes to `main` or **Actions → Deploy Life in the UK Practice → Run workflow** deploy only after the checks pass.
 
 For a new repository, choose **Settings → Pages → Build and deployment → Source: GitHub Actions**. After the first successful workflow run, the public site is available at:
 

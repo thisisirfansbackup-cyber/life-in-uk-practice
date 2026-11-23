@@ -458,24 +458,24 @@
     "lessonNumbers": [
       7
     ],
-    "question": "Did the 1833 Emancipation Act abolish slavery throughout the British Empire?",
-    "romanUrdu": "Kya 1833 ke Emancipation Act ne poori British Empire mein ghulami khatam ki?",
+    "question": "Which statement correctly describes the territorial scope of the Slavery Abolition Act 1833?",
+    "romanUrdu": "Slavery Abolition Act 1833 ke ilaqai daire ke bare mein kaunsa bayan durust hai?",
     "choices": [
       {
         "id": "d",
-        "text": "No, slavery continued until 1928"
+        "text": "It abolished slavery only in Ceylon and Saint Helena"
       },
       {
         "id": "c",
-        "text": "No, it applied only to Scotland"
+        "text": "It abolished slavery only in East India Company territories"
       },
       {
         "id": "b",
-        "text": "No, it applied only to England"
+        "text": "It abolished slavery in every British territory without exceptions"
       },
       {
         "id": "a",
-        "text": "Yes"
+        "text": "It abolished slavery in most of the British Empire, with territorial exceptions"
       }
     ],
     "correctChoiceIds": [
@@ -483,13 +483,19 @@
     ],
     "answerType": "single",
     "verificationStatus": "corrected",
-    "explanation": "The Emancipation Act of 1833 abolished slavery throughout the British Empire.",
+    "explanation": "The Slavery Abolition Act 1833 provided for abolition in most of the British Empire, not every territory. Section 64 excluded East India Company territories, Ceylon and Saint Helena. Abolition took effect from 1834 in the covered colonies, with an apprenticeship transition.",
     "sources": [
       {
         "title": "Life in the UK: A guide for new residents, 3rd edition",
         "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
         "locator": "3.3 A global power: the slave trade and its abolition",
         "checkedAt": "2026-11-21"
+      },
+      {
+        "title": "Slavery Abolition Act 1833, section 64 (enacted)",
+        "url": "https://www.irishstatutebook.ie/eli/1833/act/73/section/64/enacted/en/html",
+        "locator": "Section 64: exceptions for East India Company territories, Ceylon and Saint Helena",
+        "checkedAt": "2026-11-23"
       }
     ]
   },

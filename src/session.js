@@ -1,4 +1,6 @@
-export function createSession(questionIds, { id = globalThis.crypto.randomUUID(), mode = 'legacy', blockId = null } = {}) {
+export function createSession(questionIds, {
+  id = globalThis.crypto.randomUUID(), mode = 'legacy', blockId = null, questionRevisions,
+} = {}) {
   if (!['study', 'revision', 'legacy'].includes(mode)) throw new Error('Unknown practice mode.');
   if (mode === 'study' && !/^block-[1-8]$/.test(blockId ?? '')) {
     throw new Error('A study session requires a valid block identity.');
@@ -12,6 +14,9 @@ export function createSession(questionIds, { id = globalThis.crypto.randomUUID()
     checkedQuestionIds: [],
     currentIndex: 0,
     submitted: false,
+    ...(questionRevisions ? {
+      questionRevisions: Object.fromEntries(questionIds.map(questionId => [questionId, questionRevisions[questionId]])),
+    } : {}),
   };
 }
 

@@ -704,24 +704,24 @@
     "lessonNumbers": [
       17
     ],
-    "question": "In Northern Ireland, are Youth Court cases heard by up to three specially trained magistrates or a District Judge?",
-    "romanUrdu": "Northern Ireland mein kya Youth Court cases teen specially trained magistrates ya District Judge sunte hain?",
+    "question": "Which combination of a district judge and lay magistrates hears Youth Court cases in Northern Ireland?",
+    "romanUrdu": "Northern Ireland mein Youth Court ke cases district judge aur lay magistrates ke kis majmue ke samne sune jate hain?",
     "choices": [
       {
         "id": "a",
-        "text": "Yes"
+        "text": "A district judge as chairperson and two lay magistrates"
       },
       {
         "id": "c",
-        "text": "No, only the Lord Chancellor"
+        "text": "A district judge as chairperson and one lay magistrate"
       },
       {
         "id": "b",
-        "text": "No, a jury of twelve hears them"
+        "text": "Two district judges and no lay magistrates"
       },
       {
         "id": "d",
-        "text": "No, they are heard in Parliament"
+        "text": "Three lay magistrates and no district judge"
       }
     ],
     "correctChoiceIds": [
@@ -729,13 +729,13 @@
     ],
     "answerType": "single",
     "verificationStatus": "corrected",
-    "explanation": "In Northern Ireland, Youth Court cases are heard by up to three specially trained magistrates or a District Judge.",
+    "explanation": "In Northern Ireland, the Youth Court has a district judge as chairperson and two lay magistrates. They sit together as a panel, rather than being alternative ways of constituting the court.",
     "sources": [
       {
-        "title": "Life in the UK: A guide for new residents, 3rd edition",
-        "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
-        "locator": "5.5 Respecting the law: Youth Courts",
-        "checkedAt": "2026-11-21"
+        "title": "NI Direct — Youth justice",
+        "url": "https://www.nidirect.gov.uk/articles/youth-justice",
+        "locator": "Youth court: district judge as chairperson and two lay magistrates",
+        "checkedAt": "2026-11-23"
       }
     ]
   },
@@ -868,12 +868,12 @@
     "lessonNumbers": [
       17
     ],
-    "question": "What did the Factories Act of 1847 introduce?",
-    "romanUrdu": "Factories Act 1847 ne kya muta'arif karwaya?",
+    "question": "What did the Factories Act of 1847 introduce for women and young people aged 13–18 in textile mills?",
+    "romanUrdu": "Factories Act 1847 ne textile mills mein aurton aur 13–18 saal ke naujawanon ke liye kya muta'arif karwaya?",
     "choices": [
       {
         "id": "a",
-        "text": "A ten-hour limit on working hours for women and children in textile mills"
+        "text": "A ten-hour limit on working hours for women and young people aged 13–18 in textile mills"
       },
       {
         "id": "b",
@@ -893,13 +893,19 @@
     ],
     "answerType": "single",
     "verificationStatus": "corrected",
-    "explanation": "The Factories Act 1847, the Ten Hours Act, limited working hours for women and children in textile mills.",
+    "explanation": "The Factories Act 1847, the Ten Hours Act, introduced a ten-hour limit on working hours for women and young people aged 13–18 in textile mills. The protected young-person category is more precise than an unqualified reference to children.",
     "sources": [
       {
         "title": "Life in the UK: A guide for new residents, 3rd edition",
         "url": "https://storage.googleapis.com/britizen-public/static/study-guide/document.pdf",
         "locator": "3.3 A global power: factory reform",
         "checkedAt": "2026-11-21"
+      },
+      {
+        "title": "UK Parliament — Later factory legislation",
+        "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/livinglearning/19thcentury/overview/laterfactoryleg",
+        "locator": "Ten Hours Act 1847: women and young persons aged 13 to 18",
+        "checkedAt": "2026-11-23"
       }
     ]
   },
