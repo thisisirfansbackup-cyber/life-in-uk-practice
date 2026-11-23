@@ -1,5 +1,7 @@
 const object = value => value !== null && typeof value === 'object' && !Array.isArray(value);
 const integer = value => Number.isInteger(value) && value >= 0;
+const isoString = value => typeof value === 'string' && value.length > 0
+  && Number.isFinite(new Date(value).getTime());
 const uniqueStrings = value => Array.isArray(value)
   && value.every(item => typeof item === 'string' && item.length > 0)
   && new Set(value).size === value.length;
@@ -12,16 +14,33 @@ export const emptyProgressV2 = () => ({
 export function validHistory(history) {
   return object(history) && Object.values(history).every(record => object(record)
     && ['attempts', 'incorrectTotal', 'consecutiveIncorrect', 'correctStreak', 'nextReviewTest']
-      .every(key => record[key] === undefined || integer(record[key])));
+      .every(key => record[key] === undefined || integer(record[key]))
+    && (record.lastSeenAt === undefined || isoString(record.lastSeenAt)));
 }
 
-export function validProgressV2(progress) {
-  return object(progress) && progress.version === 2 && validHistory(progress.questions)
+export function validProgressShell(progress) {
+  return object(progress) && progress.version === 2 && object(progress.questions)
     && integer(progress.completedTestCount)
     && uniqueStrings(progress.completedBlockIds)
     && progress.completedBlockIds.every(id => /^block-[1-8]$/.test(id))
-    && uniqueStrings(progress.completedSessionIds)
+    && uniqueStrings(progress.completedSessionIds);
+}
+
+export function validProgressV2(progress) {
+  return validProgressShell(progress) && validHistory(progress.questions)
     && (progress.activeSession === null || object(progress.activeSession));
+}
+
+// A damaged timestamp must not hide otherwise usable question history.
+export function sanitizeHistory(history) {
+  let changed = false;
+  const repaired = Object.fromEntries(Object.entries(history).map(([id, record]) => {
+    if (!object(record) || record.lastSeenAt === undefined || isoString(record.lastSeenAt)) return [id, record];
+    changed = true;
+    const { lastSeenAt, ...rest } = record;
+    return [id, rest];
+  }));
+  return { history: repaired, changed };
 }
 
 export function validSession(session, questions, blocks = []) {

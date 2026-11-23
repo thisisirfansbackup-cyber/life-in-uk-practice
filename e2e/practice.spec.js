@@ -4,6 +4,21 @@ import { test, expect } from '@playwright/test';
 const questions = JSON.parse(readFileSync(new URL('../data/questions.json', import.meta.url), 'utf8'));
 const key = 'lifeinuk-progress-v1';
 
+test('secondary learner text meets the normal-text contrast minimum', async ({ page }) => {
+  await page.goto('/');
+  const contrast = await page.locator('.intro').evaluate(element => {
+    const parse = value => value.match(/[\d.]+/g).slice(0, 3).map(Number);
+    const luminance = rgb => rgb.map(channel => channel / 255)
+      .map(channel => channel <= 0.03928 ? channel / 12.92 : ((channel + 0.055) / 1.055) ** 2.4)
+      .reduce((total, channel, index) => total + channel * [0.2126, 0.7152, 0.0722][index], 0);
+    const foreground = luminance(parse(getComputedStyle(element).color));
+    const background = luminance(parse(getComputedStyle(document.body).backgroundColor));
+    const [lighter, darker] = [foreground, background].sort((a, b) => b - a);
+    return (lighter + 0.05) / (darker + 0.05);
+  });
+  expect(contrast).toBeGreaterThanOrEqual(4.5);
+});
+
 test('keyboard checking and replacement preserve visible focus and modal containment', async ({ page }) => {
   await page.goto('/');
   await page.keyboard.press('Tab');

@@ -9,7 +9,7 @@ const document = `# Per-item release audit
 
 Generated from \`data/questions.json\` on 2026-11-21. One row per original source position.
 
-| Source | Runtime ID | Lesson | Status | Primary source | URL | Checked |
+| Source | Runtime ID | Lesson | Status | First cited source | URL | Checked |
 |---:|---|---|---|---|---|---|
 ${rows.join('\n')}
 `;
